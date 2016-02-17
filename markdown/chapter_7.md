@@ -43,13 +43,11 @@ Triangulation for the extension of horizontal and (or) vertical control accompli
 AFLOAT
 Floating, as opposed to being aground.
 
-
 *Page 197*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-AGROUND
+AGROUND
 Touching, resting, or lodged on the seafloor in shallow water. The opposite is afloat.
 
 AID TO NAVIGATION
@@ -104,8 +102,7 @@ appear to the mariner from a distance to be the fast shoreline. The seaward limi
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-other low-lying vegetation normally do not constitute an apparent shoreline. A line drawn on the chart in lieu of
+other low-lying vegetation normally do not constitute an apparent shoreline. A line drawn on the chart in lieu of
 the mean high water line or the mean water level line in areas where either may be obscured by marsh, mangrove,
 cypress, or other type of marine vegetation. This line represents the intersection of the appropriate vertical datum
 with the outer limits of vegetation and appears to the navigator as shoreline.
@@ -154,13 +151,11 @@ material dispersion, beam spreading, and absorption. The attenuation of a sonar 
 difficult. Reflected signals from far ranges are sometimes attenuated to such a degree that system noise in the
 sonar receiver electronics can be a problem.
 
-
 *Page 199*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-AUTOMATED WRECK AND OBSTRUCTION INFORMATION SYSTEM (AWOIS)
+AUTOMATED WRECK AND OBSTRUCTION INFORMATION SYSTEM (AWOIS)
 A database containing information about wrecks and obstructions located in areas charted by NOAA. The primary
 purpose of this system is to support operational hydrography, although it is available online to the general public.
 AUV
@@ -177,8 +172,6 @@ A horizontal angle reckoned clockwise from the meridian. In the basic control su
 have been historically reckoned from south. In 1986, when the NGS began publishing geodetic data on the North
 American Datum of 1983 (NAD83), the measurement of azimuths was referenced from the north for basic control
 surveys.
-
-
 
 7.2 B
 ------
@@ -208,13 +201,11 @@ A method of field-calibrating sounding equipment used in a hydrographic survey b
 beneath the echosounder transducer at various depths. Echoes from this surface are compared to the actual known
 depth of the bar.
 
-
 *Page 200*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-BARE
+BARE
 Extending above the datum of mean high water. In nautical charting, used to qualify rocks which extend more
 than one foot above mean high water on the Atlantic and Gulf Coasts, and extending more than two feet above
 mean high water on the Pacific coast.
@@ -264,8 +255,7 @@ whose diameter is a line drawn across the mouth of the indentation. (The specifi
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-of the Convention on the Territorial Sea and the Contiguous Zone.)
+of the Convention on the Territorial Sea and the Contiguous Zone.)
 BAYOU
 A small sluggish stream or estuarine creek, with a slow or imperceptible current in coastal swamps or river deltas.
 Sometimes called Slough.
@@ -315,13 +305,11 @@ A fixed physical object containing a marked point of known elevation with respec
 level for tidal observations or as a control point for leveling. With the advent of GPS an increasing number of
 bench marks are also used for spatial reference with regard to horizontal control.
 
-
 *Page 202*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-BENCH MARK (Tidal)
+BENCH MARK (Tidal)
 A fixed physical object or mark used as reference for a horizontal or vertical datum. A tidal bench mark is one near
 a tide station to which the tide staff and tidal datums are referred. A primary bench mark is the principal mark of
 a group of tidal bench marks to which the tide staff and tidal datums are referred. The standard tidal bench mark
@@ -368,14 +356,11 @@ The work sheet used by a hydrographer in the field for plotting the details of a
 It may include projection lines, control stations, shoreline, and proposed sounding lines, and corresponds to what
 was termed a “diagram,” “sounding sheet,” or a “working sheet” in early project instructions.
 
-
-
 *Page 203*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-BOOM
+BOOM
 A floating barrier used to protect a river or harbor mouth or to create a harbored area for storage purposes. See
 also log boom.
 
@@ -424,13 +409,11 @@ water adopted for charting.
 BROADCAST NOTICE TO MARINERS
 A radio transmission by the U. S. Coast Guard to provide important marine information.
 
-
 *Page 204*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-BROOK
+BROOK
 A stream of less length and volume than a creek, as used locally in the Northeast. Generally, one of the smallest
 branches or ultimate ramifications of a drainage system.
 
@@ -453,7 +436,6 @@ BUOYAGE
 A system of buoys. One in which the buoys are assigned shape, color, and number distinction in accordance with
 location relative to the nearest obstruction is called a cardinal system. One in which buoys are assigned shape,
 color, and number distinction as a means of indicating navigable waters is called a lateral system.
-
 
 7.3 C
 ------
@@ -480,13 +462,11 @@ CANAL
 An artificial waterway for navigation. A long narrow arm of the sea extending inland between islands or between
 islands and the mainland. A sluggish coastal stream, as used locally on the Atlantic coast of the U.S.
 
-
 *Page 205*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-CANOE CHARTS
+CANOE CHARTS
 Nautical charts of the Minnesota-Ontario Border Lakes. Most Canoe Charts do not show hydrography. They are
 intended to portray the general shape and size of these lakes and to provide information of interest to campers and
 boaters.
@@ -535,13 +515,11 @@ CARTOGRAPHIC FEATURE
 A term applied to the natural or cultural items shown on a map or chart. The three main categories are point
 feature, line feature, and area feature.
 
-
 *Page 206*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-CARTOGRAPHIC INTERPRETATION
+CARTOGRAPHIC INTERPRETATION
 The process of interpreting data for a particular purpose, such as nautical charting. Selected features are retained
 and highlighted in the data, and other features may be neglected or shifted, depending on the purpose of the
 product.
@@ -591,8 +569,7 @@ of the system usually passes close to the center of the figure of the area or zo
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-CHAIN
+CHAIN
 1. A group of associated stations of a radio navigation system. A LORAN-C chain consists of a master station and
 2 - 4 secondary stations. 2. The unit of length prescribed by law for the survey of the public lands of the United
 States. The chain is equivalent to 66 ft or 4 rods, poles, or perches. Ten square chains equal one acre.
@@ -642,17 +619,15 @@ and coastline features portrayed on NOAA nautical chart products whose existence
 not be confirmed photogrammetrically, or whose size, shape, orientation or position appear to have changed
 significantly from the current chart portrayal.
 
-
 *Page 208*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-CHART EVALUATION SURVEY (CES)
-A product of NOAA’s Chart Evaluations Surveys (CES) program intended to: • Resolve all deficiencies reported
+CHART EVALUATION SURVEY (CES)
+A product of NOAA’s Chart Evaluations Surveys (CES) program intended to: * Resolve all deficiencies reported
 or discovered. A deficiency is defined as charted information that can be made more complete through field
-examination, or information which should be charted but is not. • Evaluate the adequacy/accuracy of hydrographic
-information on existing charts. • Verify or revise information published in the appropriate Coast Pilot. Conduct
+examination, or information which should be charted but is not. * Evaluate the adequacy/accuracy of hydrographic
+information on existing charts. * Verify or revise information published in the appropriate Coast Pilot. Conduct
 user evaluation and public relations efforts to provide an awareness of agency products and obtain user input.
 CHART HISTORY
 A record of the original compilation and subsequent corrections of every chart published by NOAA. The chart
@@ -693,13 +668,11 @@ CLIFF
 Land arising abruptly for a considerable distance above water or surrounding land, characterized by a high,
 extremely steep rock face, approaching a vertical incline.
 
-
 *Page 209*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-CLOSING LINE
+CLOSING LINE
 The line dividing inland waters and the marginal sea across the entrance of a true bay. COAST The zone of land
 of indefinite width (may be several miles) that extends inland from the shore to the first major change in terrain
 features.
@@ -748,13 +721,11 @@ Rivers, and Inland Waters (Inland Rules). The waters outside the lines are COLRE
 COLREGS Demarcation Lines, see U.S. Code of Federal Regulations, Title 33, Navigation and Navigable Waters;
 Part 82, COLREGS Demarcation Lines. See Inland Rules of the Road.
 
-
 *Page 210*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-COMBINED UNCERTAINTY
+COMBINED UNCERTAINTY
 In the context of the uncertainty of a finalized bathymetry grid, the greater of the standard deviation (scaled to
 95%) and the grid uncertainty, which is derived from the total propagated error of the soundings that contributed
 to that node. COMPASS MAGNETIC ERROR The angle by which a compass direction differs from the true
@@ -806,8 +777,7 @@ Article 24 of the Convention on the Territorial Sea and the Contiguous Zone auth
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-infringement of its customs, fiscal, immigration or sanitary regulations in territory or territorial sea.. . . ” Under the
+infringement of its customs, fiscal, immigration or sanitary regulations in territory or territorial sea.. . . ” Under the
 Convention, the contiguous area may extend no more than 12 miles from the coast line. 2. The belt of high seas, 9
 nautical miles wide, that is adjacent to and seaward of the territorial seas of the United States and that was declared
 to exist in Department of State Public Notice 358 of June 1, 1972, FR 11906.
@@ -859,8 +829,7 @@ of vessels that can enter. See Federal Project Depth. 2. The least depth within 
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-safe use of the channel to drafts of less than that depth. The centerline controlling depth of a channel applies only
+safe use of the channel to drafts of less than that depth. The centerline controlling depth of a channel applies only
 to the channel centerline; lesser depths may exist in the remainder of the channel. The mid-channel controlling
 depth of a channel is the controlling depth only for the middle half of the channel.
 
@@ -906,13 +875,11 @@ coral formation is a naturally occurring, consolidated mass of hard calcareous m
 adequately represented on the shoreline map by a single rock (coral) symbol. These formations include masses of
 irregular shape, as well as those relatively flat, ledge type features that may fringe a shore.
 
-
 *Page 213*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-CORAL HEAD
+CORAL HEAD
 A massive mushroom- or pillar-shaped coral growth.
 
 CORAL REEF
@@ -967,8 +934,6 @@ or frowning swath
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-
 7.4 D
 -------
 
@@ -1018,13 +983,11 @@ DAYBEACON
 An unlighted structure which serves as a daytime aid to navigation by virtue of its distinctive appearance which
 makes it recognizable and identifiable.
 
-
 *Page 215*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-DAY OF YEAR
+DAY OF YEAR
 A sequential numbering system starting with 001 on January 1 of each year and ending with 365, or 366 in leap
 years, on December 31 of that year. DOY is often incorrectly referred to as Julian Day.
 
@@ -1074,13 +1037,11 @@ DENSITY OF SOUNDINGS
 Intervals between lines of soundings and soundings within the same line. Density of soundings depends heavily
 on the scale and nature of the survey and type of sounding equipment used.
 
-
 *Page 216*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-DENSITY OF WATER
+DENSITY OF WATER
 Mass per unit volume. The reciprocal of specific volume. In oceanography, the density of sea water is numerically
 equivalent to specific gravity and is a function of salinity, temperature, and pressure.
 
@@ -1132,8 +1093,7 @@ occurs when excess energy is returned to the sonar transducer from a target or d
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-returns this excess energy from only one of many pings, the system will detect the target but the operator may
+returns this excess energy from only one of many pings, the system will detect the target but the operator may
 not recognize it in the data. Some modern sonar data processors are assisting the user in narrowing the gap
 between detection and recognition with separate graphic displays of the amplitude of individual return signals.
 See Recognition.
@@ -1180,13 +1140,11 @@ coordinates.
 DIKE A bank of earth or stone used to form a barrier, frequently and confusingly interchanged with levee. A dike
 restrains water within an area that is normally flooded.
 
-
 *Page 218*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-DILUTION OF POSITION (DOP)
+DILUTION OF POSITION (DOP)
 A measure of the geometry of the satellites seen by the receiver. DOP relates the statistical accuracy of the satellite
 measurements to the statistical accuracy of the computed solution. Position Dilution of Precision (PDOP) is a
 common measure, composed of Horizontal Dilution of Precision (HDOP) and Vertical Dilution of Precision
@@ -1240,8 +1198,7 @@ their cargoes without going alongside a dock or wharf. Each dolphin is generally
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-piles contiguous to one another. They are arranged in a circle, brought together, and capped over the top.
+piles contiguous to one another. They are arranged in a circle, brought together, and capped over the top.
 DOME
 A large rounded hemispherical structure rising from a building or a roof of the same shape.
 
@@ -1289,13 +1246,11 @@ See Digital Terrain Model.
 DTON
 See Danger to Navigation.
 
-
 *Page 220*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-DUCK BLIND
+DUCK BLIND
 For agency charting purposes, a duck blind is a non-floating structure, used for concealing waterfowl hunters,
 usually consisting of a wooden framework covered with brush. They pose a special problem for the cartographer.
 They are essentially unreported to any charting authority when built. They are unlighted and often constructed
@@ -1311,8 +1266,6 @@ until such time as they are no longer considered to be a danger to navigation.
 DUMP SITE
 Area established by federal regulation in which dumping of dredged and fill material and other non-buoyant
 objects is allowed with the issuance of a permit. Dump sites are shown on nautical charts.
-
-
 
 7.5 E
 ------
@@ -1344,13 +1297,11 @@ The date of first publication of a chart, or the date when a new edition is prin
 EELGRASS
 A submerged marine plant with very long narrow leaves.
 
-
 *Page 221*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-ELECTRONIC CHART DISPLAY AND INFORMATION SYSTEM (ECDIS)
+ELECTRONIC CHART DISPLAY AND INFORMATION SYSTEM (ECDIS)
 The navigation information system which is considered the legal equivalent of the nautical chart, displaying selected
 information from an electronic navigational chart (ENC) integrated with data from positional and, optionally,
 other sensors.
@@ -1403,8 +1354,7 @@ Any indentation of a coast, regardless of width, at the entrance or depth of pen
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-ENC VIEWER
+ENC VIEWER
 Software capable of viewing S-57 format ENC files, i.e., CARIS Easy ENC, Seven C’s, etc.
 
 ENSONIFY
@@ -1455,8 +1405,7 @@ simplified the practice of manual log keeping, but event marks are still importa
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-EXCLUSIVE ECONOMIC ZONE (EEZ)
+EXCLUSIVE ECONOMIC ZONE (EEZ)
 An area, not exceeding 200 nautical miles from the baselines from which the breadth of the territorial sea is
 measured, subject to a specific legal regime established in the United Nations Convention on the Law of the Sea
 under which the coastal state has certain rights and jurisdictions.
@@ -1464,7 +1413,6 @@ under which the coastal state has certain rights and jurisdictions.
 EXISTENCE DOUBTFUL
 Of uncertain existence. The expression is used principally on charts to indicate the possible existence of a rock,
 shoal, etc., the actual existence of which has not been verified. Usually shown by the abbreviation “E.D.”
-
 
 7.6 F
 ------
@@ -1507,13 +1455,11 @@ FEATURE
 Any single-source item that is significant enough to warrant cartographic and/or hydrographic representation. See
 Cartographic Feature.
 
-
 *Page 224*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-FEDERAL PROJECT
+FEDERAL PROJECT
 A navigation channel or maintenance dredging activity of any nature and for any purpose that is to be performed
 by or for the United States Army Corps of Engineers (USACE).
 
@@ -1563,14 +1509,11 @@ These data are often referred to as “Final Tides”.
 FINGER PIERS
 Small piers which extend from a larger main pier.
 
-
-
 *Page 225*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-FIRMWARE
+FIRMWARE
 Coded instructions related to processor function, and sometimes data processing algorithms, embedded as integral
 portions of the internal circuitry of an electronic system.
 
@@ -1622,8 +1565,7 @@ A long narrow arm of the sea, usually formed by the entrance of the sea into a d
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-FLASHING LIGHT
+FLASHING LIGHT
 A light in which the total duration of light in a period is shorter than the total duration of darkness and appearances
 of light (flashes) are usually of equal duration.
 
@@ -1668,13 +1610,11 @@ Broken lines resembling contour lines but representing no actual elevations, whi
 observation or from inadequate or unreliable map sources, to show collectively the shape of the terrain rather than
 the elevation.
 
-
 *Page 227*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-FOUL AREA
+FOUL AREA
 1. An area where numerous hazards to navigation may cause damage to vessels entering or transiting the area.
 2. An area in which hazardous rocks or other obstructions are too numerous to be located individually during a
 hydrographic survey or cartographically depicted individually. Such areas shall be delimited by a surveyed dashed
@@ -1699,8 +1639,6 @@ A series of islands that fringe, or mask, a mainland coast. Often known as barri
 
 FRINGING REEF
 A reef attached to and paralleling a shore.
-
-
 
 7.7 G
 ------
@@ -1727,8 +1665,7 @@ when a course is well offshore but can be fixed by landmarks, lights, buoys, and
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-GENERALIZATION
+GENERALIZATION
 The process of reducing the complexity of a presentation of map information to make it appropriate for a particular
 scale of product. For example, shoreline which shows detailed information about a cove at a large scale may only
 show a small indentation on a small-scale chart.
@@ -1771,13 +1708,11 @@ while the five numeric characters are a continuation of the DM series numbers (G
 GEOGRAPHIC COORDINATES
 The world-wide system of latitude and longitude used to define the location of any point on the earth’s surface.
 
-
 *Page 229*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-GEOGRAPHIC INFORMATION SYSTEM (GIS)
+GEOGRAPHIC INFORMATION SYSTEM (GIS)
 A system of spatially referenced information, including computer programs that acquire, store, manipulate,
 analyze, and display spatial data.
 
@@ -1825,13 +1760,11 @@ GREENWICH MEAN TIME (GMT)
 Mean solar time at the meridian of Greenwich, England. It has been used as a basis for standard time throughout
 the world. Also called Coordinated Universal Time (UTC).
 
-
 *Page 230*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-GREENWICH MERIDIAN
+GREENWICH MERIDIAN
 The meridian of the Royal Observatory, Greenwich, England. Adopted in 1884 by a conference of nations as the
 initial or zero of longitudes for all nations.
 
@@ -1881,15 +1814,12 @@ by the National Tidal Datum Convention of 1980.
 
 GYROSCOPE (GYRO)
 
-
 *Page 231*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-A rapidly rotating mass free to move about one or both axes perpendicular to the axes of rotation and to each
+A rapidly rotating mass free to move about one or both axes perpendicular to the axes of rotation and to each
 other. It is characterized by gyroscopic inertia and precession. This term refers colloquially to the gyrocompass.
-
 
 7.8 H
 ------
@@ -1943,8 +1873,7 @@ structure may extend channelward of these lines. For waterfronts where both type
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-lines will be prescribed. Harbor lines are usually straight line-segments crossing the outermost pierheads and/or
+lines will be prescribed. Harbor lines are usually straight line-segments crossing the outermost pierheads and/or
 bulkhead facilities, and are marked with accurately located, permanent monuments so that local surveyors may
 easily locate them.
 
@@ -1993,13 +1922,11 @@ The maximum height reached by a rising tide. The high water is caused by the per
 of meteorological, hydrologic, and/or oceanographic conditions. For tidal datum computational purposes, the
 maximum height is not considered a high water unless it contains a tidal high water.
 
-
 *Page 233*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-HIGH WATER LINE
+HIGH WATER LINE
 1. The intersection of the land with the water surface at an elevation of high water. 2. A generalized term associated
 with the tidal plane of high water, but not with a specific phase of high water, such as higher high water or lower
 high water.
@@ -2050,13 +1977,11 @@ HORIZONTAL DATUM
 been identified according to their precise northerly or southerly location (latitude), and their easterly or westerly
 location (longitude).
 
-
 *Page 234*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-2. A reference system for specifying positions on the Earth’s surface. Each datum is associated with a particular
+2. A reference system for specifying positions on the Earth’s surface. Each datum is associated with a particular
 reference spheroid that can be different in size, orientation, and relative position from the spheroids associated
 with other horizontal datums. Positions referred to different datums can differ by several hundred meters.
 HPS
@@ -2108,8 +2033,7 @@ in October, 1982. Instead, procedures and policies were established to conduct q
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-statistically representative sample consisting of not more than 10% of products. This examination was identified
+statistically representative sample consisting of not more than 10% of products. This examination was identified
 as a Hydrographic Survey Examination and was approximately equivalent to the preparation of a Quality Control
 Report. However, it differed from the quality control examination in that the effort was directed toward evaluating
 compliance with, and the adequacy of, standards, rather than a careful examination of the data and their quality.
@@ -2145,8 +2069,6 @@ usually a third station operating in conjunction with one of the two to provide 
 in distance and another pair of hyperbola branches. The observer is at one of the intersections of the branches.
 LORAN is the oldest known positioning system using this technique.
 
-
-
 7.9 I
 ------
 
@@ -2160,13 +2082,11 @@ See International Hydrographic Bureau.
 IHO
 See International Hydrographic Organization.
 
-
 *Page 236*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-IKONOS
+IKONOS
 The Ikonos-2 satellite was launched in September, 1999, and has been delivering commercial data since early 2000.
 Ikonos is the first of the next generation of high spatial resolution satellites. Ikonos data records 4 channels of multispectral data at 4 m resolution, and 1 panchromatic channel with 1 m resolution. This means that Ikonos was the
 first private-sector satellite to deliver near-photographic high-resolution satellite imagery of objects or specified
@@ -2213,13 +2133,11 @@ The part of a harbor more remote from the sea, as contrasted with the outer harb
 used only in a harbor that is clearly divided into two parts, as by a narrow passageway or man-made structures.
 The inner harbor generally has additional protection and is often the principal berthing area.
 
-
 *Page 237*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-INS
+INS
 See Integrated Navigation System.
 
 INSET
@@ -2269,13 +2187,11 @@ Monaco by H.S.H. Prince Albert I of Monaco, a noted marine scientist. In 1970, a
 entered into force which changed the organization’s name and legal status, creating the International Hydrographic
 Organization (IHO), with its headquarters (the IHB) permanently established in Monaco.
 
-
 *Page 238*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-INTERNATIONAL HYDROGRAPHIC ORGANIZATION (IHO)
+INTERNATIONAL HYDROGRAPHIC ORGANIZATION (IHO)
 An intergovernmental consultative and technical organization that traces its origin to 1921 and was established to
 support safety in marine navigation and the protection of the marine environment. The main objectives of the IHO
 is to bring about the coordination of the activities of national hydrographic offices, the greatest possible uniformity
@@ -2305,8 +2221,6 @@ A small island.
 ISTHMUS
 A narrow strip of land connecting two larger bodies of land.
 
-
-
 7.10 J
 -------
 
@@ -2324,18 +2238,14 @@ JUNCTION
 A place of meeting or joining. In hydrographic surveying, the joining of two or more adjacent/adjoining survey
 sheets.
 
-
 *Page 239*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-JUNCTION BUOY
+JUNCTION BUOY
 A buoy which, when viewed from a vessel approaching from the open sea or in the same direction as the main
 stream of flood current, or in the direction established by appropriate authority, indicates the place at which two
 channels meet. Also referred to as a Bifurcation Buoy.
-
-
 
 7.11 K
 -------
@@ -2369,8 +2279,6 @@ A unit of speed defined (1978) as 1 international nautical mile per hour. It was
 per hour, but this led to confusion because the American and British nautical miles differ by 1.184 m. The knot is
 equal to 1.852 km/hr.
 
-
-
 7.12 L
 -------
 
@@ -2382,13 +2290,11 @@ Any standing body of inland water, generally of considerable size. There are exc
 Louisiana which are open to or connect with the Gulf of Mexico. Occasionally, a lake is called a sea, especially if
 very large and composed of salt water.
 
-
 *Page 240*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-LAMBERT CONFORMAL CONIC PROJECTION
+LAMBERT CONFORMAL CONIC PROJECTION
 A conformal map projection of the conical type, on which the meridians are straight lines meeting in a common
 point outside the limits of the map, and the parallels are concentric arcs of circles having the common point as
 center.
@@ -2440,8 +2346,7 @@ for purposes of the Submerged Lands Act is not affected by the new Convention. E
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-16, 1994. The United States has recognized most provisions of the 1982 Convention as customary international law
+16, 1994. The United States has recognized most provisions of the 1982 Convention as customary international law
 (including the baseline provisions).
 
 LAYBACK
@@ -2489,13 +2394,11 @@ A description, explanation, table of symbols, and other information, printed on 
 understanding and interpretation of it. The title of a map or chart formerly was considered part of the legend, but
 this usage is obsolete.
 
-
 *Page 242*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-LEVEE
+LEVEE
 1. An artificial or naturally formed low ridge of material built or deposited along a stream channel or limit areas
 subject to flooding. 2. An embankment bordering on one or both sides of a submarine canyon or sea channel,
 usually occurring along the outer edge of a curve or meander. See Dike, often incorrectly used interchangeably
@@ -2548,8 +2451,7 @@ a map by a line of a certain width or type, e.g., dashed, dotted, double, a sequ
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-feature and area feature.
+feature and area feature.
 
 LINE SMOOTHING
 The numerical manipulation of data points (pairs of coordinates) in order to reduce the number or amount of
@@ -2597,13 +2499,11 @@ A category of control established by ground survey methods that do not meet esta
 Included are stations positioned through the use of a sextant or planetable, and any station positioned from, or
 sighting on, a moving object such that repeat measurements cannot be made.
 
-
 *Page 244*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-LOWER LOW WATER (LLW)
+LOWER LOW WATER (LLW)
 The lowest of the low waters (or single low water) of any specified tidal day due to the declinational effects of the
 Moon and Sun.
 
@@ -2622,8 +2522,6 @@ for an indefinite period regardless of the fact that is may differ slightly from
 water from a subsequent series of observations. Used primarily for river and harbor engineering purposes.
 LOW WATER LINE
 The intersection of the land with the water surface at an elevation of low water.
-
-
 
 7.13 M
 -------
@@ -2655,13 +2553,11 @@ islands and sometimes peninsulas.
 MAINSCHEME
 A term used to describe the primary set of sounding lines in a hydrographic survey.
 
-
 *Page 245*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-MAJOR AID TO NAVIGATION
+MAJOR AID TO NAVIGATION
 An aid of considerable intensity, reliability, and range exhibited from fixed structures or marine sites. Major aids
 are classified as primary or secondary and are usually manned or remotely monitored.
 
@@ -2710,13 +2606,11 @@ MARK
 qualifying term such as “Reference Mark” or “Bench Mark”. 3. A call used by hydrographers to signal an event such
 as the instant a survey position is recorded.
 
-
 *Page 246*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-MARKER
+MARKER
 That which marks something for a specific purpose, e.g., a measured mile marker, or a dredging range marker.
 This term is generally used to refer to certain aids to navigation, often privately maintained, which are erected to
 mark channels.
@@ -2766,8 +2660,7 @@ An cartographically displayed length of 1 nautical mile, the limits of which hav
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-indicated by ranges ashore. It is used by vessels to calibrate logs and engine revolution counters, and to determine
+indicated by ranges ashore. It is used by vessels to calibrate logs and engine revolution counters, and to determine
 speed.
 
 MERCATOR CHART
@@ -2817,13 +2710,11 @@ The shallowest depth over a submerged feature obtained during the course of a no
 not be the Least Depth but could be reclassified as such following a careful review of the data to determine if it
 meets or exceeds current specifications for a basic hydrographic survey.
 
-
 *Page 248*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-MICRO WAVE POSITIONING SYSTEM
+MICRO WAVE POSITIONING SYSTEM
 A compact, light, and mobile distance measuring system that operates on the basic principle of pulse radar.
 A transmitter aboard the survey vessel interrogates transponders at known locations. Elapsed time between
 transmitted interrogations and the reply from each transponder is used as the basis for determining range to each
@@ -2871,13 +2762,11 @@ MOORING BUOY
 A buoy secured to the sea floor by permanent moorings and provided with means for mooring a vessel by use of
 its anchor chain or mooring lines.
 
-
 *Page 249*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-MORAINE
+MORAINE
 An accumulation of earth, stones, etc., deposited by a glacier, usually in the form of a mount, ridge, or other
 prominence on the terrain. In charting, these features often exist at the entrance to or within fjord-like waterways
 and, frequently, contain hazardous shoal depths or rocky obstructions.
@@ -2901,7 +2790,6 @@ paths: 1. transducer - target – transducer; 2. transducer - target - sea surfa
 surface - target - sea surface - transducer. If these 3 return paths take 3 different times, the result will be 3 images
 of the same target in the data. As related to navigation systems (e.g., GPS) multipath is the corruption of the direct
 GPS signal by reflection from the local surroundings which adversely affects measurements in a GPS receiver.
-
 
 7.14 N
 -------
@@ -2931,8 +2819,7 @@ changes caused by global sea level change and the effects of long term local lan
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-glacial rebound. The present NTDE is 1983-2001. Previous tidal epochs were determined for periods 1924-42,
+glacial rebound. The present NTDE is 1983-2001. Previous tidal epochs were determined for periods 1924-42,
 1941-59, and 1960-78.
 
 NATURAL HARBOR
@@ -2983,8 +2870,7 @@ Navigable waterways that lie wholly within the limits of a state and have no nav
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-waters outside the boundaries of that state. Such intrastate waters are subject to regulation and control by state laws
+waters outside the boundaries of that state. Such intrastate waters are subject to regulation and control by state laws
 and do not fall within the jurisdiction of Congress nor of the laws enacted by it for the preservation and protection
 of the navigable waters of the United States.
 
@@ -3031,13 +2917,11 @@ The maximum distance a light may be seen in clear weather (meteorological visibi
 without regard to the curvature of the earth, the height of the eye, or the height of the light. Listed for all federal
 lighted aids, except range lights and directional lights.
 
-
 *Page 252*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-NON-TIDAL WATERS
+NON-TIDAL WATERS
 Waters not subject to tidal influence. Under Public Law 31, lands beneath such waters of a state which were
 navigable when the state entered the Union are granted to the state.
 
@@ -3073,8 +2957,6 @@ NUN BUOY
 An unlighted buoy of which the upper part of the body (above the waterline), or the larger part of the superstructure,
 has approximately the shape of a cone with vertex upwards.
 
-
-
 7.15 O
 -------
 
@@ -3085,13 +2967,11 @@ spheroid.
 OBSCURED
 Said of the arc of a light sector designated by its limiting bearings in which the light is not visible from seaward.
 
-
 *Page 253*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-OBSOLETE CHART
+OBSOLETE CHART
 A chart which is not considered safe to use for navigation because it does not contain the latest important
 navigational information.
 
@@ -3136,14 +3016,11 @@ Used to describe a floating navigational aid that is in its assigned geographic 
 ONSHORE WIND
 A wind blowing from the sea toward the land.
 
-
-
 *Page 254*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-OOZE
+OOZE
 A fine-grained pelagic sediment containing more than 30% organic material combined with amorphous claysized
 material and found only in the greater ocean (abyssal) depths off the Continental Shelf on the abyssal plains. Ooze
 is a classification by composition, not grain size. Accordingly, considering grain size, ooze is mud but mud is not
@@ -3198,8 +3075,7 @@ normally a problem because the sonar system gains are reduced in the near field 
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-In a quiet environment, where there is little backscatter in the near field and there are hard targets out of range,
+In a quiet environment, where there is little backscatter in the near field and there are hard targets out of range,
 these targets will be imaged after the second pulse starts its propagation. In radar, this phenomenon is called a
 “second sweep return.”
 OUTSIDE SOURCE DATA (OSD)
@@ -3229,8 +3105,6 @@ OVER-THE-GROUND
 A measurement of the speed or course of a vessel with respect to the seabed, independent of movement in relation
 to wind or water.
 
-
-
 7.16 P
 -------
 
@@ -3253,8 +3127,7 @@ during a sonar survey. Multiple passes by a target may be necessary for target c
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-example, thermal discontinuities rarely look the same on any two passes. A target that may be a school of fish can
+example, thermal discontinuities rarely look the same on any two passes. A target that may be a school of fish can
 be properly identified by multiple passes because fish schools rarely stay in one place over any length of time.
 PASSAGE
 A narrow navigable channel, especially one through reefs or islands. Sometimes called a pass or, in New England
@@ -3300,13 +3173,11 @@ is measured in degrees, and one full oscillation cycle has 360 degrees. One way 
 pendulums are swinging at the same frequency and are in the same position at the same instant, then they are in
 phase with each other.
 
-
 *Page 257*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-PHOTOGRAMMETRIC COMPILATION
+PHOTOGRAMMETRIC COMPILATION
 The production of a map or chart, or portion thereof, from aerial photographs and geodetic control data. When
 compilation involves stereo instruments, this is called stereocompilation.
 
@@ -3353,13 +3224,11 @@ One who provides guidance to a vessel’s captain regarding the movements of a v
 usually, one who has demonstrated extensive knowledge of channels, aids to navigation, dangers to navigation,
 etc., in a particular area and is licensed for that area.
 
-
 *Page 258*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-PILOT AREA
+PILOT AREA
 A pilot area represents a meeting or boarding place where vessels pick up or disembark licensed pilots. A pilot
 vessel may either cruise in the area continuously or come out upon request.
 
@@ -3411,8 +3280,7 @@ purpose, e.g., drilling, survey, research, potable water intake, swimming-diving
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-PLOT
+PLOT
 1. A map, chart, or graph representing data of any sort. 2. To represent on a diagram or chart the position or course
 of a target in terms of angles and distances from known position; to locate a position on a map or a chart. 3. A
 portion of a map or overlay on which are drawn the outlines of the areas covered by one or more photographs. 4.
@@ -3465,8 +3333,7 @@ but it has been widely used for maps of small areas because of the ease with whi
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-of the projection, at least in concept, is credited to Ferdinand R. Hassler, the first Superintendent of the Coast
+of the projection, at least in concept, is credited to Ferdinand R. Hassler, the first Superintendent of the Coast
 Survey, and was used for all the hydrographic surveys of the agency until the 1990s.
 
 PONTOON BRIDGE
@@ -3511,14 +3378,11 @@ larger than that of a stake but smaller than that of a pile.
 POST-PROCESSING
 Data processing performed after real-time data acquisition.
 
-
-
 *Page 261*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-POTABLE WATER INTAKE (PWI)
+POTABLE WATER INTAKE (PWI)
 A structure designed for the intake of drinking water. The intake is usually elevated above the bottom, and supported
 and protected by a debris-screening structure (crib), usually a separately charted feature.
 
@@ -3565,13 +3429,11 @@ PRIME MERIDIAN
 The meridian of longitude 0°, used as the origin for measurement of longitude. The meridian of Greenwich,
 England, is almost universally used for this purpose.
 
-
 *Page 262*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-PRINCIPAL MERIDIAN
+PRINCIPAL MERIDIAN
 A true north-south line (a meridian), extending both north and south of the initial point in the rectangular system
 of surveys. Together with the base line, principal meridians constitute the axes of a system and the initial point of
 origin of that system.
@@ -3619,13 +3481,11 @@ PROOF CHECKING
 The examination of the proof and comparison with its sources to point out any errors, omissions, and necessary
 improvements.
 
-
 *Page 263*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-PROPORTIONAL DIVIDERS
+PROPORTIONAL DIVIDERS
 An instrument consisting in its simple form of two legs pointed at both ends and provided with an adjustable
 pivot, so that for any given pivot setting, the distance between one set of pointed ends always bears the same ratio
 to the distance between the other set. A change in the pivot changes the ratio. The dividers are used in transferring
@@ -3675,12 +3535,9 @@ A single platform or a series of inter-connected platforms that have one or more
 (1) Pumping oil between a vessel and the shore; (2) berthing and messing facilities for assigned personnel; (3) a
 landing area for helicopters; (4) mooring and loading for small vessels.
 
-
 *Page 264*
 
 ------------------------------------------------------------------------------------------------------------------------
-
-
 
 7.17 Q
 --------
@@ -3723,8 +3580,6 @@ QUENCHING
 The great reduction in underwater sound transmission or reception resulting from absorption and scattering of
 sound energy by air bubbles entrapped around the sonar dome.
 
-
-
 7.18 R
 -------
 
@@ -3738,8 +3593,7 @@ A method of position determination in offshore hydrographic surveying which util
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-transmission and radio to determine the distance of the survey vessel from two or more known stations. This
+transmission and radio to determine the distance of the survey vessel from two or more known stations. This
 method was discontinued during World War II and has since been superseded by electronic methods.
 
 RADIO BEACON
@@ -3789,8 +3643,7 @@ See Refraction
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-REACH
+REACH
 The comparatively straight segment of a river or channel between two bends. That part of a winding river between
 the last bend and the sea is called a sea reach; that part between the harbor and the first bend is called the harbor
 reach.
@@ -3841,8 +3694,7 @@ Any line which can serve as a reference or base for the measurement of other qua
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-REFERENCE MARK
+REFERENCE MARK
 In surveying, a supplementary mark of permanent character close to a station or to a base terminal, to which it is
 related by an accurately measured distance and direction, and/or a difference in elevation.
 
@@ -3893,13 +3745,11 @@ REPEATABILITY
 A measure of the variability of a series of measurements of the same quantity/position/depth. High repeatability
 is indicative of high precision.
 
-
 *Page 268*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-REPRESENTATIVE FRACTION (RF)
+REPRESENTATIVE FRACTION (RF)
 The scale of a map or chart expressed as a fraction or ratio that relates unit distance on the map to distance
 measured in the same unit on the ground. Also called natural scale, fractional scale.
 
@@ -3947,13 +3797,11 @@ prior survey data and charted information. The formal review function was transf
 Operations in October, 1975, and the former “Review Report” was renamed the “Verifier’s Report.” See Review,
 Evaluation Report, and Verifier’s Report.
 
-
 *Page 269*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-REVISED PRINT
+REVISED PRINT
 A chart issue that does not cancel a current edition; the revisions are minor and the edition number remains the
 same, but the print date is changed, and the chart is designated a revised print of that chart. The date of a revised
 print is shown to the right of the edition date.
@@ -3999,14 +3847,11 @@ ROAD
 An open anchorage affording less protection than a harbor. Some protection may be afforded by reefs, shoals, etc.
 Often used in the plural. Also called roadstead.
 
-
-
 *Page 270*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-ROADSTEAD
+ROADSTEAD
 An area of the sea used for the anchorage of vessels and transshipment of cargo, usually without the protection
 from weather associated with ports and harbors. Roadsteads are part of the territorial sea but are not inland waters.
 ROCK
@@ -4049,8 +3894,6 @@ impedance medium for sonar, the best method of testing system function is to rub
 channel side scan sonar, one transducer is rubbed, then the opposite is rubbed to clarify that the transducers are
 not wired to the wrong display channels.
 
-
-
 7.19 S
 -------
 
@@ -4062,8 +3905,7 @@ from the open ocean, or for sailing between distant coastwise ports. The shoreli
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-and only offshore soundings, principal navigational lights and buoys, and landmarks visible at considerable
+and only offshore soundings, principal navigational lights and buoys, and landmarks visible at considerable
 distances are shown.
 
 SAILING DIRECTIONS
@@ -4108,13 +3950,11 @@ SCALE FACTOR
 A multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance on the
 datum of the map.
 
-
 *Page 272*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-SCALE MARKS
+SCALE MARKS
 Equidistant, regular marks on a sonar display used to assist in the mensuration of targets above the seafloor, or to
 provide information on the range displacement of targets from a side scan sonar towfish path.
 
@@ -4161,14 +4001,11 @@ SEA STATE
 The numerical or written description of ocean surface roughness. For more precise usage, sea state may be defined
 as the average height of the highest one-third of the waves observed in the wave train.
 
-
-
 *Page 273*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-SEAWALL
+SEAWALL
 A structure built along a portion of a coast primarily to prevent erosion and other damage by wave action. It retains
 earth against its shoreward face.
 
@@ -4214,14 +4051,11 @@ At low speeds the effect of moving the hull through the water causes a local dep
 the hull. The effect of increasing speed on vessels with planing hulls is to cause them to lift out of the water. Not to
 be confused with squat which is the change in vessel trim as it moves through the water.
 
-
-
 *Page 274*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-SEXTANT
+SEXTANT
 A double-reflecting instrument used for measuring angles, primarily horizontal angles between two objects when
 used in hydrographic surveying. The sextant has an arc of 60 degrees, a sixth of a circle, from which it derives its
 name.
@@ -4270,13 +4104,11 @@ The line of contact between the land and a body of water. On NOAA nautical chart
 approximates the mean high-water (MHW) line. In OCS, this term is sometimes considered to be synonymous
 with coastline but the use of the term coastline is discouraged.
 
-
 *Page 275*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-SHORELINE MAP
+SHORELINE MAP
 The graphic representation of photogrammetric surveys. The maps contain graphic data relating to the shoreline,
 and alongshore natural and man-made features, and may include a narrow zone of such features inland from the
 shoreline. The original sources of a shoreline map are aerial photographs, but may also include ground survey data.
@@ -4326,8 +4158,7 @@ An electromechanical component, most often used on a winch that allows full elec
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-sonar cable during winch drum operation. Poor quality or dirty slip rings will cause noise in sonar data during
+sonar cable during winch drum operation. Poor quality or dirty slip rings will cause noise in sonar data during
 drum movement and a bad individual ring can cause a blank sonar channel.
 
 SLOUGH
@@ -4376,13 +4207,11 @@ See Sonargram. SOUND 1. (n) A relatively long arm of the sea or ocean forming a 
 a mainland or connecting two larger bodies, as a sea and the ocean, or two parts of the same body, usually wider
 and more extensive than a strait. 2. (v) To measure the depth of the water.
 
-
 *Page 277*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-SOUNDING
+SOUNDING
 A measured depth of water; or the act of measuring depth.
 
 SOUNDING LINE
@@ -4433,13 +4262,11 @@ as subsurface floats. Specular reflectors may provide very strong sonar returns 
 lines in side scan data. The hyperbola is formed when a target is reflective enough to return even the low level
 energy in the side lobes of the sonar’s horizontal beam.
 
-
 *Page 278*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-SPEED
+SPEED
 Rate of motion. The terms speed and velocity are often used interchangeably, but speed is a scalar, having magnitude
 only, while velocity is a vector quantity, having both magnitude and direction.
 
@@ -4487,13 +4314,11 @@ An artificial formation created by the deposit of dredged materials on the seabe
 the natural coastline are part of the baseline from which maritime zones are measured. Those that are unattached
 are artificial islands and are not part of the baseline. Alternatively, spoil bank.
 
-
 *Page 279*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-SQUAT
+SQUAT
 A change in vessel trim as it moves through the water. This change of level of the bow and stern from a still water
 condition is in response to the elevation and depression of the water level about the hull resulting from the bow
 and sternwave systems. Not to be confused with settlement which is the vertical displacement of a moving vessel,
@@ -4546,8 +4371,7 @@ STATUTE MILE
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-STRAIT
+STRAIT
 A relatively narrow waterway between two larger bodies of water.
 
 STRAND
@@ -4597,13 +4421,11 @@ datum. These terms apply most often to wrecks. Masts, funnels, and other extensi
 should be disregarded when applying the above definitions; i.e., such features may be above the sounding datum
 and still have the wreck classified as “sunken.” See Stranded.
 
-
 *Page 281*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-SUNKEN ROCK
+SUNKEN ROCK
 A rock potentially dangerous to surface navigation, the summit of which is below the lower limit of the zone for
 a rock awash. See Rock Awash.
 
@@ -4652,12 +4474,9 @@ averaging large numbers of results. A common means to remove systematic error is
 process, i.e. through calibration. Another means to remove systematic error is by a subsequent measurement with
 more sophisticated experiment equipment.
 
-
 *Page 282*
 
 ------------------------------------------------------------------------------------------------------------------------
-
-
 
 7.20 T
 --------
@@ -4708,13 +4527,11 @@ of banding visible in side scan sonar data. Similar to the effects of a haline f
 the outer ranges of sonar data where the beam’s angle of incidence to the thermocline is high. Changing the sonar
 geometry will minimize or eliminate the effects of thermoclines.
 
-
 *Page 283*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-THREE-ARM PROTRACTOR
+THREE-ARM PROTRACTOR
 An instrument (metal or plastic) for plotting sextant fixes in hydrographic surveying. It consists of a graduated
 circle with a fixed center arm and right and left movable arms pivoted at its center so that the extension of each
 fiducial edge always passes through the precise center of the graduated circle. The observed left angle is set with the
@@ -4763,13 +4580,11 @@ can be adjusted by the operator.
 TOP MARK
 A characteristic shape secured at the top of a buoy or beacon to aid in its identification.
 
-
 *Page 284*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-TOPOGRAPHIC MAP
+TOPOGRAPHIC MAP
 A map which presents the vertical position of features in measurable form, as well as their horizontal positions.
 TOPOGRAPHIC SURVEY
 As used in NOAA, a record of a survey, of a given date, of the natural features and the culture of a portion of the
@@ -4820,8 +4635,7 @@ A projection of the cylindrical type, being in principle equivalent to the regul
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-in azimuth. In this projection, the central meridian is represented by a straight line, corresponding to the line
+in azimuth. In this projection, the central meridian is represented by a straight line, corresponding to the line
 which represents the equator on the regular Mercator Projection. Neither the geographic meridians, except the
 central meridian, nor the geodetic parallels, except the equator (if shown), are represented by straight lines. It is a
 conformal projection. Also called transverse cylindrical orthomorphic projection.
@@ -4868,20 +4682,16 @@ As turbidity increases, the maximum depth that water penetrating bathymetric LID
 TURNING BASIN
 A water area used for turning vessels.
 
-
 *Page 286*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-TVG
+TVG
 See Time Varied Gain.
 
 TWO POINT FEATURE
 A cartographic feature that can be positioned with 1 set of coordinates describing its location and a second set of
 coordinates defining its orientation.
-
-
 
 7.21 U
 -------
@@ -4910,8 +4720,6 @@ UUV
 Acronym for Unmanned Underwater Vehicle. There are two categories of UUVs, AUVs and ROVs. See AUV and
 ROV.
 
-
-
 7.22 V
 -------
 
@@ -4926,13 +4734,11 @@ Same as Velocity Profiler.
 VELOCITY
 A vector quantity equal to speed in a given direction.
 
-
 *Page 287*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-VELOCITY PROFILE
+VELOCITY PROFILE
 The gradient of acoustic velocity in water displayed as a graph of distance below the sea surface against the speed of
 sound. This term is often used incorrectly instead of speed-of-sound profile, when referring to a scalar magnitude
 rather than a vector quantity.
@@ -4980,19 +4786,15 @@ VESSEL
 The term “vessel” includes every description of watercraft or other artificial contrivance used, or capable of being
 used, as a means of transportation on the waters of the U.S.
 
-
 *Page 288*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-VESSEL CONFIGURATION FILE (VCF)
+VESSEL CONFIGURATION FILE (VCF)
 A digital file used to set the parameters for sensors and other equipment for data processing. See HIPS Vessel File
 (HVF)
 VESSEL REFERENCE UNIT (VRU)
 See Motion Reference Unit (MRU).
-
-
 
 7.23 W
 -------
@@ -5034,13 +4836,11 @@ by the same phase of oscillation. In sonar technology, along with the transmit p
 (directly related to sonar frequency) will determine the ultimate range of the system. Decreases in wavelength
 (increases in frequency) bring higher resolution with the tradeoff of reduced range.
 
-
 *Page 289*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-WAY POINT
+WAY POINT
 1. A mark or place at which a vessel is required to report or establish its position. 2. A notable point, often the point
 at which course changes, in a planned vessel route.
 
@@ -5086,13 +4886,11 @@ green tint.
 WIRE-DRAG SURVEY
 A hydrographic survey utilizing wire drag apparatus.
 
-
 *Page 290*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-WIRE SWEEP
+WIRE SWEEP
 A modification of the wire-drag apparatus. Drag and sweep have nearly the same meanings. The wire sweep
 was similar to the wire drag, differing only in the length of dragged sections between buoys. It consisted of end
 buoys and intermediate buoys set at intervals of 2,000 - 2,500 ft. It was used in areas where the general depth was
@@ -5125,16 +4923,12 @@ near to the wreck as conditions will permit. To avoid confusion in some situatio
 the wreck. The possibility of the wreck having shifted position due to sea action between the times the buoy was
 established and later checked or serviced should not be overlooked.
 
-
-
 7.24 X
 -------
 
 X-AXIS
 A horizontal axis in a system of rectangular coordinates; that line on which distances to the right or left (east or
 west) of the reference line are marked, especially on a map, chart, or graph.
-
-
 
 7.25 Y
 -------
@@ -5144,20 +4938,17 @@ A vertical axis in a system of rectangular coordinates; that line on which dista
 of) a reference line are marked, especially on a map, chart, or graph. The line which is perpendicular to the X-axis
 and passes through the origin.
 
-
 *Page 291*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-YARD
+YARD
 A fundamental unit of length in the English system of measurement. The metric equivalent prior to July 1, 1959,
 was 1 yd = 0.914440183 m. On that date, the value was changed to 1 yd = 0.9144 m.
 
 YAW
 An instability characterized by the side-to-side movement of a ship or towed body about its vertical axis. Vessel
 and towfish yaw most often occur at low speeds and with quartering seas. Towfish yaw is distinctive in sonar data.
-
 
 7.26 Z
 -------
@@ -5169,14 +4960,11 @@ regardless of height; a practice followed prior to 1860.
 ZULU TIME
 See Coordinated Universal Time.
 
-
-
 *Page 292*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Field Procedures Manual
+Field Procedures Manual
 National Oceanic and Atmospheric Administration, Office of
 Coast Survey
 
@@ -5199,8 +4987,7 @@ The Standard Operating Procedure’s (SOP’s) within the FPM Appendices are in 
 being transferred to the “Documents” section of the Hydroforum and the SOP’s will reside in
 both places for the remainder of the 2014 field season.
 
-
-Side Scan Sonar Calibration
+Side Scan Sonar Calibration
 Field Unit:
 Date of Test:
 Calibrating Hydrographer(s):
@@ -5231,7 +5018,7 @@ Approximate Target Size: (should be approximately 1m L x 1m W x 1m H)
 
 Page 1 of 2
 
-TEST INFORMATION (continued)
+TEST INFORMATION (continued)
 Target Position:
 Description of Positioning Method:
 Estimated Target Position Error:
@@ -5256,10 +5043,9 @@ interpretation of test results, with discussion of any correlation between targe
 error and side scan pass direction, range, or channel. Any changes to configuration made based on
 these results shall be described.
 
-
 Page 2 of 2
 
-Sounding Systems Comparison
+Sounding Systems Comparison
 Field Unit:
 Date
 & Time
@@ -5308,8 +5094,7 @@ Sea conditions calm, 1 ft swell.
 
 No corrections necessary.
 
-
-POS/MV Calibration Report
+POS/MV Calibration Report
 Field Unit:
 SYSTEM INFORMATION
 Vessel:
@@ -5320,21 +5105,19 @@ Dn:
 Personnel:
 PCS Serial #
 
-
 *Page 786*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 IP Address:
 
 129.100.1.231
 
-POS controller Version (Use Menu Help > About)
+POS controller Version (Use Menu Help &gt; About)
 
 2.10d
 
-POS Version (Use Menu View > Statistics)
+POS Version (Use Menu View &gt; Statistics)
 GPS Receivers
 Primary Receiver
 Secondary Receiver
@@ -5358,41 +5141,29 @@ Approximate Position:
 
 Lat
 
-
 *Page 55*
 
 ------------------------------------------------------------------------------------------------------------------------
-
-
 
 *Page 19*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-
 *Page 46*
 
 ------------------------------------------------------------------------------------------------------------------------
-
-
 
 *Page 131*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-
 *Page 37*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-
 *Page 27*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 DGPS Beacon Station:
 Frequency:
@@ -5403,7 +5174,7 @@ Annette Island, AK
 
 Satellite Constellation
 
-(Use View> GPS Data)
+(Use View&gt; GPS Data)
 
 Primary GPS (Port Antenna)
 HDOP:
@@ -5416,11 +5187,9 @@ N
 
 Sattelites in Use:
 
-
 *Page 9*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 1,4,11,13,16,20,23,25,30
 
@@ -5428,15 +5197,15 @@ PDOP
 
 1.352
 
-(Use View> GAMS Solution)
+(Use View&gt; GAMS Solution)
 
 Note: Secondary GPS satellite constellation and number of satellites were exactly the same as the Primary GPS
 
-POS/MV CONFIGURATION
+POS/MV CONFIGURATION
 Settings
 Gams Parameter Setup
 
-(Use Settings > Installation > GAMS Intallation)
+(Use Settings &gt; Installation &gt; GAMS Intallation)
 
 User Entries, Pre-Calibration
 
@@ -5446,11 +5215,9 @@ Baseline Vector
 
 Two Antenna Separation (m)
 
-
 *Page 0*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 X Component (m)
 
@@ -5458,29 +5225,23 @@ X Component (m)
 
 Heading Calibration Threshold
 
-
 *Page 0*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 YComponent (m)
 
 Heading Correction
 
-
 *Page 0*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Z Component (m)
 
-
 *Page 0*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Configuration Notes: GAMS needed re-calibration because the leverarm for IMU to Port Antenna was incorrect
 
@@ -5503,7 +5264,7 @@ Heading accuracy achieved for calibration:
 Calibration Results:
 Gams Parameter Setup
 
-(Use Settings > Installation > GAMS Intallation)
+(Use Settings &gt; Installation &gt; GAMS Intallation)
 
 POS/MV Post-Calibration Values
 
@@ -5531,7 +5292,6 @@ Heading Correction
 
 Z Component (m)
 
-
 *Page 0*
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -5550,17 +5310,17 @@ Save POS Settings on PC
 File Name:
 POSMV_09012004.nvm
 
-(Use File > Store POS Settings on PC)
+(Use File &gt; Store POS Settings on PC)
 
-GENERAL GUIDANCE
+GENERAL GUIDANCE
 The POS/MV uses a Right-Hand Orthogonal Reference System
 The right-hand orthogonal system defines the following:
-• The x-axis is in the fore-aft direction in the appropriate reference frame.
+* The x-axis is in the fore-aft direction in the appropriate reference frame.
 
-• The y-axis is perpendicular to the x-axis and points towards the
+* The y-axis is perpendicular to the x-axis and points towards the
 right (starboard) side in the appropriate reference frame.
 
-• The z-axis points downwards in the appropriate reference frame.
+* The z-axis points downwards in the appropriate reference frame.
 
 The POS/MV uses a Tate-Bryant Rotation Sequence
 Apply the rotation in the following order to bring the two frames of reference
@@ -5574,34 +5334,32 @@ once-rotated y-axis to align one frame with the other.
 c) Roll rotation - apply a right-hand screw rotation θx about the
 twice-rotated x-axis to align one frame with the other.
 
-
 SETTINGS (insert screen grabs)
-Input/Output Ports (Use Settings > Input/Output Ports)
+Input/Output Ports (Use Settings &gt; Input/Output Ports)
 
 NOTE: COM3 and Analog are not used.
 
+Heave Filter (Use Settings &gt; Heave)
 
-Heave Filter (Use Settings > Heave)
+Time Sync (Use Settings &gt; Time Sync)
 
-Time Sync (Use Settings > Time Sync)
+Installation (Use Settings &gt; Installation)
 
-Installation (Use Settings > Installation)
+Events (Use Settings &gt; Events)
 
-Events (Use Settings > Events)
+Tags, Multipath and Auto Start (Use Settings &gt; Installation &gt; Tags, Multipath and Auto Start)
 
-Tags, Multipath and Auto Start (Use Settings > Installation > Tags, Multipath and Auto Start)
+Sensor Mounting (Use Settings &gt; Installation &gt; Sensor Mounting)
 
-Sensor Mounting (Use Settings > Installation > Sensor Mounting)
+User Parameter Accuracy (Use Settings &gt; Installation &gt; User Accuracy)
+Frame Control (Use Tools &gt; Config)
 
-User Parameter Accuracy (Use Settings > Installation > User Accuracy)
-Frame Control (Use Tools > Config)
-
-GPS Receiver Configuration (Use Settings> Installation> GPS Receiver Configuration)
+GPS Receiver Configuration (Use Settings&gt; Installation&gt; GPS Receiver Configuration)
 Primary GPS Receiver
 
 Secondary GPS Receiver
 
-Multibeam Echosounder Calibration
+Multibeam Echosounder Calibration
 Field Unit:
 Date of Test:
 Calibrating Hydrographer(s):
@@ -5633,7 +5391,7 @@ Page 1 of 2
 
 Speed
 
-TEST RESULTS
+TEST RESULTS
 Navigation Timing Error:
 Pitch Timing Error:
 Roll Timing Error:
@@ -5647,10 +5405,9 @@ Particular attention shall be paid to interpretation of test results, with discu
 pitch, heading, and navigation timing error. Any changes to configuration made based on these results
 shall be described.
 
-
 Page 2 of 2
 
-DIRECTIONS FOR CREATING
+DIRECTIONS FOR CREATING
 TRADITIONAL LEAD LINES AND SOUNDING POLES
 
 (excerpted from the NOAA Hydrographic Manual, July 1976, with modifications)
@@ -5699,7 +5456,7 @@ should be graduated in meters, with intermediate marks to permit readings to the
 decimeter. Each meter should be marked by a seizing of black thread, with a leather strip
 clearly indicating the numerical value for even meter intervals. Each even decimeter (0.2,
 
-0.4, 0.6, and 0.8) is marked by a seizing of white thread. Odd tenth readings are estimated.
+0.4, 0.6, and 0.8) is marked by a seizing of white thread. Odd tenth readings are estimated.
 
 Waxed linen thread should be used to secure marks to the lead line in such a manner that
 there can be no possibility of slippage. Do not insert the thread through the braided
@@ -5718,7 +5475,6 @@ Each survey unit should have one or more leads. Leads come in standard weights o
 attach the lead to the lead line. The preferred method is to have a galvanized thimble at the
 lower end of the lead line to which the lead can be attached by a shackle.
 
-
 Traditional Sounding Pole Construction
 I. Material
 A sounding pole is made from a 5 meter length of 1.5 inch (3.81 cm) round lumber capped
@@ -5736,8 +5492,7 @@ III. Verification
 Sounding poles must be verified against a known standard, such as a survey quality metal
 tape, to ensure that depth markings are unambiguous and accurate.
 
-
-Lead Line & Sounding Pole Calibration Report
+Lead Line & Sounding Pole Calibration Report
 Field unit:
 Lead Line / Sounding Pole Identification Number:
 (Unique Identifier, with equipment type, date made, etc. )
@@ -5764,7 +5519,7 @@ Checked by:
 Lead Line Corrector
 (c = b - a)
 
-UNITED STATES DEPARTMENT OF COMMERCE
+UNITED STATES DEPARTMENT OF COMMERCE
 
 National Oceanic and Atmospheric Administration
 NATIONAL OCEAN SERVICE
@@ -5820,7 +5575,7 @@ Comment [J1]: This memo is to be submitted as
 a digitally signed PDF document. Email a copy of
 this memo to OCS.HSRR@noaa.gov
 
-returned to the manufacturer for evaluation and any necessary repairs. Towfish repairs had
+returned to the manufacturer for evaluation and any necessary repairs. Towfish repairs had
 not been completed at the time of this review.
 
 CATEGORY 2 – These deficiencies indicate noncompliance with established policies, directives,
@@ -5867,15 +5622,13 @@ Platform
 
 Free Space (TB)
 
-
 *Page 2*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 Used Space (TB)
 
-Field Procedures Manual
+Field Procedures Manual
 National Oceanic and Atmospheric Administration, Office of
 Coast Survey
 
@@ -5899,8 +5652,7 @@ The Standard Operating Procedure’s (SOP’s) within the FPM Appendices are in 
 being transferred to the “Documents” section of the Hydroforum and the SOP’s will reside in
 both places for the remainder of the 2014 field season.
 
-
-Office of Coast Survey Authorized Deviations from
+Office of Coast Survey Authorized Deviations from
 NAVMETOCCOMINST 3142A, Mine Warfare Survey in Support
 of Maritime Homeland Defense, Technical Specifications, March 2007
 Office of Coast Survey has worked with the Naval Oceanographic Office (NAVOCEANO) in
@@ -5911,7 +5663,6 @@ deviations from the NAVOCEANO Technical Specifications, hereafter referred to as
 Spec. Every effort should be made to meet the requirements set forth in the HLS Spec in
 conjunction with the following deviations. In the event that it is not possible to adhere to the
 HLS Spec, Chief, HSD Operations Branch should be contacted to provide further guidance.
-
 
 OCS Authorized Deviations from the NAVOCEANO HLS Spec:
 3.1.1 Datum – Provide NAVOCEANO with data in NAD83 as opposed to WGS84.
@@ -5926,8 +5677,7 @@ transmissometers into the standard SeaBird CTD used by most NOAA Hydro platforms
 Acquire optical property data in conjunction with CTD casts as described in the HLS Spec once
 the equipment has been provided and personnel are trained on its use.
 
-
-Basic Water Level Station Equipment Checklist
+Basic Water Level Station Equipment Checklist
 Critical Information
 determine local magnetic variation at site:
 determine exact UTC time:
@@ -6045,7 +5795,7 @@ measuring tape
 camera (w/ extra batteries)
 handheld GPS
 
-UNITED STATES DEPARTMENT OF COMMERCE
+UNITED STATES DEPARTMENT OF COMMERCE
 National Oceanic and Atmospheric Administration
 National Ocean Service, Office of Coast Survey
 Navigation Services Division
@@ -6076,7 +5826,7 @@ LCDR Brent J. Pounds, NOAA
 Navigation Manager, Northeast Region
 NOAA Office of Coast Survey
 
- 
+ 
 
 UNITED STATES DEPARTMENT OF COMMERCE
 
@@ -6105,13 +5855,11 @@ The National Oceanic and Atmospheric Administration (NOAA) Ship Thomas Jefferson
 hydrographic survey operations in Block Island Sound and Long Island Sound that will take place during May –
 November, 2013.
 
-
  
 A map showing the planned survey area(s) is included on the following page. These planned survey operations
 are subject to change due to weather and logistical constraints. It is the intent of the NOAA to coordinate with
 local regulatory authorities and lobstermen so survey operations can be conducted with minimal interference to
 lobster fishing.
-
 
  
 A hydrographic survey of this type requires that Thomas Jefferson tow a side scan sonar towfish approximately
@@ -6121,7 +5869,6 @@ data of the bottom, delineating and obtaining least depths of potential hazards 
 data will be collected by two 29-foot aluminum survey launches. Please Note: These survey launches do not
 tow any sonar equipment. Their sonar equipment is rigidly mounted to the aluminum hulls.
 
-
  
 It is understood that a high density of pots may be in the area during the survey operations. The personnel of
 Thomas Jefferson will exercise every caution while surveying to avoid entanglement of lobster pots. If a lobster
@@ -6129,7 +5876,6 @@ pot does become entangled, Thomas Jefferson will immediately take action to stop
 lines from the sonar gear. In previous survey projects, coordination with local lobstermen allowed us to
 postpone certain areas of the survey knowing the lobster traps were to be moved at a later time frame. This
 coordination works out well for both survey operations and the lobstermen.
-
 
  
 If you have any questions on the survey operations or general comments on how we may approach an
@@ -6147,7 +5893,7 @@ Paul.Turner@noaa.gov
  
  
 
-MEMORANDUM
+MEMORANDUM
 TO:
 
 CAPT. Emily B. Christman
@@ -6186,11 +5932,9 @@ NOAA officer – or indeed any Federal employee – serving on a NOAA vessel whe
 are engaged in the performance of their duty. Such action is barred by the so-called
 “Supremacy Clause” of the U.S. Constitution:
 
-
 *Page 1*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 This question arose out of a situation near Cape Cod Bay, Massachusetts, where the NOAA Ship
 Thomas Jefferson is performing a survey mission. After local lobstermen complained of lost gear
@@ -6206,8 +5950,7 @@ Jefferson and arrest its Commanding Officer, our office was contacted to determi
 State, in fact, had authority to take such action. This situation is used as a case study in the
 following analysis.
 
-
-This Constitution, and the Laws of the United States which shall be made in
+This Constitution, and the Laws of the United States which shall be made in
 pursuance thereof; and all Treaties made, or which shall be made, under the
 Authority of the United States, shall be the supreme Law of the Land; and Judges
 in every State shall be bound thereby, any Thing in the Constitution or Laws of
@@ -6251,19 +5994,15 @@ authorized to do under Federal law? Many cases examining this question deal with
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 Neagle was a Federal marshal who was charged by the State of California for killing the attacker
 of a Federal judge whom Neagle was protecting pursuant to orders from his superiors. Neagle
 was discharged from State custody by a Federal writ of habeas corpus.
-
-
 
 *Page 2*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Federal law enforcement officials charged with (and held to have immunity from) State
+Federal law enforcement officials charged with (and held to have immunity from) State
 crimes such as murder 3 and bribery. 4 In one notable case, the Supreme Court affirmed
 the immunity of a Federal administrator of a disabled Civil War soldiers’ facility charged
 under State law with the offense of serving oleomargarine without posting notice of the
@@ -6303,31 +6042,23 @@ that he had no motive other than to discharge his duty under the circumstances a
 appeared to him and that he had an honest and reasonable belief that what he did was
 necessary in the performance of his duty …then he is entitled to the relief he seeks. This
 
-
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 See Neagle, supra.
-
-
 
 *Page 4*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 See, e.g., Baucom v. Martin, 677 F.2d 1346 (11th Cir. 1982).
-
-
 
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-is so even though his belief was mistaken or his judgment poor.” Petition of McShane,
+is so even though his belief was mistaken or his judgment poor.” Petition of McShane,
 235 F. Supp. 262, 274 (D. Miss. 1964). 5
 The U.S. Court of Appeals for the Ninth Circuit cited McShane repeatedly in 1977, in the
 case of a Federal agent who shot and killed a man fleeing an arrest scene. In finding the
@@ -6359,24 +6090,18 @@ OMAO employees aboard the Thomas Jefferson should be immune from seizure and
 prosecution for alleged violations of State law while conducting the Federally authorized
 survey of the Cape Cod Bay area.
 
-
-
 *Page 5*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 In McShane, a Federal marshal was charged under State law with ordering the use of tear gas on
 a crowd – an action the marshal felt was justified due to the perceived imminence of a riot.
-
-
 
 *Page 4*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-NY/NJ – APPROACHES TO PORT OF NEW YORK AND NEW JERSEY - NOAA
+NY/NJ – APPROACHES TO PORT OF NEW YORK AND NEW JERSEY - NOAA
 Hydrographic Survey Operations
 NOAA Ship Thomas Jefferson (S222) will be conducting hydrographic survey operations
 throughout the area south of Long Beach and Hempstead Bay from approximately 20 March
@@ -6389,7 +6114,7 @@ overview of the survey area is shown below; survey areas are numbered in order o
 
 Questions or concerns can be addressed to the ship’s Field Operations Officer via phone at: 757647-0187 or 808-434-2706; or via email at: ops.thomas.jefferson@noaa.gov.
 
-NY/NJ – APPROACHES TO PORT OF NEW YORK AND NEW JERSEY - NOAA
+NY/NJ – APPROACHES TO PORT OF NEW YORK AND NEW JERSEY - NOAA
 Hydrographic Survey Operations
 NOAA Ship Ferdinand R. Hassler (S250) will be conducting hydrographic survey operations in
 the approaches to the Port of New York and New Jersey from approximately 1 October 2013
@@ -6404,8 +6129,7 @@ An overview of the survey area is shown below; survey areas are numbered in orde
 Questions or concerns can be addressed to the ship’s Field Operations Officer via phone at: (603)
 812-8748 or via email at: ops.ferdinand.hassler@noaa.gov.
 
-
-Field Procedures Manual
+Field Procedures Manual
 National Oceanic and Atmospheric Administration, Office of
 Coast Survey
 
@@ -6427,8 +6151,7 @@ The Standard Operating Procedure’s (SOP’s) within the FPM Appendices are in 
 being transferred to the “Documents” section of the Hydroforum and the SOP’s will reside in
 both places for the remainder of the 2014 field season.
 
-
-DIVER LEAST DEPTH GAUGE MODEL III
+DIVER LEAST DEPTH GAUGE MODEL III
 
 GENERAL
 The MOD III Diver Least Depth Gauge (DLDG) consists of a Micro Gauge Corporation
@@ -6440,19 +6163,16 @@ software, Sea-Bird Electronics SEACAT CTD Profiler, and barograph. Neither the
 profiler nor the barograph is provided with the instrument; rather they must be
 resident on the ship.
 
-
 PHYSICAL FEATURES
 Figure 1 is a picture of the front of the enclosure of the MOD III DLDG. The face plate
 on the enclosure is clear to allow the LED display to be read (in this case, 14.51 psia).
-
 
 Figure 1
 
 Figure 2 also shows the front of a MOD III DLDG. Shown to its left is an InSitu
 MiniTroll instrument, a handheld absolute pressure gauge.
 
-
-Figure 2
+Figure 2
 
 The rear face of the MOD III enclosure contains the bulkhead electrical connector and the
 pressure port. There is a 7 cm vertical offset distance between the position of the
@@ -6473,9 +6193,8 @@ For the InSitu MiniTroll, the pressure port is 2.9 cm from the bottom tip of the
 The bottom tip is the end opposite the watertight screw cap covering the data port. The
 2.9 cm offset is applied as a correction by program VELOCWIN in the computation of
 
-the least depth. Therefore, for accurate results, the MiniTroll should be held upright with
+the least depth. Therefore, for accurate results, the MiniTroll should be held upright with
 the bottom tip of the wand placed on the user-determined least depth point.
-
 
 SOFTWARE
 The Diver submenu of program VELOCWIN provides two options to use in conjunction
@@ -6492,7 +6211,7 @@ record of the dive and the least depth result.
 
 Figure 3
 
-The Daily DQA option is a data quality assurance procedure for the DLDG. It prompts
+The Daily DQA option is a data quality assurance procedure for the DLDG. It prompts
 the user for the on-deck DLDG pressure in psia and the barograph reading in mbars.
 
 Using these values and the gauge’s calibration data, VELOCWIN determines if the
@@ -6507,13 +6226,11 @@ of the gauge (example: 68332.CAL). The default location for this file is C:\VELO
 the directory of program VELOCWIN. If it is stored elsewhere, VELOCWIN will
 prompt the user for the location.
 
-
 DATA QUALITY ASSURANCE
 The DAILY DQA option requires that the on-deck DLDG pressure be entered in psia to
 two decimal places and the barograph reading be entered to the nearest millibar.
 
-
-The LED readout is absolute pressure in units of pounds per square inch. This on-deck
+The LED readout is absolute pressure in units of pounds per square inch. This on-deck
 reading should be in the region of 14.70 psia. The reading will rise and fall with the local
 atmospheric pressure, along with variations in the distance below the water surface. The
 nominal depth equivalent of a 0.01 psia change in pressure is 0.5 cm. If the gauge is
@@ -6531,7 +6248,6 @@ number, is employed by the VELOCWIN program to achieve high accuracy results. Th
 data quality assurance test might not indicate an exact one-to-one relationship with the
 ship’s barograph, but the relationship should be reasonable and regular and fall within the
 acceptance bounds shown in the DAILY DQA graphical display.
-
 
 DIVE OPERATION
 As shown in Figures 1 and 2, the handle is attached to the gauge such that the unit must
@@ -6559,7 +6275,7 @@ unit out of the water and appropriately recorded. A diver will carry the unit on
 to locate and measure the least depth on a designated object. The accurate least depth is
 determined via head pressure at the diver-designated least depth point, in conjunction
 
-with the knowledge of the local vertical density profile. The head pressure is the
+with the knowledge of the local vertical density profile. The head pressure is the
 difference between the on-deck (pre-dive) pressure reading and the pressure observed by
 the diver at depth. The density of the water column is obtained from the Sea-Bird
 SEACAT CTD cast taken in the vicinity. Running the Least Depth Report option of
@@ -6569,7 +6285,6 @@ Upon completion of a day’s dive operations, the Diver Least Depth Gauge must b
 washed with fresh water and wiped dry. The underwater plug must be removed from the
 rear of the gauge and stored in a safe place. Finally, the battery charger should be
 connected to the gauge being careful of the connector orientation.
-
 
 SUPPORTING DATA
 The local density profile must be independently measured in the vicinity of the dive site
@@ -6594,7 +6309,6 @@ accommodate deep dives). HSTP provides the extended calibration curve as a digit
 named SN.CAL where SN is the DLDG serial number. The file is disseminated to all
 field units.
 
-
 CALIBRATION GUIDELINES
 The gauge contains a 100 psia pressure transducer. Calibration between approximately
 13 and 50 psia is critical for accurate least depth measurements. A data set of fourteen
@@ -6602,7 +6316,7 @@ points, with the first point being below ambient pressure, the next point at amb
 pressure, the next seven points at 1 psia increments above ambient pressure, and the
 remaining points at 5 psia increments will insure sufficient accuracy. Replacing
 
-exhausted batteries will not effect calibration; however, any circuit repairs will require
+exhausted batteries will not effect calibration; however, any circuit repairs will require
 complete gauge calibration.
 
 Calibration is performed by:
@@ -6618,8 +6332,7 @@ be noted to the Marine Center and arrangements made for the gauge to be replaced
 repaired. In addition, inform the Marine Center if any other irregular performance of the
 DLDG arouses suspicion.
 
-
-HORCON/VERCON OBSERVATION LOG
+HORCON/VERCON OBSERVATION LOG
 DATE:
 
 PROJECT NAME:
@@ -6688,6 +6401,7 @@ PDOP
 
 LOCAL TIME
 
+
 # of SV’s
 
 POWER
@@ -6707,14 +6421,12 @@ MONUMENT RUBBING / DESCRIPTION
 
 (m)
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
-
 
 *Page 1*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 The following instructions are the standard basic setup guidelines for HYPACK and
 HYSWEEP devices. Depending on the survey vessel equipment, there may be additional
@@ -6741,44 +6453,39 @@ POS M/M POSView software: 3, 7, 10, 20 and 102. These are the only messages that
 Hypack/Hysweep will read from the POS Ethernet feed. Any other messages can be
 turned on, but will be ignored by Hypack/Hysweep.
 
-
 2. Hypack Survey Setup
 2.1
 
 Starting a new Project
- In the main map viewer window: Select File > Project Manager
+ In the main map viewer window: Select File &gt; Project Manager
  Select New Project – Name accordingly based on accepted naming convention.
 
 All data will be stored in this project directory unless changed by the surveyor.
 
 NOTE: Hypack will use the device configuration of the last loaded project.
 
-
 2.2
 
 Setting the Geodetic Parameters
-• When creating a new project, it is very important to set the correct geodetic
+* When creating a new project, it is very important to set the correct geodetic
 parameters, including the UTZ zone and the ellipsoid for the survey area.
 
-• Click on the “world” icon in the main toolbar to access the geodetic parameters.
+* Click on the “world” icon in the main toolbar to access the geodetic parameters.
 
-• Select the appropriate grid (UTM North) and zone for the survey area
-• Choose the GRS-1980 ellipsoid. This is the proper ellipsoid for the NAD-83
+* Select the appropriate grid (UTM North) and zone for the survey area
+* Choose the GRS-1980 ellipsoid. This is the proper ellipsoid for the NAD-83
 datum. See Image 2.
 
-• Also confirm that the distance and depth units are set to meters.
-
+* Also confirm that the distance and depth units are set to meters.
 
 Image 1- Toolbar
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
-
 
 *Page 2*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Image 2 – Geodetic Parameters
 2.3
@@ -6788,55 +6495,50 @@ Any sensor that needs to be recorded in Hypack must to be added in the Hypack
 Hardware window. To access Hypack Hardware, click on the “computer chip” button
 on the main toolbar. See Image 3.
 
-
 Image 3
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
-
 
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 Click on the Add Device button in the main Hypack Hardware window. The following
 devices are commonly used in Hypack Hardware:
 2.3.1 Applanix POS M/V Network (posmv.dll)
 a. Enable the following in the ‘Functions’ box:
-• Position
-• Heading
-• Speed
-• Heave (actually Heave, Pitch and Roll)
+* Position
+* Heading
+* Speed
+* Heave (actually Heave, Pitch and Roll)
 b. Set the following parameters for the physical connection to the POS M/V:
-• Connect – Network Port
-• Protocol – UDP
-• Role – Client
-• Host – 129.100.1.231 (this is the default IP address of the POS M/V unit. This
+* Connect – Network Port
+* Protocol – UDP
+* Role – Client
+* Host – 129.100.1.231 (this is the default IP address of the POS M/V unit. This
 number may be different if it was altered in the POSView software)
-• Port – 5602 for both read and write
+* Port – 5602 for both read and write
 c. Click the Setup button
-• The “Use PPS signal for timing” should be unchecked
-• It is VERY IMPORTANT to ensure that the “Use POS M/V time-tags even
+* The “Use PPS signal for timing” should be unchecked
+* It is VERY IMPORTANT to ensure that the “Use POS M/V time-tags even
 when not synchronizing" box is checked. This allows the use of the raw POS
 M/V time tags for position and motion data.
 
-• Select the following options:
+* Select the following options:
 o Record multibeam frame data (group 102)
 o Get heave from group 102
 o Get solution status from group 20
-• Leave other options as default. See Image 4 and 5 below for details
+* Leave other options as default. See Image 4 and 5 below for details
 
 Image 4 –POS M/V device
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
-
 
 *Page 4*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Image 5 – POS M/V Setup options
 2.3.2 Hysweep Interface (HYSWEEP.dll)
@@ -6848,17 +6550,14 @@ b. In the Functions box, Depth should be the only box enabled
 c. In the Options box, “Use for Matrix Update” should be enabled. This will allow
 real-time coverage matrices to be displayed in the main Hypack map window.
 
-
 Image 6 – Hysweep Interface
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
-
 
 *Page 5*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 2.3.3 AIS (ais.dll)
 a. If the survey vessel is equipped with an AIS receiver, it can be interfaced with
@@ -6881,18 +6580,15 @@ used for dual frequency units. See Image 7.
 e. The Function for the echosounder should be set to Depth, and the paper annotation
 should be enabled.
 
-
 Image 7 – Odom Setup
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
 2.4
-
 
 *Page 6*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Hypack Configuration – Clock Synchronization
 
@@ -6902,11 +6598,9 @@ synchronization. This action will synch the PC clock to GPS time coming from the
 POS M/V or other GPS device. If any device is integrated in Hypack that is not timed
 externally, device messages will be stamped upon arrival in the Hypack program.
 
-
 
 
 Normally the POS M/V device is used for clock synchronization. See Image 8.
-
 
 Image 8 – Setting Clock Synch
 2.5
@@ -6923,15 +6617,13 @@ Image 9. (This offset is for display only)
 
 Image 9 – Boat Configuration
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
 2.6
-
 
 *Page 7*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Device Testing
 
@@ -6948,7 +6640,6 @@ The most important device to check in Hypack Hardware is the Applanix POS M/V.
 Since this sensor provides navigation. Attitude and timing information, it is essential
 that Hypack is receiving all data properly.
 
-
 2.6.1
 
 Click on the Test button in the POS M/V device to access the hardware test
@@ -6957,7 +6648,6 @@ screen.
 a. Ensure that all of the categories are populated, changing and seem to be correct.
 
 See image 10 below.
-
 
 Image 10 – POS M/V device testing
 b. IIN Mode – The following are a list of possible codes you may see in the “IIN”
@@ -6969,31 +6659,25 @@ with DGPS corrector feed into the POS M/V unit. If DGPS is not available in the
 survey area, RTCM may not be displayed. “No Solution” should never be
 displayed.
 
-
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
-
 
 *Page 8*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 c. Time source – Group 7 – ensures that you have your Hypack Configuration
 
 Device to sync set correctly. The following is a list of other possible messages that
 may appear in Time Source:
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
 3.
-
-
 
 *Page 9*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Hysweep Survey Configuration
 Hysweep has a separate set of devices that must be setup. These devices will share
@@ -7026,14 +6710,12 @@ Enabled box should be checked
 Port number will be 5602
 Internet address of the POS M/V PCS unit (usually 129.100.1.231)
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
-
 
 *Page 1*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Image 11 – POS M/V connection parameters
 3.1.3
@@ -7057,14 +6739,12 @@ every time the Hypack/Hysweep line is logged. See Image 12 below
 
 Image 12 – Reson 7125 Setup
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
-
 
 *Page 1*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 b. Under the Connect tab, the following options should be completed:
  Enabled box should be checked
@@ -7075,18 +6755,16 @@ for every Reson7125)
 
 Image 13 – Reson 7125 Connect Tab
 
-NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
+NOAA FIELD UNITS HYPACK / HYSWEEP DEVICE SETUP SOP
 HYPACK 2013 – Updated April 2013
 
 Image 14 - General Data flow concept for Reson 7125 and Hypack/Hysweep
-
 
 *Page 1*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Standing Project Instructions
+Standing Project Instructions
 for Coastal and Great Lakes Water Level Stations
 Updated August 2011
 
@@ -7095,9 +6773,9 @@ Center for Operational Oceanographic Products and Services
 National Ocean Service
 National Oceanic and Atmospheric Administration
 
-This page left intentionally blank
+This page left intentionally blank
 
-Table of Contents
+Table of Contents
 1 
 
 INTRODUCTION .................................................................................................................. 1 
@@ -7146,19 +6824,18 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page i 
 
-NOTICE
+NOTICE
 Mention of a commercial company or product does not constitute an endorsement by NOAA.
 
 Use of information from this publication for publicity or advertising purposes concerning
 proprietary products or the tests of such products is not authorized.
-
 
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page ii 
 
-1
+1
 
 INTRODUCTION
 
@@ -7175,28 +6852,13 @@ Ocean Service (NOS) is an organizational element of NOAA. We operate and maintai
 network of 210 long-term water level measurement stations as part of the National Water Level
 Observation Network (NWLON) around the coastal United States and the Great Lakes. The
 NWLON supports the following four NOAA Mission Goals:
-•
-•
-•
-•
-
-Healthy Oceans
+* * * * Healthy Oceans
 Climate Adaptation and Mitigation
 Weather Ready Nation
 Resilient Coastal Communities and Economies
 
 CO-OPS also installs and operates short-term water level stations in support of programs such as:
-•
-•
-•
-•
-•
-•
-•
-•
-•
-
-Hydrographic and Photogrammetric Surveys
+* * * * * * * * * Hydrographic and Photogrammetric Surveys
 Marine Boundary Determinations
 Treaty Regulation
 Harbor Dredging
@@ -7219,7 +6881,6 @@ flood and tsunami warning responsibilities.
 Enhance navigation through a national network of Physical Oceanographic Real-Time
 Systems (PORTS®) in major U.S. harbors.
 
-
 PORTS® is a partnering effort based on the collaboration between NOS and local maritime
 communities to identify and satisfy user needs for improving the safety and efficiency of
 maritime commerce and coastal resource management through the integration of real-time
@@ -7229,7 +6890,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 1 
 
-different sizes and configurations, each designed to meet local user requirements. PORTS®
+different sizes and configurations, each designed to meet local user requirements. PORTS®
 includes sensors, hardware, and associated communications systems which allow the centralized,
 real-time data acquisition and dissemination of water levels, currents, and other oceanographic
 and meteorological data. The modular design of each PORTS® installation allows the straight
@@ -7259,7 +6920,6 @@ Produces and disseminates oceanographic products.
 
 Archives the resulting oceanographic data.
 
-
 These Standing Project Instructions provide the recurring requirements for installation,
 operation, maintenance, and removal of water level stations in support of the NWLON,
 PORTS®, Coastal Oceanographic Applications and Services of Tides and Lakes (COASTAL)
@@ -7282,11 +6942,9 @@ National Weather Service tsunami and storm surge warning programs
 Coastal resource restoration and management
 Long term sea level trend analyses.
 
-
 The objective of these Standing Project Instructions is to ensure that all the deployed systems
 and sensors are maintained in an effective and consistent manner for collecting continuous,
 reliable, and defect-free data.
-
 
 1.1 General Data and Reference Datum Requirements
 The NOAA Nautical Chart Reference Datum for tidal waters is Mean Lower Low Water
@@ -7299,7 +6957,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 2 
 
-to these datums.
+to these datums.
 
 In cases where historical sites are re-occupied, every effort shall be made to collect the new data
 series on the historical Station Datum (SD). In that case, data can be acquired relative to MLLW
@@ -7317,7 +6975,6 @@ locations.
 Leveling and GPS connections to geodetic datums are made at each water level station, as
 described in Section 3.6 Geodetic connections.
 
-
 1.2 Reference Documents
 The following reference documents are referred in various sections of the Standing Project
 Instructions.
@@ -7326,7 +6983,6 @@ Instructions.
 
 “NGWLMS Site Design, Preparation, and Installation Manual (NGWLMS Manual),
 January 1991".
-
 
 (2)
 
@@ -7337,51 +6993,43 @@ January 1991".
 “User’s Guide for the Installation of Bench Marks and Leveling Requirements for Water
 Level Stations, October 1987”.
 
-
 (4)
 
 “User's Guide For Electronic Levels with Translev and Windesc, Updated September
 2010”.
 
-
 (5)
 
 “User’s Guide for Writing Bench Mark Descriptions, Updated January 2011”.
-
 
 (6)
 
 “User’s Guide for GPS Observations at Tide and Water Level Station Bench Marks,
 Updated December 2009”.
 
-
 (7)
 
 “CO-OPS GPS Observations Implementation Plan, January 2003”.
-
 
 (8)
 
 “CO-OPS Specifications and Deliverables for Installation, Operation, and Removal of
 Water Level Stations, November 2008”.
 
-
 (9)
 
 “Barometer Calibration Guidelines, Updated November 2008”.
 
-
 (10) “Sutron Accubar Barometer Field calibration Procedures, Updated February 2008”.
 
 (11) “Wind Sensor Alignment Procedure for the R. M. Young Wind Sensors, October 2005”.
-
 
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 3 
 
-(12) “Guidelines for Meteorological Sensors Siting and Meteorological Sensors Height
+(12) “Guidelines for Meteorological Sensors Siting and Meteorological Sensors Height
 Measurements, Updated January 2011”.
 
 (13) “CO-OPS Water level and Meteorological Site Reconnaissance Procedures, Updated May
@@ -7439,13 +7087,12 @@ Xterm” October 15, 2007.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 4 
 
-2
+2
 
 REQUIREMENTS FOR RECONNAISSANCE, INSTALLATION,
 OPERATION, MAINTENANCE, AND REMOVAL OF WATER LEVEL
@@ -7459,11 +7106,9 @@ tasks: reconnaissance, installation, maintenance, repair, or removal of a water 
 installer could be CO-OPS personnel, NOAA ship personnel, Office of Coast Survey (OCS)
 Navigational Response Teams (NRT), other NOAA personnel, or contractors.
 
-
 2.1 Reconnaissance
 The reconnaissance of water level and meteorological stations shall be performed in accordance
 with Reference 13.
-
 
 2.2 Water Level Sensor Specifications
 The following sections provide the sensors and specifications that are used at CO-OPS water
@@ -7500,7 +7145,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 5 
 
-The sensor measurement range shall be greater than the expected range of water level and the
+The sensor measurement range shall be greater than the expected range of water level and the
 installation shall be designed to measure the full range of extreme water level such as highest
 observed and lowest observed water level data (100 years, if available). The highest observed
 may have an additional wave allowance value added as determined by ED.
@@ -7554,7 +7199,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 6 
 
-At tidal water level stations, the redundant water level bubbler orifices shall be secured
+At tidal water level stations, the redundant water level bubbler orifices shall be secured
 structurally independent of the primary water level sensors (i.e. on a separate piling, etc). At
 Great Lakes stations, the Waterlog shaft angle encoder (SAE) shall be set to read the same as the
 Electric Tape Gauge (ETG) and the primary SAE.
@@ -7582,7 +7227,6 @@ minute tsunami data (tsu1min.log), and system log data shall be collected accord
 Engineering Bulletin 09-003 dated November 13, 2009. This Bulletin is available on the ROS
 Wiki Page and can be made available for contractors on request, if applicable.
 
-
 2.3 Data Collection Platform
 The primary Data Collection Platform (DCP) shall acquire and store water level measurements
 every 6 minutes. The water level measurements shall consist of an average of three minutes of
@@ -7600,13 +7244,12 @@ samples with the period of the average centered about the six minute mark (i.e. 
 The primary and redundant DCP, where applicable, shall have a capacity to store at least 30 days
 of 6 minute water level data and meteorological sensor data, if applicable.
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 7 
 
-2.4 GOES Satellite Transmissions
+2.4 GOES Satellite Transmissions
 The ability to monitor water level measurement system performance for near real-time quality
 assurance is essential for operations. Water level data transmitted via satellite in NOS format is
 retrieved and monitored by CO-OPS, and in the case of data gaps, sensor, or gauge problems,
@@ -7633,7 +7276,6 @@ the clock accuracy of a satellite radio system shall be within 5 seconds per mon
 water level gauges so that adjacent satellite channel overlapping does not occur. Non-satellite
 radio systems shall have a clock accuracy of better than one minute per month.
 
-
 2.5 Data Transmission Initiation and Station Database Configuration
 Requirements
 The CO-OPS’ Engineering Division (ED) Operational Engineering Team (OET) maintains the
@@ -7654,11 +7296,10 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 8 
 
-4465 or 301-713-4435, or e-mail address at nos.coops.oetteam@noaa.gov. Requests for GOES
+4465 or 301-713-4435, or e-mail address at nos.coops.oetteam@noaa.gov. Requests for GOES
 platform IDs shall be submitted to OET at least 15 days before throughput testing to allow
 sufficient time to receive radio frequency assignments. Refer to Reference 32 for procedures on
 requesting a platform ID.
-
 
 Critical Information required
 for water level station database
@@ -7680,7 +7321,6 @@ entered in the DCP for acoustic
 sensor; and orifice offset(s) for
 pressure sensors.
 
-
 Prior to the installation of a station and initiation of GOES
 data transmissions from the field, critical information that
 is needed for database configuration shall be emailed or
@@ -7689,7 +7329,6 @@ information required for station database configuration in
 the CO-OPS DMS. Test transmissions monitored by the
 installer during the field unit installation may be
 conducted outside this requirement.
-
 
 This station information must be configured in DMS for data to be accepted in DMS. Whenever
 possible, within 24 hours after reporting the above basic information and before the complete
@@ -7712,7 +7351,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 9 
 
-CO-OPS has developed a web-based electronic site report (E-Site Report) that interacts with
+CO-OPS has developed a web-based electronic site report (E-Site Report) that interacts with
 DMS. Refer to Reference 27 and 28 for the User’s Guide and the SOP for using the E-Site
 report.
 
@@ -7751,7 +7390,6 @@ After the maintenance is completed
 When a station is installed
 When a station is removed.
 
-
 The above procedure must be followed. If this procedure is not followed in timely fashion prior
 to beginning of data transmission, data losses may occur. When the station sensors are properly
 configured in DMS, the data is accessible through the CO-OPS’ web site at
@@ -7768,7 +7406,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 10 
 
-2.6 Station Installation
+2.6 Station Installation
 The installation of water level station DCPs and sensors shall be accomplished according to
 Reference 1, Reference 2, and the manufacturer’s instructions, as applicable. Nearly all of the
 NWLON stations have the Sutron Xpert System (Xpert DCP and Xpert Dark as redundant DCP)
@@ -7817,7 +7455,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 11 
 
-indicate the station number and the type of photo taken. For example, the acoustic sensor photo
+indicate the station number and the type of photo taken. For example, the acoustic sensor photo
 for DCP1 at Los Angeles shall be named as 94106601 sensor A1.jpg.
 
 The station components and bench mark photographs are required when a new station is
@@ -7865,7 +7503,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 12 
 
-A completed water level measurement station installation consists of the following:
+A completed water level measurement station installation consists of the following:
 e) The installation of the water level measurement system (water level sensor(s), primary
 and redundant DCP as appropriate, satellite transmitter, ancillary sensors if applicable,
 other equipment as necessary and its supporting structure, and a staff (if required), as
@@ -7892,7 +7530,6 @@ timelines, documentation, and points of contacts).
 The installer shall follow the appropriate sections of the SOP-06-001 as referenced in the
 Reference 24.
 
-
 2.7 Station Maintenance Requirements
 Water level station standard annual maintenance shall be accomplished in accordance with the
 Appendix F of Reference 1, and the most recent version of the AI checklist, or as instructed by
@@ -7909,13 +7546,12 @@ CO-OPS contractors, Navigational Response Teams (NRT), or NOAA Ships install the
 subordinate water level gauges. CO-OPS shall not monitor the subordinate stations installed for
 NOAA contract hydrographic/photogrammetric survey projects by NOAA contractors.
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 13 
 
-This monitoring can be performed by accessing the CO-OPS web page
+This monitoring can be performed by accessing the CO-OPS web page
 (http://tidesandcurrents.noaa.gov). The data over the web are typically available for review
 within one to four hours after the configuration of the DCP and sensors in DMS during the
 normal business hours, after the installations of the DCPs and sensors in the field, and once data
@@ -7961,13 +7597,12 @@ Approved primer and anti-fouling paint shall be used on all new protective wells
 protective fiberglass/PVC components that will be in water, excluding the acoustic sensor
 calibration/sounding tube.
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 14 
 
-For dual orifice pressure sensor configurations, the vertical stability and elevation to the leveling
+For dual orifice pressure sensor configurations, the vertical stability and elevation to the leveling
 points from each orifice shall be verified, including the distance between the two orifices. To do
 so measure the elevation of each orifice to the staff-stop using a steel tape graduated in
 millimeters. Two independent readings shall be taken and they should not vary more than 3 mm,
@@ -8008,13 +7643,12 @@ Proper NOAA identification emblems with an emergency phone number 1 (800)367-662
 be placed on all water level gauge house doors or shelters. Emblems which are unreadable
 should be replaced.
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 15 
 
-A completed station visit for maintenance (scheduled or emergency) consists of the following:
+A completed station visit for maintenance (scheduled or emergency) consists of the following:
 a) The maintenance or repair of the water level measurement system (water level sensor(s),
 primary and redundant DCP as appropriate, satellite transmitter, ancillary sensors if
 applicable, other equipment as necessary and its supporting structure, and a staff if
@@ -8053,13 +7687,12 @@ measure and disseminate real-time water level and meteorological observations. A
 information helps coastal authorities prepare for, mitigate, and respond to storm tides generated
 by severe coastal storms.
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 16 
 
-The following are the additional maintenance requirements for the NOAA Sentinel stations
+The following are the additional maintenance requirements for the NOAA Sentinel stations
 currently installed in the Gulf of Mexico:
 Every Year:
 
@@ -8069,7 +7702,6 @@ excess corrosion and inability to remove fasteners. Provide measurements of the 
 cross sectional area of the anode. Provide underwater photos of the anode and close-ups
 of any excessive anode shrinkage or attachment point corrosion.
 
-
 Every 2 years:
 
 
@@ -8077,29 +7709,24 @@ Inspect all painted surfaces for rust. Document significant rust areas in the Ex
 areas shall be added to the following year’s project instructions along with procedures for
 coating repair.
 
-
 
 
 Inspect all galvanized surfaces for rust. Document significant rust areas in the Excel or ESite station report and provide photos of the occurrences. Repair spot rust with a wire
 brush and cold galvanizing.
-
 
 
 
 Inspect all welds for rust and cracks. Provide photos and document excessive rust and
 cracks.
 
-
 
 
 Check all fasteners on the protective well clamps, including half moon clamps, adjustable
 arms, and attachment to clamp brackets. Tighten if loose.
 
-
 
 
 Check the fasteners holding the solar panel mount to the railing. Tighten if loose.
-
 
 
 
@@ -8108,41 +7735,35 @@ grating. Also check the bracketing system along the upper portion of the enclosu
 
 Tighten if loose.
 
-
 
 
 Check all fasteners on the Rohn tower. Tighten if loose.
-
 
 
 
 Examine the underside of the high platform. Inspect the high platform bridge bolts for
 looseness and rust. Document and tighten any loose bolts.
 
-
 
 
 Examine the galvanized conduit for rust and cracks. Check also for water in the conduit
 entering the bottom of the enclosure.
-
 
 
 
 Examine the solar panel and Rohn tower flexible conduits for cracks and loose
 fitting/tubing connections.
 
-
 
 
 Grease the davit and winch. Examine for corrosion.
-
 
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 17 
 
-Every 5 Years:
+Every 5 Years:
 
 2.7.2
 
@@ -8166,11 +7787,9 @@ computing the water level reading, is 90 seconds before and after the allotted 6
 interval. Also check to see that the float tape length has been installed such that the float
 neither tops out nor the counterweight bottom out before reaching its extreme limitations.
 
-
 
 
 The float shall be inspected for corrosion and leaks; replace as necessary.
-
 
 
 
@@ -8180,7 +7799,6 @@ the inspection sheet and on a tag placed on the valve handle. Also note the diff
 turning the valve such that it can be predicted when the valve would become unusable
 and need replacement.
 
-
 
 
 A water level transfer (inside/outside check) shall be performed at each station and
@@ -8188,7 +7806,6 @@ documented on the Site Report. The inside/outside water level must agree to with
 m. The best time to perform a transfer is in the early morning or late evening when the
 water level is most calm. The above procedure must be followed and actions taken to
 correct any discrepancies.
-
 
 
 
@@ -8198,31 +7815,27 @@ where the water level can no longer be measured accurately. If the intake has a 
 at the end this measurement should be taken at the lowest point in the curve at the top of
 the gooseneck, not the opening.
 
-
 
 
 Install rubber flaps over all locks on gauge shelters for protection against the weather.
 
 The locks shall be inspected and lubricated to enable easy access.
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 18 
 
-
+
 
 Check gauge houses inside, outside, and around the doorframe for openings in the mortar
 and caulk as required. Submit a statement of work to FOD for any work recommended
 for completion by a contractor.
 
-
 
 
 Check gauge house structure, door, and frame for rust and paint chips. Scrape and paint
 as necessary.
-
 
 2.8 Ancillary Sensor Metadata
 The meteorological sensor site selection and measurement guidelines are listed in Reference 12.
@@ -8252,19 +7865,16 @@ Air temperature
 Center of the sensor above the station datum and above ground to the
 nearest +/- 15 centimeter.
 
-
 Water temperature
 
 Center of the sensor above the station datum as derived from subtracting
 the distance from the leveling point to the center of the sensor from the
 C2 value, to the nearest centimeter.
 
-
 Barometric pressure
 
 Surface of the pressure port above MSL (see Barometer Calibration
 Guidelines) to the nearest +/- 15 centimeter.
-
 
 Wind
 Speed/Direction/Gust
@@ -8273,28 +7883,24 @@ Center of the sensor above the station datum and above ground to the
 nearest +/- 15 centimeter. Note any major physical obstructions in the
 vicinity of the sensor.
 
-
 Conductivity
 
 Center of the loop above the station datum to the nearest centimeter.
-
 
 Relative humidity
 
 Center of the sensor above the station datum and above the pier/ground
 surface to the nearest centimeter.
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 19 
 
-Air gap
+Air gap
 
 Sensor zero above the station datum as determined from trigonometric
 levels to the nearest centimeter.
-
 
 2.9 Obtaining and Recording Positions of Stations, DCP, Sensors, and Bench
 Marks Using a Hand-Held GPS Receiver
@@ -8329,7 +7935,6 @@ CO-OPS have quadrifilar antennas.
 Take a digital photo of the GPS unit display for each location acquired. This will insure
 verification of the latitude and longitude that is entered into the Excel and E-Site reports.
 
-
 2.10 Gauge Removal
 The installer shall remove a water level station, if required, and as specified in the Annual
 Station Specific Requirements, or as specified in the contract documents. A complete removal of
@@ -8342,7 +7947,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 20 
 
-b) Removal of the water level measurement system and restoration of the premises,
+b) Removal of the water level measurement system and restoration of the premises,
 assuming reasonable wear and tear. The property owner shall be notified prior to removal
 and thanked for supporting our programs.
 
@@ -8361,13 +7966,12 @@ timelines, documentation, and points of contacts).
 e) Return of all government equipment to appropriate supporting CO-OPS’ FOD field
 office(s) in timely fashion within 15 days of station removal.
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 21 
 
-3
+3
 
 BENCH MARKS AND LEVELS
 
@@ -8387,7 +7991,6 @@ marks are not published by CO-OPS.
 Bench mark descriptions shall be written in accordance with Reference 5 for bench marks that
 are connected using the optical levels, where electronic levels are not used, or as specified in the
 contract documents.
-
 
 3.2 Bench Marks
 Unless specified otherwise in the work order or contract documents, the total number of bench
@@ -8419,7 +8022,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 22 
 
-additional photos needed to achieve a complete photo gallery of each mark.
+additional photos needed to achieve a complete photo gallery of each mark.
 
 If a bench mark is discovered disturbed or mutilated during the visit to a station, include it in the
 level run to determine if it is holding its elevation relative to the PBM and report it to ED and the
@@ -8440,7 +8043,6 @@ leveling network.
 
 Digital photographs of bench marks shall be taken as described in Section 2.7 Station
 Installation.
-
 
 3.3 Levels
 All leveling shall be performed with electronic/barcode systems, to either Second Order, Class I
@@ -8468,7 +8070,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 23 
 
-submit leveling data to NGS. NGS training is available if needed. These NGS programs are
+submit leveling data to NGS. NGS training is available if needed. These NGS programs are
 available online at http://www.ngs.noaa.gov/PC_PROD/pc_prod.shtml.
 
 CO-OPS will provide appropriate training to contractors in the use of the Windesc and Translev
@@ -8518,7 +8120,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 24 
 
-exceeding 0.006 meters indicates a possible restriction in flow, which must be corrected. This
+exceeding 0.006 meters indicates a possible restriction in flow, which must be corrected. This
 instruction must be recognized and initialed. Note: this procedure can best be accomplished in
 early morning or late evening when the water is most likely to be calm.
 
@@ -8571,7 +8173,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 25 
 
-to the AQLP. If this is not possible, another TBM at the deck level of the Sentinel or elevated
+to the AQLP. If this is not possible, another TBM at the deck level of the Sentinel or elevated
 platform shall be chosen, then named and described per Reference 5, again with care to include
 the point of measurement in the description. This “deck” TBM shall be connected to the AQLP
 using standard leveling procedures.
@@ -8603,7 +8205,6 @@ In addition, there have been several new water level TBMs added that are standar
 following table. Use the designations below to correctly identify the orifice and microwave water
 level leveling point at a water level station. Due to the character limitations in WinDesc and
 Translev, it may be also be necessary to assign an alias.
-
 
 TBM xxx xxxxx Single Orifice LP
 
@@ -8647,12 +8248,11 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 26 
 
-*For Dual Paros installations sharing the orifice LP use the designation TBM xxx xxxxx Dual
+*For Dual Paros installations sharing the orifice LP use the designation TBM xxx xxxxx Dual
 Orifice LP.
 
 **For Dual Paros installations with separate orifice LPs for the upper and lower orifice, use the
 designations TBM xxx xxxxx Upper Orifice LP and TBM xxx xxxxx Lower Orifice LP.
-
 
 3.4 Datum Offsets and Accepted Orifice Offset
 The leveling connection to an acoustic sensor shall be done at the AQLP. The AQLP is defined
@@ -8697,7 +8297,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 27 
 
-number, for example: 1.53455 is rounded to 1.5346. A note shall be made to the effect that the
+number, for example: 1.53455 is rounded to 1.5346. A note shall be made to the effect that the
 existing Datum Offset was retained in the DCP, or the new Datum Offset was entered with date
 and GMT time it was entered. When new Datum Offset is entered into the DCP, additional
 notification is required as listed below under Section 3.5 Movement. For stations that have the
@@ -8742,13 +8342,12 @@ sensor(s) installed, upon initial inspection of the station, if the installer su
 the orifice(s), then leveling shall be done twice, once before disturbing the orifice(s) and then
 after repositioning/securing of the orifice(s).
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 28 
 
-3.5 Movement
+3.5 Movement
 The movement of an entity, such as (a) AQLP, (b) pressure orifice zero, or (c) bench mark is
 defined as change in elevation of the entity in excess of 0.0060 m (0.020 foot) as obtained by
 comparing the current difference in elevation of the entity with PBM, with the previous
@@ -8777,7 +8376,6 @@ the Datum Offset is changed in the DCP, or the accepted orifice offset has chang
 supporting FOD field office within 24 hours of the change. Contact information for FOD field
 offices are listed in Section 4.2.3.
 
-
 3.6 Geodetic Connections
 Water level datums are local vertical datums which may vary considerably within a geographical
 area. A geodetic datum is a reference surface relative to which heights are determined. The North
@@ -8796,7 +8394,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 29 
 
-is either not recovered or not used in the survey/project, a separate report shall be made using the
+is either not recovered or not used in the survey/project, a separate report shall be made using the
 NGS on-line Mark Recovery Entry Form at http://www.ngs.noaa.gov/ngs-cgibin/recvy_entry_www.prl
 The connection to geodetic datums involves the following three leveling ties:
 1) NAVD88 Level Tie
@@ -8843,7 +8441,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 30 
 
-how to perform a valid level tie. The information in User’s Guide is easier to follow as it is
+how to perform a valid level tie. The information in User’s Guide is easier to follow as it is
 written in layman’s terms.
 
 The Second-Order, Class 1 tie is a requirement for digital levels to be accepted into the NGS
@@ -8896,7 +8494,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 31 
 
-3.6.3
+3.6.3
 
 GPS Connections
 
@@ -8909,13 +8507,12 @@ GPS connections involve the following two ties:
 2) NAVD88 GPS Tie
 The required “NAD 83 GPS Tie” and “NAVD GPS Tie” are described in Reference 6.
 
-
 Standing Project Instructions for Coastal and
 Great Lakes Water Level Stations, Updated August 2011 
 
 Page 32 
 
-4
+4
 
 SCHEDULE, REPORTS, AND DELIVERABLES
 
@@ -8934,7 +8531,6 @@ Contracting Officer’s Representative (COR) or CO-OPS.
 Operations related to the indicated work in the station specific annual project instructions, or task
 orders, shall be discussed in a monthly activities report, or as specified in the contract
 documents.
-
 
 4.2 Deliverables – Timelines, Documentation, and Points of Contacts
 4.2.1
@@ -8956,7 +8552,6 @@ Completion of emergency maintenance;
 Completion of check levels; or
 Removal of a water level station.
 
-
 The purpose of the one-day draft E-Site Report submission requirement is to:
 1) Standardize the requirements for all of CO-OPS’ field efforts;
 2) Provide feedback by OET to the Installer while at the site, so that critical information is
@@ -8972,7 +8567,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 33 
 
-scheduled maintenance, emergency maintenance and removal of a water level station, where COOPS is expected to receive and/or process the data.
+scheduled maintenance, emergency maintenance and removal of a water level station, where COOPS is expected to receive and/or process the data.
 CO-OPS has developed a web-based electronic site report (E-Site Report) that interacts with
 DMS. Refer to Reference 28 and 29 for Users Guide and SOP for use of E-Site report. The
 Installer shall follow the SOP for using the E-Site report as described in reference 29.
@@ -9045,7 +8640,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 34 
 
-15)
+15)
 16)
 17)
 18)
@@ -9106,7 +8701,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 35 
 
-/Bench mark descriptions and “Station to Reach” statement
+/Bench mark descriptions and “Station to Reach” statement
 /Photographs of bench marks, station, DCP, equipment, and vicinity in digital format
 /Levels (raw) (electronic files) and field notes of precise leveling
 /Abstract of precise leveling
@@ -9152,7 +8747,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 36 
 
-SSMC 4, Station # 6544
+SSMC 4, Station # 6544
 1305 East-West Highway
 Silver Spring, MD 20910-3281
 Tel # 301-713- 2897 X 129
@@ -9194,7 +8789,7 @@ Great Lakes Water Level Stations, Updated August 2011 
 
 Page 37 
 
-USER'S GUIDE
+USER'S GUIDE
 FOR
 GPS OBSERVATIONS
 
@@ -9205,16 +8800,14 @@ Center for Operational Oceanographic Products and Services
 National Ocean Service
 National Oceanic and Atmospheric Administration
 
-TABLE OF CONTENTS
+TABLE OF CONTENTS
 1.0
 1.1.
-
 
 INTRODUCTION............................................................................................................... 1
 REFERENCE DOCUMENTS ................................................................................................. 1
 
 2.0.
-
 
 EQUIPMENT AND SETUP .............................................................................................. 2
 
@@ -9242,10 +8835,9 @@ GPS PROJECT DOCUMENTATION AND DATA SUBMISSION ........................... 14
 
 4.1.
 
-
 DATA SUBMISSION ....................................................................................................... 15
 
-USER’S GUIDE FOR GPS OBSERVATIONS
+USER’S GUIDE FOR GPS OBSERVATIONS
 1.0
 
 Introduction
@@ -9279,7 +8871,6 @@ contracts, project instructions, statement of work, or as appropriate.
 
 1.1.
 
-
 Reference Documents
 
 The following reference documents are referred in various sections of this document.
@@ -9297,11 +8888,10 @@ User’s Guide for GPS Observations, Updated March 2007
 
 Page 1
 
-Committee, September 1984.
+Committee, September 1984.
 
 (5) “Attachment R, Requirements for Digital Photographs of Survey Control, NGS, July 2005”
 2.0.
-
 
 Equipment and Setup
 
@@ -9338,12 +8928,11 @@ The manufacturer, model, and complete serial numbers of all receivers and antenn
 included for each occupation on each station/bench mark observation log sheet as shown in
 Figure 3.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 2
 
-3.0
+3.0
 
 Geodetic connections and datums relationship
 
@@ -9375,7 +8964,6 @@ The connection to geodetic datums involves the following three ties:
 (3) NAVD88 GPS Tie
 3.1.
 
-
 Level Connections
 
 3.1.1. NAVD88 Level Tie
@@ -9387,12 +8975,11 @@ elevation published on the datasheet. At many NWLON stations, the Primary Bench 
 (PBM) is a GBM. At the majority of NWLON stations, there are two or more tidal bench marks
 that are also GBM, thus increasing the chance that the geodetic level tie will be valid.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 3
 
-Make a Second-Order, Class I tie for all NWLON stations in the conterminous United States and
+Make a Second-Order, Class I tie for all NWLON stations in the conterminous United States and
 Caribbean Islands. A Third-Order tie is used for all NWLON stations in Alaska, Hawaii, and
 Pacific Island areas.
 
@@ -9434,8 +9021,7 @@ User’s Guide for GPS Observations, Updated March 2007
 
 Page 4
 
-3.2.
-
+3.2.
 
 GPS Connections
 
@@ -9475,12 +9061,11 @@ as marsh restoration.
 (4) To monitor crustal motions (horizontal and vertical) to support global climate change
 investigations.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 5
 
-The GPS surveys should be scheduled during routine annual maintenance trips to NWLON or
+The GPS surveys should be scheduled during routine annual maintenance trips to NWLON or
 PORTS® stations and during the installation of secondary and tertiary water level stations to
 support the survey projects, U.S. Army Corps of Engineers (USACE) projects, COASTAL
 project stations, tsunami stations, and special purpose surveys. CO-OPS shall continue to
@@ -9524,12 +9109,11 @@ official tidal datum epoch
 Static GPS surveys shall be conducted at water level stations periodically over time to establish a
 history of relationship between the tidal or water level datums, and the ellipsoid.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 6
 
-3.2.4. Criteria for Bench Mark Selection for GPS Observations
+3.2.4. Criteria for Bench Mark Selection for GPS Observations
 The GPS Water Level Station Bench Mark (GPSBM) shall be selected based on the following
 criteria: (a) permanence or stability; (b) historic GPS use; (c) satellite visibility; and (d) safety
 and convenience.
@@ -9566,12 +9150,11 @@ Priority shall be given to a GBM for GPS observations because the GBM already ha
 height (NAVD 88). The GBM considered here is one of the 10 tidal or water level bench marks
 at a NWLON water level station, or one of the 5 bench marks for survey or special projects.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 7
 
-(c) Satellite Visibility
+(c) Satellite Visibility
 The most desirable bench mark for GPS observations should have 360 degrees clearance around
 the mark at 10 degrees and greater above the horizon. Newly established marks shall be set in
 locations that have these clearances, if at all possible. If a station does not have any marks
@@ -9608,12 +9191,11 @@ the installation of a new (GPS) mark, it may be necessary to use one of these ma
 a GPS mark, priority should be given to the NWLON PBM or an NGS, NSRS, mark with a First
 or Second-Order NAVD 88 height on a NGS datasheet.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 8
 
-If time permits, conduct a site reconnaissance survey prior to starting the GPS sessions, to select
+If time permits, conduct a site reconnaissance survey prior to starting the GPS sessions, to select
 the proper mark(s) to occupy with GPS. A site survey consists of preparing an obstruction
 diagram for each useable mark using an inclinometer and placing a GPS unit (hand-held or
 better) over the bench mark to determine how many satellites can be tracked at that location.
@@ -9657,12 +9239,11 @@ problem, RF interference, or an obstruction from traffic (vehicle or vessel). Th
 from the satellite is not very strong when entering the receiver, so anything that produces further
 attenuation of the signal can cause the receiver to stop tracking satellites.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 9
 
-Always collect a little bit of extra data if time and schedule permit, so that blunders or invalid
+Always collect a little bit of extra data if time and schedule permit, so that blunders or invalid
 data, if any, can be removed during processing still leaving required minimum number of hours
 of valid data for one GPS session.
 
@@ -9703,12 +9284,11 @@ The length of GPS observation sessions depends upon the length of time the field
 available for GPS observations, security of the equipment, number of satellites available at a site,
 number of GPS receivers available for GPS observations, etc.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 10
 
-For all water level stations, collect a minimum of 4 hours of GPS data on the GPSBM. Extra
+For all water level stations, collect a minimum of 4 hours of GPS data on the GPSBM. Extra
 care shall be taken to ensure that the antenna height is precisely recorded, and that the antenna
 setup is stable. A continuous long session (at least 4 hours long but less than 24 hours) repeated
 annually is preferred to two or more shorter sessions (of less than 4 hours each) repeated on the
@@ -9750,12 +9330,11 @@ you are positioning.
 
 Once this information is complete, you then click the Upload button to send your data to NGS.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 11
 
-Your results will be emailed to you, usually within a few minutes. You may upload multiple
+Your results will be emailed to you, usually within a few minutes. You may upload multiple
 data files in a zip archive if you wish. However, be careful, the options that you choose will be
 applied to all of the data files in that archive (i.e. the same antenna type, ARP height will be used
 for all of the files in the zip file).
@@ -9799,7 +9378,7 @@ User’s Guide for GPS Observations, Updated March 2007
 
 Page 12
 
-The following tables identify the required data elements and optional data elements for OPUS
+The following tables identify the required data elements and optional data elements for OPUS
 DB respectively.
 
 REQUIRED DATA ELEMENTS (15 each):
@@ -9843,7 +9422,6 @@ text
 photograph (of marker)
 Aids in station recovery.
 
-
 OPTIONAL DATA ELEMENTS (11 each):
 ELEMENT
 RATIONALE
@@ -9884,12 +9462,11 @@ application codes
 remarks
 Allows user to record observation comments.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 13
 
-This information regarding the Required Data Elements and Optional Data Elements is for
+This information regarding the Required Data Elements and Optional Data Elements is for
 reference only and not required at the present time. These requirements will be active once
 OPUS DB is designated operational by NGS. Out of the 15 Required Data Elements, 13 are
 applicable to all the marks and the remaining two - rod/pipe depth & units and sleeve depth &
@@ -9938,7 +9515,7 @@ User’s Guide for GPS Observations, Updated March 2007
 
 Page 14
 
-(d) Station/bench mark visibility diagrams (Refer to Figure 5)
+(d) Station/bench mark visibility diagrams (Refer to Figure 5)
 One per each bench mark, for which GPS observations are submitted, is required.
 
 (e) Photographs or rubbings of station (bench) marks (Refer to Figure 6 and 7)
@@ -9948,7 +9525,6 @@ One per each bench mark, for which GPS observations are submitted, is required.
 (g) Rinex GPS data
 (h) OPUS results
 4.1.
-
 
 Data Submission
 
@@ -9972,7 +9548,7 @@ User’s Guide for GPS Observations, Updated March 2007
 
 Page 15
 
-Figure 1
+Figure 1
 
 GPS PROJECT SUBMISSION CHECKLIST
 
@@ -10033,7 +9609,7 @@ User’s Guide for GPS Observations, Updated March 2007
 
 Page 16
 
-DATA REFORMATTING
+DATA REFORMATTING
 Convert the raw GPS data to RINEX2 format with your manufacturer's software. The software
 should require you to enter the raw data filename, the output filenames, your name, the
 observer's name and agency, and the antenna type used.
@@ -10053,52 +9629,51 @@ A of 12/31/06 are BALD365A.06o and BALD365A.06n
 Copy the raw GPS data files and the converted RINEX2 data files onto separate 3.5-inch
 diskettes or CD ROM.
 
-
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 17
 
-Figure 2: Station (Bench mark) Description/ Recovery Form
+Figure 2: Station (Bench mark) Description/ Recovery Form
 
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 18
 
-User’s Guide for GPS Observations, Updated March 2007
+User’s Guide for GPS Observations, Updated March 2007
 
 Page 19
 
-Figure 3: GPS Station Observation Log
+Figure 3: GPS Station Observation Log
 
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 20
 
-Figure 4: GPS Antenna Height Measurements
+Figure 4: GPS Antenna Height Measurements
 
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 21
 
-Figure 5: Visibility Obstruction Diagram
+Figure 5: Visibility Obstruction Diagram
 
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 22
 
-Figure 6: Station Pencil Rubbing Form
+Figure 6: Station Pencil Rubbing Form
 
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 23
 
-Figure 7: Digital Photograph of a Stamping of a Bench Mark
+Figure 7: Digital Photograph of a Stamping of a Bench Mark
 
 User’s Guide for GPS Observations, Updated March 2007
 
 Page 24
 
-NOAA Technical Memorandum NOS NGS-58
+NOAA Technical Memorandum NOS NGS-58
 -----------------------------------------------------------------------GUIDELINES FOR ESTABLISHING GPS-DERIVED ELLIPSOID HEIGHTS
 (STANDARDS: 2 CM AND 5 CM)
 VERSION 4.3
@@ -10109,7 +9684,7 @@ Silver Spring, MD
 November 1997
 ------------------------------------------------------------------------
 
-CONTENTS
+CONTENTS
 Preface
 Introduction
 Observations
@@ -10120,7 +9695,7 @@ Appendix B. GPS ellipsoid height hierarchy and basic requirements for 2-cm
 standard
 Appendix C. ITRF to NAD 83 transformation parameters
 
-GUIDELINES FOR ESTABLISHING GPS-DERIVED ELLIPSOID HEIGHTS
+GUIDELINES FOR ESTABLISHING GPS-DERIVED ELLIPSOID HEIGHTS
 [Standards: 2 cm and 5 cm]
 Version 4.3
 Preface:
@@ -10159,8 +9734,7 @@ Station (CORS) sites located within 75 km of the project area.
 An effort should be made to connect to stations which were previously
 determined using these guidelines (or equivalent).
 
-
-Introduction:
+Introduction:
 Accurate connections to the control stations cited in the Observations
 section on the next page must be made in the International Terrestrial
 Reference Frame (ITRF) coordinate system. (See Appendix C for more
@@ -10201,8 +9775,7 @@ measurements, adjustment residuals, and analysis of loop misclosures.
 Please be aware that repeatability and loop misclosures do not disclose all
 problems.
 
-
-Observations:
+Observations:
 The following requirements are for both 2-centimeter and 5-centimeter
 standards, unless otherwise stated.
 
@@ -10254,7 +9827,7 @@ line solution does not exceed 1.5 cm.
 5. The observing scheme is based on the GPS survey of marks spaced as
 indicated below for 2- and 5-centimeter standards. Stations in the scheme
 
-are noted as either control, primary base station, secondary base station,
+are noted as either control, primary base station, secondary base station,
 or local network stations. (The observing scheme chosen for a sample
 project is depicted in figure 1, page 7.)
 For the 2-Centimeter Standard: Spacing between local network stations
@@ -10279,7 +9852,6 @@ least its nearest primary base
 according to the observing
 base stations must be
 independent paths.
-
 
 In addition to this requirement for primary base stations, the observing
 scheme for all base stations (primary and secondary) requires that each
@@ -10321,7 +9893,6 @@ Begun during:
 
 3:30 p.m. to 4:00 p.m.
 
-
 Second-day observations
 Completed anytime between:
 11:30 a.m. and 5:30 p.m.
@@ -10332,8 +9903,7 @@ Completed anytime between:
 
 7:00 a.m. and 12:30 p.m.
 
-
-(Note that the second day of observations does not need to follow
+(Note that the second day of observations does not need to follow
 immediately after the first day. Satellite geometry moves ahead, or
 precesses, 4 minutes per day. If the second observations are not performed
 within 1 week of the first, this daily 4-minute change must be accounted
@@ -10386,7 +9956,7 @@ any abnormal weather conditions.
 processing, they may be helpful during the analysis of the results and in
 future reprocessing with more robust software.)
 
-Before taking weather observations, the meteorological instruments should
+Before taking weather observations, the meteorological instruments should
 be allowed ample time (approximately 10 minutes) to stabilize to ambient
 conditions. Observations of wet- and dry-bulb temperatures must be observed
 and recorded to at least the nearest 1 degree Celsius. Barometric readings
@@ -10421,8 +9991,7 @@ initials on the log.
 When not feasible to make the required rubbing, a plan sketch of the mark
 must be substituted, accurately recording all markings.
 
-
-Control Station 1
+Control Station 1
 Primary Base 1
 
 Control Station 2
@@ -10520,8 +10089,7 @@ Day 5
 
 Figure 1.--Sample project observing scheme.
 
-
-Vector Processing:
+Vector Processing:
 The following requirements are for both 2-centimeter and 5-centimeter
 standards unless otherwise stated. A summary of the guidelines is listed in
 table 1 at the end of this section.
@@ -10575,8 +10143,7 @@ their quality assessment shall be determined by using least-squares
 adjustment software and by analysis of repeated vectors and free-adjustment
 residuals and loop misclosures (most loops consisting of repeated vectors).
 
-
-7. RMS values for each computed base line (adjacent station pairs) must not
+7. RMS values for each computed base line (adjacent station pairs) must not
 exceed 1.5 cm.
 
 8. Reobservation criteria:
@@ -10596,8 +10163,7 @@ observation must agree with an old base line which was observed using the
 criteria in number 6. of the Observations section above, i.e., the two base
 line measurements must contain significantly different satellite geometry.
 
-
-Table 1. -- Summary of Guidelines.
+Table 1. -- Summary of Guidelines.
 
 Control
 2 and 5
@@ -10703,23 +10269,17 @@ Yes
 
 Yes
 
+*Page 3*
+
+------------------------------------------------------------------------------------------------------------------------
 
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
-
-
-
-*Page 3*
-
-------------------------------------------------------------------------------------------------------------------------
-
 
 No
 
@@ -10742,7 +10302,6 @@ Minimum
 5 Hours
 
 5 Hours
-
 
 *Page 30*
 
@@ -10750,13 +10309,11 @@ Minimum
 
 Minutes 1
 
-
 *Page 30*
 
 ------------------------------------------------------------------------------------------------------------------------
 
 Minutes 1
-
 
 *Page 30*
 
@@ -10768,7 +10325,6 @@ Minutes
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 No
 Minimum
 
@@ -10776,24 +10332,17 @@ Minimum
 
 ------------------------------------------------------------------------------------------------------------------------
 
+*Page 3*
 
+------------------------------------------------------------------------------------------------------------------------
 
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
-
-
-
-*Page 3*
-
-------------------------------------------------------------------------------------------------------------------------
-
 
 2 2
 
@@ -10949,7 +10498,7 @@ Yes
 
 Yes
 
-Notes for Table of Summary of Guidelines:
+Notes for Table of Summary of Guidelines:
 1 Analyses have indicated that when following all guidelines in this
 document, 30 minutes of observations over base lines that are typically
 less than 10 kilometers will meet the standards. For base lines greater
@@ -11001,7 +10550,7 @@ Silver Spring, Maryland 20910-3282
 email: davez@ngs.noaa.gov or
 steve@ngs.noaa.gov
 
-Appendix A. -- Definitions
+Appendix A. -- Definitions
 Accuracy
 Local Accuracy - The local accuracy of a control point is a value expressed
 in cm that represents the uncertainty in the coordinates of the control
@@ -11050,8 +10599,7 @@ secondary) or control stations. They are part of the local network. They
 provide the local accuracy standard through simultaneous observations between
 adjacent stations.
 
-
-Appendix B. -- GPS Ellipsoid Height Hierarchy and Basic Requirements for
+Appendix B. -- GPS Ellipsoid Height Hierarchy and Basic Requirements for
 2-cm standard
 HARN/Control Stations
 (75 km)
@@ -11063,11 +10611,11 @@ Local Network Stations
 (7 to 10 km)
 HARN/Control Stations
 O CS1
-O CS2 <--------------------75 km------------------> O CS3
+O CS2 &lt;--------------------75 km------------------&gt; O CS3
 Primary Base Stations
 O CS1
 PB1
-PB2 <----------------------40 km--------------------->PB3
+PB2 &lt;----------------------40 km---------------------&gt;PB3
 O CS2
 
 CS3 O
@@ -11083,15 +10631,14 @@ o Primary base stations must be traceable back to 2 control stations
 along independent paths; i.e, base lines PB1 - CS1 and PB1 - PB2 plus
 PB2 -CS2, or PB1 - CS1 and PB1 - PB3 plus PB3 - CS3.
 
-
-Secondary Base Stations
+Secondary Base Stations
 O
 PB1
 SB1
 
 SB2
 
-SB3 <---------- 15 km ---------- > SB4
+SB3 &lt;---------- 15 km ---------- &gt; SB4
 PB2
 
 PB3
@@ -11115,8 +10662,7 @@ stations along independent paths; i.e., SB1- PB1 and SB1- SB3 plus SB3
 o Secondary base stations need not be established in surveys of small
 areal extent.
 
-
-Local Network Stations
+Local Network Stations
 O
 PB1
 LN1
@@ -11131,7 +10677,7 @@ LN4
 SB2
 LN5
 
-LN6<--7 km -> LN7
+LN6&lt;--7 km -&gt; LN7
 SB3
 
 SB4
@@ -11140,12 +10686,9 @@ PB2
 
 PB3
 
-
 *Page 0*
 
 ------------------------------------------------------------------------------------------------------------------------
-
-
 
 *Page 0*
 
@@ -11164,8 +10707,7 @@ stations along independent paths; i.e., LN1 - PB1 and LN1 - LN2, plus
 LN2 - SB1, plus SB1 - SB3 plus SB3 - PB2, or LN1 - PB1 and LN1 -LN3,
 plus LN3 - SB2 plus SB2 - SB4 plus SB4 - PB3.
 
-
-APPENDIX C.--ITRF TO NAD 83 TRANSFORMATION PARAMETERS
+APPENDIX C.--ITRF TO NAD 83 TRANSFORMATION PARAMETERS
 Introduction
 The International Earth Rotation Service Terrestrial Reference Frame
 (ITRF) has become an important coordinate system for users of Global
@@ -11208,7 +10750,7 @@ if a global scale parameter is included in its observation equation,
 it allows the scale to be determined elsewhere. Table 1 shows the
 global parameters for the NAD 83 adjustment:
 
-Table 1.--Global parameters - NAD 83
+Table 1.--Global parameters - NAD 83
 adjustment.
 
 Parameter
@@ -11262,8 +10804,7 @@ associated with the VLBI vectors tell how they were changed. This
 provides a quantitative measure of the systematic difference between
 NAD 83 and coordinate systems based on VLBI.
 
-
-Table 2.--Adjusted values for VLBI
+Table 2.--Adjusted values for VLBI
 global parameters.
 
 Parameter
@@ -11287,7 +10828,6 @@ however there was a post-adjustment
 applied, resulting in the 0.010 arc
 coordinate system was rotated to be
 observations.
-
 
 rotation was 0.375 arc seconds,
 correction of 0.365 arc seconds
@@ -11325,8 +10865,7 @@ comparison with the original NAD 83 coordinates showed a change
 in ellipsoid height of 0.6 meters, which was caused by scale
 differences.
 
-
-Table 3.--Transformation
+Table 3.--Transformation
 parameters, ITRF89 (Epoch 1988.0)
 to NAD 83.
 
@@ -11366,7 +10905,6 @@ S = Scale Change
 -0.0871 ppm [See
 item 3) above.
 
-
 Apparent in Table 3 is the similarity of the values for the rotations
 and scale with those in Table 2. This indicates that the coordinate
 system of the original VLBI vectors is very similar to ITRF.
@@ -11398,14 +10936,12 @@ ADJUST accepts GPS vectors expressed in ITRF as well as other
 coordinate systems as input, then, internal to the program, applies
 the X, Y, Z rotations to convert to NAD 83.
 
-
-Table 4 describes transformation parameters between NAD 83 and some
+Table 4 describes transformation parameters between NAD 83 and some
 more recent solutions of ITRF.
 
 Table 4.--Transformation
 parameters: ITRF solutions
 to NAD 83.
-
 
 Parameter
 
@@ -11459,7 +10995,7 @@ sec
 sec
 0.0 ppm
 
-NOAA TECHNICAL PUBLICATIONS
+NOAA TECHNICAL PUBLICATIONS
 National Ocean Service/National Geodetic Survey Subseries
 The National Geodetic Survey (NGS), National Ocean Service (NOS),
 NOAA, establishes and maintains the basic national horizontal,
@@ -11500,8 +11036,7 @@ libraries in the National Depository Library Program is available from
 the Library Division, U.S. Government Printing Office, Washington,
 D.C. 20401 (Telephone: (202)-275-3635).
 
-
-Field Procedures Manual
+Field Procedures Manual
 National Oceanic and Atmospheric Administration, Office of
 Coast Survey
 
@@ -11530,8 +11065,7 @@ The Standard Operating Procedure’s (SOP’s) within the FPM Appendices are in 
 being transferred to the “Documents” section of the Hydroforum and the SOP’s will reside in
 both places for the remainder of the 2014 field season.
 
-
-Additional Attribution Guidance
+Additional Attribution Guidance
 Additional Pydro Flags
 The following is a list of additional flags in Pydro to support data processing and analysis:
 
@@ -11587,8 +11121,7 @@ Once marked Tgt Exported, these items will not be re- exported
 unless the Tgt Exported flag is manually cleared prior to performing
 the export.
 
-
-In Bathy
+In Bathy
 
 Designated
 
@@ -11636,8 +11169,7 @@ will automatically be a bathymetry feature in the PSS. Likewise,
 creating a bathymetry feature in Pydro will write an Outstanding flag
 back to that sounding in the HDCS data.
 
-
-Attributing and Flagging for Automated Feature Reports
+Attributing and Flagging for Automated Feature Reports
 Special Feature Types
 The following attributes and flags shall be used to distinguish features for HCell compilation and
 the Feature Report. See section 8.2 of the HSSD for the official attribution table.
@@ -11678,7 +11210,7 @@ Boundary”]
 Non-DTONs +
 Secondary Maritime Boundary
 
-New and Charted Features
+New and Charted Features
  
 
  
@@ -11810,14 +11342,13 @@ Secondary from AWOIS)
 [Keyword==“DR_Charted”] +
 [Chart = Not Addr]
 
-Document #:
+Document #:
 
 OCS Hydrographic Branch
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -11844,11 +11375,9 @@ Author
 
 Effective Date
 
-
 *Page 0*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Initial release
 
@@ -11856,11 +11385,9 @@ Glen Rice
 
 5/5/12
 
-
 *Page 1*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Updated with comments and corrections
 
@@ -11868,11 +11395,9 @@ Glen Rice
 
 6/14/12
 
-
 *Page 2*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Updated with new data import plugin
 
@@ -11880,15 +11405,12 @@ Glen Rice
 
 10/16/12
 
-
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 Updated for FMGT 7.3.4, which works with Hypack
 datagram version 2.
-
 
 Glen Rice
 
@@ -11907,14 +11429,13 @@ FPM 2013
 
 Field Procedures Manual 2013
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -11928,36 +11449,31 @@ Pacific Hydrographic Branch Guidelines for Creating a Backscatter
 Mosaic
 1.
 
-
 Purpose
 The purpose of this document is to provide guidance to NOAA hydrographic
 offices and vessels for processing backscatter data and creating ready to use
 backscatter files and a mosaic for archival.
 
-
 2.
-
 
 Scope
 This guidance is directed towards processing Reson 7125 and 711l sonar data
 from HYPACK/HYSWEEP 2013 acquisition software, and Kongsberg ALL files,
 in the Fledermaus Geocoder Toolbox environment.
 
-
 4.
-
 
 Flowchart
 
 Caris
-• Provides processed 
+* Provides processed 
 (reduced) depths 
 and cleaned data 
-• HDCS data 
+* HDCS data 
 structure
 
 Hypack 7K files
-• Contains 
+* Contains 
 backscatter
 
 Backscatter Products
@@ -11977,27 +11493,25 @@ Hydrographic Process
 
 3.
 
-
 FMGT
-• Combine HDCS 
+* Combine HDCS 
 data with 7K files 
 to create a GSF file.
 
-• Produce a mosaic 
+* Produce a mosaic 
 to advertise the 
 existance of 
 backscatter. 
 
 2 of 14
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12011,7 +11525,6 @@ Pacific Hydrographic Branch Guidelines for Creating a Backscatter
 Mosaic
 
 5.
-
 
 Responsibilities
 
@@ -12027,9 +11540,7 @@ backscatter mosaicing application.
 
  Deliver to appropriate agency or contact if applicable.
 
-
 6.
-
 
 Procedure
 
@@ -12046,24 +11557,21 @@ used to reveal general differences in bottom composition. The GSF files and ALL
 files are the most straightforward point for further processing because they
 contain both backscatter and processed bathymetry.
 
-
 6.1
 
 Software
 The latest version of FMGT can be downloaded on the Hydrosoft website. It is
 recommended to work on a 64bit machine when possible.
 
-
 3 of 14
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12078,40 +11586,39 @@ Mosaic
 6.2
 
 Create an FMGT Project
-Section	6.3.1	of	the	Fledermaus	Reference	Manual	clearly	outlines	the	steps	to	
-import	data	into	FMGT.		This	manual	can	be	found	in	Start	>	All	Programs	>	
-Fledermaus	–	v7	>	Manuals.		In	addition	an	FMGT	training	video	(129MB)	which	
-provides	an	overview	of	FMGT	can	be	downloaded	from	the	Hydrosoft	website	
-under	the	documents	link.	This	video	should	not	be	shared	outside	of	NOAA.	
-	
-Currently	one	FMGT	project	and	one	mosaic	is	produced	per	vessel	per	survey	
-sheet.	
+Section	6.3.1	of	the	Fledermaus	Reference	Manual	clearly	outlines	the	steps	to
+import	data	into	FMGT.		This	manual	can	be	found	in	Start	&gt;	All	Programs	&gt;
+Fledermaus	–	v7	&gt;	Manuals.		In	addition	an	FMGT	training	video	(129MB)	which
+provides	an	overview	of	FMGT	can	be	downloaded	from	the	Hydrosoft	website
+under	the	documents	link.	This	video	should	not	be	shared	outside	of	NOAA.
 
-	
+Currently	one	FMGT	project	and	one	mosaic	is	produced	per	vessel	per	survey
+sheet.
+
+
 
 1. Create a Project where there is enough space (approximately ¾ of the
-backscatter file size): File > Create Project…
+backscatter file size): File &gt; Create Project…
 
-	
 
-	
-	
-a. Direct	FMGT	to	the	project	folder	with	the	Browse	button	
-b. Name	the	Project	
-c. Make	sure	“Auto‐compute	output	coordinate	system”	is	checked	
-Note:	Geocoder	works	in	projected	coordinates.	
-	
+
+
+
+a. Direct	FMGT	to	the	project	folder	with	the	Browse	button
+b. Name	the	Project
+c. Make	sure	“Auto‐compute	output	coordinate	system”	is	checked
+Note:	Geocoder	works	in	projected	coordinates.
+
 
 4 of 14
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12136,18 +11643,17 @@ HDCS data structure containing the ProcessedDepths file. FMGT combines pairs
 of 7K files with the HDCS lines based on the files names. SDF files are not
 currently supported, but are expected to be importable in the future.
 
-1. Select File > Import > Backscatter Files
+1. Select File &gt; Import &gt; Backscatter Files
 
 5 of 14
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12164,17 +11670,15 @@ Mosaic
 processing. If the “Recursive” box is checked, subdirectories will be
 searched too.
 
-
 6 of 14
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12193,17 +11697,15 @@ ProcessedDepths file from each line folder. Since FMGT is matching
 files, it is okay to select a directory that contains more files than the 7k
 file previously selected. Leave the “Recursive" box checked.
 
-
 7 of 14
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12226,7 +11728,6 @@ data appear to have an offset so “-1.0” should be entered instead.
 There is not currently a way to determine if this offset is needed before
 processing. If there is a roll artifact in the mosaic, the offset is needed.
 
-
 5. Select FG_NAD83 for the Horizontal Coordinate system for the
 incoming lines, and leave the Vertical Datum as FD_Undefined.
 
@@ -12239,15 +11740,13 @@ processing Kongsberg data skip to step 6.5.) If the user forgets to set the
 Configuration parameters to the TVG plugin the backscatter may be outside of the
 calibrated sonar filter range.
 
-
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12261,13 +11760,11 @@ Pacific Hydrographic Branch Guidelines for Creating a Backscatter
 Mosaic
 1.
 
-
-Select Processing > Configuration…
+Select Processing &gt; Configuration…
 
 2. For each processing stage, update the plugin to be used. For a Reson
 system this includes the Pre-Processing, Bathymetry and Corrections
 stages.
-
 
 In addition, the Correction stage should be set to ensure a proper
 absorption value is used for the frequency of the sonar. This value
@@ -12277,7 +11774,7 @@ information)
 
 9 of 14
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
@@ -12294,9 +11791,8 @@ As a guideline, use the following absorption values:
 Absorption
 Frequency
 
-3. Click	OK	
-4. Click	OK	
-	
+3. Click	OK
+4. Click	OK
 
 
 *Page 3*
@@ -12304,7 +11800,6 @@ Frequency
 ------------------------------------------------------------------------------------------------------------------------
 
 
-	
 
 100kHz
 
@@ -12320,7 +11815,7 @@ Frequency
 
 10 of 14
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
@@ -12335,7 +11830,6 @@ Pacific Hydrographic Branch Guidelines for Creating a Backscatter
 Mosaic
 6.5
 
-
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -12343,22 +11837,22 @@ Mosaic
 11 of 14
 
 Adjust the mosaic size in FMGT
-1. The	current	HSD	maximum	size	guideline	for	backscatter	mosaics	is	20	
-MB.	This	is	only	a	guideline	and	may	be	exceeded	if	necessary.	The	value	
-is	set	to	20	MB	because	it	is	a	reasonable	size	file	to	manage	(i.e.	upload,	
-download,	view,	etc.)		
-	
-Adjust	the	Mosaic	resolution,	paying	attention	to	the	memory	required	
-by	the	Mosaic.			The	final	exported	mosaic	(tiff)	size	will	be	5%	to	10%	of	
-the	memory	used	to	in	FMGT	by	a	single	tile.		A	reasonable	starting	value	
-for	the	mosaic	resolution	is	the	maximum	grid	node	spacing	in	a	
-bathymetric	surface	for	the	same	area.		Do	not	press	“Compute”	after	
-this	value	is	changed.		The	“Compute”	button	is	used	for	estimating	the	
-finest	resolution.	
+1. The	current	HSD	maximum	size	guideline	for	backscatter	mosaics	is	20
+MB.	This	is	only	a	guideline	and	may	be	exceeded	if	necessary.	The	value
+is	set	to	20	MB	because	it	is	a	reasonable	size	file	to	manage	(i.e.	upload,
+download,	view,	etc.)
 
-	
+Adjust	the	Mosaic	resolution,	paying	attention	to	the	memory	required
+by	the	Mosaic.			The	final	exported	mosaic	(tiff)	size	will	be	5%	to	10%	of
+the	memory	used	to	in	FMGT	by	a	single	tile.		A	reasonable	starting	value
+for	the	mosaic	resolution	is	the	maximum	grid	node	spacing	in	a
+bathymetric	surface	for	the	same	area.		Do	not	press	“Compute”	after
+this	value	is	changed.		The	“Compute”	button	is	used	for	estimating	the
+finest	resolution.
 
-Hydrographic Survey Review
+
+
+Hydrographic Survey Review
 
 Document #:
 
@@ -12372,7 +11866,6 @@ Title:
 Pacific Hydrographic Branch Guidelines for Creating a Backscatter
 Mosaic
 6.6
-
 
 *Page 3*
 
@@ -12392,8 +11885,7 @@ See section 6.9 below.)
 clicking on the mosaic to be exported and selecting the export type as Color Geo
 TIFF.
 
-
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
@@ -12408,7 +11900,6 @@ Pacific Hydrographic Branch Guidelines for Creating a Backscatter
 Mosaic
 6.7
 
-
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -12421,8 +11912,7 @@ settings, incorrect absorption, or echosounder saturation. Select the line to be
 adjusted and press the brightness button. Adjust the brightness with the slider bar
 in the Backscatter Adjustment window.
 
-
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
@@ -12436,7 +11926,6 @@ Title:
 Pacific Hydrographic Branch Guidelines for Creating a Backscatter
 Mosaic
 6.8
-
 
 *Page 3*
 
@@ -12456,21 +11945,18 @@ b. Create a tile size based on Pixels or Meters.
 c. Click Create New to view the tiles. To adjust the tile size, enter in
 a new value and click Create New again.
 
-
 Red boxes are the tiles.
-
 
 d. Continue with the mosaic process as described in section 6.7 to
 create mosaics for all the tiles. (To create mosaics for only selected
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12489,7 +11975,6 @@ tiles use the Select Mosaic Area function described in section 6.6
 above.)
 The result is one mosaic per tile.
 
-
 6.9
 
 Troubleshooting
@@ -12497,7 +11982,6 @@ If files fail to convert properly contact Fledermaus support at
 http://www.qps.nl/display/fledermaus/support. If a file is oversized (a common
 problem on 32bit machines) or you see artifacts of interest in your mosaic contact
 Glen Rice at the IOCM center.
-
 
 6.10
 
@@ -12509,13 +11993,11 @@ beam pattern information (if applicable), and histogram range for the mosaic in 
 text document and ile along with the processed backscatter data (GSF and/or
 mosics).
 
-
-Document #:
+Document #:
 
 Reson Backscatter Acquisition
 
 Rev.:
-
 
 *Page 3*
 
@@ -12542,11 +12024,9 @@ Author
 
 Effective Date
 
-
 *Page 0*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Initial release
 
@@ -12554,11 +12034,9 @@ Glen Rice
 
 3/1/2012
 
-
 *Page 1*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Updated to reflect field experience
 
@@ -12566,11 +12044,9 @@ Glen Rice
 
 5/5/2012
 
-
 *Page 2*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Updated with comments and feedback
 
@@ -12578,11 +12054,9 @@ Glen Rice
 
 6/14/2012
 
-
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Updated for Hypack Datagram V2
 
@@ -12597,14 +12071,13 @@ Document Title
 Saturation Monitor Manual
 Reson Backscatter Processing SOP
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12618,36 +12091,28 @@ SOP Guidelines for Backscatter Acquisition Setup and Execution
 
 1.
 
-
 Purpose
 This document provides information for the operation of a 7000 series Reson
 Multibeam during hydrographic survey to also successfully collect backscatter.
 
-
 2.
-
 
 Scope
 Applicable to NOAA field units with a 7000 series multibeam in the 2013 season.
 
-
 3.
-
 
 Definitions and Acronyms
 
 4.
 
-
 Flowchart
 
 5.
 
-
 Responsibilities
 
 6.
-
 
 Procedure
 
@@ -12669,14 +12134,13 @@ The following settings should be entered on the Hypack/Hysweep interface:
 
 2 of 6
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12693,31 +12157,25 @@ Figure 1 Setup Reson data flow in Hypack
 3. Toggle on “Side Scan Option”, “Use Snippets” and “Log Seabat Datagrams”
 4. Under 7k Drivers select Datagram Version 2.
 
-
-
 *Page 3*
 
 ------------------------------------------------------------------------------------------------------------------------
-
-
 
 *Page 4*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 Figure 2
 
 3 of 6
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12747,39 +12205,37 @@ B. Reson Setup
 When acquiring data through HYPACK, HYPACK handles which records are requested,
 so no specific setup different than normal survey is needed to ensure proper acquisition
 for backscatter. It is recommended that the “Snippet Control” on the Reson machine be
-secured to ensure no conflicts with HYPACK. This is found in Configuration > Data
+secured to ensure no conflicts with HYPACK. This is found in Configuration &gt; Data
 Display & Format. In the Snippets Control section, ensure “Enable Snippets” is
 unchecked.
 
 C. The Saturation Monitor
 Configuration and setup of the Saturation Monitor is covered in the Saturation Monitor
-Manual in Satmon under General > Documentation. Basic usage, assuming correct setup
+Manual in Satmon under General &gt; Documentation. Basic usage, assuming correct setup
 and configuration has already occurred, is accomplished with the following steps.
 
-1. Start the Saturation Monitor from Start > All Programs > Pydro > Contributions >
+1. Start the Saturation Monitor from Start &gt; All Programs &gt; Pydro &gt; Contributions &gt;
 Satmon.
 
-2. Select Setup > From Network…
+2. Select Setup &gt; From Network…
 3. Press the Start button at the bottom of the Satmon Window.
 
 4. When finished, press the same button now labeled as Stop.
 
-5. Use General > Exit to close the program.
+5. Use General &gt; Exit to close the program.
 
 The purpose is to keep the Reson from saturating, and this is accomplished by keeping
 the Reson set so the Saturation Monitor plots are below the displayed zones.
 
-
 4 of 6
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12846,14 +12302,13 @@ by the saturation curve. In a nut shell, keep the histogram below the red line a
 
 5 of 6
 
-Hydrographic Survey Review
+Hydrographic Survey Review
 
 Document #:
 
 Rev.:
 
 N/A
-
 
 *Page 3*
 
@@ -12866,7 +12321,6 @@ Title:
 SOP Guidelines for Backscatter Acquisition Setup and Execution
 also the yellow line when possible. Changing the absorption and spreading will affect the
 outer beams more than the inter beams, but power and gain will change them all together.
-
 
 Figure 3
 
@@ -12884,7 +12338,7 @@ Form(s)
 
 6 of 6
 
-Table 4-9. Uncertainty values for use in CARIS with vessels equipped WITH an attitude sensor
+Table 4-9. Uncertainty values for use in CARIS with vessels equipped WITH an attitude sensor
 Entry in HVF
 
 1 Sigma Recommended Value (Units)
@@ -12970,8 +12424,8 @@ m/s
 m
 m
 m
-<1 deg
-<1 deg
+&lt;1 deg
+&lt;1 deg
 1 Sigma Recommended Value (Units)
 
 Tides
@@ -12999,7 +12453,7 @@ m
 m/s
 m/s
 
-Subject: CARIS HVF Uncertainty Values
+Subject: CARIS HVF Uncertainty Values
 
 HTD 2007-10
 
@@ -13101,7 +12555,7 @@ m
 
 m/s
 
-Customized Attribute Equivalencies
+Customized Attribute Equivalencies
 CARIS – HYPACK - Pydro
  
 
@@ -13135,7 +12589,6 @@ Only required for new and charted feature
 disprovals
 Special Feature Type. Only required for
 special feature types.
-
 
  
 
@@ -13204,13 +12657,12 @@ Primary key ID – supports manual correlation
 in CARIS and HYPACK
 Unique ID
 
-Combining Grid Requirements
+Combining Grid Requirements
 1. OVERVIEW
 The goal of this document is to create a combined surface to be referenced while conducting data analysis and
 quality assurances during the SAR process. It is best to combine the source grids using the program CARIS
 BDB and apply the appropriate combining rules and use the appropriate conflict rule file (*.crfx).
 2.
-
 
 PROCEDURE
 
@@ -13228,7 +12680,6 @@ conflict file rules are based upon the following criteria and in this order:
 2. Resolution is least
 3.
 
-
 Uncertainty is least
 
 3. WORK INSTRUCTIONS (SOP)
@@ -13238,26 +12689,21 @@ To combine surfaces:
 
 2.
 
-
 Open the surfaces that are selected for combining.
 
 Select the Combine command. The Combine Surfaces dialog box is displayed.
-
 
 Figure 1: Combined Grid, 1
 
 3.
 
+In the Input Surfaces field, while pressing the &lt;Ctrl&gt; key, select the surfaces to be combined.
 
-In the Input Surfaces field, while pressing the <Ctrl> key, select the surfaces to be combined.
-
-
-4.
+4.
 
 5.
 
 6.
-
 
 Select Output stored to local disk to save the surface on the local machine
 Click Browse (...) to select the Name and location for the output surface.
@@ -13266,9 +12712,7 @@ Click check 2: Options.
 
 Click Browse (...) for the selection of the proper Horizontal projection.
 
-
 7.
-
 
 Select the appropriate resolution of the combined surface: for the SAR, this will be the resolution of the
 coarsest grid (i.e. if combining a 50cm, 1m and 2m grid the appropriate resolution will be 2m. (Reference
@@ -13276,12 +12720,10 @@ HTD 2010-6)
 
 8.
 
-
 Next, Click 3: Extents
 
 Figure 2: Combined Grid, 2
 9.
-
 
 Using the cross hairs, select the extent of the combined grid in order to minimize the “white space” that
 will be included in the combined grid
@@ -13290,13 +12732,12 @@ Figure 3: Combined Grid, 3
 
 10. Next click, 4: Conflicts
 
-11. In the Conflicts window select > tag Import, then navigate to the following directory within the survey data
+11. In the Conflicts window select &gt; tag Import, then navigate to the following directory within the survey data
 directory structure: AHB_HXXXXX\Reference and select the file named “BDB_ConflictRules.crfx.”
 
 Figure 4: Combined Grid, 4
 
 12.
-
 
 Once one has selected the conflict rules to apply, the “OK” button will become active. Click the “OK”
 button to execute the combined grid process
@@ -13309,47 +12750,47 @@ Figure 5: Combined Grid, Finishing
 
 CARIS HIPS&SIPS User Manual
 AHB’s BDB_ConflictRules.crfx file (XML format)
-<?xml version="1.0" encoding="UTF-8"?>
-<CARIS_RULES_EXPORT>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;CARIS_RULES_EXPORT&gt;
 
-<Rules operator="and">
-<Rule name="Primary Z Value is Least" version="1.0" conditionsOperator="and"
-exceptionsOperator="or">
-<RuleElement name="Apply this rule to the bathy data" elementType="RULETYPE"/>
-<RuleElement name="Where the primary Z value is &lt;%least%&gt;"
-elementType="CONDITION"/>
-</Rule>
-<Rule name="Grid Resolution is Least" version="1.0" conditionsOperator="and"
-exceptionsOperator="or">
-<RuleElement name="Apply this rule to the bathy data" elementType="RULETYPE"/>
-<RuleElement name="Where the attribute &lt;%acronym%&gt; is &lt;%least%&gt;"
-elementType="CONDITION">
-<RuleValue name="class GORuleValueAttributeAcronym">
-<Value>SurfaceResolution</Value>
-</RuleValue>
-<RuleValue name="class CSupersedeAttributeCompareCondition">
-<Value>LEAST</Value>
-</RuleValue>
-</RuleElement>
-</Rule>
-<Rule name="Uncertainty is Least" version="1.0" conditionsOperator="and"
-exceptionsOperator="or">
-<RuleElement name="Apply this rule to the bathy data" elementType="RULETYPE"/>
-<RuleElement name="Where the &lt;%attribute%&gt; is &lt;%least%&gt;"
-elementType="CONDITION">
-<RuleValue name="class GORuleValueComboEntry">
-<Value>Uncertainty</Value>
-</RuleValue>
-<RuleValue name="class CombineBandCondition">
-<Value>LEAST</Value>
-</RuleValue>
-</RuleElement>
-</Rule>
+&lt;Rules operator="and"&gt;
+&lt;Rule name="Primary Z Value is Least" version="1.0" conditionsOperator="and"
+exceptionsOperator="or"&gt;
+&lt;RuleElement name="Apply this rule to the bathy data" elementType="RULETYPE"/&gt;
+&lt;RuleElement name="Where the primary Z value is &lt;%least%&gt;"
+elementType="CONDITION"/&gt;
+&lt;/Rule&gt;
+&lt;Rule name="Grid Resolution is Least" version="1.0" conditionsOperator="and"
+exceptionsOperator="or"&gt;
+&lt;RuleElement name="Apply this rule to the bathy data" elementType="RULETYPE"/&gt;
+&lt;RuleElement name="Where the attribute &lt;%acronym%&gt; is &lt;%least%&gt;"
+elementType="CONDITION"&gt;
+&lt;RuleValue name="class GORuleValueAttributeAcronym"&gt;
+&lt;Value&gt;SurfaceResolution&lt;/Value&gt;
+&lt;/RuleValue&gt;
+&lt;RuleValue name="class CSupersedeAttributeCompareCondition"&gt;
+&lt;Value&gt;LEAST&lt;/Value&gt;
+&lt;/RuleValue&gt;
+&lt;/RuleElement&gt;
+&lt;/Rule&gt;
+&lt;Rule name="Uncertainty is Least" version="1.0" conditionsOperator="and"
+exceptionsOperator="or"&gt;
+&lt;RuleElement name="Apply this rule to the bathy data" elementType="RULETYPE"/&gt;
+&lt;RuleElement name="Where the &lt;%attribute%&gt; is &lt;%least%&gt;"
+elementType="CONDITION"&gt;
+&lt;RuleValue name="class GORuleValueComboEntry"&gt;
+&lt;Value&gt;Uncertainty&lt;/Value&gt;
+&lt;/RuleValue&gt;
+&lt;RuleValue name="class CombineBandCondition"&gt;
+&lt;Value&gt;LEAST&lt;/Value&gt;
+&lt;/RuleValue&gt;
+&lt;/RuleElement&gt;
+&lt;/Rule&gt;
 
-</Rules>
-</CARIS_RULES_EXPORT>
+&lt;/Rules&gt;
+&lt;/CARIS_RULES_EXPORT&gt;
 
-NATIONAL OCEANIC AND
+NATIONAL OCEANIC AND
 ATMOSPHERIC ADMINISTRATION
 UNITED STATES DEPARTMENT OF COMMERCE
 
@@ -13385,7 +12826,7 @@ Index ..........................................................................
 
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 1. OVERVIEW
 This SOP outlines processing procedures to process an Ellipsoidally Referenced Survey (ERS).
@@ -13411,7 +12852,6 @@ positioning accuracies on the order of a few decimetres without needing a refere
 application is useful when a reference station cannot be found or installed within allowable distance
 tolerances.
 
-
 Acronyms
 SBET—Smooth Best Estimate of Trajectory
 RINEX—Receiver Independent Exchange Format
@@ -13427,7 +12867,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 2
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 3. FLOWCHART
 The following figure shows the NOAA MBES Data Processing Flow Chart
@@ -13438,7 +12878,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 3
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 The following figure shows the POSPac SBET Processing Flow Chart
 
@@ -13448,7 +12888,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 4
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Index
 POSPAC:
@@ -13483,13 +12923,13 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 5
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 CREATING A TEMPLATE TO USE IN POSPAC 6.1
 
 
 
-File, New Project, double click on <Blank Template>
+File, New Project, double click on &lt;Blank Template&gt;
 Under Project Explorer, right mouse click on Unnamed and select Project settings
 
 
@@ -13501,7 +12941,6 @@ Unclick the “Default UTM Zone box. Click on Mapping Frame button. Set the Datu
 NAD83 and select the appropriate UTM Zone. NOTE: You will need to save a separate
 template for each UTM Zone data is collected in.
 
-
 
 
 Effective Date: 3/7/2011
@@ -13510,7 +12949,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 6
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -13533,7 +12972,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 7
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -13547,14 +12986,13 @@ The template can be saved in a common location on the ship’s network for all t
 done by going to ToolsOptions and setting the File location\Template Folder to that specific
 network location.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 8
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -13562,7 +13000,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 9
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 SINGLEBASE STANDARD PROCESSING IN POSPAC 6.1
 Step One: Create a POSPac 6.1 Project:
@@ -13581,7 +13019,6 @@ Open a windows explorer window and locate the UNFIXED, contiguous time stamped, 
 heave file for the specific project, vessel and day. Drag and Drop your .000 file into the Plan
 View window. Note: you can also use the ProjectImport GUI.
 
-
 
 
 In the Raw Data Check In window look to see if data was collected over UTC midnight into
@@ -13589,19 +13026,17 @@ the following UTC day. This will determine how many days of base station data to
 
 Make note if it spans one or two days and then click ok.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 10
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
 The project definition can remain unchanged.
-
 
 
 
@@ -13613,7 +13048,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 11
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Step Three: Import/Download Base Station
 *Two workflows: either (A) download data from an existing base station within 30km or (B)
@@ -13629,7 +13064,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 12
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -13653,13 +13088,12 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 13
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
 When the Base Station data is finished importing the Raw Data check in window will
 appear; verify the Manufacturer, Type, and Height of tripod of the GPS Base Station.
-
 
 
 
@@ -13681,7 +13115,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 14
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 coordinates and update them with the known accurate ones. This is accomplished by right clicking 
 on any Base Station point in the Project Explorer or Plan View and running the Coordinate 
@@ -13698,7 +13132,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 15
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Step Five: GNSS Inertial Processor using SingleBase
 
@@ -13716,7 +13150,6 @@ processor
 Close when completed. The track lines should now appear green representing the data has
 been corrected with a fixed integer solution.
 
-
 Continue to Quality Control Checks SOP and then to Export
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -13724,7 +13157,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 16
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 SMARTBASE STANDARD PROCESSING IN POSPAC 6.1
 Step One: Create a POSPac 6.1 Project:
@@ -13743,7 +13176,6 @@ Open a windows explorer window and locate the UNFIXED, contiguous time stamped, 
 heave file for the specific project, vessel and day. Drag and Drop your .000 file into the Plan
 View window. Note: you can also use the ProjectImport GUI.
 
-
 
 
 In the Raw Data Check In window look to see if data was collected over UTC midnight into
@@ -13751,19 +13183,17 @@ the following UTC day. This will determine how many days of base station data to
 
 Make note if it spans one or two days and then click ok.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 17
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
 The project definition can remain unchanged.
-
 
 
 
@@ -13775,7 +13205,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 18
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Step Three: Download base station and ephemeris data
 
@@ -13797,19 +13227,17 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 19
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Step Four: Run SmartBase Quality Check
 
 
 Select Run  SmartBase Quality Check. The Quality Check Summary will appear.
 
-
 Bad or adjusted positions will be highlighted in red. Do not accept adjusted positions! It is possible
 to disable a station with a bad position but only if there is another one to take its place in the
 network. If neither of these solutions works, consider changing the processing mode to SingleBase
 or PPP.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -13817,7 +13245,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 20
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Step Five: Run Applanix SmartBase Processor (ASB)
 
@@ -13833,7 +13261,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 21
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -13846,7 +13274,6 @@ Look for “Total full data gaps” over 30 seconds. If possible, disable this b
 rerun the Smartbase Quality Check and ASB. Or, if possible, try selecting/downloading
 another station to replace the unsatisfactory base station.
 
-
 Table 16.3 from Chapter 16 of the POSPac MMS GNSS-Inertial Tools User Manual also provides
 some insight to sources of error messages:
 
@@ -13856,13 +13283,12 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 22
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
 Run the Applanix SmartBase Processor until a solution is generated. It may be necessary to
 switch to SingleBase or PPP if troubleshooting does not work.
-
 
 Step Six: GNSS Processor using SmartBase
 
@@ -13875,12 +13301,10 @@ From the toolbar select the yellow star, GNSS-Inertial Processor or RunGNSS-I
 Processor
 Ensure the GNSS mode is IN-Fusion SmartBase.
 
-
 Select Run, or click on the All Processing icon (fast forward) to run the GNSS-Inertial
 processor
 Close when completed. The track lines should now appear green representing the data has
 been corrected with a fixed integer solution.
-
 
 Continue to Quality Control Checks SOP and then to Export
 Effective Date: 3/7/2011
@@ -13889,7 +13313,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 23
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 PPP PROCESSING IN POSGNSS
 (PRECISE POINT POSITIONING)
@@ -13909,19 +13333,17 @@ Open a windows explorer window and locate the UNFIXED, contiguous time stamped, 
 heave file for the specific project, vessel and day. Drag and Drop your .000 file into the Plan
 View window. Note: you can also use the ProjectImport GUI.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 24
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
 The project definition can remain unchanged.
-
 
 
 
@@ -13941,7 +13363,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 25
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -13960,7 +13382,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 26
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -13979,7 +13401,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 27
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -14008,7 +13430,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 28
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -14034,7 +13456,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 29
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 HELPFUL LINKS FOR PPP:
 http://csrc.ucsd.edu/scripts/convertDate.cgi? – GPS Date converter, for GPS Week to Julian DN and
@@ -14045,14 +13467,13 @@ seems to be quicker than downloading through POSGNSS, probably because the clk f
 significantly smaller. Filenames are igsWWWWD.clk and igsWWWWD.sp3 where WWWW is
 GPS week and D is the day of the week (0 to 6) starting on 0 being Sunday.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 30
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 BATCH PROCESSING IN POSPAC 6.1
 FOR SINGLEBASE AND SMARTBASE
@@ -14093,7 +13514,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 31
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 line. Example .000.115 for the morning SBET and .105.230 for the afternoon
 SBET) 
@@ -14121,7 +13542,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 32
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 and Height of antenna. Then click Add to DB so that information is stored for future
 processing. 
@@ -14152,7 +13573,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 33
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -14161,14 +13582,13 @@ the abortion and will recommend viewing the message log for details. Continue to
 Control Checks to troubleshoot any projects that did not complete and to QC the
 projects that did.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 34
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 SBET QUALITY CONTROL PROCEDURES
 Once your POSPac project has processed successfully, you may now do quality control of the
@@ -14182,7 +13602,6 @@ In the project window, verify that the post-processed solution (Green Solution, 
 covers the vast majority of the real-time solution (Purple, RNAV) If you see lots of purple
 the raw POS file might not have been processed with all the needed days of base station
 data, or encountered a fatal error.
-
 
 
 
@@ -14198,14 +13617,13 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 35
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
 Check each step, and scroll to the bottom, where you should note if the “Termination
 status:” is anything other than “Normal.” “Fatal errors” are cause for immediate
 concern and further review.
-
 
 
 
@@ -14217,19 +13635,16 @@ steps. If any of these are missing, a processing error likely occurred.  
 Under POS Data Import, ensure that the POS status reached Full Navigation, or at
 Least Fine Align, if it did not, note this.
 
-
 
 
 Under IMU Data Continuity note any reported IMU data gaps. IMU data gaps are
 typically caused by a data communication failure between IMU and the POS
 computer.
 
-
 
 
 In Primary/Secondary GNSS Import, note any decoding errors, likely caused by data
 communication failures due to corrupted bytes from the GNSS receiver data stream.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14237,12 +13652,11 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 36
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
 Examine the plots for the solution. Fill out processing log.
-
 
 o Altitude. Altitude can be viewed with Total Speed. Odd behaviors in the
 Altitude should correspond to changes in the Total Speed. If not, make a
@@ -14251,20 +13665,18 @@ be noted and logged. Such offsets will cause problems if the data is used to
 produce ellipsoidally referenced surfaces. Jumps like this can be highly
 indicative of other positioning problems.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 37
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 o RMS Data. Found under “Smoothed Performance Metrics, reference frame” and
 North, East, and Down Position Error RMS (m). Record the peak values
 (ignoring the spike at the very beginning and end of the data). Also record the
 peak RMS values for Pitch, Roll, and Heading Error.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14272,7 +13684,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 38
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 o Calibrated Installation Parameters. X, Y, and Z Reference- Primary GPS
 Lever Arm. These values should settle out to an approximate value for x, y and z.
@@ -14280,14 +13692,13 @@ Lever Arm. These values should settle out to an approximate value for x, y and z
 The Reference-Primary GNSS Lever Arm Figure of Merit should be 100. Note in
 the log if it is not.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 39
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 o Smoothed Estimated Errors. Look at the x , y, and z accelerometer bias values.
 
@@ -14299,7 +13710,6 @@ o PDOP. The PDOP values less than 3 normally give a reliably accurate solution.
 
 The FPM has guidelines to keep this number below 6. If the satellite count drops,
 the PDOP value will increase. Monitor PDOP during field acquisition.
-
 
 o
 
@@ -14314,13 +13724,12 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 40
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 o Smoothed- Reference Data. First, click on Tools, NAVDIF. Under the
 Reference Data file, browse to \YYYY_DDD_VSSL\Mission 1\Extract folder
 and select vnav_Mission 1.out. Change the Difference Data Output Modulus to
 200. Click Difference.
-
 
 You are differencing the real-time navigation to the SBET solution. When the difference is done,
 close the NAVDIF box. A new plot will pop up, called Smoothed- Reference Data. Select North vs.
@@ -14340,7 +13749,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 41
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Select Down Position Difference (m) Log the approximate average value for the Down position
 difference (m) where half the data is above the line and half the data is below
@@ -14351,7 +13760,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 42
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 o 2D radial position differences (m), generally below 2m is okay.
 
@@ -14390,14 +13799,13 @@ error at the same time could imply external sources (Atmosphere, satellites, etc
 recurring error on one vessel may be indicative of an internal issue (settings, hardware,
 software).
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 43
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Automated SBET QC
 This feature allows you to run a small program which requires an input of POSPac Project and the
@@ -14415,14 +13823,13 @@ Run the Auto QC program
 This process will output a report that will include all of the quality control metrics that should be
 reviewed for an SBET. These values will then be entered into the SBET processing log.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 44
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14430,7 +13837,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 45
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 EXPORT SBET TO NAD83
 *This export step does not need to be performed if it was part of the batch process*
@@ -14443,11 +13850,9 @@ The Export File name can be changed if desired or the file can be manually copie
 network folder after export is completed. Ensure the project settings are as described in the
 Template SOP.
 
-
 
 
 Select Yes to the following.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14455,7 +13860,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 46
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Save POSPac project.
 
@@ -14478,18 +13883,16 @@ and rename it to smrmsg_YYYY_DDD_VSSL.out
 Note: if these files are cut and moved to a different network location, the display plots will not be
 able to reference the raw/processed data and they will not display correctly.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 47
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 SBET PROCESSING LOG
 The metrics below shall be filled out in a processing log for all ERS surveys.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14497,7 +13900,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 48
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 LOAD ATTITUDE/NAVIGATION DATA IN CARIS HIPS
 
@@ -14513,10 +13916,8 @@ Select Process, Load Attitude/ Navigation Data…
 Click “Add” and select the .sbet file(s) that correspond to the same time period as the lines
 being loaded.
 
-
 Note: If you are applying SBETs for an entire project, the processing is limited to a single vessel
 and to a single GPS Week.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14524,7 +13925,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 49
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -14540,7 +13941,6 @@ data records max of 0.08 seconds
 Select “Load”. Check the HIPS Output window to ensure no errors are reported. A
 correct application will not report an error.
 
-
 
 
 After applying PPK, lines can be re-examined using the Navigation Editor tool
@@ -14553,7 +13953,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 50
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14561,7 +13961,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 51
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 LOAD ERROR DATA IN CARIS HIPS
 
@@ -14583,7 +13983,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 52
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -14609,14 +14009,13 @@ Check the CARIS Worksheet window and view the summary report for all survey line
 
 Make sure there are values for all the areas checked above, and no error reports.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 53
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 COMPUTE GPS TIDE IN CARIS HIPS
 Note: HSD will be providing the Separation file (VDATUM or ERZT) to the field. If necessary,
@@ -14634,22 +14033,22 @@ Process Data to the Ellipsoid
 Process Data to MLLW using Separation
 Model
 
-• Enter a single height of 0.00m to keep the
+* Enter a single height of 0.00m to keep the
 data referenced to the ellipsoid
-• Apply dynamic heave, MRU remote heave,
+* Apply dynamic heave, MRU remote heave,
 dynamic draft and waterline offset. See
 Compute GPSTide reference table
-• Click Compute
-• Check the output window to ensure no
+* Click Compute
+* Check the output window to ensure no
 errors occur
 
-• Browse to Vdatum or ERZT separation
+* Browse to Vdatum or ERZT separation
 model
-• Apply dynamic heave, MRU remote heave,
+* Apply dynamic heave, MRU remote heave,
 dynamic draft and waterline offset. See
 Compute GPSTide reference table
-• Click Compute
-• Check the output window to ensure no
+* Click Compute
+* Check the output window to ensure no
 errors occur
 
 Effective Date: 3/7/2011
@@ -14658,7 +14057,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 54
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 COMPUTE GPS TIDE REFERENCE TABLE
 GPS Tide = GPS Height - Datum Height - Dynamic Heave + Remote Heave + Antenna Offset +
@@ -14678,7 +14077,6 @@ smoothed according to smoothing
 coefficients computed in HIPS Attitude
 Editor.
 
-
 X
 
 Apply Datum Height "Apply" to subtract a constant offset or
@@ -14686,7 +14084,6 @@ linearly-interpolated offset from a scalar
 (gridded) field of offsets to achieve the
 desired (ellipsoid-to-chart) datum
 transform.
-
 
 X
 
@@ -14703,7 +14100,6 @@ the GPS Tide calculation to prevent
 double-compensation of heave motion
 (assuming heave present in the GPS Height
 data).
-
 
 X
 
@@ -14727,14 +14123,13 @@ Dynamic Heave Option is set (assuming
 remote heave not already removed from the
 GPS Height data).
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 55
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 X
 
@@ -14754,7 +14149,6 @@ HVF would be zeroed; hence, checking
 this option would not affect the
 computation.
 
-
 X
 
 Apply Dynamic
@@ -14767,7 +14161,6 @@ HVF is applied during Sound Velocity
 Correction (for accurate determination of
 the initial conditions for geometric raytracing) it is necessary to apply dynamic
 draft in GPS Tide computation.
-
 
 X
 
@@ -14788,12 +14181,10 @@ Correction
 "Apply" to add a constant offset to the GPS
 Height time series data.
 
-
 The “Apply” = “Remove” field is to undo what SV Correction initially did to the observed depths if
 these fields are set to “Apply” = Yes in the HVF. This checking to remove paradigm exists in a
 Tide/ERS scenario, in a strait ERS paradigm the HVF could be modified to “Apply”=NO at the
 project’s onset.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14801,7 +14192,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 56
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 SVC AND MERGE IN CARIS HIPS
 
@@ -14826,7 +14217,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 57
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -14850,7 +14241,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 58
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 COMPUTE TPU
 
@@ -14877,7 +14268,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 59
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 TRIMBLE NetR9 SETUP
 Setting up new Trimble NetR9 receivers
@@ -14892,7 +14283,6 @@ Under the security tab select Enabled with Anonymous Access, and give the anonym
 Download capabilities. Login as the administrator (User=admin, Password=Password), Change
 Password to Admin.
 
-
 Start at the top and follow the screen grabs:
 Ignore Receiver Status
 Under Satellites
@@ -14903,10 +14293,9 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 60
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Click disable all, enable all, ok. This gets rid of the check boxes on ignore health.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14914,10 +14303,9 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 61
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Click disable all, enable all, ok. This gets rid of the check boxes on ignore health.
-
 
 Keep Defaults
 
@@ -14927,11 +14315,10 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 62
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Click disable all, enable all, ok. This gets rid of the check boxes on ignore health. See NOTE made
 under Tracking section.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14939,7 +14326,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 63
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Under Data Logging
 
@@ -14957,7 +14344,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 64
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Enter Antenna Serial Number and Antenna Height = 1.5
 
@@ -14969,16 +14356,14 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 65
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Enable GPS L5 and GLONASS L2. NOTE: enabling the logging of GLONASS and GALILEO
 will increase the file size. Until more testing is done it is currently not allowed to use these systems
 for processing. FA will log these systems in addition to GPS L5 for testing purposes for the 2011
 season.
 
-
 Set PDOP Mask value = 6.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -14986,7 +14371,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 66
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Disable 1PPS, enable VFD Rotation (This will make the screen easier to read when mounted)
 
@@ -14999,7 +14384,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 67
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -15007,7 +14392,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 68
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 ETHERNET RADIO CONFIGURATION
 (to enable remote downloading of basestation data)
@@ -15067,7 +14452,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 69
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -15075,7 +14460,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 70
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 REMOTE DOWNLOAD OF BASE STATION DATA
 Connecting to the Ethernet radio
@@ -15103,7 +14488,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 71
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 By clicking or unclicking the check box next to the station name (CANOE in this case) under the
 Enable column logging is started or stopped. This session has the correct setting for the base station
@@ -15118,7 +14503,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 72
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Files that are in bold can be downloaded. The file that is currently being logged cannot be
 downloaded until logging is stopped. To download data select the desired file. Internet Explorer will
@@ -15138,10 +14523,9 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 73
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Log the PDOP and number of satellites used when beginning and ending a file.
-
 
 Information on each Instrument:
 Instrument
@@ -15174,12 +14558,12 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 74
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 CONVERTING TO RINEX
-Run Convert to Rinex this can be found either on the desktop or on the start menu at All Programs > Trimble -> Convert To RINEX
+Run Convert to Rinex this can be found either on the desktop or on the start menu at All Programs &gt; Trimble -&gt; Convert To RINEX
 
-File -> Open to open the .t01 files which are found in
+File -&gt; Open to open the .t01 files which are found in
 I:\2010_Processed_Data\GNSS_DATA\[*Project_Name*]\Base_Station_Data\[*Base_Name*]
 This will take a little bit to load, it will say Scanning…
 
@@ -15189,11 +14573,10 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 75
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Once loaded change the Agency and Observer name to NOAA and NOAA Ship (see the image
 below). Also confirm that the Marker name is the same as the last four of the serial.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -15201,11 +14584,10 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 76
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
-Once happy click on File -> Convert Files, the status window will say Converting, again this takes
+Once happy click on File -&gt; Convert Files, the status window will say Converting, again this takes
 a little while and will update to say “SUCCESS!” when done.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -15213,7 +14595,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 77
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 SUBMITTING TO Online Positioning User Service (OPUS)
 Why Submit?
@@ -15244,7 +14626,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 78
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 3. Select your antenna type from the dropdown, for FA this will either be the Trimble antenna
 (TRM55971.00 Zephyr GNSS Geodetic Model 2) or the Ashtech antenna
@@ -15267,14 +14649,13 @@ name, antenna height, start and stop times of the observation, and most importan
 longitude, and ellipsoid height (this position is what you will input for your base station coordinates
 in POSPAC when processing true heave data).
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 79
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -15282,7 +14663,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 80
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Submitting to the OPUS Database
 You first must register with OPUS in order to submit to their database. To register go to their main
@@ -15301,7 +14682,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 81
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 If your registration was successful, you should see the information above and you are now
 registered with OPUS DB.
@@ -15310,10 +14691,8 @@ Now you are ready to submit. Go through the same process as above for obtaining 
 the email you used to register with OPUS DB. The only difference is that on the OPTIONS page,
 under section 8, click on the “Yes, publish” button and then click “STATIC”.
 
-
 After your RINEX file finishes uploading, you should get the step 2 of 4 page, “Identify your
 Mark”.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -15321,7 +14700,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 82
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 From the page above, double check your OPUS entries and click on one of the publishing options,
 New Mark, Recovered Mark, or Abort. In most cases you will be describing a new mark so you can
@@ -15329,14 +14708,13 @@ click the button marked, “Describe New Mark”. If any of your OPUS entry info
 incorrect, you can click the “Abort” button and start over. Once you click on “Describe New Mark”
 you should get the page below, “Step 3 of 4: Describe New Mark”.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 83
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Make sure to fill in all required fields:
  Designation: This is a user-friendly identifier, unique for the area and usually descriptive of
@@ -15352,7 +14730,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 84
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -15392,7 +14770,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 85
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 
 
@@ -15406,13 +14784,11 @@ Magnetic: Copper, brass, aluminum, and stainless steel are not magnetic. Alloys 
 iron, cobalt or nickel are magnetic. Use a magnet to test. Most of the marks we recover are
 not magnetic.
 
-
 Once this is complete, click on the “Continue” button.
 
 You should then see a page which states, “Almost Done…”. At this point check for an email from
 OPUS. In the body of the email, you should be prompted to click on a link to verifty that the
 information you provided is correctly presented. Click on this link.
-
 
 You should be sent to the “Step 4 of 4: Approve your Datasheet” page. From this page, you can
 either publish, edit, or abort your submission. If you feel your submission is complete and correct,
@@ -15430,10 +14806,9 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 86
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Congratulations, you have now successfully submitted a mark to the OPUS database for all to see.
-
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -15441,7 +14816,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 87
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 USING POSPAC MMS TO COMPUTE VESSEL OFFSETS
 It is possible to post-process the POSMV files recorded during the GAMS calibration to refine
@@ -15465,14 +14840,13 @@ Navigate to and check the project name, click descend/confirm, this will find th
 Then click Apply, it will look like nothing happened. In the background behind the Pydro window
 is the command prompt associated with Pydro the macro will have output the data in this window.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 88
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Note the values and standard deviations. Repeat these steps. Input these new values to the lever arm.
 Example offset processing for vessel 2805
@@ -15527,34 +14901,34 @@ Z Std
 
 Page 89
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 ELLIPSOIDALLY REFERENCED DYNAMIC DRAFT MODEL (ERDDM)
 Analysis Using the Pydro macro ProcSBETDynamicDraft
 
 Step One: Establish desired tide package in Pydro: (a) Discrete Zoned Tides or (b) TCARI
 1 (a) If you have Discrete Zoned Tides (ZDF + .TID(s))
-From Pydro's main menu, Tides > Load Zoning Data (.ZDF)
-Tides > CO-OPS Office Tools > Download Zoned Tide Stations
+From Pydro's main menu, Tides &gt; Load Zoning Data (.ZDF)
+Tides &gt; CO-OPS Office Tools &gt; Download Zoned Tide Stations
 - Pydro console window will echo a "trying to download stations" list
 - If you have problems, or you don't otherwise have internet access, you can consult with HSD and
 your HSTP representative to obtain a stations file for your ERDDM analysis. Such a station file is
-loaded "manually" via Tides > CO-OPS Office Tools > Load Zoned Tide Stations
-<OR>
+loaded "manually" via Tides &gt; CO-OPS Office Tools &gt; Load Zoned Tide Stations
+&lt;OR&gt;
 1 (b) If you have TCARI Tides
-From Pydro's main menu, Tides > Load TCARI Data (.tc)
+From Pydro's main menu, Tides &gt; Load TCARI Data (.tc)
 
 Step Two: (a) Examine discrete or TCARI zones and (b) load/view water levels
 2 (a) To see the ZDF or TCARI zones in a Chart Window
-Window > Show/Hide > Display Properties (or F3 key if Pydro window frame has focus)
+Window &gt; Show/Hide &gt; Display Properties (or F3 key if Pydro window frame has focus)
 - Plotting tab: Check "Tides" in Auto Draw & Middle Button Mouse Draw
 - Press the Zoom to Chart Overview (Globe toolbar button) on Chart Window, then Middle Button
 on mouse to refresh the display--drawing zones
-<AND>
+&lt;AND&gt;
 2 (b) To load water level data for both discrete and TCARI zones in a Chart Window
-Tides > Load WL Data or Tides > Download WL Data, for the applicable to ERDDM data
+Tides &gt; Load WL Data or Tides &gt; Download WL Data, for the applicable to ERDDM data
 acquisition
-- QC WL data via Tides > Show WL Graphs
+- QC WL data via Tides &gt; Show WL Graphs
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -15562,11 +14936,11 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 90
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Step Three: Analyze the ERDDM data via the Pydro macro
-3 Misc > Run Macro - browse/select ProcSBETDynamicDraft.py (should be present in the default
-directory in the dialog: <Pydro install path>/Lib/site-packages/HSTP/Pydro/Macros)
+3 Misc &gt; Run Macro - browse/select ProcSBETDynamicDraft.py (should be present in the default
+directory in the dialog: &lt;Pydro install path&gt;/Lib/site-packages/HSTP/Pydro/Macros)
 - Browse to select ERDDM POSProc SBET file--either binary (.out) or ASCII (.txt) will work
 - Enter year-doy of start of ERDDM data
 - Enter start/ end times [units are seconds-of-GPS-week]; it defaults to the min/max of the SBET
@@ -15592,14 +14966,13 @@ deviation value from this figure should be entered into the HVF TPU section for 
 
 - Figure 3 is the resulting speed vs. draft appropriate for use in a CARIS HIPS HVF.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 91
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Figure 1
 
@@ -15609,7 +14982,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 92
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Figure 2 - NO TIDES; 4th-order fit, nominal two-times standard deviation +/-0.6m
 
@@ -15619,7 +14992,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 93
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Figure 2 - YES TIDES; 4th-order fit, nominal two-times standard deviation +/-0.3m
 
@@ -15631,7 +15004,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 94
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 ELLIPSOIDALLY REFERENCED ZONED TIDES
 An alternative option in areas lacking a published VDatum model is to relate "traditional" zoned
@@ -15642,14 +15015,13 @@ to reference it to chart datum. ERS-ERZT data may be readjusted at a later date 
 coverage becomes available. Additional tools and documentation will be made available via a
 Hydrographic Technical Directive later this year.
 
-
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
 Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 95
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 HORCON / VERCON OBSERVATION LOG
 
@@ -15659,7 +15031,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 96
 
-SOP: Ellipsoidally Referenced Surveys
+SOP: Ellipsoidally Referenced Surveys
 
 Effective Date: 3/7/2011
 FOR OFFICIAL USE ONLY
@@ -15667,7 +15039,7 @@ Hard Copy of this SOP is obsolete- the OCS QMS electronic procedure is valid
 
 Page 97
 
-FileVerifier++ SOP
+FileVerifier++ SOP
 Grant Froelich
 Pacific Hydrographic Branch
 
@@ -15692,39 +15064,38 @@ process using the program FileVerifier++.
 
 This SOP is intended to be used with FileVerifier++ version 0.6.3.5830W or later.
 
-
 2| Creation of Checksums
 To create checksums, first copy all the digital data to be submitted to the processing branch to the
 submission drive. Once all the data has been copied, create a MD5 checksum file with Unix Line
 Endings, Unix Path Separator Characters and a custom MD5 file comment using the following procedure:
 1. Open FileVerifier++ by opening the fv.exe file from Windows Explorer
-2. If this is the first time you have run the program, go to Tools ->Settings->Preferences
+2. If this is the first time you have run the program, go to Tools -&gt;Settings-&gt;Preferences
 
-a. Under General ->Compatibility change
+a. Under General -&gt;Compatibility change
 i. Line Endings for Text Files to Unix (LF)
 ii. Path Separator Character to Unix (/)
 
-b. Under General->File Comments change
+b. Under General-&gt;File Comments change
 i. Default File Comment to “Hexadecimal MD5 checksums created at {insert field
 unit name here} on YYYY-MM-DD”
 ii. Check Prompt For Comment Upon Save
 
-c. Under Tools->Settings->Default Encoding-> Select “Hexadecimal”
-d. Under Tools->Settings->Select “Use relative paths when adding files”
+c. Under Tools-&gt;Settings-&gt;Default Encoding-&gt; Select “Hexadecimal”
+d. Under Tools-&gt;Settings-&gt;Select “Use relative paths when adding files”
 
-e. Under Algorithms-> Select “MD5”
+e. Under Algorithms-&gt; Select “MD5”
 
 3. Once you have all your settings correct, you can add the files to be checksumed
 a. Select the “Dirs” button and browse to the H12345 folder on the submission
 drive
-b. Under Operations-> Select “Calculate Entries [ALL]…”
+b. Under Operations-&gt; Select “Calculate Entries [ALL]…”
 
-c. Enter the base path of the submission folder (ex. T:\H12345) in the Relative path names
+c. Enter the base path of the submission folder (ex. T:\H12345) in the Relative path names
 entry dialog and click okay
 
 d. The process will begin and you will get a status bar telling you how far along you are
 
-e. When it is finished, click on the “Save” button
+e. When it is finished, click on the “Save” button
 i. Give the checksum file a name using the naming convention
 HXXXXX_Checksums.MD5 and place it in the base folder (ex T:\H12345)
 ii. Save as “MD5 Hashes (MD5SUM Style) (*.MD5)”
@@ -15733,42 +15104,40 @@ iii. Answer “Yes” to the question about relative path stripping
 
 iv. Modify the date in the comments to the current date
 
-3| Verification of Checksums
+3| Verification of Checksums
 To verify checksums, first copy all the submitted digital data to the network drive where it will be stored.
 Then verify that the data has not been altered by loading the checksum file and comparing the
 checksums of the files as they currently exists to how they existed on the ship using the following
 procedure:
 1. Open FileVerifier++ by opening the fv.exe file from Windows Explorer
-2. If this is the first time you have run the program, go to Tools ->Settings->Preferences
+2. If this is the first time you have run the program, go to Tools -&gt;Settings-&gt;Preferences
 
-a. Under General ->Compatibility change
+a. Under General -&gt;Compatibility change
 i. Line Endings for Text Files to Unix (LF)
 ii. Path Separator Character to Unix (/)
 
-b. Under Tools->Settings->Default Encoding-> Select “Hexadecimal”
+b. Under Tools-&gt;Settings-&gt;Default Encoding-&gt; Select “Hexadecimal”
 
-c. Under Algorithms-> Select “MD5”
+c. Under Algorithms-&gt; Select “MD5”
 
 3. Open the MD5 Checksum file by clicking on the “Load” button
 
-a. If you have” Verify files automatically” selected in the Tools->Settings menu, the
+a. If you have” Verify files automatically” selected in the Tools-&gt;Settings menu, the
 comparison will begin automatically.
 
-b. If not, under Operations-> Select “Verify Entries [ALL]…”
+b. If not, under Operations-&gt; Select “Verify Entries [ALL]…”
 
 c. The Relative path names entry dialog should already be pointing to the current root
 folder but if not, point to it now and click OK.
 
-
-d. The process will begin and you will get a status bar telling you how far along you are
+d. The process will begin and you will get a status bar telling you how far along you are
 
 4. When the verification process is complete, sort the columns by “Verification”. If any files have
 been altered or deleted between the field unit and the processing branch network they will
 show up as Invalid and be colored red. These files will need to be re-transmitted from the field
 unit to the processing branch.
 
-
-5. If all files have valid checksums then a report shall be created noting this
+5. If all files have valid checksums then a report shall be created noting this
 
 4| Reporting Results
 If you have successfully verified all files in the submission, report the results of the verification using the
@@ -15778,7 +15147,7 @@ following procedure:
 2. Copy the text to a new text file in the submission root folder which is named with the naming
 convention HXXXXX_Checksum_Results.txt
 
-Standard Shorthand for Features
+Standard Shorthand for Features
 Notes made in Remarks or Recommendations fields should be concise and use
 approved shorthand:
 att
@@ -15927,13 +15296,11 @@ verified
 west
 water
 
-
 *Page 1*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-NATIONAL OCEANIC AND
+NATIONAL OCEANIC AND
 ATMOSPHERIC ADMINISTRATION
 
 SOP
@@ -15962,7 +15329,7 @@ CONTENTS
 2.2  Review the TVU QC Layer ................................................................................................... 4 
 3.  REFERENCE DOCUMENTS ...................................................................................................... 4 
 
-Document Type: SOP
+Document Type: SOP
 
 1. OVERVIEW
 The Total Vertical Uncertainty Quality Check (TVU QC) is a simple way to identify nodes in the
@@ -15977,7 +15344,6 @@ uncertainty at a node to the maximum allowed IHO uncertainty for each node via a
 in CARIS. This TVU QC layer scales with depth and demonstrates what fraction of the total
 allowable error budget is consumed by the estimated uncertainty. In addition, only one new CUBE
 child layer is required for each IHO Order (1 or 2).
-
 
 2. WORK INSTRUCTIONS
 The Compute Layer function is used in CARIS HIPS & SIPS or CARIS BDB to create a new
@@ -15996,7 +15362,6 @@ IHO Order 1 for 1m, 2m, 4m, and 8m surfaces.
 
 IHO Order 2 for 8m, 16m, and 32m surfaces.
 
-
 Note: Two layers should be created for 8m surfaces for evaluation: IHO-1 layer 72-100m and IHO2 layer 100-160m.
 
 Ratio Method
@@ -16004,11 +15369,10 @@ Ratio Method
 a. Select the parent layer of the surface in the Layers window.
 
 b. Open Compute Layer Window:
-i. HIPS & SIPS -> Right-click and select ‘Add Layer’
-ii. BDB -> Select Tools->Layers->Compute Layer.
+i. HIPS & SIPS -&gt; Right-click and select ‘Add Layer’
+ii. BDB -&gt; Select Tools-&gt;Layers-&gt;Compute Layer.
 
 See next page for images.
-
 
 Effective Date: Date
 
@@ -16016,7 +15380,7 @@ FOR OFFICIAL USE ONLY
 
 Page 2
 
-Document Type: SOP
+Document Type: SOP
 
 c.
 
@@ -16044,14 +15408,13 @@ Equation
 
 f. Click OK.
 
-
 Effective Date: Date
 
 FOR OFFICIAL USE ONLY
 
 Page 3
 
-Document Type: SOP
+Document Type: SOP
 
 2.2 Review the TVU QC Layer
 The results from the ratio method visually demonstrate if and by how much the estimated
@@ -16069,9 +15432,8 @@ layer in conjunction with other tools such as a distribution (e.g. histogram) pl
 “Standards Compliance Evaluation” tool by Weston Renoud, spreadsheets and the CUBE layers.
 
 Histograms can be created in CARIS using the Compute Statistics function. Select the parent layer
-of the surface -> Right Click -> Compute Statistics. Select the IHO_Order_1(or2) layer and a bin
+of the surface -&gt; Right Click -&gt; Compute Statistics. Select the IHO_Order_1(or2) layer and a bin
 size.
-
 
 3. REFERENCE DOCUMENTS
 This document is in alignment with the following regulatory/guidance documentation:
@@ -16084,7 +15446,7 @@ FOR OFFICIAL USE ONLY
 
 Page 4
 
-NATIONAL OCEANIC AND
+NATIONAL OCEANIC AND
 ATMOSPHERIC ADMINISTRATION
 
 SOP
@@ -16111,21 +15473,19 @@ CONTENTS
 
 2.
 
-
 OVERVIEW ................................................................................................................................. 2
 WORK INSTRUCTIONS ............................................................................................................ 2
 2.1 Export the features ................................................................................................................. 2
 2.2 Generate TCARI .tid file ....................................................................................................... 3
 2.3 Correct the features for tide ................................................................................................... 3
 
-Document Type: SOP
+Document Type: SOP
 
 1. OVERVIEW
 CARIS Notebook may be used to apply tide correctors to point features. However, if a TCARI tide
 method is required then Pydro must be used to create the compatible tide file. This SOP describes
 how Pydro is used to create a CARIS “single station” tide file (.tid) that is a 1:1 ratio with the
 feature records.
-
 
 2. WORK INSTRUCTIONS
 CARIS Notebook:
@@ -16138,8 +15498,7 @@ attribute "obstim" in computing the tide records. To select features with the �
 attribute populated (i.e. not equal to null), right click and Create Layer by Attribute
 Value with the following:
 
-b. File->Export->To S-57 (or GML will also work).
-
+b. File-&gt;Export-&gt;To S-57 (or GML will also work).
 
 Effective Date: Date
 
@@ -16147,36 +15506,30 @@ FOR OFFICIAL USE ONLY
 
 Page 2
 
-Document Type: SOP
+Document Type: SOP
 
 Pydro:
 2.2 Generate TCARI .tid file
 a. Load the desired TCARI project data. No other data needs to be loaded/inserted into the
 Pydro Survey Session (PSS) to use the utility.
 
-
-
 *Page 1*
 
 ------------------------------------------------------------------------------------------------------------------------
-
-
 
 *Page 2*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-b. Select Tides->CARIS TCARI Tide->Create TCARI TID File via S-57, and select the S57 file from step 1). (Note: there are menu options to opt for PREDICTED tides as
+b. Select Tides-&gt;CARIS TCARI Tide-&gt;Create TCARI TID File via S-57, and select the S57 file from step 1). (Note: there are menu options to opt for PREDICTED tides as
 generated by TCARI; if you want predicted tides rather than TCARI tides, use that menu
 option.)
 
 CARIS Notebook:
 2.3 Correct the features for tide
 a. Perform a feature selection in Notebook, using the same query from step 1)
-b. Go to Tools->Load Tide ->Single tide station observations: browse and select the .tid file
+b. Go to Tools-&gt;Load Tide -&gt;Single tide station observations: browse and select the .tid file
 created in step 2).
-
 
 Effective Date: Date
 
@@ -16184,7 +15537,7 @@ FOR OFFICIAL USE ONLY
 
 Page 3
 
-SSS Contacts to $CSYMB
+SSS Contacts to $CSYMB
 02/27/2014
 Overview
 This SOP outlines the procedures for NOAA field units to translate CARIS SIPS side scan sonar
@@ -16197,22 +15550,21 @@ CARIS HIPS & SIPS
  Pick and attribute contacts.
 
 Pydro
- Config -> User Preferences
+ Config -&gt; User Preferences
  Toggle ON “Auto $CSYMB SIPS contacts on insert; w/ images” and the appropriate SSS
 contact image (Mosaic, Speed Corrected, or Uncorrected). All three can be exported but
 this will create three copies of each image.
-
 
 
 
 
 
 Insert SSS Lines which contain contacts
-o Data ->Insert HIPS/SIPS Line Features
+o Data -&gt;Insert HIPS/SIPS Line Features
  Select Lines with SSS contacts to insert
  Apply
 Export SSS Contacts to .000
-o Data -> Export -> S-57 Features to ISO 8211 (.000)
+o Data -&gt; Export -&gt; S-57 Features to ISO 8211 (.000)
 o Use “Default” as Filter
 o Name .000 $CSYMB file
 o Intended Usage = Harbor (5)
@@ -16226,8 +15578,7 @@ Unzip the image file to your Multimedia folder.
 CARIS
  Open SSS contact $CSYMB .000 file for analysis with surfaces and Final Feature File.
 
-
-Appendix I
+Appendix I
 Attribute Mapping from CARIS SIPS to $CSYMB:
 
 SIPS Contacts
@@ -16256,7 +15607,6 @@ Contact Height
 
 *Images File Name:
 Currently CARIS truncates the image file names.
-
 
 m = mosaic
 s = speed corrected
@@ -16289,8 +15639,7 @@ NOTE: The month and year remain and the
 SIPS contact number is added (e.g. 0001,
 0002, etc.). The day and time are truncated.
 
-
-Field Procedures Manual
+Field Procedures Manual
 National Oceanic and Atmospheric Administration, Office of
 Coast Survey
 
@@ -16309,8 +15658,7 @@ The Standard Operating Procedure’s (SOP’s) within the FPM Appendices are in 
 being transferred to the “Documents” section of the Hydroforum and the SOP’s will reside in
 both places for the remainder of the 2014 field season.
 
-
-Digital Data Submission Checklist
+Digital Data Submission Checklist
 OPR-A###-FA-##
 HXXXXX
 Survey X
@@ -16353,7 +15701,6 @@ SVP
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 *Page 1018*
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -16374,7 +15721,6 @@ Digitally Signed Approval Memo
 Appendices
 I.
 
-
 DTON Report(s)
 p ( )
 HXXXXX_DTON.xml (XML of DTONs exported from Pydro)
@@ -16382,8 +15728,7 @@ HXXXXX_DTON_Report.pdf (report produced in Pydro)
 HXXXXX_DTON_email.txt (copy of submission email)
 other email correspondence related to DTONs including MCD confirmation
 
-II.
-
+II.
 
 Survey Feature Report
 HXXXXX_Survey_Feature_Report.pdf (report produced in Pydro)
@@ -16440,7 +15785,7 @@ H: (to go to drive)
 cd (can use rt click paste to put in path to
 folder)
 
-Hydrographic Survey Quality Control Checklist
+Hydrographic Survey Quality Control Checklist
 Survey: HXXXXX
 
 Project: OPR-XXXX-FA
@@ -16511,7 +15856,7 @@ Remarks/Recommendations completed
 
 DATE
 
-Pictures labeled correctly, in one folder, & inserted in PSS
+Pictures labeled correctly, in one folder, & inserted in PSS
 AWOIS investigations completed
 .mbd file inserted in Pydro
 Database updated in AWOIS editor, with investigation methods and remarks
@@ -16572,7 +15917,7 @@ E-mail CST, FOO & CO when selection and report are complete
 
 DATE
 
-Submittal e-mail/DTON Report saved in PSS folder
+Submittal e-mail/DTON Report saved in PSS folder
 Additional (Observed, Verified or Smooth) Tides Applied
 Tide file reviewed & checked for gaps/flyers (txt in Notepad, .tid in Caris Tide Editor)
 Apply zoned file to all HDCS lines
@@ -16632,7 +15977,7 @@ Chart edition & date corrected through included in DR
 Notice to Mariners checked for recent updates
 Special circumstances, problems, HVF changes, deviations from DAPR documented
 
-Shoreline processes described
+Shoreline processes described
 Separates reviewed & complete
 Acquisition logs checked
 True Heave applied and how SV applied noted (nearest in time etc.)
@@ -16691,7 +16036,7 @@ Digitally sign approval memo and put in Descriptive_Report\Report_Body\Approval_
 
 DATE
 
-Hydrographic Survey Review Checklists
+Hydrographic Survey Review Checklists
 Survey:
 
 Project:
@@ -16757,7 +16102,7 @@ DTONs
 Verify DTONs
 DTON Report in DR matches DTONs in PYDRO
 
-3. Data Accuracy
+3. Data Accuracy
 Systematic Errors
 BASE Surfaces reviewed for sound velocity, tide, roll bias or timing bias, etc.
 
@@ -16806,7 +16151,7 @@ Signed Approval Memo
 
 Completed:
 
-U.S. Department of Commerce
+U.S. Department of Commerce
 
 National Oceanic and Atmospheric Administration
 
@@ -16815,7 +16160,6 @@ Form Revised 26 February 2010
 FIXED AIDS FOR USCG I-ATONIS
 US Coast Guard District
 OPR Project No.
-
 
 LIGHT LIST NUMBER
 
@@ -16872,16 +16216,13 @@ To Date
 I-ATONIS
 Date
 
-
 *Page 17345*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
 *Page 17345*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 Additional Comments: (This space is for additional narrative on problematic ATONs. Examples are: ATON is not serving its intended purpose, difficulties encountered
 while positioning, or horizontal accuracy issues. For ATONs positioned using Detached Positioning state whether or not the new position is better than what is
@@ -16889,4 +16230,3 @@ currently charted. Include light list number. This form DOES NOT replace require
 
 * Horizontal Position Method: e.g. DGPS only, Post Processed GPS, Detached Position, photogrammetric
 
-

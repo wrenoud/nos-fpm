@@ -1,12 +1,12 @@
 Chapter 5
 ===========
 Data Management and Survey Deliverables
+=======================================
+
 The purpose of this chapter is to define data management and deliverable requirements for NOAA field units
 conducting OCS hydrographic surveys. These requirements have been established to safeguard hydrographic data
 during field operations, support efficient office processing, and expedite the application of survey data to NOAA’s
 navigational products.
-
-
 
 5.1 Data Management
 --------------------
@@ -44,13 +44,11 @@ approval from the Chief-of-Party prior to releasing any preliminary data or prod
 Note: Any preliminary data product released must be clearly annotated in accordance with section 5.2.2.4of this
 manual.
 
-
 *Page 172*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-A copy of all products released to the public shall be included in the Public_Relations_&_Constituent_Products
+A copy of all products released to the public shall be included in the Public_Relations_&_Constituent_Products
 folder of the survey submission package. The field unit shall document all survey records or constituent products
 officially transmitted using a digitally signed NOAA standard form Letter Transmitting Data (NOAA Form 6129), which can be created in Pydro. A record of all transmittal letters created and received should be maintained
 by the field unit.
@@ -69,6 +67,7 @@ Certain homeland security survey data have special handling requirements prescri
 Oceanographic Office and OCS as described in the NAVMETOCCOMINST 3142A documents included in
 Appendix 2:
 
+
 #### 5.1.1.2 Data Releasability
 
 Field units or HSD/NSD office personnel should be aware that the policy information mentioned here is set forth
@@ -82,7 +81,6 @@ this information to the general public without permission from HSD.
 Figure 5.1 illustrates a general flow diagram of HSD’s processes to plan hydrographic surveys, acquire, process,
 quality control and compile hydrographic data to create products.
 
-
 Figure 5.1: General flow diagram of HSD’s processes.
 
 According to the OCS Policy for the Release of Mission Data, there are three defined stages for Mission Data (see
@@ -93,38 +91,34 @@ the OCS policy for more information about each of these stages):
 ------------------------------------------------------------------------------------------------------------------------
 
 
-	
 
-	
 
-	
 
-•	 Raw Data: data as it is originally collected manually, from sensors, or received from other sources such 		
+
+
+* Raw Data: data as it is originally collected manually, from sensors, or received from other sources such
 as other federal agencies.
 
-•	 Working Data: data on which processing has been performed that changes the information contained in 		
+* Working Data: data on which processing has been performed that changes the information contained in
 the data but which is not yet processed to a level deemed as complete and suitable for public release
 (e.g. data that has undergone a Survey Acceptance Review (SAR).
 
-
-•	 Data Product: data which has been processed or accepted without further processing which is considered 	
-	 to be suitable for release to the public and which OCS acknowledges as official (e.g. BAG after 			
+* Data Product: data which has been processed or accepted without further processing which is considered
+	 to be suitable for release to the public and which OCS acknowledges as official (e.g. BAG after
 	 approval).
 
 Due to the increase in requests for digital data at all stages, HSD has been working with the National Geophysical
 Data Center (NGDC), which stores this data, to release the data to the public at the following stages in HSD’s
 pipeline:
-	
+
 
 1. After the ships have sent the raw data to NGDC.
 
 
-	
 
 2. After the working data has undergone a SAR and AHB/PHB has sent it to NGDC (Post-SAR).
 
 
-	
 
 3. After OCS acknowledges the data as official
 
@@ -146,20 +140,17 @@ If the Chief Hydrographer feels the requester has reasonable cause to warrant th
 still on the ship and have not been sent to AHB/PHB then, (s)he must obtain written approval by the appropriate
 Division Chief (i.e. the Chief, Hydrographic Surveys Division or Chief, Navigation Services Division) to release
 these data. Raw data, if release is approved, should be distributed with a disclaimer describing, in general:
-•	 Things that have not been done (e.g. list correctors that haven’t been applied).
+* Things that have not been done (e.g. list correctors that haven’t been applied).
 
-•	 Uses of the raw data that are not appropriate.
+* Uses of the raw data that are not appropriate.
 
-•	 Anything else the Chief Hydrographer or Chief of HSD feels necessary to include.
-
-
+* Anything else the Chief Hydrographer or Chief of HSD feels necessary to include.
 
 *Page 174*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Additionally, metadata should be provided in conformance with applicable standards and such metadata should be
+Additionally, metadata should be provided in conformance with applicable standards and such metadata should be
 entered in to the appropriate national metadata data base. Finally, an official record of raw data distributions shall
 be made and preserved (contact the Chief of HSD/NSD for more information).
 
@@ -206,12 +197,9 @@ up onto an external hard drive. This type of system combination should be config
 the two drives for differences periodically throughout the day. If any new data are found on the NAS, those files
 should be automatically mirrored onto the external hard drive.
 
-
-
 *Page 175*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 5.1.1.3.1 Data Backup Requirements
@@ -261,14 +249,11 @@ directory structure, any specific software requirements must be considered. For 
 data must be configured with a specific directory structure so that referenced information can be accessed by the
 software. An expanded view of a sample CARIS directory structure is shown in Figure 5.2.
 
-
-
 *Page 176*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Figure 5.2: Field unit directory structure.
+Figure 5.2: Field unit directory structure.
 
 OCS recommends that field units store raw and post-processed data in separate directories. Typically, raw data
 will be organized by survey registry number with subfolders further sorting the data by acquisition system type,
@@ -293,9 +278,8 @@ speed profile data acquired for the survey. Raw sonar data should be organized b
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Jefferson on 27 June 2006 for survey H12345, the file structure might be: H12345_MBES > TJ_S222_Reson7125
-> 2006_178. If rejected and/or non-converted sonar files are submitted they should be contained in a separate
+Jefferson on 27 June 2006 for survey H12345, the file structure might be: H12345_MBES &gt; TJ_S222_Reson7125
+&gt; 2006_178. If rejected and/or non-converted sonar files are submitted they should be contained in a separate
 folder designated for that purpose. Raw sound speed profile data should be separated into subfolders by vessel
 hull number and day. The configuration file (*.con) for each sound speed profiling instrument used for survey
 operations must be included in the Preprocess folder.
@@ -303,9 +287,7 @@ operations must be included in the Preprocess folder.
 Once the field unit receives notification from NGDC that all data have been successfully archived, the field unit
 may remove the corresponding raw data from their system.
 
-
 Figure 5.3: Field Unit Raw Data Directory Structreu.
-
 
 
 #### 5.1.2.2 Survey Data Submission Directory Structure
@@ -331,12 +313,9 @@ At a minimum, the following subfolder shall be included:
 HSRR - Include a digital copy of the field unit’s Hydrographic Systems Readiness Memo and corresponding
 Hydrographic Systems Readiness Acknowledgment as defined in Chapter 1 of this manual.
 
-
-
 *Page 178*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 5.1.2.2.2 HXXXXX
@@ -344,14 +323,14 @@ Hydrographic Systems Readiness Acknowledgment as defined in Chapter 1 of this ma
 This folder shall be named to identify the registry number of the survey being submitted. It should contain only
 survey-specific data and reports that have been approved for submission by the Chief-of-Party. At a minimum, the
 following subfolders shall be included
-•	 Checksum File - The MD-5 Checksum files (.md5) shall be included directly under the HXXXXX folder (not
+* Checksum File - The MD-5 Checksum files (.md5) shall be included directly under the HXXXXX folder (not
 in a subfolder) in order for the file verifying software, FileVerifier ++, to work properly during verification at
 NGDC, AHB or PHB.
 
-•	 Data - NOAA field units shall deliver the following in the Data folder:
-•	 Processed
-	Fieldsheets - This folder shall include the following CARIS fieldsheet(s). All preliminary fieldsheets 		
-			
+* Data - NOAA field units shall deliver the following in the Data folder:
+* Processed
+	Fieldsheets - This folder shall include the following CARIS fieldsheet(s). All preliminary fieldsheets
+
 should be removed from this folder prior to data submission.
 
 H12345 - This fieldsheet should contain all finalized BASE surfaces and mosaics for
@@ -369,12 +348,12 @@ at three meter resolution would be named H12345_3m_100. A corresponding 200% SSS
 mosaic would be named H12345_3m_200. There shall be absolutely no periods or special
 characters used in the mosaic names.
 
-HDCS_DATA -This folder shall contain all post-processed data generated in CARIS for the survey being 	
-			
-submitted. Data shall be further organized using subfolders to create a Project Vessel/		
-	
-Day / Line PVDL structure, as required for use with CARIS software. All extraneous 		
-			
+HDCS_DATA -This folder shall contain all post-processed data generated in CARIS for the survey being
+
+submitted. Data shall be further organized using subfolders to create a Project Vessel/
+
+Day / Line PVDL structure, as required for use with CARIS software. All extraneous
+
 data shall be removed from this folder prior to data submission.
 
 VesselConfig - This folder shall include copies of each HIPS Vessel File (*.HVF) used to
@@ -382,8 +361,8 @@ process data for the survey and any applicable DeviceModels.xml files. Any modif
 made to these files during survey operations should be documented in the corresponding
 Descriptive Report and/or DAPR.
 
-S-57_Features - Include in this folder the Final Feature File and the side scan sonar (SSS) contacts file in 	
-			
+S-57_Features - Include in this folder the Final Feature File and the side scan sonar (SSS) contacts file in
+
 .000 format.
 
 PSS – This folder shall include Pydro .pss files. Do not include images in this folder.
@@ -393,13 +372,11 @@ associated with a feature in the Final Feature File (FFF). In addition, this fol
 the side scan sonar (SSS) contact images for both significant and insignificant contacts. A copy of the SSS
 contact images shall remain in the CARIS HDCS line file.
 
-
 *Page 179*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-GNSS_Data – This folder shall include the Post-Processed Kinematic (PPK) GPS data, SBET QC Log,
+GNSS_Data – This folder shall include the Post-Processed Kinematic (PPK) GPS data, SBET QC Log,
 and SBET folder.
 
 SVP - This folder shall include only the processed CARIS *.svp files applied to the survey data being
@@ -409,21 +386,21 @@ Tide - This folder shall include only the project tide files (tide zone file (.z
 (SEP Models), etc..) and tide/water level (*.tid) files applied to the survey data at the time of submission.
 Files should be named so that the type of tide/water level data (i.e., predicted, preliminary, verified or fiis
 identified
-•	 Separates - This folder shall contain a subfolder for each Separate report identified below.
+* Separates - This folder shall contain a subfolder for each Separate report identified below.
 
 	Acquisition_&_Processing_Logs
-	
-Acquisition Logs - This folder shall contain all acquisition log files associated with the survey being sub		
-			
-mitted (Note: Acquisition and Processing Log files may be combined into one file 		
-			
+
+Acquisition Logs - This folder shall contain all acquisition log files associated with the survey being sub
+
+mitted (Note: Acquisition and Processing Log files may be combined into one file
+
 and delivered in one combined folder).
 
-	
-Processing Logs - This folder shall contain all Processing log files associated with the survey being 		
-			
-submitted (Note: Acquisition and Processing Log files may be combined into one 		
-			
+
+Processing Logs - This folder shall contain all Processing log files associated with the survey being
+
+submitted (Note: Acquisition and Processing Log files may be combined into one
+
 file and delivered in one combined folder).
 
 II. Digital Data
@@ -441,6 +418,7 @@ field unit for dissemination to other NOAA offices or outside organizations. Inc
 and workspaces for plots, “one-pagers” (in *.pdf format) created for public relations, and any other preliminary
 products released to constituents, navigation managers, or the public in the native format provided.
 
+
 #### 5.1.2.3 Project Reports
 
 This folder shall be named to identify the project number under which the submitted survey is assigned. It should
@@ -451,8 +429,7 @@ course of the year specified. At a minimum, the following subfolders shall be in
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Data Acquisition and Processing Report (DAPR) - Include the Data Acquisition and Processing Report for
+Data Acquisition and Processing Report (DAPR) - Include the Data Acquisition and Processing Report for
 the project (in *.pdf format) and any supporting information as defined by the HSSD. The DAPR file should be
 named according to the project number (e.g., OPR-A###-AA-YY_DAPR.pdf.)
 Horizontal and Vertical Control Report (HVCR) - Include the Horizontal and Vertical Control report for the
@@ -464,14 +441,11 @@ of an HVCR.
 Project Correspondence - Include all project correspondence such as documented telephone conversations
 and email correspondence that pertain to the survey being submitted.
 
-
 Figure 5.4: Submission Directory Structure
-
 
 *Page 181*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 5.1.2.4 Naming Conventions
@@ -483,8 +457,6 @@ unfamiliar to the receiving hydrographic branch and/or do not follow standard na
 accompanied by a separate digital text document fully describing the file(s). This text file shall be named “read
 me”, with an appropriate extension, and should be located at the top level of the directory structure containing the
 unfamiliar or non-standard files.
-
-
 
 5.2 Survey Deliverables
 ------------------------
@@ -517,27 +489,24 @@ in Appendix 5.
 Additionally, a digital directory listing of data on the transfer media should be created and compared to the original
 file structure. The field unit shall include this directory listing, as a text file named to reference the transmittal
 letter number, in the data submission package. This directory listing can be generated and automatically sent to
-a text file by typing “dir /s submission directory name > transmittal reference number.txt” (e.g., dir /s H12345 >
+a text file by typing “dir /s submission directory name &gt; transmittal reference number.txt” (e.g., dir /s H12345 &gt;
 RU-2-06.txt) at the Windows Command Prompt.
 
 To ensure that a complete data recovery is possible in case of lost mailings or media problems, the procedures
 below shall be followed by each field unit when submitting final digital survey data to AHB or PHB:
-•	 Verify that backups of all data being submitted have been made and are securely stored. Backups must be in a
+* Verify that backups of all data being submitted have been made and are securely stored. Backups must be in a
 format that can be readily restored at the receiving Hydrographic Branch.
-
 
 *Page 182*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-•	 Review the content of all backups and deliverable digital media to ensure they are complete, accurate, and
+* Review the content of all backups and deliverable digital media to ensure they are complete, accurate, and
 structured in accordance with OCS specifications.
 
 
-	
 
-•	 Retain the backup for a survey until notified by AHB or PHB that the data have been successfully archived
+* Retain the backup for a survey until notified by AHB or PHB that the data have been successfully archived
 and the Survey Acceptance Review has been completed (Survey Acceptance Review is only required for
 processed data).
 
@@ -547,79 +516,78 @@ processed data).
 NOAA field units using POSPac MMS processing may satisfy the ERS based deliverables defined in section 8.4.5
 of the HSSD with the following items:
 Raw Files
-•	 Raw POSPac Files with naming convention YYYY_DDD_VSSL.000 (ex. 2010_123_S220.000)
-•	 Files shall be Unlimited in size but not more than 24 hours long.
+* Raw POSPac Files with naming convention YYYY_DDD_VSSL.000 (ex. 2010_123_S220.000)
+* Files shall be Unlimited in size but not more than 24 hours long.
 
-•	 Base Station Files in native format, if native format is other than RINEX
-•	 Base Station Files in RINEX version 2.11+
-• Including navigation (.yyN) as well as observation files (.yyO).
+* Base Station Files in native format, if native format is other than RINEX
+* Base Station Files in RINEX version 2.11+
+* Including navigation (.yyN) as well as observation files (.yyO).
 
-• RINEX files must include all types of dual-frequency observations, including manufacturers SNRs: 	
-	
+* RINEX files must include all types of dual-frequency observations, including manufacturers SNRs:
+
 C1, L1, L2, P2, P1, S1, and S2
-• RINEX header shall include at a minimum: station / marker name, receiver type / S/N, antenna
+* RINEX header shall include at a minimum: station / marker name, receiver type / S/N, antenna
 type / S/N and antenna height
-• May use Compact RINEX (Hatanaka)
-•	 Final Ephemerides
-	
-	
+* May use Compact RINEX (Hatanaka)
+* Final Ephemerides
 
-•	 user_basestation_db.xml file containing Project wide base station positions overridden in POSPac 		
-Coordinate Manager (C:\Program Files\Common Files\Applanix\User Base Stations\user_basestation_		
+
+
+* user_basestation_db.xml file containing Project wide base station positions overridden in POSPac
+Coordinate Manager (C:\Program Files\Common Files\Applanix\User Base Stations\user_basestation_
 db.xml)
 
-•	 APPA_RSDB5.out file, if it has been modified from the Applanix default: C:\Program Files \Applanix\		
+* APPA_RSDB5.out file, if it has been modified from the Applanix default: C:\Program Files \Applanix\
 	 POSPac MMS 5.3\APPA_RSDB5.out
-
 
 *Page 183*
 
 ------------------------------------------------------------------------------------------------------------------------
 
+Processed Files
 
-Processed Files
-	
 
-•	 50 Hz SBET (0.02 seconds) and SMRMSG output files with naming convention YYYY_DDD_VSSL. 		
+* 50 Hz SBET (0.02 seconds) and SMRMSG output files with naming convention YYYY_DDD_VSSL.
 sbet and YYYY_DDD_VSSL.smrmsg
-•	 All .log files from the Extract and Proc POSPac Project folders
-•	 Plots2
+* All .log files from the Extract and Proc POSPac Project folders
+* Plots2
 
-	
-• Smoothed Performance Metrics, Reference Frame (One graph per bullet)
-		
-• North, East and Down Position Error RMS (m)
-*		
-• North, East and Down Velocity Error RMS (m/sec)
-		
-• Roll, Pitch and Heading Error RMS (arc-min)
-	
-• Calibrated Installation Parameters (One graph per bullet)
-		
-• X Reference-Primary GPS Lever Arm (m)
-		
-• Y Reference-Primary GPS Lever Arm (m)
-		
-• Z Reference-Primary GPS Lever Arm (m)
-		
-• Reference – Primary GPS Lever Arm Figure of Merit
-	
-• Solution Status (One graph per bullet)
-		
-• Number of SVs
-		
-• PDOP
-		
-• Baseline Length (m)
-		
-• Processing mode
-	
-• Separation model file
-		
-• Current acceptable model file formats: ASCII XYZ,NGS BIN.
+
+* Smoothed Performance Metrics, Reference Frame (One graph per bullet)
+
+* North, East and Down Position Error RMS (m)
+*
+* North, East and Down Velocity Error RMS (m/sec)
+
+* Roll, Pitch and Heading Error RMS (arc-min)
+
+* Calibrated Installation Parameters (One graph per bullet)
+
+* X Reference-Primary GPS Lever Arm (m)
+
+* Y Reference-Primary GPS Lever Arm (m)
+
+* Z Reference-Primary GPS Lever Arm (m)
+
+* Reference – Primary GPS Lever Arm Figure of Merit
+
+* Solution Status (One graph per bullet)
+
+* Number of SVs
+
+* PDOP
+
+* Baseline Length (m)
+
+* Processing mode
+
+* Separation model file
+
+* Current acceptable model file formats: ASCII XYZ,NGS BIN.
 
 Note: Substitutes for POSPac plots may be acceptable if they provide all the information needed in a format
 acceptable to HSD and are agreed upon ahead of time by the field unit, receiving branch, and OPS.
+
 
 ### 5.2.2 Reports and Field Products
 
@@ -637,12 +605,9 @@ every OCS hydrographic survey completed by a NOAA field unit. Each of these repo
 hydrographic branch that supports that field unit unless a different recipient is explicitly identified either in this
 manual or the Project Instructions.
 
-
-
 *Page 184*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 5.2.2.1 Field Unit Reports
@@ -679,88 +644,78 @@ Project Statistics – This will be used to track monthly statistics other than 
 row of the spreadsheet represents a specific project within a given month, the field is advised to maintain
 one sheet for the entire fiscal year and submit the updated version every month. The following provides
 clarification of the columns within the spreadsheet:
-	
 
-•	 The “LNM VBES” (vertical beam echo sounder), “LNM MB” (multibeam), and “LNM SSS’ (side scan
+
+* The “LNM VBES” (vertical beam echo sounder), “LNM MB” (multibeam), and “LNM SSS’ (side scan
 sonar) are for the purpose of reporting operations using only one sonar sensor.
 
-•	 The “LNM Combo” is for reporting LNM if a combination of sensors is used., such as side scan and 		
+* The “LNM Combo” is for reporting LNM if a combination of sensors is used., such as side scan and
 	 single beam or multibeam and side scan.
 
-•	 The LNM above are to be subdivided between ship and launch platforms as appropriate.
+* The LNM above are to be subdivided between ship and launch platforms as appropriate.
 
-•	 “Items Investigated” includes the number of AWOIS items or newly discovered items that require extra 		
+* “Items Investigated” includes the number of AWOIS items or newly discovered items that require extra
 	 survey time.
-
-
 
 *Page 185*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-•	 “Tide Gauges Installed/Removed” and “Bottom Samples” are the only other stats needed from NOAA 		
-	 survey vessels. Contractors are still required to report Days at Sea (on site working on the project) 		
+* “Tide Gauges Installed/Removed” and “Bottom Samples” are the only other stats needed from NOAA
+	 survey vessels. Contractors are still required to report Days at Sea (on site working on the project)
 	 and days (or fraction of days) lost due to weather or equipment malfunction.
 
 Vessel Utilization Report – The purpose of this form is to collect data that will highlight the areas that are having
 the greatest effect on productivity and may be in need of additional resources. A brief description of the various
 columns is below:
-•	 Comment – short description of survey activities and lost productivity.
+* Comment – short description of survey activities and lost productivity.
 
-•	 Days at Sea (DAS) – as defined by the Office of Marine and Aviation Operations (Any day in which a 		
-	 vessel is at sea for at least 1 hour during a 24-hour period in support of an assigned project. DAS include 	
-	 days of arrival and departure, times anchored (except during port calls) or hove-to drifting on the 		
-	 working grounds, and occasions when a survey ship (even though moored) deploys 25 percent or 		
+* Days at Sea (DAS) – as defined by the Office of Marine and Aviation Operations (Any day in which a
+	 vessel is at sea for at least 1 hour during a 24-hour period in support of an assigned project. DAS include
+	 days of arrival and departure, times anchored (except during port calls) or hove-to drifting on the
+	 working grounds, and occasions when a survey ship (even though moored) deploys 25 percent or
 	 more of its total complement including officers and crew in field survey activities.)
-	
 
-•	 Transit (hours) – ship travel time from port to the project area or within the project area (i.e from one 		
-anchorage to another – does not include launch transit time between ship and survey area). Transit hours 		
+
+* Transit (hours) – ship travel time from port to the project area or within the project area (i.e from one
+anchorage to another – does not include launch transit time between ship and survey area). Transit hours
 are in support of surveys but should not be counted as planned/actual survey hours.
 
-
-•	 Ship/launch planned and actual survey hours - number of hours planned at the beginning of each day for 		
-each platform if all equipment is operating properly and if the authorized number of skilled personnel 		
-	 are available; hours planned may be increased during the day due to reflect a change in plans (e.g. late 		
-	 launches) but should rarely, if ever, be decreased; the number of actual hours worked for each platform. 		
+* Ship/launch planned and actual survey hours - number of hours planned at the beginning of each day for
+each platform if all equipment is operating properly and if the authorized number of skilled personnel
+	 are available; hours planned may be increased during the day due to reflect a change in plans (e.g. late
+	 launches) but should rarely, if ever, be decreased; the number of actual hours worked for each platform.
 	 Note: actual hours can never be greater than planned hours.
 
-	
-	
 
-•	 Vessel Utilization - percentage (rounded to the nearest decimal) of planned hours that were actually 		
-worked; this number should not be affected by time lost due to routine mechanical/electrical 			
+
+
+* Vessel Utilization - percentage (rounded to the nearest decimal) of planned hours that were actually
+worked; this number should not be affected by time lost due to routine mechanical/electrical
 maintenance or safety stand down days.
 
-
-•	 Weather/Safety Stand down (hours) - hours of production lost due to weather or safety stand down 		
+* Weather/Safety Stand down (hours) - hours of production lost due to weather or safety stand down
 	 (divided between ship and launches)
-•	 Unscheduled Maintenance or Equipment Issues (hours) - hours of production lost due to unscheduled 		
+* Unscheduled Maintenance or Equipment Issues (hours) - hours of production lost due to unscheduled
 	 repairs to non-survey equipment.
 
-	
 
-•	 Downtime due to Survey Equipment Issues (hours) - hours of production lost due to problems related to 		
+
+* Downtime due to Survey Equipment Issues (hours) - hours of production lost due to problems related to
 survey equipment.
 
 
-	
 
-•	 Downtime due to Personnel Shortage (hours) - hours of production lost due to shortage of personnel or 		
+* Downtime due to Personnel Shortage (hours) - hours of production lost due to shortage of personnel or
 shortage of personnel with requisite skill level.
-
 
 It is understood that the determination of planned survey hours is very subjective and dependent upon numerous
 factors including the requirement to process acquired data in a timely fashion and the availability of vessels and
 personnel.
 
-
-
 *Page 186*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 5.2.2.2.2 Data Acquisition & Processing Report (DAPR)
@@ -787,182 +742,157 @@ VerCon operations were conducted shall be placed in this folder in lieu of an HV
 
 Field units that have installed and serviced water level stations in support of an OCS survey project shall provide
 the following Tide and Water Level Data Package to CO-OPS in accordance with section 4 of the HSSD.
-1.	
+1.
 
 Transmittal letter (PDF format).
 
-
-2.	
+2.
 
 Field Tide Note (PDF format), if applicable.
 
+3.
 
-3.	
-	
 
 Calibration test documentation from an independent source other than the manufacturer for each sensor
 used to collect water level or ancillary data. (PDF format).
 
+4.
 
-4.	
-	
 
-E-Site Report, Water Level Station Xpert Site Report, or Tide Station Report (NOAA Form 77-12), or 		
+E-Site Report, Water Level Station Xpert Site Report, or Tide Station Report (NOAA Form 77-12), or
 equivalent.
 
+5.
 
-5. 	
-	
-	
+
 
 (E-Site report application is in web based electronic format, Water Level Station Xpert Site Report or
-	
-Tide Station report in Microsoft Excel format). Contractor created Site Reports are acceptable as long as 		
+
+Tide Station report in Microsoft Excel format). Contractor created Site Reports are acceptable as long as
 the reports provide same required information.
 
+6.
 
-6. 	
-	
 
-U.S. Geological Survey quadrangle map (7.5 minutes map) indicating the exact location of the station, 		
+U.S. Geological Survey quadrangle map (7.5 minutes map) indicating the exact location of the station,
 with map name and scale shown (JPEG and PDF format).
 
-
-7. 	
+7.
 
 Sensor test worksheet (JPEG and PDF format) (applicable for acoustic gauges).
 
+8.
 
-8. 	
-	
-	
 
-Sensor elevation drawing (JPEG and PDF format) showing sea floor, pier elevation and sensor elevation 		
-if sensor is mounted vertically. For stations with Aquatrak sensors, provide the Aquatrak Sounding Well 		
+
+Sensor elevation drawing (JPEG and PDF format) showing sea floor, pier elevation and sensor elevation
+if sensor is mounted vertically. For stations with Aquatrak sensors, provide the Aquatrak Sounding Well
 Diagram.
-
-
 
 *Page 187*
 
 ------------------------------------------------------------------------------------------------------------------------
 
 
-	
 
-9. 	
+9.
 
 Water level transfer form (applicable for Great Lakes stations only, in JPEG and PDF format).
 
+10.
 
-10.	
-	
-	
-	
-	
 
-Large-scale bench mark location diagram of the station site showing the relative location of the water 		
-level gauge, staff (if any), bench marks, and major reference objects found in the bench mark 			
-descriptions. The bench mark sketch shall include an arrow indicting north direction, a title block, and 		
-latitude and longitude (derived form the handheld GPS) of the gauge, NOAA chart number or 			
+
+
+
+Large-scale bench mark location diagram of the station site showing the relative location of the water
+level gauge, staff (if any), bench marks, and major reference objects found in the bench mark
+descriptions. The bench mark sketch shall include an arrow indicting north direction, a title block, and
+latitude and longitude (derived form the handheld GPS) of the gauge, NOAA chart number or
 Quad map name (JPEG and PDF format).
 
+11.
 
-11. 	
-	
-	
 
-New or updated description of how to reach the station from a major geographical landmark (in 			
-Microsoft Word and PDF format). (Refer to User’s Guide for Writing Bench Mark Descriptions, NOAA/		
+
+New or updated description of how to reach the station from a major geographical landmark (in
+Microsoft Word and PDF format). (Refer to User’s Guide for Writing Bench Mark Descriptions, NOAA/
 NOS, Updated January 2003).
 
+12.
 
-12. 	
-	
 
-Bench mark descriptions with handheld GPS coordinates (in Microsoft Word and JPEG format) (Refer 		
+Bench mark descriptions with handheld GPS coordinates (in Microsoft Word and JPEG format) (Refer
 to User’s Guide for Writing Bench Mark Descriptions, NOAA/NOS, Updated January 2003).
 
+13.
 
-13.	
-	
-	
-	
-	
-	
-	
-	
-	
 
-Digital photographs of bench mark disk faces, setting, bench mark locations from two different 			
-(perpendicular cardinal directions, station, DCP, equipment, underwater components, and vicinity 		
-(JPEG and PDF format). As a minimum, photographs shall show a view of the water level measurement 		
-system as installed, including sensors and DCP; a front view of the staff (if any); multiple 		
-views of the surroundings and other views necessary to document the location; and photographs of each 		
-bench mark, including a location view and a close-up view showing the bench mark disk (face) stamping. 	
-Bench mark photo file names start with mark designation followed by either “face” or “location”and 		
-direction of view, with jpg extension (e.g. 8661070 B location south. jpg). All other station component 		
+
+
+
+
+
+
+
+Digital photographs of bench mark disk faces, setting, bench mark locations from two different
+(perpendicular cardinal directions, station, DCP, equipment, underwater components, and vicinity
+(JPEG and PDF format). As a minimum, photographs shall show a view of the water level measurement
+system as installed, including sensors and DCP; a front view of the staff (if any); multiple
+views of the surroundings and other views necessary to document the location; and photographs of each
+bench mark, including a location view and a close-up view showing the bench mark disk (face) stamping.
+Bench mark photo file names start with mark designation followed by either “face” or “location”and
+direction of view, with jpg extension (e.g. 8661070 B location south. jpg). All other station component
 photo file names start with station number and view name (e.g. 8661070 tide station view south).
 
+14.
 
-14. 	
-	
 
-Level records (raw levels) including level equipment information (electronic files) and field notes of 		
+Level records (raw levels) including level equipment information (electronic files) and field notes of
 precise leveling, if applicable.
 
-
-15. 	
+15.
 
 Level abstract (electronic file for optical and barcode levels).
 
+16.
 
-16. 	
-	
 
-Datum offset computation worksheet or Staff/Gauge difference work sheet as appropriate showing how 		
+Datum offset computation worksheet or Staff/Gauge difference work sheet as appropriate showing how
 sensor “zero” measurement point is referenced to the bench marks.
 
-
-17. 	
+17.
 
 Calibration certificates for Invar leveling rods, if applicable (in PDF format).
 
-
-18. 	
+18.
 
 Staff-to-gauge observations, if applicable (in Microsoft Excel and PDF format).
 
-
-19. 	
+19.
 
 Agreements, MOU, contract documents, utilities/pier agreements, etc., if applicable (in PDF format).
 
-20. 	
+20.
 
 Other information as appropriate, or as specified in the contract (in PDF format).
 
-
-21. 	
+21.
 
 Water level data download.
 
+22.
 
-22. 	
-	
 
-All required GPS deliverables (OPUS published data sheet and bench mark photos) as specified in CO-		
+All required GPS deliverables (OPUS published data sheet and bench mark photos) as specified in CO-
 OPS “User’s Guide for GPS Observations at Tide and Water Level Station Bench Marks”
 
 Completed CO-OPS Evaluation Criteria for Water Level Station Documentation Check-Off List Standing
 Project Instructions for Coastal and Great Lakes Water Level Stations(included in Appendix 3).
 
-
-
 *Page 188*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 5.2.2.2.5 Coast Pilot Review
@@ -991,7 +921,7 @@ requirements set forth in the HSSD.
 ###### 5.2.2.3.1.1 Pydro Chartlets
 
 Pydro supports creation of automated “cookie cut” chartlets for features using OpenGL-based “HSTP Control”
-ChartWindow. From the ChartWindow context menu, select “Screen Capture” -> “Auto Chartlets”. A subsequent
+ChartWindow. From the ChartWindow context menu, select “Screen Capture” -&gt; “Auto Chartlets”. A subsequent
 dialog allows you to specify a feature tree template filter to control which items/features have chartlets generated
 (empty template implies use all features). Chartlets are saved in a user-specified directory in PNG format. The
 visible data content within each chartlet is as per the plot configuration as seen in the Pydro ChartWindow.
@@ -1010,9 +940,9 @@ Pydro supports classification of HIPS/SIPS survey lines in compliance with HSSD.
 in Pydro according to “mode” and “type”. Line mode includes “Interferometric”, “Multibeam”, “Shoreline”,
 “SideScanSonar”, “SingleBeam”, and “UnclassifiedMode”; multiple modes can be selected per line (not to
 include “UnclassifiedMode”). Line type includes “Crossline”, “Development”, “Mainscheme”, “Other”, and
-“UnclassifiedType”; only one type can be selected per line. Pydro line classification is accessible in the Data ->
-Stats -> “PVDL / In Bathy Info” and “Survey Line Info” dialogs. Any HIPS/SIPS survey lines can be brought into
-Pydro via Data -> Insert -> “HIPS/SIPS Survey Lines”, without the added expense of inserting any associated
+“UnclassifiedType”; only one type can be selected per line. Pydro line classification is accessible in the Data -&gt;
+Stats -&gt; “PVDL / In Bathy Info” and “Survey Line Info” dialogs. Any HIPS/SIPS survey lines can be brought into
+Pydro via Data -&gt; Insert -&gt; “HIPS/SIPS Survey Lines”, without the added expense of inserting any associated
 feature or bathymetry data into the PSS. Survey line data read in this way does include the survey track and
 swath-bathymetry coverage limits (if any), and can therefore be used in Pydro to compute linear nautical miles
 
@@ -1020,8 +950,7 @@ swath-bathymetry coverage limits (if any), and can therefore be used in Pydro to
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-(LNM) and to index full-density PVDL depth data. The Pydro information dialogs include a versatile HIPS/SIPS
+(LNM) and to index full-density PVDL depth data. The Pydro information dialogs include a versatile HIPS/SIPS
 PVDL-filtering engine that can be used to compute LNM for any particular line mode/type classification, for any
 subset of project(s), vessel(s), day(s), and line(s). Each filtering category includes a choice of the use of inclusive
 or exclusive logic.
@@ -1029,7 +958,7 @@ or exclusive logic.
 
 ###### 5.2.2.3.1.3 Pydro Surface-Points Comparisons
 
-Point and surface data comparison statistics can be compiled and reported in Pydro via Reports -> “Points/Surface
+Point and surface data comparison statistics can be compiled and reported in Pydro via Reports -&gt; “Points/Surface
 Stats”: - Items for localized comparison points can be those as filtered using any feature tree template, not just
 “Checkpoints” - Reference surface data choices include HIPS BASE/weighted grid data, in addition to PVDL
 binned depth data - Reference surfaces can be filtered according to precision - Comparison point data choices
@@ -1071,13 +1000,11 @@ criteria defined in section 3.5.3.3 of this manual shall be submitted to MCD at 
 Appendix 5 of the FPM for an example of the (Fixed Aton Report.pdf),created by MCD to facilitate a standardized
 submission.
 
-
 *Page 190*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Field units shall submit an ATON Report of all ATONs investigated directly to MCD via email to aton.reports@
+Field units shall submit an ATON Report of all ATONs investigated directly to MCD via email to aton.reports@
 noaa.gov. Courtesy copies shall be provided to the Chief of the appropriate hydrographic branch and either Chief
 of OPS or Chief of NRB. A copy of the ATON Report and processed data record shall also be included in Appendix
 II (Supplemental Survey Records and Correspondence) of the Descriptive Report.
@@ -1101,55 +1028,55 @@ Therefore, it is essential that each document contain a minimum amount of metada
 of the document and NOAA offices of the origin and particulars of the data. A digital copy (preferably PDF) of
 any preliminary product delivered to a local constituent should be included with the survey deliverables.
 The minimum elements suggested in each document are:
-	
+
 
 1. Title bar or block (include the name of the local area in title)
 
-	
+
 
 2. Date and registry number of the survey
 
-	
+
 
 3. Field unit acquiring the data
 
-	
+
 
 4. Type of equipment used to acquire the data (EM3002, Klein 5000, Klein 3000, Reson 7125, etc.)
 
-	
-	
-	
 
-5. If a sounding plot, a statement stating: Soundings in (feet, fathoms or meters) at (MLLW, ITRF 00, 		
-etc.) corrected using (predicted tides, preliminary observed tides, verified observed tides, Vdatum, 		
+
+
+
+5. If a sounding plot, a statement stating: Soundings in (feet, fathoms or meters) at (MLLW, ITRF 00,
+etc.) corrected using (predicted tides, preliminary observed tides, verified observed tides, Vdatum,
 ellipsoidally referenced)
 
-	
+
 
 6. A scale bar with units
 
-	
+
 
 7. Legend (i.e. red=0-10 feet/fathoms, yellow=10-20 feet/fathoms, etc.)
 
-	
+
 
 8. A north arrow (if applicable)
 
-	
+
 
 9. Graticules (labeled Lat/Long grid)
 
-	
-	
-	
 
-10. A disclaimer stating: “Data reflect the state of the sea floor in existence on the day and at the time the 	
-survey was conducted. The survey and the chart have not been updated for inclusion of the latest 	 	
+
+
+
+10. A disclaimer stating: “Data reflect the state of the sea floor in existence on the day and at the time the
+survey was conducted. The survey and the chart have not been updated for inclusion of the latest
 Local Notice to Mariners. Preliminary data subject to office review. Not for use in navigation.”
 
-	
+
 
 11. Optional: Contact information and/or NOAA website
 
@@ -1157,8 +1084,7 @@ Local Notice to Mariners. Preliminary data subject to office review. Not for use
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Prior to releasing any preliminary survey data to parties outside of OCS, personnel shall first obtain approval
+Prior to releasing any preliminary survey data to parties outside of OCS, personnel shall first obtain approval
 from the Chief-of-Party and notify the Chief of HSD OPS or Chief of NRB. In addition to the local constituent,
 the product shall be digitally submitted to the regional Navigation Manager and the Chief of HSD OPS or Chief
 of NRB in a timely fashion.
@@ -1183,14 +1109,7 @@ quality control tool. The NODC files to be submitted can be identified by their 
 will indicate the cast date and time and have an extension ending in “a” for CTD casts and “d” for sound speed
 versus depth profilers, as shown below.
 
-•	
-•	
-•	
-•	
-•	
-•	
-
-Filename examples - YYDDDHHMM.ssa or YYDDDHHMM.ssd, where:
+* * * * * * Filename examples - YYDDDHHMM.ssa or YYDDDHHMM.ssd, where:
 YY = 2-digit year
 DDD = day-of-year
 HH = hour of day (UTC)
@@ -1212,20 +1131,18 @@ transmittal letter shall indicate the contents of the package and list all digit
 portable hard drives, CD, DVD) with a detailed catalog of the data contained on each and the file name of the
 digital directory listing created in accordance with section 5.2.1 of this manual. If additional pages are needed for
 the transmittal letter, the project number and survey registry number shall be included on each page. Transmittal
-letters can be created in Pydro through the Reports > NOAA Forms menu, and should be signed digitally.
-
+letters can be created in Pydro through the Reports &gt; NOAA Forms menu, and should be signed digitally.
 
 *Page 192*
 
 ------------------------------------------------------------------------------------------------------------------------
 
+Raw data can be shipped to NGDC at the following address:
 
-Raw data can be shipped to NGDC at the following address:
-	
-	
-	
-	
-	
+
+
+
+
 
 NOAA, National Geophysical Data Center
 NOAA/NESDIS/NGDC/MGG
@@ -1234,21 +1151,21 @@ Boulder, CO 80305-6429
 Attn: Manager, Hydro Database
 
 All other data shall be shipped to the appropriate hydrographic branch at one of the following addresses:
-	
-	
-	
-	
+
+
+
+
 
 NOAA, National Ocean Service
 Atlantic Hydrographic Branch, N/CS33
 439 West York Street
 Norfolk, Virginia 23510-1114
 
-	
-	
-	
-	
-	
+
+
+
+
+
 
 NOAA, National Ocean Service
 Pacific Hydrographic Branch, N/CS34
@@ -1257,9 +1174,7 @@ BIN C15700, Bldg. 3
 
 Seattle, Washington 98115-0700
 
-
 *Page 193*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 

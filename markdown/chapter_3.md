@@ -1,6 +1,7 @@
 Chapter 3
 ===========
 Data Acquisition
+================
 
 3.1 Sensor Risk Management
 ---------------------------
@@ -42,13 +43,11 @@ sensor is not operational and not being actively monitored, the loss could occur
 an accurate position for the vessel at the time of loss is extremely important in locating the sensor if a loss should
 occur.
 
-
 *Page 63*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Dual frequency GPS base stations may be installed for up to 30 days in a variety of locations. Once installed it is
+Dual frequency GPS base stations may be installed for up to 30 days in a variety of locations. Once installed it is
 important to ensure that the antennae are not disturbed or moved for the duration of deployment. Antennae should
 be secured in such a way that wind and rain or snow events will not move the antennae. GPS receivers as well as
 batteries and radio electronics should be enclosed in a weather proof, locking case. Care should be taken to stage
@@ -98,13 +97,11 @@ and the data timeout error being entered in the log (note that this timing laten
 If you are unsure of the timing latency and a similar instrument set-up is available, it may be useful to experiment
 with error log time to determine the latency.
 
-
 *Page 64*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Once a position for the loss is determined, the search and recovery operation for the sensor should begin. It is
+Once a position for the loss is determined, the search and recovery operation for the sensor should begin. It is
 imperative to begin the search operation as soon as possible after the loss to increase the probability of locating
 the sensor. All available means should be used to conduct the search. If located, the likelihood of recovery is good.
 Search mechanism should be determined based on depth of search area and bottom type. Multibeam is of limited
@@ -113,8 +110,6 @@ the best chance of detecting the sensor. If other survey vessels are operating i
 immediately survey the area with multibeam or side scan sonar for any indication of the lost sensor. A diver search
 and recovery is the best way to locate and recover the sensor. In water where diving is not possible or practical,
 an ROV can be very useful for locating small objects, such as a sensor.
-
-
 
 3.2 Bathymetry Acquisition
 ---------------------------
@@ -156,13 +151,11 @@ application during post-processing. If a heave sensor is not employed, the VBES 
 when conditions are favorable for minimizing heave bias and data must be scanned for heave artifacts during postprocessing. Data acquisition should be suspended if the heave signature exceeds 0.5 meters and a heave sensor is
 not being used.
 
-
 *Page 65*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Many VBES systems output calculated depth values rather than the two-way travel time of each sonar ping. To
+Many VBES systems output calculated depth values rather than the two-way travel time of each sonar ping. To
 facilitate internal depth calculations, these types of VBES systems must be configured with an estimated value for
 the speed of sound through the water column. When necessary, hydrographic field units shall configure VBES
 systems using 1500 m/s, the standard estimate for the speed of sound in sea water. VBES data shall then be
@@ -181,15 +174,15 @@ regional HSTP Field Support Liaison for guidance.
 HYPACK is produced by HYPACK, Inc. This software is compatible with most types of VBES systems and can
 also be used for MBES data acquisition, as discussed in section 3.2.4.1 In addition to recording bathymetry data,
 HYPACK includes capabilities for completing the following tasks:
-•	 Survey preparation and line planning.
+* Survey preparation and line planning.
 
-•	 Precise survey line navigation.
+* Precise survey line navigation.
 
-•	 Recording of supporting sensor data such as position, heading, and attitude.
+* Recording of supporting sensor data such as position, heading, and attitude.
 
-•	 GPS coordinated time-tagging of sonar and supporting data.
+* GPS coordinated time-tagging of sonar and supporting data.
 
-•	 Display of geo-referenced images as background files during acquisition.
+* Display of geo-referenced images as background files during acquisition.
 
 
 ##### 3.2.3.1.1 System Setup
@@ -214,8 +207,7 @@ needed for a single survey. OCS recommends that master Device Setups for each sy
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-As a general rule, no offsets should be entered in the HYPACK Device Setup. It is OCS’s policy to record survey
+As a general rule, no offsets should be entered in the HYPACK Device Setup. It is OCS’s policy to record survey
 data in the most “raw” form possible, then apply corrections and offsets during post-processing. One exception to
 this rule is transducer offsets. Transducer offsets entered in HYPACK will not be applied to recorded data.
 However, they will affect the displayed data and may be desirable for precise line-steering, particularly if offsets
@@ -234,7 +226,7 @@ ellipsoid and appropriate UTM zone.
 Planned survey line files and any associated background files, such as charts and limits, should be loaded for each
 Project. HYPACK is capable of reading these files from any local computer directory as well as across a network.
 However, it is recommended that all Project files be stored within the local HYPACK Project directory. This file
-management strategy is easily implemented by using the File > Add File and Copy option when initially loading
+management strategy is easily implemented by using the File &gt; Add File and Copy option when initially loading
 Project files, which will automatically copy each file to the current HYPACK Project directory.
 
 
@@ -270,8 +262,7 @@ easily identifiable somewhere in the datagram. Two common problem indicators dur
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-or a string of gibberish being displayed. No data being displayed is often indicative of sensor or cable failure,
+or a string of gibberish being displayed. No data being displayed is often indicative of sensor or cable failure,
 while gibberish frequently means that the sensor output baud rate does not agree with the receiving baud rate
 setting in HYPACK.
 
@@ -281,7 +272,7 @@ setting in HYPACK.
 By default, HYPACK will log survey line data under the active HYPACK Project directory in a folder named
 “Raw”, and target files will be recorded to a file in the format mmddyyyy.tgt created in the Project directory.
 However, each field unit will have a standard directory structure to which data and targets should be logged. It is
-important for the user to check “Override Project Path” (in SURVEY mode under Options > Project Information)
+important for the user to check “Override Project Path” (in SURVEY mode under Options &gt; Project Information)
 and select the appropriate folder for both survey line data and target file data prior to beginning daily data
 acquisition. Using this option, survey and target data may be logged anywhere on the local system or across a
 network.
@@ -298,7 +289,8 @@ a range and bearing to it for use in navigation.
 Unless otherwise specified, VBES data will be automatically recorded with the file extension *.raw. However, it
 is OCS standard policy to log HYPACK VBES data with a Day of Year (DOY) file extension. Note: HYPACK
 erroneously terms the DOY format as “Julian Day”. In SURVEY mode, the “Julian Day as Extension” option
-should be chosen under the Options > Project Information menu to create files with DOY extensions.
+should be chosen under the Options &gt; Project Information menu to create files with DOY extensions.
+
 
 ### 3.2.4 Multibeam Echosounder Data
 
@@ -316,14 +308,11 @@ recommended for hazard investigation surveys because of weak, lower resolution i
 disadvantage of this mode is that it reduces the received signal aperture of the outer beams thus reducing the
 possibility of detecting distant returns.
 
-
-
 *Page 68*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-The equiangular mode electronically forms the receiving beams in equal angles. This means in the outer beams
+The equiangular mode electronically forms the receiving beams in equal angles. This means in the outer beams
 the beam footprint increases in length across-track providing bottom coverage across the entire swath width. The
 advantage of this mode is the overlapping coverage of the inner half of the swath, excellent for hazard investigation
 surveys where precise measurements of small targets are necessary. The primary disadvantage is the lower
@@ -369,12 +358,9 @@ should also refer to the HYPACK User’s Manual which can be found on the Hydros
 equipped with alternate software or systems incompatible with this software package should consult the appropriate
 user’s manuals and/or contact the regional HSTP Field Support Liaison for guidance.
 
-
-
 *Page 69*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 3.2.4.1 HYPACK / HYSWEEP
@@ -406,6 +392,7 @@ To record data using HYSWEEP, a Project must exist in HYPACK. HYPACK Project cre
 section 3.2.3.1.1 . Be certain to save each newly created Project with a unique name, or all changes will be lost
 when another Project is loaded. HYSWEEP files will be recorded to the same directory selected in HYPACK.
 
+
 ##### 3.2.4.1.2 Recording Data
 
 Recording data using the HYSWEEP module of HYPACK is nearly identical to logging data directly in HYPACK,
@@ -417,17 +404,15 @@ either one.
 For OCS hydrographic surveys, HYSWEEP data shall be logged in ASCII HSX (HYSWEEP Survey Extension)
 format. While logging data, the HYSWEEP main survey window should be used to monitor logging and device
 alarms. MBES or SSS data can be displayed and monitored in real-time using windows selected under the View
-menu. Range scales for depth and beam width are accessed under the View > Options menu, and must be set to
+menu. Range scales for depth and beam width are accessed under the View &gt; Options menu, and must be set to
 the appropriate values according to expected water depth or data will not be displayed in the survey windows
 (though it will still be logged). Multibeam display options, quality control tests, coverage map settings, and heave,
-pitch, and roll correction options are also accessed under View > Options menu. Note: the option to “Apply
+pitch, and roll correction options are also accessed under View &gt; Options menu. Note: the option to “Apply
 Heave, Pitch, and Roll Corrections” is used for display purposes only, and will not affect the raw recorded data.
-
 
 *Page 70*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ### 3.2.5 Diver Least Depth Gauge (DLDG) Data
@@ -447,8 +432,6 @@ complex, it is beneficial to record dimensions and make a quick sketch, noting t
 conclusion of the dive, a sound speed profile must be conducted in the vicinity using a Sea-Bird SEACAT profiler
 to determine local water density. Using a SEACAT system enables the DLDG pressures to be processed with
 Velocipy software.
-
-
 
 3.3 Acoustic Backscatter Acquisition
 -------------------------------------
@@ -476,14 +459,11 @@ However, if a scour is present or an object is elevated from the sea floor, a po
 irregularly spaced in time. This interruption causes an acoustic shadow, or a lack of return signal, along a portion
 of the range scale. This basic side scan sonar theory of operation is illustrated in Figure 3.1.
 
-
-
 *Page 71*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Figure 3.1: Basic side scan sonar theory of operation
+Figure 3.1: Basic side scan sonar theory of operation
 Side scan systems are typically towed at depth to increase sonar grazing angles and object detection capability.
 For optimum object detection, OCS requires maintaining a towfish height of 8-20% of the operating range scale.
 NOAA’s hydrographic field units effectively use both towed and hull-mounted SSS configurations. Each type of
@@ -514,11 +494,9 @@ Frequency SSS systems. In addition to display and recording of SSS data, SonarPr
 managing sonar targets which is useful when performing emergency response surveys. Detailed information
 about SonarPro can be found in the SonarPro Operation Manual.
 
-
 *Page 72*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 3.3.1.1.1 System Setup
@@ -532,6 +510,7 @@ which it is connecting.
 
 Note: If using both 5000 and 3000 systems on the same acquisition system, be certain that the vxWorks file
 corresponding to the current system configuration is loaded in the “klein” directory before booting the sonar.
+
 
 ##### 3.3.1.1.2 Recording Data
 
@@ -595,11 +574,9 @@ Determine by GPS
 150000 cm/s
 Table 3.1: Recommended Towfish Setup
 
-
 *Page 73*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ###### 3.3.1.1.2.2 Cable Out and Layback
@@ -642,6 +619,7 @@ SonarPro provides two types of informational alarms, towfish altitude and towfis
 that the towfish altitude alarm be set to visually and (if possible) audibly alert the user when this value falls below
 5 meters. Towfish roll is a less critical value, and this alarm can be used at the hydrographer’s discretion.
 
+
 ###### 3.3.1.1.2.4 Data Logging
 
 SonarPro provides the option of logging SSS data in either *.XTF format or Klein’s proprietary Sensor Data
@@ -654,10 +632,8 @@ window. A maximum file size between 30 and 45 minutes is recommended based on fi
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Note: If using HYPACK software for vessel navigation and logging bathymetry data, HYPACK and SonarPro
+Note: If using HYPACK software for vessel navigation and logging bathymetry data, HYPACK and SonarPro
 must be started and stopped independently.
-
 
 
 ### 3.3.2 Multibeam Echosounder Seafloor Backscatter
@@ -666,8 +642,6 @@ The acquisition of multibeam echosounder seafloor backscatter may be required in
 backscatter may be used to supplement hydrographic data for non-charting purposes. See section 6.2 of the HSSD
 for further instructions on MBES backscatter requirements in Appendices 4 for standard operating procedures on
 processing MBES backscatter data.
-
-
 
 3.4 Position and Attitude Data
 -------------------------------
@@ -708,14 +682,11 @@ the system is functioning properly and accuracy parameters are not exceeded. Occ
 difficulty determining heading parameters. Three common GAMS problems and corresponding solutions
 recommended by Applanix are described in Table 3.3.
 
-
-
 *Page 75*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-POS/MV Symptom
+POS/MV Symptom
 
 Cause of Problem
 
@@ -723,7 +694,6 @@ POS/MV heading is correct within
 the User Accuracy parameters, but
 the “Invalid Installation
 Parameters” fault is red.
-
 
 POS/MV has resolved the wrong
 set of ambiguities for its GAMS
@@ -734,7 +704,6 @@ Controller screen reads 55° for
 more than five minutes after
 powering on system.
 
-
 POS/MV was not able to obtain
 an initial heading, a.k.a.
 
@@ -743,15 +712,14 @@ most likely occur if POS/MV is
 powered on while the vessel is
 stationary.
 
-
 Recommended Solution
-1. Select View > GAMS Solution
+1. Select View &gt; GAMS Solution
 and ensure PDOP is less than 3
 and number of satellites is greater
 than 5.
 
-2. Select Settings > Installation
-> GAMS Installation Parameters
+2. Select Settings &gt; Installation
+&gt; GAMS Installation Parameters
 and click “Apply.”
 1. Cycle POS/MV power.
 
@@ -760,7 +728,6 @@ corrections.
 
 3. Power on POS/MV only while
 underway.
-
 
 Heading does not match known
 vessel heading once quadrant is
@@ -794,6 +761,7 @@ operator’s knowledge, which could cause erratic positioning and make determini
 difficult. It may be necessary to use an alternate radio beacon station if the preferred beacon is not functioning
 properly. In such cases, the use of this secondary differential beacon should be noted in the data acquisition log.
 
+
 ##### 3.4.1.1.1 Portable DGPS Reference Stations
 
 If differential correctors are not available from a USCG radio beacon, a portable DGPS reference station can be
@@ -801,21 +769,19 @@ set up by a field unit. A DGPS Reference station (Figure 3.2) consists of an L1/
 a radio receiver, a VHF antenna, tripods or light brackets, marine batteries, solar panels, a timer, and a laptop
 computer.
 
-
 *Page 76*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-When choosing a site for DGPS reference station installation, the hydrographer should set it in a convenient place
+When choosing a site for DGPS reference station installation, the hydrographer should set it in a convenient place
 with good VHF line of sight to survey area and clear view of GPS satellites overhead (substantially clear sky all
 around from 10 degrees above horizon – see Appendix 3 (User’s Guide for GPS Observations.pdf for more
 information). Effective ranges of Portable DGPS Reference Stations will be a factor of obstructions within the
 line of sight and antennae height, nominally 15 km can be used as a rule of thumb. Consider in particular the
 following locations:
-•	 setup over tidal bench mark: provides connection between tidal and GPS correctors
-•	 setup over other existing control mark: provides check with prior survey work
-•	 least favorite: establish a new control mark (monumentation instructions available from NGS)
+* setup over tidal bench mark: provides connection between tidal and GPS correctors
+* setup over other existing control mark: provides check with prior survey work
+* least favorite: establish a new control mark (monumentation instructions available from NGS)
 Find existing control marks using the “datasheets” link from National Geodetic Survey http://geodesy.noaa.gov/
 If no accurate coordinates exist for your control mark, submit a survey data file to OPUS http://www.ngs.noaa.
 gov/OPUS/. For maximum accuracy, submit two 6-hour files (see section 3.5.3 and average the resultant
@@ -833,14 +799,11 @@ that there is a problem. Otherwise, save a screen shot of the scatter plot for y
 confirmation and a weekly position uncertainty check are required per section 3.2.2 and3.4 (resp.) of the HSSD.
 The weekly QC procedure is detailed in section 3.4.1.1.3 below.
 
-
 Figure 3.2: DGPS Reference Station
-
 
 *Page 77*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 3.4.1.1.2 WAAS-corrected GPS data
@@ -855,21 +818,22 @@ Laboratory. WAAS can be an option if it can be shown that WAAS meets the positio
 listed in the HSSD. The procedures for discovering if WAAS may serve as the primary positioning method are
 listed below.
 
-•	 Identify a point ashore with position known to ~0.5m accuracy (either a point surveyed yourselves with
+* Identify a point ashore with position known to ~0.5m accuracy (either a point surveyed yourselves with
 precision GPS methods, or retrieved from the NGS database at http://www.ngs.noaa.gov/OPUS/). This site
 should be in close proximity to the survey area, and have a relatively unobstructed sky view to maximize the
 available GPS constellation.
 
-•	 Occupy the point with your WAAS-enabled receiver for at least 24 hours, logging position data at no less than
+* Occupy the point with your WAAS-enabled receiver for at least 24 hours, logging position data at no less than
 1 minute intervals.
 
-•	 Assess WAAS position accuracy and precision by constructing a scatter plot of the 24-hour time series, and
+* Assess WAAS position accuracy and precision by constructing a scatter plot of the 24-hour time series, and
 computing the average WAAS position. 95% of the WAAS positions must fall within 5m of both the high
 accuracy mark position and the average WAAS position.
 
-•	 Before acquiring WAAS-corrected hydrographic data, a brief report describing methods, data, test results, and
+* Before acquiring WAAS-corrected hydrographic data, a brief report describing methods, data, test results, and
 your plans for quality control shall be submitted to the Chief of the Hydrographic Systems and Technology
 Program in NOAA’s Coast Survey Development Laborator
+
 
 ##### 3.4.1.1.3 PPK/RTK Base Station Position Uncertainty Checks
 
@@ -886,35 +850,32 @@ NOAA hydrographic units shall use the NGS program INVERS3D to perform the weekly
 check of the base station. INVERS3D is available as either a free download or web based program from NGS
 http://www.ngs.noaa.gov/PC_PROD/Inv_Fwd/. The procedure for performing the weekly check is listed below:
 
-
 *Page 78*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-•	 Submit both the Known position and Check position GNSS session files to NGS OPUS
-•	 Run INVERS3D from the downloadable executable or web based form
-•	 Enter the First Station (Known position) coordinates as Geodetic coordinates
+* Submit both the Known position and Check position GNSS session files to NGS OPUS
+* Run INVERS3D from the downloadable executable or web based form
+* Enter the First Station (Known position) coordinates as Geodetic coordinates
 
 Figure 3.3: Base Station Known Coordinates
-•	 Enter the Second Station (Check position) coordinates as Geodetic coordinates
+* Enter the Second Station (Check position) coordinates as Geodetic coordinates
 
 Figure 3.4: Second Station Coordinates
-•	 Save the output into a file using the naming convention Station ID_QC_Week Number of check.txt (ex.
+* Save the output into a file using the naming convention Station ID_QC_Week Number of check.txt (ex.
 9237_QC_33.txt)
-•	 Give First Station name using the naming convention Station ID_Known (ex. 9237_Known)
-•	 Give Second Station name using the naming convention Station ID_Check (ex. 9237_Check)
-
+* Give First Station name using the naming convention Station ID_Known (ex. 9237_Known)
+* Give Second Station name using the naming convention Station ID_Check (ex. 9237_Check)
 
 *Page 79*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Figure 3.5: Base Station Naming
-•	 Examine the results of the text file. The Mark-to-mark distance (D) shall be:
+Figure 3.5: Base Station Naming
+* Examine the results of the text file. The Mark-to-mark distance (D) shall be:
 
 Figure 3.6: Base Stattion Uncertainty Check Results
+
 
 #### 3.4.1.2 True Heave
 
@@ -923,7 +884,7 @@ in real-time, the calculation is performed using only past measurements of accel
 vessel low-frequency heave can be calculated by performing the integration over a time period centered on the
 time of interest, resulting in a “true heave” value (also referred to as “delayed heave”). POS/MV TrueHeave is
 effective across long-period wave conditions (16- to 30-second period swell), whereas a real-time heave filter
-tends to exhibit its most notable artifacts in such conditions (>16 seconds).
+tends to exhibit its most notable artifacts in such conditions (&gt;16 seconds).
 
 Note: TrueHeave does not replace the need for dynamic draft corrections or water level corrections.
 TrueHeave is logged using the POS/MV Controller software, via the Ethernet connection to the POS/MV PCS.
@@ -936,8 +897,7 @@ logging must continue for at least three (3) minutes past the ending time of sur
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-base used for TrueHeave data, “Heave Time 1”, is user selectable in the POS/MV Controller software. For OCS
+base used for TrueHeave data, “Heave Time 1”, is user selectable in the POS/MV Controller software. For OCS
 hydrographic surveys, UTC (default) should be selected, not GPS time. Refer to the POS MV with TrueHeave
 document, found on the Hydrosoft website, for more information regarding the theory, operation, and setup of
 TrueHeave.
@@ -985,11 +945,9 @@ shall meet the horizontal accuracy requirements as stated in section 3 of the HS
 
 These systems and survey techniques are discussed in section 3.5.3 – Position Uncertainty and Precision.
 
-
 *Page 81*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ### 3.4.3 Alternate Heading Sensors
@@ -1014,8 +972,6 @@ they can typically use a calculated COG heading without detrimentally affecting 
 possible to adjust the smoothing factor associated with COG heading data. Manipulating the smoothing factor
 would allow the user to adjust the frequency with which heading is calculated or how many position points are
 used to estimate the vessel course.
-
-
 
 3.5 Ancillary Data
 -------------------
@@ -1045,13 +1001,11 @@ Velocipy program. The required frequency of casts will be dependent on the surve
 recommends that a cast be performed at least every four hours during MBES data acquisition and once per week
 for VBES data.
 
-
 *Page 82*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-The Sea-Bird SEACAT conductivity, temperature, and depth profiler (CTD), Odom DigibarPro, and Rolls- Royce
+The Sea-Bird SEACAT conductivity, temperature, and depth profiler (CTD), Odom DigibarPro, and Rolls- Royce
 Moving Vessel Profiler (MVP) are commonly used by NOAA hydrographic field units to acquire sound speed
 data. Position information will be required by Velocipy software for data processing and the user must be certain
 to record the most accurate GPS position possible. Data acquisition is briefly discussed for each of these systems
@@ -1068,8 +1022,8 @@ performing a cast, OCS recommends that the SEACAT memory be cleared by performin
 the instrument status be reviewed using Velocipy (see Velocipy Operation Manual, included on the Hydrosoft
 website). If the SEACAT voltage is less than the following values listed below, the instrument batteries should be
 changed:
-•	 SBE 19plus: 9.5 volts
-•	 SBE 19: 7 volts
+* SBE 19plus: 9.5 volts
+* SBE 19: 7 volts
 In both cases, the user is told to inspect the battery cut-off value in the status message. The battery should, at the
 very least, be one volt greater than the cut-off value.
 
@@ -1091,6 +1045,7 @@ meter/second.
 
 Refer to the Sea-Bird SBE User’s Manuals, found on the Hydrosoft website, for additional operating instructions.
 
+
 #### 3.5.1.2 Odom DigibarPro
 
 The DigibarPro Profiling Sound Velocimeter is a portable, user-deployed instrument. The DigibarPro system
@@ -1102,8 +1057,7 @@ The sing-around frequency and associated depth information are recorded at a rat
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-many OCS applications, DigibarPro systems have been mounted to or near a MBES transducer to directly measure
+many OCS applications, DigibarPro systems have been mounted to or near a MBES transducer to directly measure
 sound speed at the sonar face; however, some units deploy this instrument to obtain full water column profiles.
 Recorded DigibarPro sound speed profiles can be uploaded to a PC and processed using NOAA’s Velocipy
 software. Refer to the DIGIBAR-PRO Profiling Sound Velocimeter Operation Manual, found on the Hydrosoft
@@ -1155,13 +1109,11 @@ coastal water level stations can be expected to more accurately represent actual
 stations. Stations in relatively shallow water or with a small tidal range are also highly susceptible to meteorological
 effects, making water levels difficult to accurately predict.
 
-
 *Page 84*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-For projects involving ERS, the hydrographer shall utilize approved vertical datum transformation methods (e.g.
+For projects involving ERS, the hydrographer shall utilize approved vertical datum transformation methods (e.g.
 VDatum, ERZT, and Constant Value) in lieu of traditional water levels to reduce the bathymetric data to chart
 datum. The accuracy of the vertical transformation process is highly dependent on Global Positioning Systems.
 Therefore, it is important for the hydrographer to recognize potential satellite ephemeris and clock errors related
@@ -1181,6 +1133,7 @@ initial location is determined to be unsuitable, the field unit shall recommend 
 approval. Gauge installation, operation, and removal shall be performed and documented in accordance with
 section 4 of the HSSD and section 5.2.2.2.4 of this manual. A copy of CO-OPS’ (Standing Project Instructions
 and Requirements For the Coastal and Great Lakes Water Level Stations) is included in Appendix 3.
+
 
 #### 3.5.2.2 Bench Mark Recovery and Leveling
 
@@ -1204,19 +1157,16 @@ Bracketing levels to an appropriate number of marks (five for subordinate statio
 in operations for more than 30 days but less than 12 months (b) if final tides are required, or (c)) every 6 months
 for stations collecting data for long term hydrographic projects.
 
-
-
 *Page 85*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 3.5.2.3 Water Level Data Retrieval
 
 Typically, predicted tides or preliminary water level data are applied to soundings during initial post-processing.
 As verified or final water level data become available, the best quality data should be applied to bathymetry. Field
-units can download six-minute preliminary water level data directly from the Products > Tides section of the COOPS website http://www.tidesandcurrents.noaa.gov within hours of data acquisition. Verified water level data
+units can download six-minute preliminary water level data directly from the Products &gt; Tides section of the COOPS website http://www.tidesandcurrents.noaa.gov within hours of data acquisition. Verified water level data
 should be available from the CO-OPS website within seven days if the station has been placed on the Hydro Hot
 List. If a station is not on the Hydro Hot List, verified data may take up to a month to be posted. Final water levels
 should be requested from CO-OPS, via a Request for Tides package that can be automatically generated using
@@ -1243,12 +1193,9 @@ data e-mailed from tidebot, data in local files, and live data available through
 then provides a mechanism to store the imported data locally and then combine multiple days worth of data into
 one CARIS readable tide file.
 
-
-
 *Page 86*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ### 3.5.3 GPS Horizontal and Vertical Positioning
@@ -1266,7 +1213,6 @@ Typical System
 
 Sub-Meter horizontal and/
 or vertical.
-
 
 Dual-frequency
 receiver;
@@ -1351,14 +1297,11 @@ similar)
 Table 3.4: Typical GPS Positioning Scenarios
 *Per requirements of the CO-OPS Users Guide for GPS Observations and NGS-58.
 
-
-
 *Page 87*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Recommended or Required
+Recommended or Required
 Duration of Observation
 
 Explanation
@@ -1417,12 +1360,9 @@ different ephemeris which could be an issue, at least theoretically. Whenever th
 collect more observations, it is recommended to do so and prove from repeated consistent OPUS results that you
 know where you are.
 
-
-
 *Page 88*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 3.5.3.1 Sub-Meter GPS Positioning
@@ -1432,22 +1372,22 @@ know where you are.
 
 Operations which require sub-meter accuracy measurements of horizontal and/or vertical position are generally
 accomplished with the following equipment:
-•	 Dual Frequency (L1/L2) GPS receiver with internal logging, and appropriate batteries.
+* Dual Frequency (L1/L2) GPS receiver with internal logging, and appropriate batteries.
 
-•	 L1/L2 ground plane GPS antenna.
+* L1/L2 ground plane GPS antenna.
 
-•	 Antenna cable less than 10m in length. Shorter is better, but if you have or need longer (to protect receiver
+* Antenna cable less than 10m in length. Shorter is better, but if you have or need longer (to protect receiver
 or observer), then use it. Cables should be treated gently to avoid lost or noisy signal which will decrease
 accuracy.
 
-•	 Tripod or light bracket for antenna mounting (Fixed-height Tripod for high accuracy vertical measurements).
+* Tripod or light bracket for antenna mounting (Fixed-height Tripod for high accuracy vertical measurements).
 The following additional equipment is typically needed to install the GPS equipment:
-•	 Magnetic Compass (for antenna orientation).
+* Magnetic Compass (for antenna orientation).
 
-•	 Observation Log (see HorCon_VerCon_Obs_Log.pdf in Appendix 3.
+* Observation Log (see HorCon_VerCon_Obs_Log.pdf in Appendix 3.
 
-•	 Eyebolts, rock drill, rope/cable, etc. as required to secure antenna for long duration observation sessions.
-•	 Digital Camera for site documentation.
+* Eyebolts, rock drill, rope/cable, etc. as required to secure antenna for long duration observation sessions.
+* Digital Camera for site documentation.
 
 
 ##### 3.5.3.1.2 Observations for Static Positioning
@@ -1471,34 +1411,31 @@ required by the CO-OPS Users Guide for GPS Observations and NGS-58, included in 
 poor satellite visibility, it may be necessary to use a GPS constellation prediction tool such as the Trimble Planning
 software to schedule sessions for best available satellite geometry.
 
-
-
 *Page 89*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Configure the GPS receiver to record GPS pseudo ranges for the appropriate amount of time to meet both accuracy
+Configure the GPS receiver to record GPS pseudo ranges for the appropriate amount of time to meet both accuracy
 specifications and post-processing requirements. There are several methods that can be used to postprocess GPS
 data; however, NOAA hydrographic field units typically use NGS’s Online Positioning User’s Service (OPUS),
 which utilizes data from three nearby CORS sites and is available at http://www.ngs.noaa.gov/OPUS. To ensure
 that the data can be processed using OPUS, the following guidelines should be followed during data acquisition:
-•	 Recording intervals on the GPS receiver(s) should be set to 15s or some multiple that coincides with the three
+* Recording intervals on the GPS receiver(s) should be set to 15s or some multiple that coincides with the three
 nearest CORS site sampling rates. Sampling rates for each CORS site may differ and can be reviewed on the
 NGS CORS website.
 
-•	 If using more than one receiver for an observation session, all of the receivers should be set to the same
+* If using more than one receiver for an observation session, all of the receivers should be set to the same
 recording interval, since there must be common data between all stations.
 
-•	 Observation times should be a minimum of two hours. For a strong OPUS solution, at least two hours of good
+* Observation times should be a minimum of two hours. For a strong OPUS solution, at least two hours of good
 data are needed. NGS recommends four hours of good data to achieve horizontal accuracy of 0.035 m. For
 further information on positioning, refer to the following Users_Guide_for_GPS_Observations At Tide and
 Water Level Station Bench Marks: http://tidesandcurrents.noaa.gov/pub.html
-•	 OPUS can convert them to RINEX for most receivers. If not, before uploading GPS files to OPUS, convert
+* OPUS can convert them to RINEX for most receivers. If not, before uploading GPS files to OPUS, convert
 them to RINEX2 format using the RINEX Conversion module included with the receiver manufacturer’s
 software.
 
-•	 Monitor the position and positional dilution of precision (PDOP) information displayed on the GPS receiver.
+* Monitor the position and positional dilution of precision (PDOP) information displayed on the GPS receiver.
 PDOP is a unitless value that indicates the degree of position error in a measurement. Do not start logging data
 until PDOP is below six. Maintaining a PDOP less than six will help ensure that the observation file contains
 clean data that will not be rejected by quality control checks performed by OPUS. Note: Some systems will
@@ -1506,7 +1443,7 @@ automatically begin logging data when powered on. In such cases, the user may ne
 session once PDOP is below six, create a new session in the receiver, and start a new session so that data begin
 logging under a new file name. The first file can be easily deleted after downloading data.
 
-•	 An observation log for every setup shall be completed by the observer(s) on site. A blank HorCon/Vercon
+* An observation log for every setup shall be completed by the observer(s) on site. A blank HorCon/Vercon
 Observation Log is included in Appendix 3 (HorCon_VerCon_Obs_Log.pdf).
 
 Additional detail on processing GPS Observations with OPUS can be found in section 4.4.1 .
@@ -1524,14 +1461,11 @@ higher accuracy measurements, it is often more efficient and convenient to utili
 logging GPS receivers for this purpose. The Trimble ProXRS receiver with TSCe data collector or notebook PC
 is an example of this equipment commonly found in NOAA field unit inventories.
 
-
-
 *Page 90*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-The Trimble Pathfinder ProXRS is a backpack GPS system which combines a GPS receiver and a beacon
+The Trimble Pathfinder ProXRS is a backpack GPS system which combines a GPS receiver and a beacon
 differential receiver. Although a single frequency (L1) GPS receiver, the ProXRS is capable of logging carrier
 phase data, which can be post processed to recover significantly improved positional accuracy. With the addition
 of the TSCe data collector, this system can be used to acquire static point or roving line data, and immediately
@@ -1558,14 +1492,11 @@ Hydrosoft website, for specific details on how to create a project and configura
 must be entered in the configuration file. Those which have been recommended for use by OCS are listed in the
 table below.
 
-
-
 *Page 91*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Configure Parameters
+Configure Parameters
 OCS Recommended Value
 Log SuperCorrect Data
 Yes
@@ -1637,8 +1568,7 @@ from a recorded point (distance/bearing), distances from two recorded points (di
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-two recorded points (bearing/bearing), distances from three recorded points (triple distance), or bearings from
+two recorded points (bearing/bearing), distances from three recorded points (triple distance), or bearings from
 three recorded points (triple bearing). Distances and bearings can be either visually estimated or measured using
 a laser range finder and compass. Of these options, triple distance offsets measured with a laser range finder will
 provide the most accurate position, but this method may not always be feasible or necessary. The hydrographer
@@ -1652,6 +1582,7 @@ routes between corner points such as a cluttered pier. Refer to the GPS Pathfind
 the Hydrosoft website, for detailed information on Trimble Pathfinder Pro XRS operating procedures.
 Higher accuracy positioning can be obtained by static occupation of a site for multiple position measurements,
 and/or post-processing ProXRS data with the Trimble Pathfinder Office software’s Differential Correction Utility.
+
 
 #### 3.5.3.3 Special Instructions for Positioning Aids to Navigation (ATONs)
 
@@ -1668,7 +1599,7 @@ System (IATONIS) database records. Information for assigned ATONs will be provid
 Additional ATONs may be positioned at the field unit’s discretion if determined to be navigationally significant.
 Unless specific positioning methods or accuracies are assigned in the Project Instructions, ATONs throughout the
 survey area shall be investigated, and positioned if necessary, in accordance with the following guidance:
-•	 Assigned Charted Fixed ATONs – If possible, the field unit shall position each fixed ATON assigned by MCD.
+* Assigned Charted Fixed ATONs – If possible, the field unit shall position each fixed ATON assigned by MCD.
 Assigned ATONs shall be positioned to an accuracy of less than one meter, at a 95% confidence level, unless
 otherwise specified - such as range markers, which shall be positioned to within 4 cm precision and reported
 to one-thousandth of a second of latitude (0.001’). Many NOAA hydrographic field units meet this accuracy
@@ -1679,7 +1610,7 @@ the field unit is able to acquire a higher quality position than that in the cur
 position should be determined and included in the ATON Report (see section 5.2.2.3.4 . Acquisition methods
 and limitations should be described in the comments section for that ATON.
 
-•	 Unassigned Charted Fixed ATONs – Charted fixed ATONs will not be assigned if a position accurate to less
+* Unassigned Charted Fixed ATONs – Charted fixed ATONs will not be assigned if a position accurate to less
 than one meter, at a 95% confidence level, has already been determined. If an unassigned fixed aid is observed
 to be significantly off station based on the largest scale chart, the hydrographer should review the USCG Local
 Notice to Mariners (LNM) for a discrepancy report on the aid. (Discrepancy reports are issued by the USCG
@@ -1690,18 +1621,17 @@ are contained in section 2 of each LNM.) If no discrepancy report has been publi
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-should be contacted to determine whether the aid was compromised or intentionally relocated to serve its
+should be contacted to determine whether the aid was compromised or intentionally relocated to serve its
 intended purpose. Following USCG confirmation that the aid is correctly positioned or has been properly
 relocated, the field unit should re-examine the aid. If it remains off station, this ATON should be positioned
 and reported as if it was an assigned aid.
 
-•	 Uncharted Fixed ATONs – This category of ATON is typically comprised of privately maintained aids, and
+* Uncharted Fixed ATONs – This category of ATON is typically comprised of privately maintained aids, and
 the field unit must determine if such an ATON is navigationally significant. If navigationally significant, a
 position should be acquired and the ATON reported as if it was assigned. For private aids reported, the field
 unit should specify both the apparent purpose and by whom the aid is maintained in the report.
 
-•	 Charted Floating ATONs – The field unit shall visually verify positions and characteristics of charted floating
+* Charted Floating ATONs – The field unit shall visually verify positions and characteristics of charted floating
 ATONs during survey operations. If a floating aid is significantly off station with both the scale of the chart
 and scope of chain considered, the hydrographer should review the LNM for a discrepancy report on the aid.
 Note: Temporary positions of aids relocated to facilitate dredging, construction, or similar activities are
@@ -1710,12 +1640,13 @@ to determine if the aid was compromised or intentionally relocated to serve its 
 USCG confirmation that the aid is correctly positioned or has been properly relocated, the field unit should
 re-examine the aid. If it remains off station, acquire a detached position (DP) for the ATON and report this
 item as if it was an assigned aid. Static GPS observations are not required when positioning floating aids.
-•	 Uncharted Floating ATONs – The field unit shall determine if each uncharted floating ATON is navigationally
+* Uncharted Floating ATONs – The field unit shall determine if each uncharted floating ATON is navigationally
 significant (e.g., a mooring buoy or full-size private buoy, typically not a small private float). If navigationally
 significant, the field unit should acquire a DP for the ATON and report this item as if it was an assigned aid.
 Static GPS observations are not required when positioning floating aids.
 
 For each survey, the field unit shall digitally submit an ATON Report to MCD as described in section 5.2.2.3.4 .
+
 
 ### 3.5.4 Bottom Samples
 
@@ -1737,12 +1668,9 @@ though an initial assessment is made by the Chief-of-Party, conditions at the ac
 or degrade as the day progresses. In such cases, the launch or skiff personnel shall not perform shoreline operations
 until conditions are favorable.
 
-
-
 *Page 94*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 3.5.5.1 Source Shoreline Data
@@ -1753,21 +1681,21 @@ The composite source is an S-57 attributed dataset in .000 file format, compiled
 following sources: largest scale ENCs, preliminary ENCs, GCs and/or Lidar junction surveys. During planning
 the project planner reviews the sources listed above to ensure the shoreline files reflect the most recent data
 coverage for the project area. The following list is a description of how each source is applied to the CSF:
-•	 ENCs – the largest scale ENCs of an area are applied to the CSF. If ENCs of different scales overlap, the larger
+* ENCs – the largest scale ENCs of an area are applied to the CSF. If ENCs of different scales overlap, the larger
 scale ENC is used to “clip” (remove) the smaller scale ENC so there is only one instance of all features at the
 largest scale for the area.
 
-•	 Preliminary ENCs – Preliminary ENCs are ENCs which have had source applied (e.g. GC) but the ENC has
+* Preliminary ENCs – Preliminary ENCs are ENCs which have had source applied (e.g. GC) but the ENC has
 not been reviewed by MCD and released to the public. Preliminary ENCs are applied to the CSF in the same
 manner as different scale ENCs. A preliminary ENC may be used to clip the ENC ensuring only one instance
 of all features.
 
-•	 GCs - GCs that have not been applied to the ENC will be applied to the CSF by clipping the existing ENC
+* GCs - GCs that have not been applied to the ENC will be applied to the CSF by clipping the existing ENC
 shoreline (COALNE) and replacing it with the GC shoreline. All remaining GC features are added to the CSF.
 There is no further clipping of other features. This may result in duplicate features such as rocks or piles in the
 CSF which will need to be reconciled by the field unit during verification.
 
-•	 Lidar Surveys – Lidar junction data is applied to the CSF by adding the approved Lidar features to the CSF.
+* Lidar Surveys – Lidar junction data is applied to the CSF by adding the approved Lidar features to the CSF.
 No clipping occurs with the addition of Lidar features which may result in duplicate features which will need
 to be reconciled by the field unit. (Note, HSD is currently not using shoreline (COALNE) from Lidar surveys)
 The source of each feature is indicated in the SORDAT and SORIND attribute fields.
@@ -1805,11 +1733,9 @@ seperate S-57 object.
 For reference, prior survey features may be provided in S57 format on the project CD/DVD in the prior survey
 folder.
 
-
 *Page 95*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 3.5.5.2 Types of Shoreline Verification
@@ -1817,6 +1743,7 @@ folder.
 Hydrographic Survey Project Instructions will specify which shoreline source documents are to be verified as well
 as the type of verification required, either “traditional” or “limited.” Shoreline source(s), chart scale(s), and local
 vessel traffic patterns are among the factors used in determining which method is appropriate for the survey area.
+
 
 ##### 3.5.5.2.1 Traditional Verification
 
@@ -1836,7 +1763,7 @@ shoreline verification, the hydrographer shall examine all features seaward of t
 (NALL) as defined in section 1.1.2 of the HSSD. If there is no MHW adjacent to features and the area is not safe
 to survey, then the area is determined to be foul. Features shall be examined in accordance with the following
 direction:
-•	 All ENC, RNC, Preliminary ENC’s, Geographic Cells, and contemporary LIDAR features in the composite
+* All ENC, RNC, Preliminary ENC’s, Geographic Cells, and contemporary LIDAR features in the composite
 source file that are seaward of the NALL should be verified or disproved. If a feature is found within 2
 millimeters at the survey scale of the composite source position, a revised field position is not required (This
 2mm tolerance does not apply to fixed ATONs specifically assigned for updated positions. See section 3.5.3.3
@@ -1865,33 +1792,30 @@ Ground Distance (meters)
 200m
 Table 3.8: Common survey scale examples of the chart interval 2mm converted to ground distance.
 
-•	 New features seaward of the NALL should be properly positioned.
+* New features seaward of the NALL should be properly positioned.
 
-•	 New point features and new area features where the high point may be used for a navigational landmark also
+* New point features and new area features where the high point may be used for a navigational landmark also
 require a corresponding height/depth. Composite source features that are correctly charted do not require
 corresponding height/depth verification.
-
-
 
 *Page 96*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-•	 Features with any horizontal dimension greater than 1.0mm at survey scale should be treated as area features
+* Features with any horizontal dimension greater than 1.0mm at survey scale should be treated as area features
 and delineated appropriately. Features with lesser horizontal dimensions should be positioned and attributed
 as point features.
 
-•	 The hydrographer shall address blatant and obvious shoreline discrepancies between hydrography and
+* The hydrographer shall address blatant and obvious shoreline discrepancies between hydrography and
 deconflicted features in the Composite Source File.
 
-•	 Prior survey features are for reference only. There is no requirement for the hydrographer to address prior
+* Prior survey features are for reference only. There is no requirement for the hydrographer to address prior
 survey features in the Descriptive Report.
 
 It may be necessary to position, verify, or disprove some features inshore of the NALL, if they are both
 navigationally significant and safe to approach. Examples of features which might meet this standard include:
-•	 Aids to Navigation
-•	 Natural or man-made features sufficiently conspicuous to be an obvious navigational landmark (e.g., piers,
+* Aids to Navigation
+* Natural or man-made features sufficiently conspicuous to be an obvious navigational landmark (e.g., piers,
 pilings, or very large and isolated boulders or outcroppings)
 Note: “Navigationally significant” is not easily and absolutely defined. As such, it makes up part of the “art” of
 hydrography versus the more easily quantifiable “science” aspect of the profession. Navigational significance
@@ -1922,13 +1846,11 @@ The vessel’s data acquisition software should be loaded with the composite sou
 (ENC, RNC, and Project Reference File). In addition, it is often helpful to print a large “boat sheet” of the
 composite source on a large format printer. This is useful for orientation and quickly recording field observations.
 
-
 *Page 97*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-A common and effective method for conducting shoreline verification is to run a VBES survey line parallel to
+A common and effective method for conducting shoreline verification is to run a VBES survey line parallel to
 shore, observing exposed features. In the case of Limited Shoreline Verification, this survey line should approximate
 the NALL, allowing the hydrographers to focus most of their attention offshore of the vessel. This approximate
 NALL can be used later to assist in planning the inshore extent of bathymetry. As features meeting the criteria
@@ -1976,20 +1898,16 @@ Act and Oil Pollution Act, which are tied to the inner and outer extents of the 
 In addition, the Three Nautical Mile Line is often used by state and federal enforcement officials to police fisheries
 and other laws.
 
-
-
 *Page 98*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Figure 3.7 highlights the breadth of offshore maritime and marine boundaries. Among a host of marine boundaries,
+Figure 3.7 highlights the breadth of offshore maritime and marine boundaries. Among a host of marine boundaries,
 the U.S. maritime zones (in red) include the territorial sea (0-12nm), contiguous zone (12-24nm), and EEZ (12200nm). The U.S. also retains and charts a territorial sea at 3nm, which supports enforcement of the Clean Water
 and Oil Pollution Acts. All of these zones are measured from the U.S. baseline, which is largely composed of the
 charted low water line (at MLLW) as well as closing lines across legally-defined bays and rivers. Various federal,
 state, and local governments reference the limits on NOAA nautical charts as well as best practices for defining
 those limits to enforce their own regulations.
-
 
 Figure 3.7: Breadth of Offshore Maritime and Marine Boundaries
 
@@ -2002,17 +1920,14 @@ as groins, jetties, and breakwaters (not recreational fishing piers). The mariti
 baseline using a method called “envelope of arcs” (see Figure 3.8). Using this method, only the most seaward
 features influence the outer limits of the U.S. maritime zones.
 
-
 *Page 99*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Arcs generated from these salient baseline points are blended together to form continuous limit lines at 3, 12, 24,
+Arcs generated from these salient baseline points are blended together to form continuous limit lines at 3, 12, 24,
 or 200 nautical miles. Finally, the U.S. baseline as well as the maritime zones are reviewed and approved by an
 inter-agency federal group called the U.S. Baseline Committee, which was established in 1970 and is chaired by
 the Department of State.
-
 
 Figure 3.9: Near-shore Feature Impacts to Offshore Limits
 Figure 3.9 highlights how near-shore features can impact the offshore limits. Occasionally and depending upon
@@ -2040,13 +1955,11 @@ MARITIME BOUNDARY. The hydrographer is responsible for verifying the existence o
 fea- ture that is dry at MLLW recognizing that the furthest offshore feature may not be the feature within close
 proximity to the Maritime Boundary investigation point.
 
-
 *Page 100*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-See sections 7.3 Investigation Items and 8.2 S-57 Soundings and Feature Deliverables of the HSSD for further
+See sections 7.3 Investigation Items and 8.2 S-57 Soundings and Feature Deliverables of the HSSD for further
 information on Maritime Boundary point requirements and attribution.
 
 Note, if MBES was used for verification the hydrographer should not delineate the linear MLLW on the field
@@ -2069,12 +1982,9 @@ appropriate Coast Pilot section for verification and updates. In addition, revie
 general operations in the area such as frequent transited areas and facilities utilized. See section 7.4 of the HSSD
 for further information on requirements and the sections below for procedures.
 
-
-
 *Page 101*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 3.5.7.1 Performing a Coast Pilot Review
@@ -2092,13 +2002,13 @@ the report should be given so that the report’s value may be weighed against c
 received by NOAA’s Marine Chart Division. The following is a list of the principal organizations and officials
 who can be interviewed for the purpose of obtaining local information: Coast Guard stations and other aids to
 navigation units, buoy tenders and other cutters, patrol craft, and Marine Safety Offices
-•	 Corps of Engineers district offices or other Federal field offices such as Customs Service
-•	 Pilot associations, port authorities, harbormasters, and harbor police
-•	 Other NOAA field parties operating in the area
-•	 Operators of repair yards and marine service stations
-•	 Captains of towboats, ferries, and coastwise vessels operating in the area
-•	 Individuals very familiar with the area such as fishermen and longtime residents
-•	 Yacht clubs
+* Corps of Engineers district offices or other Federal field offices such as Customs Service
+* Pilot associations, port authorities, harbormasters, and harbor police
+* Other NOAA field parties operating in the area
+* Operators of repair yards and marine service stations
+* Captains of towboats, ferries, and coastwise vessels operating in the area
+* Individuals very familiar with the area such as fishermen and longtime residents
+* Yacht clubs
 The following sections describe categories of information that should be addressed during a Coast Pilot Review.
 The majority of this information is best obtained during field operations and is thus considered a part of data
 acquisition.
@@ -2122,7 +2032,6 @@ information. A particular location is not a good anchorage simply because someon
 *Page 102*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 3.5.7.1.3 Bridges
@@ -2160,6 +2069,7 @@ information should be avoided unless deemed critical for safe navigation. If rep
 be qualified as such, giving the date and the source of information. Reported depths are published in the Coast
 Pilot as shown in the following example: “In June 2004, the channel had a reported controlling depth of 3 feet.”
 
+
 ##### 3.5.7.1.7 Ferries, Cable Ferries, and Pontoon Bridges
 
 Report the locations of new ferry terminals and routes and/or the abandonment of old ones. If applicable, include
@@ -2178,7 +2088,6 @@ not be generally recognized by the name alone, such as “the large white dish o
 *Page 103*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 3.5.7.1.9 Locks, Canals, and Hurricane Gates
@@ -2213,6 +2122,7 @@ officials at the port. Information on repair facilities can be obtained from shi
 companies are often a good source of information, not only regarding the size and type of tugs available, but also
 for other information such as local peculiarities of winds and currents, the routes followed by tugs and barges, etc.
 
+
 ##### 3.5.7.1.12 Small Deep Draft Ports
 
 Coast Pilot information pertaining to smaller deep-draft ports, shipping terminals, and wharves within the survey
@@ -2230,11 +2140,9 @@ information may be available by contacting either the harbormaster or harbor pat
 of towboats, boatyards, marinas, and state and federal agencies. Local yachtsmen and fishermen can be consulted
 when appropriate.
 
-
 *Page 104*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 3.5.7.1.14 Radar and Radio Information
@@ -2244,6 +2152,7 @@ be positively identified and used. The VHF radio frequencies/ channels used in p
 communications between various private and public concerns should be ascertained. Where a radio watch is
 maintained by pilots, harbormasters, bridge tenders, lockmasters, and other parties significant to the mariner,
 confirm guarding schedules, VHF radio frequencies, hailing protocol, and telephone contacts, if applicable.
+
 
 ##### 3.5.7.1.15 Shoreline Changes
 
@@ -2278,24 +2187,22 @@ departing a harbor, may be useful in identifying the harbor approach or specific
 not adequately cover the view of a harbor with sufficient detail, a panoramic series of photos can be submitted.
 Digital photos submitted to the Coast Pilot Branch may be included in subsequent editions of the publication. To
 ensure photographs are of sufficient quality for publication, the following criteria should be met:
-•	 The camera should have a resolution capability of 4 megapixels or better.
+* The camera should have a resolution capability of 4 megapixels or better.
 
-•	 A digital zoom feature should not be used. A camera with minimum optical zoom capability from wide angle
+* A digital zoom feature should not be used. A camera with minimum optical zoom capability from wide angle
 (35mm) to a mild zoom (out to 105mm) is recommended. (Ideally, the camera would accept lenses of different
-focal lengths, such as wide angle, normal, and zoom.) • Photographs should be taken using an ISO setting of
+focal lengths, such as wide angle, normal, and zoom.) * Photographs should be taken using an ISO setting of
 100 (preferred) or less, but in no case higher than 200.
-
 
 *Page 105*
 
 ------------------------------------------------------------------------------------------------------------------------
 
+* Shutter speed should be set to at least 1/100th of a second.
 
-•	 Shutter speed should be set to at least 1/100th of a second.
+* The photograph should be taken using a pixel setting of approximately 2300 x 1700 or better.
 
-•	 The photograph should be taken using a pixel setting of approximately 2300 x 1700 or better.
-
-•	 JPEG (*.jpg) format is required for submission. Use of any other format should be cleared by the Coast Pilot
+* JPEG (*.jpg) format is required for submission. Use of any other format should be cleared by the Coast Pilot
 Branch. Select “JPEG (EXIF)” if that choice is given. EXIF is a standard metadata format that embeds
 information about the camera and its settings such as focal length, shutter speed, lighting condition, and other
 valuable information about the photograph into the file.
@@ -2327,6 +2234,7 @@ Other points on the same feature may be surveyed to five-meter accuracy and/or d
 shoreline files, provided they are accurate to five meters or less. All other structures may be surveyed to five-meter
 accuracy. Enter all relevant information; i.e., name, status, condition, etc., in the “Remarks” column.
 
+
 ##### 3.5.8.1.3 Works in Progress
 
 Determine the status of construction for the identified marine facility or other chartable shoreline construction.
@@ -2335,12 +2243,9 @@ system on them. If they don’t, the NRT should obtain reference positions for t
 collection and data maintenance system. Use the “Remarks” column to report the name, status, condition, or other
 relevant information.
 
-
-
 *Page 106*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 3.5.8.1.4 ENC Offshore Features
@@ -2370,11 +2275,3 @@ Where applicable, inquire with facility owners/managers about the status of priv
 update charted notations. Provide documentation in the Descriptive Report or Chart Letter and submit diagrams
 or survey copies when possible. In some cases (at the discretion of the Team Leader) a survey of the channel will
 be required to obtain the current operating depths.
-
-
-
-*Page 107*
-
-------------------------------------------------------------------------------------------------------------------------
-
-

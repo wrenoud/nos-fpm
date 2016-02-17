@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>chapter_2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+
+h2{
+	page-break-before: always;
+}
+</style>
+<style type="text/css">
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.pl-c {
+    color: #969896;
+}
+
+.pl-c1,.pl-mdh,.pl-mm,.pl-mp,.pl-mr,.pl-s1 .pl-v,.pl-s3,.pl-sc,.pl-sv {
+    color: #0086b3;
+}
+
+.pl-e,.pl-en {
+    color: #795da3;
+}
+
+.pl-s1 .pl-s2,.pl-smi,.pl-smp,.pl-stj,.pl-vo,.pl-vpf {
+    color: #333;
+}
+
+.pl-ent {
+    color: #63a35c;
+}
+
+.pl-k,.pl-s,.pl-st {
+    color: #a71d5d;
+}
+
+.pl-pds,.pl-s1,.pl-s1 .pl-pse .pl-s2,.pl-sr,.pl-sr .pl-cce,.pl-sr .pl-sra,.pl-sr .pl-sre,.pl-src,.pl-v {
+    color: #df5000;
+}
+
+.pl-id {
+    color: #b52a1d;
+}
+
+.pl-ii {
+    background-color: #b52a1d;
+    color: #f8f8f8;
+}
+
+.pl-sr .pl-cce {
+    color: #63a35c;
+    font-weight: bold;
+}
+
+.pl-ml {
+    color: #693a17;
+}
+
+.pl-mh,.pl-mh .pl-en,.pl-ms {
+    color: #1d3e81;
+    font-weight: bold;
+}
+
+.pl-mq {
+    color: #008080;
+}
+
+.pl-mi {
+    color: #333;
+    font-style: italic;
+}
+
+.pl-mb {
+    color: #333;
+    font-weight: bold;
+}
+
+.pl-md,.pl-mdhf {
+    background-color: #ffecec;
+    color: #bd2c00;
+}
+
+.pl-mdht,.pl-mi1 {
+    background-color: #eaffea;
+    color: #55a532;
+}
+
+.pl-mdr {
+    color: #795da3;
+    font-weight: bold;
+}
+
+.pl-mo {
+    color: #1d3e81;
+}
+.task-list {
+padding-left:10px;
+margin-bottom:0;
+}
+
+.task-list li {
+    margin-left: 20px;
+}
+
+.task-list-item {
+list-style-type:none;
+padding-left:10px;
+}
+
+.task-list-item label {
+font-weight:400;
+}
+
+.task-list-item.enabled label {
+cursor:pointer;
+}
+
+.task-list-item+.task-list-item {
+margin-top:3px;
+}
+
+.task-list-item-checkbox {
+display:inline-block;
+margin-left:-20px;
+margin-right:3px;
+vertical-align:1px;
+}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<h1 id="chapter-2">Chapter 2</h1>
+<h1 id="pre-survey-planning">Pre-Survey Planning</h1>
+<p>Pre-survey planning is essential for any field unit to effectively and
+efficiently conduct hydrographic survey operations. When planning operations,
+the hydrographer must keep in mind the assigned survey specifications and
+approved methods for meeting those criteria. This Chapter describes information
+that will be provided to a field unit when a hydrographic survey is assigned and
+provides project preparation and survey planning guidance.</p>
+<h2 id="2-1-crew-vessel-safety">2.1 Crew &amp; Vessel Safety</h2>
+<p>Above all, every member of the field party should understand that safety of the
+crew and vessel is the number one priority. Safety shall be the foremost
+consideration in all aspects of Office of Coast Survey (OCS hydrographic
+surveys, from the planning stages through data submission. It is the
+responsibility of the Chief-of-Party, as well as vessel crew, to be aware of
+safety hazards and take steps necessary to ensure undue risks are avoided, even
+if it means ceasing operations.</p>
+<p>Good planning and information can minimize risks associated with hydrographic
+surveying. Recommended practices to increase safety include, but are not limited
+to the following:</p>
+<ul>
+<li><p>Use historical weather information to prepare for seasonal patterns.</p>
+</li><li><p>Review the survey region for exposed areas, constricted areas, shallow areas,
+surf, etc. Plan on surveying challenging areas when weather, tides, and currents
+are optimal.</p>
+</li><li><p>Review prior survey Descriptive Reports (DR) and smooth sheets for uncharted
+hazards. Often, the DR will describe deficiencies, hazards, and challenges from
+prior surveys and field experience.</p>
+</li><li><p>Work progressively from safe water towards unknown, shallow, or potentially
+hazardous areas.</p>
+</li><li><p>Use daily survey information progressively in the field to minimize hazards.
+Communicate survey and safety information to all personnel involved in
+operations.</p>
+</li></ul>
+<p>Read the Automated Wreck and Obstruction Information System (AWOIS) features
+included with the project files descriptions to understand hazards and survey
+the feature project area safely.</p>
+<p>Understand the limitations of charted and source information and approach
+features conservatively during initial operations.</p>
+<h2 id="2-2-the-project-cd-dvd">2.2 The Project CD/DVD</h2>
+<p>When a hydrographic survey is assigned, the HSD Operations Branch (OPS), or the
+NSD Navigation Response Branch (NRB) if the unit is an NRT, will generate and
+compile relevant project information onto a Project CD/ DVD. This information
+will include project instructions, as well as supporting information and data
+files to be used during field operations and subsequent survey processing.
+Copies of the Project CD/DVD will be disseminated to the appropriate field unit
+six weeks prior to the start of the project. The file structure illustrated in
+Figure 2.1 represents that of a typical Project CD/DVD. If a folder is
+intentionally left empty, the project planner will place in a readme.txt file
+indicating as such.</p>
+<p><strong>(image)</strong></p>
+<p>Figure 2.1: Project DVD Structure</p>
+<h3 id="2-2-1-hydrographic-survey-project-instructions">2.2.1 Hydrographic Survey Project Instructions</h3>
+<p>The Hydrographic Survey Project Instructions will identify specific requirements
+for a survey project. Project Instructions will be included on the Project
+CD/DVD and can be equated to a Requirements Document or Statement of Work. Field
+units shall acknowledge receipt of Project Instructions via email to the
+assigned OPS Project Manager or the NRB Technical Assistant.</p>
+<h3 id="2-2-2-supporting-project-information">2.2.2 Supporting Project Information</h3>
+<p>Extensive supporting project information will be provided on the Project CD/DVD.
+The following items are included: Consults folder containing relevant project
+correspondence, project GIS Files, Junction Surveys, Prior Surveys, and
+preliminary tidal zoning files. The naming conventions for project information
+files generated at OPS or NRB will reference the applicable project number or
+survey sheet number.</p>
+<h4 id="2-2-2-1-consults">2.2.2.1 Consults</h4>
+<p>OCS, as a unit of a federal agency, has responsibilities under section 106 of
+the National Historic Preservation Act (NHPA, 16 U.S.C. 470 et seq.) to take
+into account the effects of its undertakings on historic properties. The process
+for federal agencies in complying with the NHPA is laid out in 36 C.F.R. Part
+800, which prescribes consultation with the State Historic Preservation Officer
+(SHPO). In addition, OCS may consult with other NOAA offices or governmental
+agencies, depending on jurisdiction. The Hydrographic Surveys Division is
+responsible for conducting the entire consultation process. Correspondence and
+documentation relating to consultations with these Historic Preservation Points
+of Contact (HPPOCs) will be included in the Consults folder as background
+information for the field units.</p>
+<p>Any additional relevant project correspondence will be included in this folder.</p>
+<h4 id="2-2-2-2-gis-files">2.2.2.2 GIS Files</h4>
+<p>This folder will include the Composite Source File, MapInfo Sheet Limits,
+Maritime Boundary Point(s) Document, the Project Reference File, and Aids to
+Navigation Records.</p>
+<p>The OPS Project Manager or NRB Technical Assistant will compile all available
+shoreline source files into one “composite source” file (CSF) in S-57 .000
+format. Shoreline source files include: ENC, RNC, Geographic Cells (GCs – also
+labeled as DCFF ), and Lidar files. Compilation will include reviewing the CSF
+to determine which shoreline features shall be verified by the field unit.
+Features requiring verification shall have the attribute Assignment (asgnmt)
+populated with “Assigned”.</p>
+<p>The MapInfo sheets .tab will be provided to identify the planned area of
+hydrography for each project. Layouts for Field Examinations (FEs) will vary
+according to the item, feature, or area to be surveyed. Any MapInfo tables
+created by the OPS Project Manager or NRB Technical Assistant will be projected
+in Universal Transverse Mercator (UTM) using the North American Datum of 1983
+(NAD83).</p>
+<p>A Project Reference File (PRF) will also be delivered with the CSF. The PRF is
+an S-57 attributed dataset containing reference layers such as survey limits,
+junctions, recommended bottom sample locations and features which are
+specifically targeted for investigation such as AWOIS points or Maritime
+Boundary points.</p>
+<p>The project wide AWOIS items are assigned to the field unit for investigation by
+the OPS Project Manager or the NRB Technical Assistant. This subset of the
+master AWOIS database will contain all items falling within the limits of the
+particular project, as well as any critical items in close proximity to the
+survey area. AWOIS items are represented as placeholders by the S-57 Feature
+Object CRANES. The AWOIS radii are represented by the S-57 Feature Object
+ACHBRT. The AWOIS search radii are assigned based upon extensive research of
+historical documents and factors such as the original source of the feature and
+the quality of that feature’s positioning.</p>
+<p>Prescribed investigation requirements for each AWOIS item will be specified in
+the NOAA Extended Attributes (see section 8.2 of HSSD for details).</p>
+<p>All AWOIS items included in the project area are “assigned” for verification
+(asgnmt = “Assigned”). In addition, the project planner may “assign” AWOIS items
+outside of the project area.</p>
+<p>There are two types of AWOIS verification:</p>
+<ol>
+<li><p>AWOIS items which have not been verified in the past (Item Status =
+“Assigned”, Search Type = “Full” or “Limited”) – investigation includes
+verifying or disproving the item by covering the entire search radius regardless
+of location with respect to survey limits.</p>
+</li><li><p>AWOIS items which have been verified in prior surveys (Item Status =
+“Completed”, Search Type = “Information”) – no search radius is required.
+Investigation includes verifying or disproving the feature just as any other
+feature within the project area is verified or disproved. A search outside of
+the survey limits is not required (i.e. items inshore of the NALL).</p>
+</li></ol>
+<p>See section 7.3 of the HSSD for further information on AWOIS items.</p>
+<p>If shoreline verification is not required, there will be no CSF however all
+projects will contain a PRF containing a minimum of the survey limits.</p>
+<p>NOAA’s Update Service Branch (USB) within the Marine Chart Division will review
+NOAA’s Critical Corrections Database (CRIT) and/or USCG Integrated Aids to
+Navigation Information System (IATONIS) database to identify ATONs within the
+survey area that require positioning. Records for each assigned ATON will be
+provided by USB for inclusion on the Project CD/DVD. ATON records will include
+the current database position for each assigned ATON, position accuracies or
+positioning methods that were used (if available), and any special positioning
+requirements.</p>
+<h4 id="2-2-2-3-junction-surveys">2.2.2.3 Junction Surveys</h4>
+<p>Assigned surveys may include a junction with contemporary data from a recent
+field season and all field units are required to ensure continuity in survey
+coverage and depth by evaluating junctioning or overlapping surveys. The Project
+Instructions will indicate if a junctioning survey is in a projection and datum
+other than UTM NAD83 and requires a datum conversion or reprojection.</p>
+<h5 id="2-2-2-3-1-junctioning-with-light-detection-and-ranging-lidar-surveys">2.2.2.3.1 Junctioning with Light Detection and Ranging (Lidar) Surveys</h5>
+<p>Lidar junction data will be provided in S-57 (.000 or .HOB) format on the
+Project CD/DVD. Features found by the Lidar survey will be added to the
+Composite Source File (CSF) as an existing feature. Lidar investigations will be
+added to the Project Reference File (PRF). Field units should obtain the
+required coverage type to the Lidar extent line or the Navigation Area Limit
+Line (NALL), whichever is further offshore. The standard practice for coverage
+overlap between Lidar and MB surveys is to overlap one swath width inshore of
+the LGL. Verify or disprove all Lidar investigation items seaward of the NALL.</p>
+<p>The following files will be included on the Project CD/DVD for junctioning with
+Lidar data.</p>
+<table>
+<thead>
+<tr>
+<th>File Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hxxxxx_LI_BASE_3m</td>
+<td>3 meter resolution surface.</td>
+</tr>
+</tbody>
+</table>
+<p>Table 2.2: CARIS file included on the Project CD/DVD for junctioning with Lidar
+data.</p>
+<table>
+<thead>
+<tr>
+<th>File Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hxxxxx_DR.pdf</td>
+<td>Descriptive report and Appendices.</td>
+</tr>
+</tbody>
+</table>
+<p>Table 2.3: Other files included on Project CD/DVD for junctioning with Lidar The
+following common attributes are used to define feature objects in the
+deliverables.</p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NINFOM</td>
+<td>Remarks and description of the feature.</td>
+</tr>
+</tbody>
+</table>
+<p>Table 2.5: Object attributes used in HOB files for junctioning with Lidar data.</p>
+<p>For more information about the inclusion and treatment of Lidar items in the
+Composite Source, refer to section 2.2.1 and 3.5.5.1 .</p>
+<h4 id="2-2-2-4-prior-surveys">2.2.2.4 Prior Surveys</h4>
+<p>The Project CD/DVD will include the Descriptive Report raster images of the
+smooth sheet, features and soundings (in .000 format) for all available prior
+surveys in the assigned area.</p>
+<h4 id="2-2-2-5-survey-request-information">2.2.2.5 Survey Request Information</h4>
+<p>The OPS Project Manager or the NRB Technical Assistant will include, if
+available, copies of documents from the maritime community, research groups, or
+other entity requesting the survey on the Project CD/DVD.</p>
+<h4 id="2-2-2-6-tides">2.2.2.6 Tides</h4>
+<p>The Project CD/DVD will identify vertical control requirements for a project.
+Vertical Requirements which are further explained in sections 2.4.4 &amp; 3.5.2 ,
+could consist of traditional tidal zoning, TCARI, VDatum, constant separation
+value, or ellipsoidally referenced zoned tides (ERZT). The Project Instructions
+will explicitly list any required subordinate tide gauges. A VDatum or constant
+separation file to correct soundings from the ellipsoid to chart datum will be
+provided on the project CD/DVD. For ERS vertical datum QC procedures, refer to
+chapter 9 of the HSSD.</p>
+<p>The NOAA Center for Operational Oceanographic Products and Services (CO-OPS)
+provides three basic types of water level data, “predicted tides,” “preliminary
+water levels” and “verified water levels” referenced to MLLW or other
+appropriate chart datum. All of this data can be downloaded from the CO-OPS
+website. Typically, CO-OPS posts preliminary water level data within a few hours
+of data acquisition. Stations included on the Hydro Hotlist (see section
+3.5.2.3.1 are processed weekly and verified water level data is typically
+available at the start of the following work week. Verified tides can be
+downloaded from the CO-OPS Data Retrieval website:</p>
+<p><a href="http://opendap.co-ops.nos.noaa.gov/axis/text.html">http://opendap.co-ops.nos.noaa.gov/axis/text.html</a></p>
+<p>The CO-OPS Hydro Planning Team (HPT) also supplies discrete zoning or TCARI to
+estimate water levels across the entire survey area where the water level
+characteristics may vary from those where tide gauges are located. Historical
+water level station information, including the location of each station site,
+benchmark description and elevations, and historical datum references will also
+be provided if historical tide stations need to be reoccupied.</p>
+<p>Predicted tides using 6-min format will be supplied on the Project CD/DVD.</p>
+<h4 id="2-2-2-7-orthoimagery">2.2.2.7 Orthoimagery</h4>
+<p>The hydrographer may request orthoimagery for a project if considered necessary
+to support pre-survey planning and post processing. Examples may (but are not
+limited to) include areas where there are drastic differences from the shoreline
+features in the CSF to the real world features. In these cases the hydrographer
+should contact the project planner from HSD or NRB which is listed in the
+project instructions to request approved orthoimagery. The project planner will
+work with the HSD OPS Team Lead and RSD to acquire the approved orthoimagery if
+available. Note: Orthoimagery is for reference only and shall not be used as
+source for surveying (i.e. digitizing features from orthoimagery is not
+allowed).</p>
+<h2 id="2-3-additional-resources">2.3 Additional Resources</h2>
+<p>Although the majority of information required to conduct an OCS hydrographic
+survey will be provided on the Project CD/DVD, additional resources such as
+training or reference materials may be necessary throughout a field unit’s
+operating season.</p>
+<h3 id="2-3-1-hydrosoft-website">2.3.1 Hydrosoft Website</h3>
+<p>The Hydrosoft website, <a href="https://inside.nos.noaa.gov/hydrosoft/welcome.html">https://inside.nos.noaa.gov/hydrosoft/welcome.html</a>, is
+maintained by OCS’s Hydrographic Systems and Technology Program (HSTP) and
+provides an extensive amount of reference materials to the field. A Site
+Download option will be made available at the beginning of each field season to
+download the entire Hydrosoft website via a zip file. Additionally, the Recent
+Updates page lists all the changes that have been made in reverse chronological
+order.</p>
+<p>The following types of materials can be found on the Hydrosoft Website:</p>
+<ul>
+<li><p>Common survey software packages and applications, both commercial and in-house.</p>
+</li><li><p>Software and hardware manuals and guides.</p>
+</li><li><p>NOAA hydrographic training presentations and resources.</p>
+</li><li><p>Nautical and navigation reference materials (e.g., Bowditch, Coast Pilot, Chart 1).</p>
+</li><li><p>NOAA Hydrographic survey references (e.g., HSSD, FPM, IHO documents).</p>
+</li></ul>
+<h2 id="2-4-project-preparation">2.4 Project Preparation</h2>
+<p>Once a field unit has received the Project CD/DVD, survey personnel should begin
+preparatory tasks such as reviewing project information, establishing a data
+management plan, contacting constituents, and planning horizontal and vertical
+control if necessary. These tasks are typically performed on a project-wide
+basis, prior to individual survey planning.</p>
+<h3 id="2-4-1-project-information-and-instructions">2.4.1 Project Information and Instructions</h3>
+<p>As soon as practicable, the field unit should inventory files provided on the
+Project CD/DVD to verify that all necessary information has been included. Once
+it has been confirmed that all files are present, project information should be
+copied to the field unit’s computer systems in accordance with the unit’s
+standard data management practices. The OPS Project Manager or the NRB Technical
+Assistant will deliver draft Project Instructions approximately two months prior
+to the start of a project. The Field Operations Officer and Chief Hydrographic
+Surveyor should review the draft Project Instructions to raise questions and
+concerns with HSD OPS or NRB at this time. Once the final Project Instructions
+are delivered (approximately one month prior to the start of a project) all
+appropriate hydrographers should review the Project Instructions and Project
+CD/DVD files to become familiar with the project.</p>
+<h3 id="2-4-2-data-management">2.4.2 Data Management</h3>
+<p>Guidelines for effective field unit data management are described in the
+following sections.</p>
+<h4 id="2-4-2-1-digital-data-directory-structure">2.4.2.1 Digital Data Directory Structure</h4>
+<p>Data directory structures used during acquisition and processing may vary among
+field units. However, a standard should be in place within each field unit. It
+is important to adhere to any field unit directory standards, as some software
+configurations must reference specific directories. Refer to Appendix II for an
+example of a field unit directory structure.</p>
+<h4 id="2-4-2-2-digital-file-naming-conventions">2.4.2.2 Digital File Naming Conventions</h4>
+<p>It is important to follow file naming standards within the field unit.
+Maintaining these conventions greatly assists AHB and PHB in identifying data
+records. Do not create data files with non-standard names that are unrelated to
+the file content and will confuse others who must access that data.
+Additionally, any preliminary, temporary, or extraneous files created by the
+field unit should not be included with data submitted to AHB or PHB.</p>
+<h3 id="2-4-3-horizontal-control">2.4.3 Horizontal Control</h3>
+<p>Horizontal Control (HorCon) refers to the terrestrial network of geodetic marks
+that support two-dimensional hydrographic positioning. Typically, NOAA field
+parties use USCG differential beacons to correct GPS for hydrographic
+positioning. USCG differential correctors are subjected to an internal quality
+control process, ensuring a stable meter-level service. Additionally, USCG
+differential beacons are precisely positioned; thus, it is generally unnecessary
+for NOAA field units to establish horizontal control points when using this
+positioning method.</p>
+<p>In remote survey locations or confined areas such as a fjord, USCG differential
+correctors may be unavailable or severely limited. For these areas, the field
+unit shall establish at least one horizontal control point where a portable DGPS
+control station can be installed. A review of the survey area should be combined
+with local knowledge to determine a feasible location. Keep in mind that public
+properties are usually preferred over private properties because special
+permissions will typically not be necessary for future access. However,
+equipment security must also be considered in populated areas which are easily
+accessible. Security measures may include locking instruments, affixing owner
+identification to equipment, and choosing a discrete station location. After a
+suitable location has been chosen, the field unit should obtain permission to
+access the property and install HorCon equipment. If it is necessary to drill
+into rock during the installation, permits should be obtained for this purpose.
+The Federal Aviation Administration’s Wide Area Augmentation System (WAAS) may
+be used provided a QC procedure is followed as per Section 3.2.2 of the HSSDM.</p>
+<p>HorCon techniques may also be used to determine high accuracy DGPS positions for
+ATONs. If OCS’s Update Service Branch requires that an ATON be positioned using
+high accuracy HorCon methods, specifications will be noted in the ATON
+information provided on the Project CD/DVD. Typically, higher order ATON
+positions will be required for range lights.</p>
+<h3 id="2-4-4-vertical-control">2.4.4 Vertical Control</h3>
+<p>Vertical control refers to a network of geodetic marks that supports three-
+dimensional hydrographic positioning. Vertical control activities are typically
+conducted to support water level gauge installations, water level measurements,
+and ERS. Personnel from CO-OPS are responsible for all planning of tide and
+water level requirements for OCS hydrographic surveys. CO-OPS will analyze
+historical data and tidal characteristics for each project area, specify
+operational NOS control stations, specify general locations for subordinate
+water level stations to be installed, and provide the tidal zoning (both
+preliminary and final) to be used during survey operations.</p>
+<p>Installation, operation, and maintenance of controlling water level stations is
+typically the responsibility of the CO-OPS Field Operations Division (FOD).
+However, the hydrographic field unit may be required to install, monitor,
+repair, and/or uninstall a control water level station under the instructions of
+the CO-OPS FOD. The Project Instructions will state if installation, operation,
+and/or removal of subordinate water level stations is required for a project. In
+such cases, FOD will work in collaboration with the field unit to complete these
+tasks. The field unit will be responsible for ellipsoidal positioning of
+benchmarks near subordinate water level stations, in accordance with section
+4.2.5 of the HSSD.</p>
+<p>To prepare for vertical control operations, the field unit should verify that
+all necessary equipment and tools have been obtained from CO-OPS. The following
+manuals should occupy the equipment received from CO-OPS FOD:</p>
+<ul>
+<li><p>Portable Tide Gauge Setup, Configuration, and Data Export Procedure</p>
+</li><li><p>9210B Xlite Data Logger Operations and Maintenance Manual</p>
+</li><li><p>Paros User’s Manual</p>
+</li><li><p>Satlink2 Operations and Maintenance Manual</p>
+</li><li><p>H-355 Pump User’s Manual</p>
+</li></ul>
+<p>A sample equipment checklist for water level station installations is included
+in Appendix 2 (Wtr_Lvl_Statn_Equip_Checklist.pdf). Several reference guides are
+available to assist the field unit with water level station procedures. For
+reference, the following manuals can be found on the Hydrosoft website and can
+also be downloaded from the CO-OPS website tidesandcurrents.noaa.gov/pub.html</p>
+<ul>
+<li><p>NOS User’s Guide for the Installation of Bench Marks and Leveling Requirements for Water Level Stations.</p>
+</li><li><p>Specifications and Deliverables for Installation, Operation, and Removal of Water Level Station</p>
+</li><li><p>CO-OPS User’s Guide for Electronic Levels</p>
+</li><li><p>CO-OPS User’s Guide for Writing Bench Mark Descriptions</p>
+</li><li><p>CO-OPS User’s Guide for GPS Observations</p>
+</li></ul>
+<p>Additionally, the field unit should review any subordinate water level station
+locations specified in the Project Instructions and, if necessary based on local
+knowledge, recommend alternate sites to CO-OPS. Keep in mind that public
+properties are usually preferred over private properties because special
+permissions will typically not be necessary for future access. However,
+equipment security must also be considered in populated areas which are easily
+accessible. Security measures may include locking instruments, affixing owner
+identification to equipment, and choosing a discrete station location. Once
+locations have been agreed upon, survey personnel should obtain permission to
+access the property and install the staff, benchmarks, and gauge at the selected
+site.</p>
+<h3 id="2-4-5-constituent-contact">2.4.5 Constituent Contact</h3>
+<p>The Project Instructions will list constituents who must be contacted at or near
+the beginning and end of field operations to discuss survey objectives and
+accomplishments. It is mandatory that the field unit contact the appropriate
+regional NOAA Navigation Manager as identified in the Project Instructions.</p>
+<p>The Project Instructions will also list various local contacts for reference.
+These resources should not be overlooked and can often provide local knowledge
+regarding AWOIS items, shoaling, marine activities, traffic patterns, and other
+areas of concern. Local information sources include Port Authorities, Pilot
+Associations, local ferry companies, fishermen, towing companies, U.S. Coast
+Guard, U.S. Army Corps of Engineers, and local and state government agencies.
+Information regarding local survey requests or charting concerns that will not
+be addressed during the current project should be conveyed to either the Chief
+of Operations or the Chief of NRB.</p>
+<h4 id="2-4-5-1-local-notice-to-mariners-announcement">2.4.5.1 Local Notice to Mariners Announcement</h4>
+<p>Prior to commencing survey operations for a project, the field unit shall submit
+an announcement to be included in the USCG Local Notice to Mariners (LNM). At a
+minimum, this announcement should be submitted 2-weeks prior to commencing
+operations and include information about the project work area, the type of work
+being conducted, the field unit characteristics (e.g. size, color, markings of
+ship and launches), means of contacting the field unit, and the start and end
+dates of the survey. These announcements can be submitted via e-mail to the
+appropriate USCG District e-mail, which are listed in the LNM for each district
+(<a href="http://www.navcen.uscg">http://www.navcen.uscg</a>. gov/?pageName=lnmMain). See Appendix 2 for an example
+of a LNM announcement.</p>
+<h4 id="2-4-5-2-cultural-or-historic-submerged-features">2.4.5.2 Cultural or Historic Submerged Features</h4>
+<p>HSD Operations Branch will contact the State Historic Preservation Officer
+(SHPO), historical/archaeological contact at NOAA’s Office of National Marine
+Sanctuaries (ONMS), or other relevant governmental agency during preparation of
+Project Instructions to request information on any historically significant man-
+made features on the seabed within the survey area. Information provided by
+these Historic Preservation Points of Contact (HPPOCs) will be included in the
+Project Instructions. While the Project Instructions will also include contact
+information, field units are generally not required to consult with the HPPOCs.
+Instead, the Hydrographic Processing Branches are responsible for contacting the
+HPPOCs in the event of discovery of a potentially historically significant
+man made feature, in accordance with section 4.4.3 .</p>
+<h4 id="2-4-5-3-potential-for-lost-or-damaged-fishing-gear">2.4.5.3 Potential for Lost or Damaged Fishing Gear</h4>
+<p>In many areas, particularly the Northeast United States, field units may
+encounter significant densities of fixed or floating fishing gear; such as
+lobster pots, crab pots, fishing pots, long lines, gill nets, etc. NOAA field
+units should always attempt to minimize the impact of hydrographic survey
+operations on the commercial fishing industry. There is an expectation that
+Coast Survey and all field units will make every effort to prevent damage or
+interaction with fishing gear. However, if damage does occur, State agencies may
+not detain or prosecute a Federal employee for violation of State law. For
+example, it is a violation of Massachusetts law if someone destroys any lobster
+or other fishing gear and can be punished through a fine or imprisonment;
+however, if they are engaging in an activity authorized by the Federal law (e.g.
+conducting survey operations), then they cannot be detained. See Appendix 2 for
+a legal opinion from NOAA’s Office of General Counsel.</p>
+<p>When operating in areas with high densities of fishing gear, field units should
+consider modifying survey operations to reduce the possibility of damaging
+fishing gear and survey equipment. Some steps that may be taken in areas of
+dense fishing gear include:</p>
+<ul>
+<li><p>Limiting survey operation to daylight hours.</p>
+</li><li><p>Utilizing survey launches instead of the ship to conduct operations.</p>
+</li><li><p>Utilizing hull-mounted sonar systems instead of towed survey gear.</p>
+</li><li><p>Limiting use of towed sensors such as Moving Vessel Profilers</p>
+</li></ul>
+<p>In an effort to be pro-active and incorporate better coordination, the
+Operations Branch will contact fishing and lobster associations and
+organizations to inform them, prior to the field season, where a NOAA survey
+vessel will be working and the approximate time frame. This notification will be
+completed via an official letter to the association president or other point of
+contact. The Navigation Manager for the region and field unit should be carbon
+copied on this letter. See Appendix 2 for an example of a notification letter.</p>
+<p>A mandatory point of contact will be listed in the Project Instructions for
+projects which have the potential to significantly interfere with the work of
+local fishermen/lobstermen. In those cases, the field unit must use that point
+of contact to solicit input and coordinate with the local fishermen/lobstermen
+in an effort to reduce possibility of fishing gear interaction and better plan
+survey operations.</p>
+<p>Additionally, the Navigation Manager or field unit will submit an announcement
+of the survey project for inclusion in the USCG (LNM) as early as is practicable
+(usually as soon as Project Instructions are received). See section 2.4.5.1 for
+information on submitting announcements. These announcements should also be
+provided directly to the fishing or lobstermen association for distribution to
+their members and inclusion in their newsletters. Notices should not only be
+sent to associations operating in the region the survey operations are being
+conducted, but also adjacent associations, as they will likely have some
+overlap.</p>
+<p>While field units will make every effort not to cause damage or otherwise
+interfere with fishing gear, some entanglements and other damage may occur. In
+instances where fishing gear has been damaged local fisherman or lobstermen may
+make a claim regarding lost or damaged fishing gear and request compensation.
+The claims process for damaged fishing gear that may have been damaged by a NOAA
+hydrographic survey field unit is listed below:</p>
+<ol>
+<li><p>Initial claims of gear interaction may be received from the fishermen by the
+field unit, the USCG, or the State Marine Patrol. Claimants will typically be
+referred to the State Marine Patrol as the best point of entry into the process.
+Note that NOAA hydrographic survey field units are not authorized to collect
+sworn statements, so whenever possible claimants should be referred to a law
+enforcement agency.</p>
+</li><li><p>State Marine Patrol and NMFS Office of Law Enforcement special agents will
+collaborate to collect sworn statements from affected fishermen, depending on
+whether alleged loss occurred in state or federal waters. At a minimum, claims
+need to give the location of gear lost, estimate of when it was lost, what was
+lost, and the fair market value.</p>
+</li><li><p>All completed claims will be routed from NMFS OLE special agents to the
+regional NOAA Navigation Manager.</p>
+</li><li><p>The Navigation Manager will request route data from the field unit, and
+compare the positions and times of the alleged loss with the unit’s activities.
+The Navigation Manager may request assistance from the local NOAA Fisheries lab
+to determine if fair market value claimed for lost gear is reasonable.</p>
+</li><li><p>The Navigation Manager will forward substantiated claims to NOAA Office of
+General Counsel for final certification and payment. See Appendix 2 for an
+example letter for reimbursement. Unsubstantiated claims will be referred back
+to the State Marine Patrol and NMFS OLE with supporting documentation.</p>
+</li><li><p>OCS and OMAO leadership will determine how costs of any claims will be shared.</p>
+</li></ol>
+<h2 id="2-5-survey-planning">2.5 Survey Planning</h2>
+<p>OCS recommends that systematic data acquisition plans be prepared prior to
+vessel operations.These plans may consist of lines used directly for vessel
+navigation, polygons used to designate survey areas if the acquisition software
+provides a real time coverage map, or target files used to mark pre-determined
+data acquisition points. When creating data acquisition plans, many factors must
+be considered, including the scope of the survey, object detection criteria,
+sheet layout with respect to surrounding features, available data acquisition
+systems, number of features to be addressed, traffic patterns, local currents,
+tide stages, and prevailing weather and sea conditions. Input from other survey
+personnel, particularly those who have previously operated in the area, can be
+invaluable when creating data acquisition plans. Proposed plans should be
+reviewed by the FOO and/or Chief-of-Party prior to vessel operations.</p>
+<h3 id="2-5-1-survey-scope">2.5.1 Survey Scope</h3>
+<p>The scope of an OCS hydrographic survey will be categorized as basic
+hydrographic, navigable area, field examination, or special project. Survey
+requirements will vary according to this classification. The type of survey to
+be conducted and any special requirements will be identified in the Project
+Instructions.</p>
+<p>The type of specific hydrographic survey projects are created via an evaluation
+of known requirements and priorities. Survey limits are based on these
+requirements and priorities as well as quantitative and qualitative measures of
+shipping and boating in an area, the adequacy of existing survey information in
+the area, the rate of change of the bathymetry, safety precautions and an
+assessment/weighting of benefit versus efficiency.</p>
+<h4 id="2-5-1-1-basic-hydrographic-surveys">2.5.1.1 Basic Hydrographic Surveys</h4>
+<p>A basic hydrographic survey must be able to stand alone, without supplementation
+by any other survey. The basic survey must be adequate to supersede all prior
+surveys for charting purposes and meet all applicable survey requirements
+specified in HSSD.</p>
+<h4 id="2-5-1-2-navigable-area-surveys">2.5.1.2 Navigable Area Surveys</h4>
+<p>Navigable area surveys must meet the requirements of basic hydrographic surveys,
+but will have special survey limits defined in the Project Instructions.
+Typically for this type of survey, the limits have been restricted to omit areas
+that are not considered navigationally significant. Another scenario would be
+restricting the survey to primary shipping traffic areas. Assigned survey limits
+may require adjustment based on safety and field unit observations of local
+traffic patterns. Any significant survey limit adjustments shall be coordinated
+through the Chief of OPS.</p>
+<h4 id="2-5-1-3-field-examinations">2.5.1.3 Field Examinations</h4>
+<p>Field Examinations (FE) are item investigations or surveys that cover small
+areas of specific interest. These surveys may be assigned to prove/disprove the
+existence of reported dangers or obstructions, to provide data for harbor
+development, or to supplement prior surveys for construction of large-scale
+charts.</p>
+<h4 id="2-5-1-4-special-projects">2.5.1.4 Special Projects</h4>
+<p>Special Projects are surveys typically performed for purposes other than
+creating nautical charts, such as habitat mapping, ocean exploration, or
+homeland security. The Project Instructions will define requirements for Special
+Projects.</p>
+<p>Note: Depending upon the type of project, data acquired for Special Projects may
+be subject to additional security measures. Any required security practices will
+be defined in the Project Instructions. The field unit should use discretion
+when handling Special Project data and contact the Chief of OPS or Chief of NRB
+if data security requirements are in question.</p>
+<h4 id="2-5-1-5-homeland-security-surveys">2.5.1.5 Homeland Security Surveys</h4>
+<p>Homeland security surveys may be assigned in response to requests by the US
+Naval Oceanographic Office (NAVOCEANO) for hydrography to support Homeland
+Security in the nation’s coastal waterways. These projects are typically 200%
+side scan sonar surveys conducted in accordance with NOS requirements for SSS
+data acquisition and processing with minor modifications. Any additional project
+specific requirements will be provided in the Project Instructions. In the event
+that it is not possible to adhere to the HLS specifications, Chief, HSD
+Operations Branch should be contacted for further guidance.</p>
+<p>Special attention should be given to setting up survey plans and file structures
+when a survey area contains a region to be submitted for Homeland Security
+purposes. Careful advance planning will ensure that the relevant Homeland
+Security survey data and associated ancillary files will be easily extractable
+for submission to NAVOCEANO.</p>
+<h3 id="2-5-2-object-detection-criteria">2.5.2 Object Detection Criteria</h3>
+<p>Unless otherwise specified by the Project Instructions, all data acquisition
+shall be conducted to meet object detection criteria as set forth in the HSSD;
+this may be accomplished with SSS, MBES, or a combination of the two. Object
+detection capabilities are dependent upon the acoustical characteristics of the
+sonar system. Vessel speed versus sonar pulse repetition rate (ping rate) must
+also be considered in order to meet coverage requirements in the along track
+direction. Standards set by OCS for object detection vary depending on sonar
+technology and requirements for each sonar type are discussed individually
+below.</p>
+<h4 id="2-5-2-1-side-scan-sonar-sss-">2.5.2.1 Side Scan Sonar (SSS)</h4>
+<p>The HSSD states that side scan sonar systems shall be operated such that a 1m x
+1m x 1m object on the sea floor can be detected from acoustic shadow
+measurements. OCS has determined that this object detection criteria can be met
+by acquiring a minimum of 3 independent ensonifications (pings) per meter
+traveled in the along-track direction. This criterion can be met by regulating
+vessel speed based on sonar range scale. Longer operating ranges have slower
+pulse repetition rates, thus requiring that the vessel speed be slower to meet
+object detection requirements. Refer to sections sections 6.1.2 and 6.1.3 of the
+HSSD for further guidance on side scan object detection standards. Sonar ping
+rates should be defined in the operator’s manual or the manufacturer’s technical
+documentation.</p>
+<h4 id="2-5-2-2-multibeam-echosounder-mbes-">2.5.2.2 Multibeam Echosounder (MBES)</h4>
+<p>Multibeam echosounder object detection criteria vary according to water depth.
+Adequate detection has been defined by OCS as 3.2 beam footprints, center-to-
+center, per 3 meters (in depths of 40 meters or less) or a distance equal to 10
+percent of the depth (in depths greater than 40 meters). In the along track
+direction, this criterion can be met by regulating vessel speed based on sonar
+range scale, which directly affects ping rate. Since the size of MBES beam
+footprints will be greater as the angle from nadir increases, object detection
+capabilities should be calculated based on outer beams. Field personnel should
+refer to section 5.2.2 of the HSSD for further guidance on multibeam object
+detection standards. Sonar ping rates should be defined in the operator’s manual
+or the manufacturer’s technical documentation.</p>
+<h3 id="2-5-3-survey-line-planning">2.5.3 Survey Line Planning</h3>
+<p>Before creating a line plan, the Project Instructions should be reviewed for any
+required methodology, line spacing, or coverage requirements. Besides Project
+Instruction requirements, factors such as general bathymetry, traffic patterns,
+shoreline features, currents, prevailing weather and sea states, and distance
+from GPS base stations should also be considered during line plan creation. New
+features discovered during operations may warrant additional adjustments to line
+plans as the survey progresses. It should be noted that survey limits are
+subject to revision based upon command decision and/or requirements for safe
+vessel operation. Any significant survey limit adjustments shall be coordinated
+through the Chief of HSD Operations Branch.</p>
+<p>Safety should never be compromised for the sole purpose of following a line
+plan. Line plans used for data acquisition can be classified into the following
+categories:</p>
+<ul>
+<li><p>Mainscheme (MBES, SSS, or VBES)</p>
+</li><li><p>Holidays (MBES, SSS or VBES)</p>
+</li><li><p>Crosslines (MBES or VBES)</p>
+</li><li><p>Developments (MBES or VBES)</p>
+</li><li><p>Target Files</p>
+</li><li><p>Special Circumstances</p>
+</li></ul>
+<p>Acquisition requirements vary depending upon data category and the type of
+equipment used. OCS recommends that field units standardize survey line
+numbering such that data classification can be determined based upon line
+number. For example, use the 100 number series for the first 100% of side scan
+sonar lines; the 200 number series for 200% side scan numbers; the 300 number
+series for side scan holidays lines; the 400 - 500 number series for mainscheme
+multibeam lines; the 600 - 800 number series for development data; and the 900
+number series for crosslines. Specific line numbering standards have not been
+implemented by OCS; however, standardization within each field unit is strongly
+recommended.</p>
+<p>Line plan requirements and guidelines for each data category are discussed in
+the following sections. Keep in mind that these guidelines are provided to help
+the field unit maximize survey efficiency, but they should not be followed at
+the expense of personnel and vessel safety.</p>
+<h4 id="2-5-3-1-mainscheme">2.5.3.1 Mainscheme</h4>
+<p>Mainscheme refers to the primary survey data that are systematically acquired to
+meet basic survey requirements. Mainscheme data are typically comprised of
+complete or object detection MBES data or 200% SSS imagery data acquired
+simultaneously with VBES bathymetry. However, in some circumstances variances
+such as a combination of complete multibeam and 100% side scan data may be
+preferred.</p>
+<p>When planning mainscheme lines, special consideration should be given to
+junction areas. For surveys that are part of the same current project and from
+the same year, data overlap in junction areas shall be sufficient to ensure
+continuous coverage. To adjoin with a non-contemporary survey from a different
+year and possibly conducted by a different vessel, a 100-200 meter overlap of
+mainscheme data is required, unless the Project Instructions and provided
+project limits indicate otherwise.</p>
+<h5 id="2-5-3-1-1-multibeam-echosounder-mbes-">2.5.3.1.1 Multibeam Echosounder (MBES)</h5>
+<p>When planning mainscheme MBES lines, the hydrographer must consider object
+detection requirements, echosounder system, and water depth. If complete
+coverage is desired, line spacing will vary according to the effective swath
+width. The available swath width will vary between systems, but object detection
+requirements may require data filtering by swath angle or could even limit the
+types of sonars which may be used. Generally, lines should be oriented parallel
+to depth contours for consistent swath widths and line spacing. The following
+formula can be used as a general rule of thumb for determining swath width:</p>
+<p>Available Swath Width = 2 x Water Depth x (tangent 1/2 swath angle)</p>
+<p>The hydrographer should keep in mind that allowing for adequate data overlap
+when planning mainscheme lines can significantly reduce the number of holidays
+created during acquisition. Based on the above formula and collective OCS
+experience, mainscheme line spacing is commonly set at 3 x Water Depth to obtain
+complete coverage.</p>
+<p>In special cases, partial MBES coverage may be used for mainscheme survey data.
+This type of coverage might be assigned if time is limited and existing survey
+data are fairly modern. In such cases, required line spacing will be noted in
+the Project Instructions. For further information on MBES requirements for OCS
+surveys, see section 5.2.2 of the HSSD.</p>
+<h5 id="2-5-3-1-2-side-scan-sonar-sss-">2.5.3.1.2 Side Scan Sonar (SSS)</h5>
+<p>Typically, two-hundred percent coverage is required when using SSS as a
+mainscheme survey technique. One hundred percent coverage is completed by
+acquiring data that meet the assigned object detection requirements over the
+entire survey area one time. This process is performed a second time to obtain
+two-hundred percent coverage. Side scan sonar data quality will, inherently,
+degrade both at nadir and at outer ranges. Because of this characteristic, line
+plans for the second hundred percent should be either offset or oriented
+differently than the first hundred percent. OCS recommends offsetting 200% lines
+by ½ of the line spacing for the first 100% coverage. If possible, SSS data
+should be acquired by running lines perpendicular to depth contours to avoid
+imagery distortion caused by slopes in the athwartships direction.</p>
+<p>Note: Multibeam backscatter imagery is not considered equivalent to, or a
+replacement for, side scan sonar imagery. Side scan sonar provides low grazing-
+angle imagery that enables identification of features not visible in lower
+resolution, higher grazing angle MBES backscatter imagery.</p>
+<p>The line spacing necessary to obtain 100% SSS coverage is dependent upon the
+effective range scale, achievable positional accuracy, and any positioning
+errors inherent to a towed system. A good rule of thumb to obtain complete
+coverage is to plan survey line spacing at 1.6 x Range Scale, allowing for an
+overlap of 40% of range scale (20% of the total swath) between adjacent swaths.
+Note: Range Scale refers to the athwartships distance ensonified on each side of
+the towfish. Thus, Range Scale equals one half of the total swath ensonified.</p>
+<p>Generally, SSS range scale is chosen for maximum survey efficiency. The sonar
+should be maintained at an altitude of 8 - 20% of range scale during
+acquisition; thus, water depth will determine an upper range scale limit or a
+particular survey area. However, the hydrographer should also consider the
+system configuration and if a minimum sonar depth will be necessary to avoid
+water column disturbances such as propeller wash. Based on the chosen range
+scale’s corresponding ping rate, vessel speed should be adjusted to ensure that
+object detection criteria are met (see section 2.5.2.1 ). If a specific range
+scale is required for a survey, it will be indicated in the Project
+Instructions.</p>
+<h5 id="2-5-3-1-3-vertical-beam-echosounder-vbes-">2.5.3.1.3 Vertical Beam Echosounder (VBES)</h5>
+<p>Since complete coverage can not be efficiently completed using VBES alone, this
+will rarely be assigned as the sole method for acquiring mainscheme survey data.
+Typically, VBES systems will be used to provide correlating sounding data for
+SSS operations, define an inshore contour, or develop very shoal or foul areas
+where there is a high probability of damaging either a MBES or SSS system.</p>
+<p>If VBES has been assigned as a stand-alone mainscheme data acquisition method,
+the required line spacing will be noted in the Project Instructions. If
+possible, VBES mainscheme data should be acquired by running lines perpendicular
+to depth contours. This practice assists the hydrographer in accurately
+identifying contour intervals. If extensive discrepancies are found between VBES
+sounding data and charted depths, the Chief of OPS or Chief of NRB should be
+contacted to determine if a more extensive survey is warranted.</p>
+<h4 id="2-5-3-2-holidays">2.5.3.2 Holidays</h4>
+<p>Holidays are defined as gaps in mainscheme data or areas where accuracy
+requirements have not been met. Holidays may be caused by various events, such
+as vessel maneuvering, survey equipment problems, unexpected shoals, or
+rejection of poor quality data during post-processing. Holiday line plans are
+typically developed to address these data gaps as mainscheme acquisition
+progresses, rather than at the end of mainscheme operations. This practice will
+minimize transit time required to revisit each area of the survey with a holiday
+and the time required to acquire, process, and manage additional sound speed
+profiles. If the field unit uses a real-time coverage map during mainscheme data
+acquisition, most holidays can be identified and addressed prior to ceasing
+operations that day, thus increasing survey efficiency.</p>
+<h4 id="2-5-3-3-crosslines">2.5.3.3 Crosslines</h4>
+<p>Crossline data are used to identify any systematic data problems by comparing it
+to mainscheme data acquired at different times, water levels, and line azimuths.
+Separate vessels may also be used for crossline data acquisition to help
+identify any vessel to vessel system biases.</p>
+<p>Ideally, crosslines should be acquired prior to mainscheme data, in areas of
+gently sloping bottom, and when water levels are as close to survey datum (MLLW)
+as practicable. Crossline data may not agree well with mainscheme soundings if
+acquired in areas of irregular submarine relief and/or if VBES systems are used.
+In rocky areas, large depth differences may occur over small horizontal
+distances, making a small positioning error appear to be a large depth error.
+This effect is often noted when using VBES systems due to the large beam
+footprint.</p>
+<h4 id="2-5-3-4-developments">2.5.3.4 Developments</h4>
+<p>A development is performed to either obtain a least depth over a known point
+feature or further define an area based feature such as a shoal. Typically,
+dense MBES data are acquired for developments, although multiple VBES lines may
+be more appropriate for defining very shoal area features due to the significant
+decrease of MBES efficiency in such depths. If a VBES system is used to
+determine the least depth on a point feature, several parallel lines should be
+run over the feature until the hydrographer is confident that the least depth is
+recorded. A third method for determining a feature’s least depth is by diver
+investigation. The process of using a diver least depth gauge is discussed in
+section 3.2.5 For additional information on feature investigation, refer to
+section 4.4. Note: Conducting developments during high stages of tide will
+improve MBES efficiency and may also provide increased vessel safety by
+maximizing underkeel clearance. If development lines are created to be run
+during a specific tide range, the hydrographer must be certain to convey this
+information to the vessel crew that will be acquiring the data.</p>
+<p>When developing point features, least depths should be acquired using the center
+region of the MBES swath, typically 45° or less off nadir. This section of the
+MBES swath will have less error due to refraction than the outer beams. It is
+recommended that, during development acquisition, a confidence swath be run in
+an orthogonal direction to the primary development lines. A common MBES
+development line plan may appear to be an assortment of “H” or “+” patterns over
+numerous features.</p>
+<h3 id="2-5-4-survey-polygon-planning">2.5.4 Survey Polygon Planning</h3>
+<p>Most field units will be equipped with data acquisition software that allows the
+sonar operator and the coxswain to view a real-time coverage DTM of the data
+being acquired. As an alternative to line planning, which is most often
+redundant with this software capability, polygons that define areas to be
+covered are created by the sheet manager. While the entire area could just be
+covered with a continuous line, polygons provide the hydrographer with discreet
+sections to be covered assisting in better plans for survey timing and vessel
+efficiency. Most of the guidance that applies to line plans also applies to
+polygon planning. The data should still be acquired with the boat traveling
+parallel to the contours.</p>
+<ul>
+<li><p>Polygons should be planned such that the boat will be running offshore to
+nearshore. This is a safety tip! Creating separate offshore and onshore polygons
+(those that can be run at any time vs. those that need a specific tide window)
+is also helpful.</p>
+</li><li><p>Make polygons longer in the dimension the boat should run, providing a clear
+indication to the coxswain and surveyor of the polygon’s directionality. (If
+running N to S will be most efficient with the contours, make your polygon
+longer in the N to S dimension).</p>
+</li><li><p>If there is a MHW Buffer, a limit line that defines the shoal edge of the
+survey (survey to the 4 meter curve) or a NALL established during shoreline
+verification, do not plan polygons inshore of these limits unless there is a
+specific reason to do so.</p>
+</li><li><p>In a channel that could be filled in with one polygon (shore to shore),
+consider breaking it down into two polygons such that there is a straight edge
+in the middle of the channel. This provides the vessel with a straight baseline,
+and encourages running from offshore to nearshore.</p>
+</li><li><p>Set polygons up in such a way that turns are minimized and lines are of a
+manageable length for processing.</p>
+</li><li><p>Be aware of any possible sources of fresh water, or other factors that will
+affect the water column and make smaller polygons in these areas.</p>
+</li></ul>
+<h4 id="2-5-4-1-awois-items">2.5.4.1 AWOIS Items</h4>
+<p>For all assigned AWOIS investigations, the entire search radius shall be
+investigated if possible, regardless of its position relative to the survey
+limits. Specific investigation methods considered adequate for an item’s
+disproval will be noted in the attributes of the placeholder AWOIS feature,
+CRANES. Often, AWOIS items can be investigated in conjunction with mainscheme
+data acquisition.</p>
+<p>Note: If the entire search radius is not investigated, it is nearly impossible
+to disprove an AWOIS item.</p>
+<h4 id="2-5-4-2-target-files">2.5.4.2 Target Files</h4>
+<p>Target files refer to a collection of geographic positions designated for point
+data acquisition. These files are typically created to designate specific
+positions for acquiring other types of data. For example, the hydrographer may
+create a target file to show the specific position where a sound velocity
+profile is desired or specific locations of items to be developed.</p>
+<h5 id="2-5-4-2-1-bottom-samples">2.5.4.2.1 Bottom Samples</h5>
+<p>Samples of bottom sediment throughout the survey area shall be obtained and
+analyzed in accordance with the HSSD, if required by the Project Instructions. A
+bottom sample plan is compiled by the HSD Project Manager and delivered to the
+field unit in the Project Reference File (PRF) using the S- 57 Object Class,
+‘SPRING’. The field unit should review the bottom sample plan to the survey data
+acquired (bathymetry and backscatter) to determine if the bottom sample
+locations are appropriate. The survey data will often better differentiate
+varying bottom characteristics within the survey compared to the bottom sample
+plan. The field unit should contact HSD Operations Branch to discuss modifying
+the plan if needed.</p>
+<h4 id="2-5-4-3-special-circumstances">2.5.4.3 Special Circumstances</h4>
+<h5 id="2-5-4-3-1-search-patterns">2.5.4.3.1 Search Patterns</h5>
+<p>In emergency or accident situations, NOAA field units may be involved with
+wreck, obstruction, or debris searches. When planning this type of operation,
+the direction of the search pattern should be oriented within 20° of the set of
+any significant current present in the survey area. This arrangement will
+minimize towfish offset from the planned tracks, increase position accuracy, and
+increase towfish stability by minimizing forces that are not aligned with the
+longitudinal axis of the towfish. However, tracks run in the same direction as a
+very strong current may result in an increased speed over ground, which could
+decrease object detection capabilities; thus, this parameter should be monitored
+if searching for small objects. If strong currents exist in the area and running
+search tracks in a pattern oriented normal to the current is unavoidable, the
+operations should be timed to coincide with periods of slack or minimum current,
+if possible.</p>
+<h5 id="2-5-4-3-2-special-wreck-investigations">2.5.4.3.2 Special Wreck Investigations</h5>
+<p>If a hydrographic field unit discovers a potentially significant historic wreck
+site, or conducts a special wreck investigation through a contract from another
+NOAA program or a request from a NOAA Navigation Manager, the field unit should
+make an effort to ensonify the wreck site and associated debris field with each
+type of sonar system that is readily available. When conducting side scan sonar
+operations, run parallel tracks on either side of the wreck, so that both sides
+are imaged, as well as two additional tracks orthogonal to the site. The imagery
+and bathymetry data will provide clues to the wreck’s status and identity,
+identify any obstructions, and provide researchers with an adequate baseline
+assessment with which to compare future surveys.</p>
+<h3 id="2-5-5-survey-plan-finalization">2.5.5 Survey Plan Finalization</h3>
+<p>Proposed survey acquisition plans should be reviewed by the FOO and/or Chief-of-
+Party and any necessary adjustments made. Once approved by the Chief-of-Party,
+the plan should be converted from the format generated by the GIS software used
+to design the plan to a format that can be read by the field unit’s survey
+navigation software. Typically, acquisition plans will be designed using CARIS
+Notebook or Bathy DataBASE software for polygon planning or MapInfo software for
+line planning. The MapInfo files are converted into a HYPACK line file (<em>.lnw)
+or HYPACK target file (</em>.tgt) for vessel navigation. This specific conversion
+process can be accomplished using the Hydro_MI.mbx MapBasic tool, which will
+also report the number and the total mileage of the planned lines. Number and
+mileage statistics should be recorded and used to estimate the amount of time
+required to complete the survey. These estimations are critical to overall
+project planning.</p>
+<h3 id="2-5-6-preparing-the-survey-crew">2.5.6 Preparing the Survey Crew</h3>
+<p>The Survey Manager will provide a boat sheet to the survey crew(s) with a plot
+depicting line plans, polygons, and/or shoreline files overlaid on the largest
+scale chart with any uncharted hazards, lines planned for acquisition during
+high tide or slack current, AWOIS items, contacts, and/or developments prior to
+each survey day.</p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

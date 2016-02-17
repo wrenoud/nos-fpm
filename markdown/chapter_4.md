@@ -1,17 +1,17 @@
 Chapter 4
 ===========
 Data Processing and Analysis
+============================
+
 The purpose of this chapter is to provide the information necessary to clean, finalize, and analyze data for OCS
 hydrographic surveys. The following types of data are addressed separately in this chapter.
 
-•	 Bathymetry (VBES and MBES data)
-•	 Imagery (SSS data)
-•	 Features (bathymetry and imagery contacts, detached positions, AWOIS items, geographic positions)
+* Bathymetry (VBES and MBES data)
+* Imagery (SSS data)
+* Features (bathymetry and imagery contacts, detached positions, AWOIS items, geographic positions)
 Relevant steps regarding the post-processing of inertially-aided GPS data are mentioned in this section but full
 details are discussed in the Ellipsoidally Referenced Survey SOP.pdf in Appendix 4. For additional guidelines
 consult the HSSD Chapter 9 Ellipsoidally-Referenced Surveys.
-
-
 
 4.1 Preparation for Data Processing
 ------------------------------------
@@ -39,14 +39,11 @@ associated vessels, and days for which data was acquired. The “day” name is 
 of year). Day of year (DOY) refers to a sequential number starting with 001 on January 1 of each year and ending
 with 365, or 366 in leap years, on December 31 of that year.
 
-
-
 *Page 108*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Note: DOY is not synonymous with Julian Day Number and should not be referred to as such. The Julian Day
+Note: DOY is not synonymous with Julian Day Number and should not be referred to as such. The Julian Day
 numbering system refers to the number of days since noon on January 1, 4713 BC, a system widely used by
 astronomers.
 
@@ -64,7 +61,7 @@ individual sensor.
 The Vessel Wizard will first prompt the user to enter a name for a new HVF file. HVF naming conventions have
 been standardized throughout the NOAA hydrographic fleet. The following naming convention shall be used for
 NOAA hydrographic vessel HVF files:
-<ship/field unit abbreviation>_<vessel hull number>_<data type + category>.hvf
+&lt;ship/field unit abbreviation&gt;_&lt;vessel hull number&gt;_&lt;data type + category&gt;.hvf
 Table 4.1 contains a list of common data types acquired during OCS hydrographic surveys and example HVF
 names for each. Note that the field season year is not included in the name; rather, timestamp entries within the
 HVF are used to track application dates. Only a reference to the principal echosounder or side scan sonar type
@@ -75,14 +72,11 @@ Once an HVF name is entered, the user will be asked to enter specifications for 
 as sonar type, number of transducers, number of beams, etc. The information requested is typically either based
 on the physical system configuration or can be located in the sonar user’s manual.
 
-
-
 *Page 109*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Data Type
+Data Type
 Multibeam Echosounder
 
 HVF Name Examples
@@ -145,7 +139,6 @@ JEFFERSON, launch 3101, Diver DPs
 Table 4.1: Example HVF naming conventions for NOAA hydrographic vessels.
 
 
-
 ##### 4.1.1.1.1 Motion Sensor Options
 
 HIPS and SIPS Vessel Wizard will prompt the user to enter what vessel motion data (i.e., attitude data) will be
@@ -162,8 +155,7 @@ options to apply roll and pitch will affect any remote heave calculations. (Remo
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-vertical position of the transducer due to roll and pitch acting over a non-zero moment arm between the heave
+vertical position of the transducer due to roll and pitch acting over a non-zero moment arm between the heave
 sensor and the transducer). If remote heave compensation is to be performed in HIPS, the vessel coordinate
 system reference point (RP) entered in the HVF will be treated as the center of rotation and, therefore, should be
 established as close to the vessel’s center of motion as possible.
@@ -216,8 +208,7 @@ Once a new HVF has been created with the Vessel Wizard, sensor offsets and addit
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-left-handed coordinate system, as summarized in Table 4.2. (Be aware that despite the fact that the +Z axis is down,
+left-handed coordinate system, as summarized in Table 4.2. (Be aware that despite the fact that the +Z axis is down,
 when recording vessel motion positive heave action is up.) The user should verify that offset values determined
 during the vessel survey adhere to the same coordinate system as the HVF. If this is not the case, surveyed offset
 values will need to be converted so that the vessel configuration is accurately represented in the HVF.
@@ -242,44 +233,42 @@ the appropriate user’s manual prior to entering offsets into any software or e
 systems for common OCS survey systems are described in Appendix 1, (Coordinate_Systems.pdf).
 
 The hydrographer may find it useful to create a three-dimensional Vessel Shape when entering sensor offsets.
-This image, created using Vessel Editor’s Edit > Vessel Shape menu, shows the relative location of sensors as entered
+This image, created using Vessel Editor’s Edit &gt; Vessel Shape menu, shows the relative location of sensors as entered
 in the HVF and can provide the hydrographer with a quick verification that offsets have been entered correctly.
 The field unit shall ensure that the vessel offsets, entered in the HVF are fully consistent with those, listed in the
 DAPR (see section 8.1.5.1 of HSSD). Any inconsistencies shall be addressed in the DR (see section 8.1.4 of HSSD).
+
 
 ### 4.1.2 Creating CARIS Projects
 
 CARIS Projects shall be created for each survey and include only the survey registry number (e.g. H12345, or
 F00123). New Projects are created using the CARIS New Project Wizard. When adding a new project, the wizard
 will request the following data:
-•	 Description – Provide a brief summary of the purpose of the Project and any significant survey-specific
+* Description – Provide a brief summary of the purpose of the Project and any significant survey-specific
 information. The bulk of the description can be extracted from the Introduction, Location, and Priority
 sections of the Project Instructions. Note: Entering a description is important because this is one of the few
 places in HIPS and SIPS where external metadata can be attached to digital data.
 
-•	 Owner – List the assigned ship or field party, as well as the Lead Hydrographer (Commanding Officer or
+* Owner – List the assigned ship or field party, as well as the Lead Hydrographer (Commanding Officer or
 Chief-of-Party) and Survey Manager.
 
-•	 Map Projection – Map Projection establishes the coordinate system to be used for the Project view in HIPS/
+* Map Projection – Map Projection establishes the coordinate system to be used for the Project view in HIPS/
 SIPS. If AUTO_UTM is specified, the coordinate system of the Project view will be based on the ellipsoid
 manually entered in the HVF. The AUTO_UTM option can be used, provided a Universal Transverse Mercator
 (UTM) projection on the North American Datum of 1983 (NAD83) has been entered for all HVF files
 associated with the survey.
 
-•	 Project Extent – Enter the basic boundaries of the survey area. Project Extent is expressed as a regular (i.e.,
+* Project Extent – Enter the basic boundaries of the survey area. Project Extent is expressed as a regular (i.e.,
 non-rotated) rectangle. Project Extent should completely cover the assigned survey limits. Note that data
 
 *Page 112*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-brought into a CARIS Project are not automatically clipped to this area; the clipping function is optional and
+brought into a CARIS Project are not automatically clipped to this area; the clipping function is optional and
 requires user activation. If activated, the default clipping boundary will be the Project Extent, but this may be
 modified by the user. Refer to the CARIS HIPS and SIPS User’s Manual for additional information on clipping
 data.
-
-
 
 4.2 Bathymetry Processing
 --------------------------
@@ -321,11 +310,9 @@ weighted grids and the Combined Uncertainty and Bathymetric Estimator (CUBE) met
 weighted grids. The preferred method shall be the CUBE method, but uncertainty weighted grids will be allowed.
 Their use shall be documented in the Descriptive Report. Each of these methodologies is described below.
 
-
 *Page 113*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 4.2.1.1.1 Combined Uncertainty and Bathymetric Estimator (CUBE)
@@ -338,39 +325,36 @@ internally consistent depth hypotheses, using the uncertainty of the soundings a
 
 Disambiguation - After all soundings are integrated, a second stage determines which hypothesis at each node is
 the most likely to be the seafloor. There are four disambiguation methods available:
-	
+
 
 (a) The density option selects the hypothesis with the greatest number of sounding samples.
 
 
-	
-	
 
-(b) The locale option selects the hypothesis that is most consistent with its surrounding nodes that has 		
+
+(b) The locale option selects the hypothesis that is most consistent with its surrounding nodes that has
 only one hypothesis.
 
 
-	
-	
+
 
 (c) The density and locale option selects the hypothesis with the greatest number of soundings and is
 consistent with neighboring nodes.
 
 
-	
-	
 
-(d) The initialization option selects the hypothesis that is closest to an initialization surface created 	
+
+(d) The initialization option selects the hypothesis that is closest to an initialization surface created
 previously.
 
 
-	
 
 The CARIS HIPS integration of CUBE is well documented in the CARIS HIPS and SIPS User’s Manual. This
 manual should be referenced for details on the workings of the algorithm and explanations of the user interface.
 When editing a CUBE surface, the user may opt to edit soundings or to edit hypotheses. For NOAA hydrographic
 survey data, it is critical that only sounding edits be used to correct gridding problems. This is primarily because
 hypothesis edits exist only in the context of a single grid, and will be lost if that grid is recomputed.
+
 
 ###### 4.2.1.1.1.1 CUBE Parameters
 
@@ -395,8 +379,7 @@ A value of 0.5 was determined to be low enough for all grid resolutions, since t
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-The Horizontal Error Scaler value is used to scale the horizontal error of each sounding when used in the radius of
+The Horizontal Error Scaler value is used to scale the horizontal error of each sounding when used in the radius of
 influence computation. It affects the propagated uncertainty of each sounding and how it is combined into each
 hypothesis. The system default value is 2.95. However, based on discussions with Dr. Calder, the value has been set
 to 1.96, for all grid resolutions in the NOAA parameters file.
@@ -441,13 +424,11 @@ sounding’s horizontal component of TPU, and grid node resolution. The amount o
 on a given BASE estimation point is inversely proportional to the propagated vertical uncertainty of the observation.
 See Figure 4.1 .
 
-
 *Page 115*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Figure 4.1: Model for propagated uncertainty in depth
+Figure 4.1: Model for propagated uncertainty in depth
 Where V and H are the vertical and horizontal components of TPU (resp.), SH is a scale factor representing the
 worst case error that horizontal TPU can contribute, xi and nj are the location of the sounding and estimation
 node (resp.), x and y are the two-dimensional spacing of grid nodes, and the exponent is a heuristic to control
@@ -464,7 +445,6 @@ uncertainty threshold is expressed in HIPS according to an IHO sounding error mo
 estimate of all constant errors (a) and depth-dependent errors (b times d) are summed in quadrature as shown in
 Figure 4.3.
 
-
 Figure 4.3: Generalized uncertainty growth curve with respect to sounding radius influence (d).
 
 OCS requirements for the accuracy of measured depths, as set forth in the HSSD, are adapted from IHO S-44,
@@ -474,11 +454,9 @@ specifies that the total sounding error in a measured depth at the 95 percent co
 system specific errors have been removed, shall not exceed the IHO Order 1 standard in depths up to 100 meters
 and shall not exceed the IHO Order 2 standard in deeper waters. If either an IHO Special Order standard or a userdefined accuracy is required for a survey, these requirements will be stated in the Project Instructions.
 
-
 *Page 116*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 4.2.1.1.3 Other BASE Weighting Methods in HIPS
@@ -498,51 +476,43 @@ uncertainty (weighted by propagated depth uncertainty) of all the soundings cont
 Note that the depth at grid node n is the weighted mean of soundings 1, 2, and 3. Sounding 4 is not included
 because its radius of influence does not encompass grid node n.
 
-
 Figure 4.4: Formulation of Base surface nodes from soundings.
-
-
 
 *Page 117*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-In addition to depth and uncertainty, users can include five additional attributes in the BASE surface nodal data.
+In addition to depth and uncertainty, users can include five additional attributes in the BASE surface nodal data.
 The definitions of the seven nodal attributes are summarized below. Note that all node statistics are computed
 from the set of surrounding soundings whose propagated vertical uncertainty passes a user-supplied threshold
 (IHO Order):
-•	 Depth - weighted-mean depth of soundings that contribute to a node; weighting is inversely proportional to
+* Depth - weighted-mean depth of soundings that contribute to a node; weighting is inversely proportional to
 the propagated vertical uncertainty of the soundings.
 
-•	 Uncertainty - weighted-mean vertical component of TPU of soundings that contribute to a node; weighting
+* Uncertainty - weighted-mean vertical component of TPU of soundings that contribute to a node; weighting
 is inversely proportional to the propagated vertical uncertainty of the soundings.
 
-•	 Density - number of soundings that contribute to a node.
+* Density - number of soundings that contribute to a node.
 
-•	 Std_Dev - standard deviation of soundings that contributed to the selected hypothesis at the 68%CI
-•	 Node_Std_Dev – standard deviation of the soundings that contributed to the current grid node at the
+* Std_Dev - standard deviation of soundings that contributed to the selected hypothesis at the 68%CI
+* Node_Std_Dev – standard deviation of the soundings that contributed to the current grid node at the
 68%CI
-•	 Shoal - shoalest sounding from the set of soundings that contribute to a node.
+* Shoal - shoalest sounding from the set of soundings that contribute to a node.
 
-•	 Mean - sample mean of the set of soundings that contribute to a node.
+* Mean - sample mean of the set of soundings that contribute to a node.
 
-•	 Deep - deepest sounding from the set of soundings that contribute to a node.
+* Deep - deepest sounding from the set of soundings that contribute to a node.
 
 
 ### 4.2.2 Bathymetry Processing Diagrams
 
-
 Figure 4.5: Processing flow diagram for VBES data.
-
-
 
 *Page 118*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Figure 4.6: Processing flow diagram for MBES data.
+Figure 4.6: Processing flow diagram for MBES data.
 
 
 ### 4.2.3 Daily Batch Processing
@@ -551,53 +521,51 @@ A number of processing tasks need to be performed on “raw” bathymetry data (
 recorded by the acquisition software) before any detailed analysis and evaluation can occur. Some of these daily
 tasks are interdependent, and the specific sequence is critical. The relevant daily batch processing tasks are listed
 below. Refer to the Bathymetry Processing Flow Diagram 4.6 for the appropriate ordering of steps.
-	
+
 
 1. Conversion (Section 4.2.3.1 )
 
-	
+
 
 2. Load Attitude/Navigation (Section 4.2.3.2 )
 
-	
+
 
 3. Load Error Data (Section 4.2.3.3
 
-	
+
 
 4. Load Delayed Heave (Section 4.2.3.5)
 
-	
+
 
 5. Load Tides or Compute GPS Tides (Section 4.2.3.4
 
-	
+
 
 6. Sound Speed Correction (Section 4.2.3.6 )
 
-	
+
 
 7. Merge (Section 4.2.3.7 )
 
-	
+
 
 8. Compute TPU (Section 4.2.3.8
 
-	
+
 
 9. Filter (Section 4.2.3.9 )
 
-	
+
 
 10. Add to Coverage BASE Surface (Section 4.2.3.10
-
 
 *Page 119*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Most of the tasks above can be semi-automated using the HIPS “Batch Processor” tool. Data format dictates how
+Most of the tasks above can be semi-automated using the HIPS “Batch Processor” tool. Data format dictates how
 specific batch processing actions should be configured; thus, a separate HIPS Batch Processing File (.hbp) is needed
 for each raw data format type.
 
@@ -651,11 +619,11 @@ data. During conversion, device numbers can be specified to correlate each senso
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-of data (e.g., echosounder, heading, navigation, etc.). If no device numbers are specified, the converter will look for
+of data (e.g., echosounder, heading, navigation, etc.). If no device numbers are specified, the converter will look for
 sensor data using known NMEA device strings. Specifying device numbers during conversion ensures that HIPS
 does not incorrectly identify a data string. Device numbers can be verified by reviewing a raw HYPACK line file in
 a text editor, such as WordPad, in which each device number will be listed adjacent to its respective device name.
+
 
 ###### 4.2.3.1.1.1 VBES Data
 
@@ -690,14 +658,11 @@ are that the user must select raw *.HSX files for conversion and choose the “M
 rather than Single Frequency or Dual Frequency as would be required for converting VBES data. Device numbers
 should still be specified as described in the beginning of this section.
 
-
-
 *Page 121*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Options
+Options
 
 Dual Frequency
 
@@ -708,12 +673,10 @@ will automatically be classified as “Primary”.
 The OCS standard is to read in high frequency as
 “Primary and low frequency as “Secondary”.
 
-
 Multibeam
 
 For HYSWEEP MBES data, simply choose the
 multibeam option.
-
 
 Single Frequency
 
@@ -769,11 +732,9 @@ do not decimate attitude data by a factor greater than 4.
 
 Table 4.4: Guidelines for converting Simrad data.
 
-
 *Page 122*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 4.2.3.1.3 Generic Sensor Format (GSF)
@@ -820,6 +781,7 @@ CARIS/HIPS Load Error tool. During the CARIS/HIPS Compute TPU step (4.2.3.9 ) th
 the uncertainty source: (HVF) Vessel Settings, Realtime Data or a Custom mix of uncertainty sources. For
 additional information regarding ERS see the Ellipsoidally Referenced Survey SOP.pdf in Appendix 4.
 
+
 #### 4.2.3.4 Load Tides
 
 For NOAA charting purposes, hydrographic sounding data must be merged with water level observations relative
@@ -830,8 +792,7 @@ height time series in each survey line directory that is appropriate for the pos
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-If tidal effects throughout a survey area are complex or if multiple water level stations are located nearby, an
+If tidal effects throughout a survey area are complex or if multiple water level stations are located nearby, an
 optional zone definition file (.zdf) can be used to express how the amplitude and phase of the tide within a given
 area is related to available water level station data. For each zone, a reference water level station, time corrector, and
 range corrector will be provided. This technique called discrete tidal zoning does not account for the effects of
@@ -878,13 +839,11 @@ during the survey. TCARI grid files, interpolation weighting functions, and harm
 during planning and sent to the survey platform. Survey vessels must obtain the observed data from the specified
 tide stations during the survey so that TCARI can apply the interpolated water level residuals in the process.
 
-
 *Page 124*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Both TCARI and traditional tidal zoning will be used and the applicable tool will be determined by CO-OPS in the
+Both TCARI and traditional tidal zoning will be used and the applicable tool will be determined by CO-OPS in the
 planning stage on a survey by survey basis. CO-OPS will either send TCARI program files or discrete zoning to the
 field but not both. Field units receiving a TCARI grid from CO-OPS can load it into Pydro with water level data to
 create tidal reducers for the survey’s bathymetry. Once TCARI has created the tide files, the data can be merged in
@@ -896,6 +855,7 @@ request that TCARI was used for that particular survey.
 CO-OPS will review and quality control the TCARI grid sent to the survey vessel and if no discrepancies or
 problems are found, will send the vessel a note stating that the preliminary grid can be used for final tidal correctors.
 If CO-OPS finds discrepancies or problems, then CO-OPS will re-evaluate and determine the best solution.
+
 
 ##### 4.2.3.4.2 Compute GPS Tide
 
@@ -933,13 +893,11 @@ beam. Figure 4.7 illustrates the effect of refraction. The sound wave striking t
 while point A on the same sound wave continues at the original speed until it strikes the thermocline at C. As a
 result, the sonar beam bends downward.
 
-
 *Page 125*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Figure 4.7: Sonar refraction due to thermocline.
+Figure 4.7: Sonar refraction due to thermocline.
 
 Note: Although often referred to as sound velocity correction, bathymetry data are actually corrected for sound
 speed, as only the scalar magnitude of velocity (i.e., speed) is used by HIPS. However, when referring to a specific
@@ -974,13 +932,11 @@ in HYPACK HYSWEEP format does not.) A check box in the HIPS SV Correct dialog to
 recomputation of the steered beam angles based on a new surface sound speed that will be interpolated from the
 sound velocity profile” controls whether or not HIPS will attempt FFR.
 
-
 *Page 126*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-If data quality issues dictate that FFR be performed during SV Correct, any SSP files present in the HDCS data
+If data quality issues dictate that FFR be performed during SV Correct, any SSP files present in the HDCS data
 must first be manually deleted.
 
 Beam ray-tracing is performed on all MBES data during HIPS SV Correct, regardless of echosounder type. Starting
@@ -1034,8 +990,7 @@ with strong currents, uncertainty in vessel speed can be adjusted in the sensor 
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-compensate for appreciable differences between speed-over-ground and speed-through-water. Another critical
+compensate for appreciable differences between speed-over-ground and speed-through-water. Another critical
 example of TPU values that may need to be updated in the CARIS HVF is depth uncertainty introduced by heave
 in singlebeam data acquired on vessels without an attitude sensor. Survey days with substantial heave introduce a
 larger depth uncertainty than calm days, and require a larger TPU value in the heave section of the HVF. An
@@ -1072,20 +1027,17 @@ Applanix POSPac post-processed RMS file (smrmsg ).
 
 Refer to Appendix 4 for an example of the CARIS Compute TPU Dialog menu.
 
-
-
 *Page 128*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Tide zoning uncertainty values at the 95% confidence level for discrete zoning are provided by CO-OPS in the tide
+Tide zoning uncertainty values at the 95% confidence level for discrete zoning are provided by CO-OPS in the tide
 requirements document on the project CD. All error value components entered in CARIS for TPE calculation are
 assumed to be 1 sigma; therefore, the value provided by CO-OPS should be divided by 1.96.
 
 Tide zoning uncertainty values for TCARI tides are loaded on a line-by-line basis using NOAA’s Pydro-TCARI
-software. Pydro’s Tides->CARIS TCARI Tide->”Load TCARI Tide in HIPS PVDLs” is used in place of CARIS
-HIPS Process->Load Tide. This operation in Pydro-TCARI loads both tide corrector and tide uncertainty data
+software. Pydro’s Tides-&gt;CARIS TCARI Tide-&gt;”Load TCARI Tide in HIPS PVDLs” is used in place of CARIS
+HIPS Process-&gt;Load Tide. This operation in Pydro-TCARI loads both tide corrector and tide uncertainty data
 (HDCS “Tide” and “TideErrorFile”, respectively) into a given survey line.
 
 For ERS based projects, if a SEP has been used in the HIPS Compute GPSTide step (processed depths relative to
@@ -1131,8 +1083,7 @@ any deviation from procedures specified in the HTD’s, FPM or the HSSD, methods
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-justification for this deviation, should be clearly described in the Descriptive Report as well as the Data Acquisition
+justification for this deviation, should be clearly described in the Descriptive Report as well as the Data Acquisition
 and Processing Report. The field should be aware, however, that if the processing branches disagree with the
 method used, any corresponding surveys using these uncertainty values may be returned to the vessel. Therefore,
 HSD strongly recommends that field units communicate to the branch their proposed approach. If the branch feels
@@ -1189,8 +1140,7 @@ parties, this processing step is often saved for foul weather days or is accompl
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-charge of daily data processing. For ERS based projects, boat-day processing includes generating POSPac SBET’s
+charge of daily data processing. For ERS based projects, boat-day processing includes generating POSPac SBET’s
 for all survey vessels. Additional details regarding POSPac SBET processing can be found in the Ellipsoidally
 Referenced Survey SOP.pdf in Appendix 4.
 
@@ -1225,9 +1175,10 @@ An option exists in the HIPS BASE surface creation process to add comments. Thes
 metadata stored in an XML companion file with every BASE surface. In addition to having metadata in a separate
 file, it is helpful to include some descriptive information in the BASE surface file name. The following BASE file
 naming convention is an effective way to keep track of Boat-day surfaces:
-Registry Number_Vessel Number_Day-of-Year_Resolution_<Lettered Index>
+Registry Number_Vessel Number_Day-of-Year_Resolution_&lt;Lettered Index&gt;
 For example, the names for two Boat-day BASE surfaces created at a 2 meter resolution using RAINIER launch #4
 data from day number 152 might look like: “H12345_RA04_152_2m_a” and “H12345_RA04_152_2m_b.”
+
 
 #### 4.2.4.2 Review Boat-day BASE Surface
 
@@ -1239,8 +1190,7 @@ shoal, or other item that may need further investigation. Typically, the depth a
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-layers are most useful for identifying data anomalies (see list of BASE attributes in section 4.2.1.2 ).
+layers are most useful for identifying data anomalies (see list of BASE attributes in section 4.2.1.2 ).
 The Properties Window can be used to assist the hydrographer with BASE surface review. This window allows the
 user to customize a BASE surface color map and adjust the azimuth and elevation of simulated sun illumination.
 Varying these settings helps highlight artifacts and features that may be hidden when viewed using only one set of
@@ -1266,7 +1216,6 @@ Acoustic refraction-induced errors are caused when the speed of sound through th
 modeled over time or space. When viewing data with refraction errors in the acrosstrack direction, the hydrographer
 will notice a “smiling” or “frowning” characteristic as shown in Figure 4.9 .
 
-
 Figure 4.9: HIPS Subset Editor view (bottom) of acoustic refraction-induced bathymetry errors, using BASE
 surface standard deviation image for reference.
 
@@ -1286,14 +1235,12 @@ Editor is not approved for use in OCS hydrographic surveys and shall not be used
 ------------------------------------------------------------------------------------------------------------------------
 
 
-
 ##### 4.2.4.2.2 Attitude
 
 Vessel motion artifacts may arise due to a failing accelerometer within the heave/pitch/roll sensor, a gap occurring
 in data transmission or recording, an inaccurate patch test (e.g., conducted in insufficiently deep water for the
 given survey area), or unaccounted latency within the data acquisition system. An example of a gap in the recorded
 attitude time series is illustrated in Figure 4.10.
-
 
 Figure 4.10: BASE surface standard deviation layer (left) of a survey line with data in
 attitude time series (right).
@@ -1316,17 +1263,14 @@ Note: Due to the horizontal position accuracies required for OCS hydrographic su
 corrections should also be considered GPS failure. The effects of temporarily losing differential corrections are
 illustrated in Figure 4.11.
 
-
 Figure 4.11: HIPS Navigation Editor time-series showing positioning error caused by
 temporary loss of differential corrections.
-
 
 *Page 133*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-During a GPS failure, inertial navigation systems can dead reckon for approximately 30 seconds before errors
+During a GPS failure, inertial navigation systems can dead reckon for approximately 30 seconds before errors
 accumulate to a level that produces unacceptable positioning. The hardware/software interface for an inertial
 navigation system should be configured to alert the user of failure events so that data acquisition can be suspended
 if position data becomes unacceptable.
@@ -1336,6 +1280,7 @@ if the horizontal accuracy is approximately 4 meters, the vertical depth error o
 meters. Inconsistencies will be observed from swath to swath in these areas due to the horizontal positioning error.
 Keep in mind that horizontal uncertainty is factored into the BASE node uncertainty calculation, and may
 adequately account for what appears to be positioning errors on steep slopes (see section 4.2.1.1 ).
+
 
 ##### 4.2.4.2.4 Heading
 
@@ -1362,17 +1307,14 @@ Environmental data problems are those caused by objects or disturbances in the w
 vegetation, entrained air from passing vessels, or weather-induced disturbances from heavy seas or rain. Figure
 4.12 shows an example of environmental noise which occurred near the transducer face.
 
-
 Figure 4.12: HIPS Swath Editor view (left) and BASE surface standard deviation layer
 view (right) showing water column noise near transducer.
-
 
 *Page 134*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-As with all data problems, environmental data issues are most effectively addressed during the acquisition stage
+As with all data problems, environmental data issues are most effectively addressed during the acquisition stage
 rather than during processing. Depending upon the severity of data problems, acquisition may need to be
 suspended until environmental conditions have improved.
 
@@ -1383,7 +1325,6 @@ Tide errors can result from inaccuracies in any of the source data used in the v
 algorithm, such as inaccuracies in the water level observations, tide zoning model, or navigation. This type of error
 is often identified by a measurable vertical offset visible when data are viewed in the acrosstrack direction, as
 shown in Figure 4.13 .
-
 
 Figure 4.13: HIPS Subset Editor view of tide-induced bathymetry errors (bottom),
 using BASE surface standard deviation image for reference (top).
@@ -1413,13 +1354,11 @@ suppress a sounding from further processing steps. Daily review and flagging of 
 to maintain an organized and complete survey. Supporting sensor data can also be flagged as being rejected, either
 with or without interpolation.
 
-
 *Page 135*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Subset Editor is the most frequently used HIPS editing tool and allows the most flexibility in addressing a problem
+Subset Editor is the most frequently used HIPS editing tool and allows the most flexibility in addressing a problem
 that is concentrated in one geographic area. OCS recommends the use of “Subset Tiles” with 10% overlap to track
 editing progress in Subset Editor. Once defined, subset tiles may be flagged as either “Complete” (green), “Partially
 Complete” (yellow), or “Incomplete” (red) to identify areas that have been investigated, need a second review, or
@@ -1448,32 +1387,31 @@ must take care not to “over clean” data in this fashion. Displaying rejected
 that has been previously rejected, typically by a filtering routine in Swath Editor or editing by another hydrographer.
 Viewing rejected data is often valuable when investigating the validity of a possible feature.
 
-•	 Individual soundings or groups of soundings may be selected and flagged in Subset Editor. Available data flags
+* Individual soundings or groups of soundings may be selected and flagged in Subset Editor. Available data flags
 and each flag’s purpose with respect to OCS hydrography are as follows:
-•	 Reject - Flag anomalous soundings as “rejected” to suppress them from being included in subsequent processing
+* Reject - Flag anomalous soundings as “rejected” to suppress them from being included in subsequent processing
 steps, such as in the calculation of BASE surface grids.
 
-•	 Reject Swath - This flag sets the “rejected” flag for all soundings in a selected swath. Use this function to reject
+* Reject Swath - This flag sets the “rejected” flag for all soundings in a selected swath. Use this function to reject
 a single ping or a continuous section of flawed sonar pings.
 
-•	 Outstanding - This flag may be set for any data point that holds particular hydrographic significance. Typically,
+* Outstanding - This flag may be set for any data point that holds particular hydrographic significance. Typically,
 if the identity, extent, or validity of a feature is uncertain, it should be flagged as “outstanding.” NOAA Pydro
 software treats soundings flagged “outstanding” in HIPS as bathymetry features. Pydro establishes a connection
 to the HDCS data for all “outstanding” soundings and will automatically update the HDCS data for any
 subsequent flag changes made in Pydro during feature processing (see section 4.4 ).
 
-•	 Examined - This flag does not currently have a defined meaning for OCS hydrographic survey data; however,
+* Examined - This flag does not currently have a defined meaning for OCS hydrographic survey data; however,
 it can be used by the surveyor as a means of marking a sounding for future reference. This flag can also be used
 to separate a group of soundings for non-standard data analyses.
 
-•	 Designate - Applying the “Designate” flag to a sounding will force the BASE surface grid node closest to that
+* Designate - Applying the “Designate” flag to a sounding will force the BASE surface grid node closest to that
 
 *Page 136*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-sounding to assume the exact depth value of the designated sounding, ignoring all other soundings within the
+sounding to assume the exact depth value of the designated sounding, ignoring all other soundings within the
 area of influence of this node. Pydro regards soundings flagged “designated” in HIPS as “designated” bathymetry
 features in Pydro. Pydro establishes a connection to the HDCS data for all “designated” soundings, and
 subsequent flag changes or edits made to the bathymetry feature in Pydro will automatically be reflected in the
@@ -1512,7 +1450,6 @@ data point after the segment rejected. Caution should be exercised when using th
 sections of attitude data across the peaks of a signal will result in distorting the maximum observed amplitude at
 that time, as illustrated in Figure 4.14 .
 
-
 Figure 4.14: interpolation across region ‘A’ will most likely create an artifact of its own, whereas
 interpolation across region ‘B’ will not adversely impact the sounding data.
 
@@ -1525,8 +1462,7 @@ required to demonstrate adequate data coverage and the vessel speed is 5 m/s (~1
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-greater than or equal to 1 second (5 m ÷ 5 m/s = 1 s) should be rejected without interpolation. The Hydrographer
+greater than or equal to 1 second (5 m ÷ 5 m/s = 1 s) should be rejected without interpolation. The Hydrographer
 should note that breaking interpolation will create a gap in the data. When the files are merged, this option rejects
 all sounding data recorded during the time period in which sensor data were rejected, thus leaving a holiday in
 data coverage.
@@ -1559,6 +1495,7 @@ interpolate speed jumps if they exceed the TPU (see section 4.2.3.8 modeled for 
 becomes less critical if a vessel’s speed versus dynamic draft slope is small. Since speed and time jumps are directly
 related and speed is used to determine dynamic draft, it is not necessary to separately edit time jumps.
 
+
 #### 4.2.4.4 Update Survey-wide BASE Surface
 
 Once directed editing has been completed, the Boat-day BASE surface should be recomputed to verify that all edits
@@ -1580,8 +1517,7 @@ bathymetric data is being viewed, edited, and flagged for internal consistency, 
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-warrant further investigation. During Survey-wide processing, survey bathymetry and imagery data are examined
+warrant further investigation. During Survey-wide processing, survey bathymetry and imagery data are examined
 in context with existing chart information and any additional supporting data available. Survey wide data analysis
 can be performed relative to Ellipsoid or chart datum as most appropriate.
 
@@ -1623,29 +1559,25 @@ details regarding the application of water levels in HIPS.
 
 For the 2014 field season, the processes and tools for applying SEP to CARIS processed bathymetry grids are being
 developed. The process will involve the following basic steps:
-	
+
 
 1. Ellipsoidally referenced grid surfaces are read from CARIS.
 
 
-	
-	
 
-2. Grid math is performed (currently outside of CARIS) to apply the project SEP model (VDATUM or 		
+
+2. Grid math is performed (currently outside of CARIS) to apply the project SEP model (VDATUM or
 ERZT) datum and datum uncertainty.
 
 
-	
-	
 
-3. The adjusted surface data is read back into CARIS now referenced to chart datum (MLLW) with 		
+
+3. The adjusted surface data is read back into CARIS now referenced to chart datum (MLLW) with
 appropriate vertical datum transformation uncertainty applied.
-
 
 *Page 139*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 4.2.5.2 Assess Bathymetry Features
@@ -1675,31 +1607,30 @@ the HSSD. Prior to finalization, BASE layers should be reviewed to ensure that t
 conditions in the survey area, meets specifications assigned in the Project Instructions and that all features have
 been adequately investigated. Both mainscheme lines and crosslines should be included in the final BASE surface.
 
+
 ### 4.2.6 Finalize Bathymetry Data
 
 For survey submission, BASE surfaces must be finalized in HIPS. This process is explained in detail in the CARIS
 HIPS and SIPS User’s Manual. Finalizing BASE surfaces serves three purposes:
-•	 To apply Designated soundings: In some instances, due to the nature of the weighting algorithm, a BASE
+* To apply Designated soundings: In some instances, due to the nature of the weighting algorithm, a BASE
 surface does not accurately represent the least depth of a navigationally significant feature (typically a fine item
 such as a tall, narrow coral head or a shipwreck’s mast). In such cases, a sounding can be flagged as Designated
 to force the nearest BASE surface grid node to honor the depth of the designated sounding. Refer to the
 following subsection for guidance on selecting Designated soundings. Designated soundings are applied to the
 BASE surface during the Finalize step in CARIS by checking the “Apply designated soundings” option.
-•	 To assign grid nodes a final uncertainty: A grid node’s final uncertainty can be assigned as one of three options:
+* To assign grid nodes a final uncertainty: A grid node’s final uncertainty can be assigned as one of three options:
 1) that node’s a priori uncertainty-weighted uncertainty, i.e., predicted error, 2) the grid node’s standard
 deviation scaled to a 95% confidence interval, i.e., observed error, or 3) the greater of the two. For OCS
 hydrographic survey data, the “greater of the two” option shall be used to maintain a conservative uncertainty
 estimate.
 
-•	 Define depth thresholds: A single-resolution grid will generally not be appropriate for an entire survey area. To
+* Define depth thresholds: A single-resolution grid will generally not be appropriate for an entire survey area. To
 maintain the optimal resolution for a given depth range, the finalize process filters out a desired depth range
 for each different grid resolution created.
-
 
 *Page 140*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 #### 4.2.6.1 Designate Bathy Features
@@ -1732,9 +1663,7 @@ designated soundings, they are not features that would be charted with a soundin
 far right would not have any designated soundings, nor would any objects under the pier as they would not be
 charted.
 
-
 Figure 4.15: Designated Bathy Feature
-
 
 4.3 Imagery Processing
 -----------------------
@@ -1744,13 +1673,11 @@ backscatter, and MBES “side scan” which is available as an option on some sy
 superior imagery for object detection purposes and are used to meet object detection requirements for OCS
 hydrographic surveys.
 
-
 *Page 141*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Note: Backscatter data and side scan imagery acquired in conjunction with MBES bathymetry, is often processed
+Note: Backscatter data and side scan imagery acquired in conjunction with MBES bathymetry, is often processed
 as an aid for data analyses but is not approved by OCS for meeting hydrographic survey object detection
 requirements.
 
@@ -1778,11 +1705,11 @@ Several processing tasks need to be performed on “raw” imagery data (i.e., u
 by the acquisition software) before any detailed analysis and evaluation can occur. Some of these daily tasks are
 interdependent, and the specific sequence is critical. The recommended ordering of daily batch processing tasks is
 as follows:
-	
+
 
 1. Conversion 4.3.3.1
 
-	
+
 
 2. Filter, if applicable 4.3.3.2
 
@@ -1791,15 +1718,14 @@ as follows:
 ------------------------------------------------------------------------------------------------------------------------
 
 
-	
 
 3. Recompute Towfish Navigation 4.3.3.3
 
-	
+
 
 4. Slant Range Correction 4.3.3.4
 
-	
+
 
 5. Add to Mosaic 4.3.3.5
 
@@ -1839,12 +1765,9 @@ The following sections contain guidance for converting common raw imagery data f
 HDCS files. Relevant background information is provided, followed by a table of guidelines for specific Conversion
 Wizard settings related to each raw imagery format.
 
-
-
 *Page 143*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 4.3.2.1.1 Sensor Data Format (SDF)
@@ -1903,18 +1826,15 @@ Choose the pressure sensor rating
 for the specific towfish used to
 acquire data being converted.
 
-
 Convert Hidden
 Pressure Sensor
 - 100, 300, or 1000 psi
-
 
 *Page 144*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Convert SSGyro
+Convert SSGyro
 
 Do not convert SSGyro
 
@@ -1973,13 +1893,11 @@ stamped. “Ship” navigation is associated with the time logged in the XTF hea
 string is individually time stamped. Applying “Sensor” navigation is recommended to avoid potential timing
 errors.
 
-
 *Page 145*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Heading (gyro) data can not only be logged in multiple datagrams within the XTF record, but may also be recorded
+Heading (gyro) data can not only be logged in multiple datagrams within the XTF record, but may also be recorded
 in multiple locations within the side scan datagram. While this sensor data may appear redundant, sources and
 data quality can vary. Typically, NOAA hydrographic field units will apply heading data stored in the “ship” field
 of the side scan datagram, which will correspond to the vessel’s instantaneous heading. Heading data from the
@@ -2013,14 +1931,14 @@ navigation, if necessary. The XTF format provides two datafields (“cableout”
 information can be stored. The primary difference in these fields is that “cableout” will only accept integers, while
 a decimal number can be logged in the “layback” field. To preserve decimeter accuracy for cable out values, the
 field unit may use one of the two following options:
-•	 Configure the vessel’s cable counter to output values in decimeters and log an integer value to the “cableout”
+* Configure the vessel’s cable counter to output values in decimeters and log an integer value to the “cableout”
 field. However, SIPS assumes cable out data is in meters when recomputing. During conversion, the user can
 enter a “multiplier” of 0.1 to the “cableout” data that would reconvert the values to meters. For example, if
 acquiring SSS data with 10.6 meters of cable out, a cable counter integer output of 106 (decimeters) would be
 stored in the XTF “cableout” field. When converting the data in SIPS, the “cableout” value would be multiplied
 by 0.1 to recreate a value of 10.6 that SIPS assumes is in meters.
 
-•	 Configure the acquisition system to log cable out, in meters and decimal meters, to the XTF “layback” field. In
+* Configure the acquisition system to log cable out, in meters and decimal meters, to the XTF “layback” field. In
 this scenario, the user must remember to convert data from the “layback” field, even though the data are
 actually values for cable out. SIPS will assume data from either datafield is cable out if towfish sensor depths
 are non-zero. (Similarly, if no towfish depths are converted, SIPS will interpret this as a zero sensor depth and
@@ -2030,8 +1948,7 @@ assume data from either datafield are layback values.)
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-To determine towfish depth, both the Klein 3000 and Klein 5000 SSS systems calculate a value from an integrated
+To determine towfish depth, both the Klein 3000 and Klein 5000 SSS systems calculate a value from an integrated
 pressure sensor. If the hydrographer intends to use cable out to recompute navigation for a SSS system that does
 not have a pressure sensor, the towfish depth will need to be calculated based on water depth logged to an AUX
 field and towfish altitude. Typically, NOAA hydrographic field units will not need to calculate a sensor depth in
@@ -2070,7 +1987,6 @@ Logging VBES data to an AUX field is not
 recommended. Thus, this option is not checked as a
 standard practice.
 
-
 - 16 bit sonar conversion (preserve 16 bit, convert to 8
 Choose to “Preserve 16-bit” resolution.
 
@@ -2108,8 +2024,7 @@ Regardless of system configuration, the hydrographer has the option of either co
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-during data acquisition or recomputing towfish navigation during SIPS processing. If a towfish position is computed
+during data acquisition or recomputing towfish navigation during SIPS processing. If a towfish position is computed
 during acquisition and stored in the raw data format, this information can be converted directly into the SIPS
 towfish navigation data structure. If, in addition to ship navigation, either cable out and towfish depth or horizontal
 layback is recorded, the side scan sensor position can be calculated in SIPS via Recompute Towfish Navigation.
@@ -2164,8 +2079,7 @@ products, and should not hide small contacts during data processing. If SSS data
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-storage space, if necessary. When slant-range correcting 16-bit data to create 8-bit side scan, a shift factor should
+storage space, if necessary. When slant-range correcting 16-bit data to create 8-bit side scan, a shift factor should
 be applied to spread out the histogram and improve imagery. The user can apply either the 16-bit shift factor stored
 with each line or a single bit shift factor to be applied to all lines. Generally, the bit shift factor stored with each line
 is a good choice.
@@ -2222,8 +2136,7 @@ Distance.”
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-“Measure Shadow” can be used to determine the height of an object by measuring its acoustic shadow and
+“Measure Shadow” can be used to determine the height of an object by measuring its acoustic shadow and
 calculating the object’s approximate elevation off the seafloor. This tool can only be used when viewing data in slant
 range corrected mode. “Measure Distance” is used to measure the distance between two points. This tool is helpful
 in determining the overall size of contacts, which may determine significance. For example, a very large item, even
@@ -2275,13 +2188,11 @@ or DLDG. Some types of side scan sonar systems are able to acquire co-located im
 However, these systems are a developing technology, and SSS bathymetry has not yet been approved for OCS
 hydrographic surveys.
 
-
 *Page 150*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Imagery contacts should be assessed using either CARIS Notebook or Pydro, which enables the hydrographer to
+Imagery contacts should be assessed using either CARIS Notebook or Pydro, which enables the hydrographer to
 analyze each contact in context with other available data sources such as correlating contacts, the chart, bathymetry,
 DPs, and AWOIS records/search radii. Contacts should be evaluated and, if confirmed to be significant, flagged for
 “investigation” within Pydro. This flag enables the user to export that item to MapInfo MIF/MID and HYPACK
@@ -2303,14 +2214,13 @@ be further processed as described in section 4.4 This preliminary contact evalua
 finalization of imagery data, where the goal is to verify that all contacts have been addressed and flagged either
 “resolved” or “rejected.”
 
+
 #### 4.3.4.3 Finalize Imagery Survey Data
 
 Once all significant contacts have been developed, analyzed, and flagged in accordance with section 4.4 the
 hydrographer should verify that no “Unresolved” imagery features remain in the Pydro PSS and a final mosaic,
 created in accordance with section 8.3.1 of the HSSD, has been generated and digitally filed for each 100% SSS data
 acquired.
-
-
 
 4.4 Feature Processing and Analysis
 ------------------------------------
@@ -2331,13 +2241,11 @@ wreck. Once processed, this information is passed to the Atlantic and Pacific Hy
 cartographers using formatted reports and digital data files. These data will aid the cartographer in correctly
 charting the feature.
 
-
 *Page 151*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-In other cases, further investigation may indicate that the feature is not navigationally significant, and should not
+In other cases, further investigation may indicate that the feature is not navigationally significant, and should not
 be charted as a distinct cartographic symbol. An example of this type of feature might be an object detected with
 side scan sonar that subsequent multibeam coverage found to be not of navigational concern (a patch of gravel
 perhaps). This feature would still be handled through the same methods as the wreck described above. This process
@@ -2372,13 +2280,12 @@ S-57 features and populate their attributes. The user may switch between softwar
 S-57 .000 files. The capabilities of these software packages are described further in section 4.4.1.
 The feature processing workflow is illustrated in figure 4.17.below:
 
-
 *Page 152*
 
 ------------------------------------------------------------------------------------------------------------------------
 
+Figure 4.17: Feature Processing Workflow
 
-Figure 4.17: Feature Processing Workflow
 
 ### 4.4.1 Processing Software
 
@@ -2394,36 +2301,33 @@ CARIS HIPS/SIPS) will be automatically carried through to Pydro.
 Note: Some edits performed in CARIS, such as rejecting/accepting sounding data or imagery contacts, will require
 that the source data be re-inserted into Pydro.
 
-•	 Pydro has the ability to read several data types, including the following:
-•	 Side scan imagery contacts created in CARIS SIPS.
+* Pydro has the ability to read several data types, including the following:
+* Side scan imagery contacts created in CARIS SIPS.
 
-•	 Bathymetry features in CARIS HIPS; i.e., soundings flagged “outstanding” and/or “designated”.
+* Bathymetry features in CARIS HIPS; i.e., soundings flagged “outstanding” and/or “designated”.
 
-•	 Bathymetry soundings in CARIS HIPS; shoal-biased binned line-by-line.
+* Bathymetry soundings in CARIS HIPS; shoal-biased binned line-by-line.
 
-	
 
-•	 Gridded bathymetry data created in CARIS HIPS; BASE surfaces (.csar) or weighted grids (.def/.sum/.		
+
+* Gridded bathymetry data created in CARIS HIPS; BASE surfaces (.csar) or weighted grids (.def/.sum/.
 weight) files.
 
-•	 Target files from HYPACK (.tgt), Trimble Pathfinder (.mdb, etc.), and other generic data sources.
-•	 The AWOIS database, in MS Access format.
-
-
+* Target files from HYPACK (.tgt), Trimble Pathfinder (.mdb, etc.), and other generic data sources.
+* The AWOIS database, in MS Access format.
 
 *Page 153*
 
 ------------------------------------------------------------------------------------------------------------------------
 
+* ENC (.000 files).
 
-•	 ENC (.000 files).
-
-•	 Other “generic” geographic position data in many database formats, such as ESRI Shapefiles (.shp), 		
+* Other “generic” geographic position data in many database formats, such as ESRI Shapefiles (.shp),
 	 MapInfo Interchange Files (MIF/MID), MS Excel, dBase (.dbf), ASCII, etc.
 
-•	 ENC S-57 base cells (.000) rendered according to S-52 and various raster formats for background data, 		
+* ENC S-57 base cells (.000) rendered according to S-52 and various raster formats for background data,
 	 including GeoTIFF (.tif), MrSID (.sdf), and NOAA/BSB raster nautical charts (.kap)
-•	 Once these data are imported into Pydro for a specific survey, the combined data package is referred to as 	
+* Once these data are imported into Pydro for a specific survey, the combined data package is referred to as
 	 a Pydro Survey Session (PSS).
 
 Note: The Pydro PSS is not to be confused with the historical “preliminary smooth sheet”, which was a plotted
@@ -2453,22 +2357,20 @@ backpack in real time. The tide correction enables the user to tide correct all 
 & SIPS.
 
 Notebook and BDB have the ability to read several data types, including the following:
-•	 ENCs, or other S-57 databases (.hob, .000)
-•	 Raster displays: (.kap, .tif)
-•	 Vector files (.shp, .dxf, .des)
-•	 Gridded CARIS Surfaces (.csar)
-
+* ENCs, or other S-57 databases (.hob, .000)
+* Raster displays: (.kap, .tif)
+* Vector files (.shp, .dxf, .des)
+* Gridded CARIS Surfaces (.csar)
 
 *Page 154*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-•	 Pydro .000 files
-•	 Pydro XML files (Notebook only)
-•	 CARIS Mosaics
-•	 CARIS Contours
-•	 CARIS Sounding Plots
+* Pydro .000 files
+* Pydro XML files (Notebook only)
+* CARIS Mosaics
+* CARIS Contours
+* CARIS Sounding Plots
 Once these data are imported into Notebook or BDB for a specific survey, they are saved into a Notebook or Bathy
 DataBASE session, which can be opened as a cohesive unit.
 
@@ -2495,11 +2397,9 @@ Raster displays: (.kap, .tif)
 Vector files (.shp, .dxf, .dgn, .tgt)
 S-57 .000 files from HYPACK are interoperable with Pydro and CARIS by importing and exporting S-57 .000 files.
 
-
 *Page 155*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ### 4.4.2 Significant Features
@@ -2551,13 +2451,11 @@ The object in question protrudes over 10 meters from the seafloor. However, this
 only by small craft, due to a shoal at its mouth. Despite this large depth discrepancy, the item is navigationally
 insignificant when the hydrographer considers the draft of vessels capable of operating in the area.
 
-
 *Page 156*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Figure 4.18:
+Figure 4.18:
 Potential DTON in Channel
 
 Figure 4.19:
@@ -2575,7 +2473,6 @@ Despite the discrepancy with regard to the charted 43 foot depth, the adjacent F
 and shoal to the east would deter prudent mariners from approaching the area. Likewise, a large depth discrepancy
 adjacent to a reef or foul area would quite possibly not be a DTON, again, as a prudent mariner would operate in
 the area only with extreme caution.
-
 
 Figure 4:20:
 Potential DTON adjacent to fish
@@ -2595,18 +2492,15 @@ DTON are adjacent on a slope, the most seaward sounding will be selected for sub
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-will assume that depths will decrease as shore is approached. An example of this exception is shown in Figure 4.21.
+will assume that depths will decrease as shore is approached. An example of this exception is shown in Figure 4.21.
 The 2 fathom sounding is shoaler, but the 4 fathom sounding extends further offshore. In this case, the 4 fathom
 sounding would be submitted. Although both soundings would supersede the 5¾ fathom charted depth, it can be
 reasonably inferred that there is a continuous slope toward shore, therefore depths shoaler than 4 fathoms would
 be expected.
 
-
 Figure 4.21:
 Two potential DTON’s located on close
 proximity.
-
 
 
 ##### 4.4.2.1.5 Charted Feature Removal Request
@@ -2641,13 +2535,11 @@ submitting the DTON. If the Nautical Data Branch of MCD discovers a DTON located
 authority that has not been submitted to the Navigation Manager, then NDB personnel will cease processing
 the DTON and recommend that the submitting party inform the Navigation Manager.
 
-
 *Page 158*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-2.	 If a DTON report includes a potentially historically-significant wreck, the field unit shall provide a courtesy
+2.	 If a DTON report includes a potentially historically-significant wreck, the field unit shall provide a courtesy
 copy of the report sections pertaining to that specific feature to the corresponding NOAA Navigation Manager
 and State Historic Preservation Officer. If a potentially historically-significant wreck is identified outside of
 state waters, notify the current Sanctuaries Historical/Archaeological contact.
@@ -2702,8 +2594,7 @@ other marine chart users engaged in activities such as fishing or trawling. This
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-potential cultural or historical significance. This policy is unchanged and in accordance with the MCD Nautical
+potential cultural or historical significance. This policy is unchanged and in accordance with the MCD Nautical
 Charting Manual.
 
 All features which appear to be of cultural or historical significance, and appear anthropogenic in origin, do require
@@ -2749,12 +2640,9 @@ release. No special data handling is required.
 part of the survey data or products. The specific information will be evaluated by HSD OPS, and clear
 instructions for data handling will be provided will be provided in the PIs.
 
-
-
 *Page 160*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ##### 4.4.2.4.2 Post-survey Consultation
@@ -2808,11 +2696,9 @@ counterpart. Therefore rapid orbits can be used extensively during time challeng
 Additional information and specific instructions for OPUS processing are included in the Users Guide for GPS
 Observations in Appendix 3 and on the OPUS web page http://geodesy.noaa.gov/OPUS/.
 
-
 *Page 161*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ###### 4.4.3.2.1.2 Tremble Pathfinder Office
@@ -2826,14 +2712,14 @@ ProXRS and the NGS CORS network to produce positions of meter-level accuracy or 
 
 Several types of survey data, such as shoreline features, manually measured depths, and bottom samples, are
 positioned using target files. These files can not be read directly into CARIS; thus, Pydro has been developed to
-handle the bulk of target file processing. A HYPACK target file can be easily inserted into Pydro via Data > Insert
-> HYPACK DPs. Pydro’s Data > Insert > Trimble/Pathfinder Database GPs+DPs imports a Microsoft Access
+handle the bulk of target file processing. A HYPACK target file can be easily inserted into Pydro via Data &gt; Insert
+&gt; HYPACK DPs. Pydro’s Data &gt; Insert &gt; Trimble/Pathfinder Database GPs+DPs imports a Microsoft Access
 database (.mdb) according to a specific, S-57 based Pathfinder data dictionary format developed in conjunction
 with NOAA Ship FAIRWEATHER. Separate tables are used in this Pathfinder database for separate S-57 object
 classes and geometry. For example, “OBSTRN_P”, “OBSTRN_L”, and “OBSTRN_A” tables may be present in a
 given database file for point-, line-, and area-geometry obstructions acquired in the field. And both GPs and DPs
 may be present in a given table; the “Tide – DP/GP” field is used by Pydro to segregate those observational types.
-Other “generic” target files can be read into Pydro via Data > Insert > Generic GPs/DPs, wherein users may
+Other “generic” target files can be read into Pydro via Data &gt; Insert &gt; Generic GPs/DPs, wherein users may
 configure a template for importing other data sources on a routine basis. Once inserted into Pydro the DP
 observational data can be edited, and the various attributes present in Pydro are added. Pydro automatically writes
 or “converts” (in the same sense of the term used by CARIS HIPS) DP datasets to CARIS HDCS data during data
@@ -2845,11 +2731,13 @@ speed profile can be applied to DP data. The DPs must then be merged as per stan
 processed depths. If any subsequent edits to DP position or depth values are performed in Pydro and saved, the
 standard CARIS HIPS “outdated” status is active and data will need to be re-SV Corrected and re-merged in HIPS.
 
+
 ##### 4.4.3.2.3 Water Level Correction (for features only)
 
 Preliminary and final water levels for tidally affected features such as rocks or piles are applied in either Pydro or
 CARIS Notebook. To apply tides in Pydro insert DPs and load appropriate tide file (i.e. TCARI or Zoned). To
 apply tides in CARIS Notebook select the feature(s) and load appropriate tide file (i.e. TCARI or Zoned).
+
 
 ##### 4.4.3.2.4 Attribution and Geometry
 
@@ -2869,8 +2757,7 @@ convention. For example a buoy (BOYLAT) is the feature object class and the desc
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-are the associated attributes. Multiple object class “instances” are often required to describe a single real-world
+are the associated attributes. Multiple object class “instances” are often required to describe a single real-world
 feature. For example, a lighted lateral buoy with a horn is described with three object classes in S-57: BOYLAT
 (buoy, lateral), LIGHTS (lights), and FOGSIG (fog signal).
 
@@ -2903,8 +2790,9 @@ object class. The mandatory and additional attributes per the ENC Product Specif
 notebook pages in the Pydro S-57 Editor. Certain attributes do not require manual editing; instead, the attribute is
 linked to the digital data present in the Pydro XML feature data (manual editing for such attributes is in fact
 disabled). For example, if the S-57 attribute VALSOU (value of sounding) is associated with the feature, the Pydro
-XML <depth> element value will automatically appear in the depth editing box. Fill out the other boxes on the
+XML &lt;depth&gt; element value will automatically appear in the depth editing box. Fill out the other boxes on the
 Additional Attributes notebook page in the S-57 Editor dialog according to your field observation.
+
 
 ####### 4.4.3.2.4.1.2 S-57 Attribution
 
@@ -2921,11 +2809,9 @@ allowing for interoperability between the software using .000 files.
 Refer to the S-57 and NOAA Attribution Guidance.pdf, Attributing and Flagging for Automated Feature Reports.
 pdf, and Customized Attribute Equivalencies.pdf in Appendix 4 of the FPM for more information.
 
-
 *Page 163*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ###### 4.4.3.2.4.2 New Features and Feature Geometry Modification
@@ -2942,6 +2828,7 @@ All additions and modifications require specific attributes which are described 
 Attribution Guidance.pdf in Appendix 4section 8.2 of the HSSD.
 
 All new and modified features.are submitted in the Final Feature file. See section 4.4.4 for details.
+
 
 ###### 4.4.3.2.4.3 Attributing and Flagging
 
@@ -2963,40 +2850,38 @@ below are for Primary items. The Primary attribute/flag is no longer mandatory. 
 Report” refers to the feature report created at the processing branch.
 
 1. Items from Bathymetry
-•	 Resolved - This indicates any bathymetry feature that is not intended for the feature report (note the absence
+* Resolved - This indicates any bathymetry feature that is not intended for the feature report (note the absence
 of the Report flag). This should be used for all designated soundings that were selected to force the uncertainty
 surface to honor the true sea floor—but not otherwise elevated to the level of desire for an explicit feature
 symbology on the chart.
 
-•	 Chart, Resolved - This flag combination indicates any bathymetry feature that is included as an explicit feature
+* Chart, Resolved - This flag combination indicates any bathymetry feature that is included as an explicit feature
 on the PSS, but not intended for the feature report (note the absence of the Report flag). This flag combination
 is uncommon, but sometimes used when depicting complex shoreline with a series of DPs. Further information
 and reasoning should be detailed in the item’s Remarks tab.
 
-•	 Chart, Report, Resolved - This flag combination indicates any bathymetry feature that is included as an explicit
+* Chart, Report, Resolved - This flag combination indicates any bathymetry feature that is included as an explicit
 feature on the PSS and is intended for the feature report. Further information and reasoning should be detailed
 in the item’s Remarks tab.
-
 
 *Page 164*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-•	 Chart, DTON, Report, Submitted, Resolved - This flag combination indicates any bathymetry feature that is
+* Chart, DTON, Report, Submitted, Resolved - This flag combination indicates any bathymetry feature that is
 included as an explicit feature on the PSS, is specifically intended for the feature report, and has been submitted
 to MCD as a DTON. Further information and reasoning should be detailed in the item’s Remarks tab.
 2. Items from Imagery
-•	 Resolved - This flag combination indicates any insignificant contact that was not developed (otherwise imagery
+* Resolved - This flag combination indicates any insignificant contact that was not developed (otherwise imagery
 item should be Secondary to a bathymetry-based feature). Further information and reasoning should be
 detailed in the item’s Remarks tab. This flag combination often indicates a contact that, after further evaluation,
 was determined to be insignificant.
 
-•	 Tgt Exported, Resolved - This flag combination denotes a contact that was exported, presumably for subsequent
+* Tgt Exported, Resolved - This flag combination denotes a contact that was exported, presumably for subsequent
 investigation, and found to be insignificant (otherwise imagery item would be Secondary to a bathymetrybased item). The item is not intended for the feature report. Further information and reasoning should be
 detailed in the item’s Remarks tab.
 
-•	 Chart, Report, Resolved - This flag combination indicates any imagery item that was determined to be a
+* Chart, Report, Resolved - This flag combination indicates any imagery item that was determined to be a
 significant contact, but was not investigated. The item is intended for the feature report. Further information
 and reasoning should be detailed in the item’s Remarks tab. Imagery items should typically not be flagged
 Chart since they do not provide an accurate depth for charting. Except in extenuating circumstances,
@@ -3006,64 +2891,62 @@ before a significant contact could be developed with bathymetry or diver investi
 common, but is sometimes unavoidable.
 
 3. Detached Positions (DPs)
-•	 Rejected, Resolved - This flag combination indicates any detached positions that the hydrographer does not
+* Rejected, Resolved - This flag combination indicates any detached positions that the hydrographer does not
 want to be part of the survey. Further information and reasoning as to why it was rejected, such as because it
 was a blunder or a DP on an unassigned AWOIS item, should be added in the feature’s Remarks tab.
 
-•	 Resolved - This flag indicates any detached positions included for informational purposes only, which are not
+* Resolved - This flag indicates any detached positions included for informational purposes only, which are not
 intended for the feature report. Further information and reasoning should be detailed in the item’s Remarks
 tab.
 
-•	 Chart, Resolved -This flag combination indicates any detached positions that are depicted on the PSS as
+* Chart, Resolved -This flag combination indicates any detached positions that are depicted on the PSS as
 features but not intended for the feature report. Some examples of when this flagging scenario might be used
 are as follows: (i) recording bottom sample locations, (ii) positioning shoreline features, and (iii) verifying
 positions of aids to navigation.
 
-•	 Chart, Report, Resolved - This flag combination indicates any detached positions that are depicted on the PSS
+* Chart, Report, Resolved - This flag combination indicates any detached positions that are depicted on the PSS
 as features and are intended for the feature report. Some examples of when this flagging scenario might be
 used are as follows: (i) least depths determined by DLDG that either do not have supporting echosounder
 bathymetry or any correlating echosounder bathymetry is flagged Secondary, and (ii) portraying complex
 shoreline, including issues such as changes to MHW and shoreline feature disprovals.
 
 4. AWOIS Items
-•	 Resolved - This flag indicates an AWOIS item that was disproved using one of the investigation methods
+* Resolved - This flag indicates an AWOIS item that was disproved using one of the investigation methods
 
 *Page 165*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-assigned in the database record. It can also be used to indicate an AWOIS item that does not fall directly into
+assigned in the database record. It can also be used to indicate an AWOIS item that does not fall directly into
 a survey area, but whose search radius partially falls within the survey area, and has been or will be addressed
 by an adjoining survey. Further information should be added to the item’s Remarks tab.
 
-•	 Secondary—to [Primary] Bathymetry Item or DP (see section 4.4.4 for information on correlation) - This flag
+* Secondary—to [Primary] Bathymetry Item or DP (see section 4.4.4 for information on correlation) - This flag
 combination indicates any AWOIS item that was located/verified during the survey.
 
-•	 Geographic Positions (GPs)- GPs are any point data that do not fit into another feature category. As Secondary
+* Geographic Positions (GPs)- GPs are any point data that do not fit into another feature category. As Secondary
 items, they can be used to convey information that is outside the scope of standard features in Pydro. GPs may
 be either inserted into Pydro from some “generic” ASCII or database format or manually digitized via the
 context menu in a Pydro Chart Window. GPs can optionally be assigned under the sub-categories “ChartGPs”
 and “Checkpoints”. An explicit function exists in Pydro to insert S-57 ENC features as ChartGPs into the PSS
 for evaluation of survey items in context with the (official) chart.
 
-•	 Secondary ChartGPs are used to indicate the connection of the associated Primary item to an existing charted
+* Secondary ChartGPs are used to indicate the connection of the associated Primary item to an existing charted
 feature. Such a relationship instructs Pydro’s DR document builder to file a Report feature under the “Charted
 Features” chapter; absence of a Secondary ChartGP (and no Secondary AWOIS) directs a Report feature to
 the “New Features” chapter.
 
-•	 Checkpoint GPs can be created in Pydro if survey features do not exist at desired comparison locations 		
+* Checkpoint GPs can be created in Pydro if survey features do not exist at desired comparison locations
 	 for (say) a Pydro Points/Surface Stats Report.
 
-	
-	
-	
 
-•	 GPs can be created as placeholders for the information necessary to disprove a feature, without the need 	
-for an item to be explicitly logged during data acquisition. Photographs and other details about the 		
-techniques used to disprove a feature (e.g., search radius and method) are important pieces of 			
+
+
+
+* GPs can be created as placeholders for the information necessary to disprove a feature, without the need
+for an item to be explicitly logged during data acquisition. Photographs and other details about the
+techniques used to disprove a feature (e.g., search radius and method) are important pieces of
 information to include with such a disproval GP.
-
 
 
 ######## 4.4.3.2.4.3.1.2 Examples of Feature Attribution Using the NOAA Customized Attributes
@@ -3088,13 +2971,11 @@ Example: A GC rock is Assigned and investigated during shoreline verification, i
 the feature. No existing attribution, such as height is changed. The feature is given descriptive attribution of
 Retain and a Remark .
 
-
 *Page 166*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-New Features descrp=1
+New Features descrp=1
 New features that are identified are given a descriptive attribution of New along with an explanatory Remark and
 the SORDAT and SORIND populated with current survey entries.
 
@@ -3141,8 +3022,7 @@ is digitized and given the new SORDAT and SORIND, a Remark, and descriptive attr
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-given the descriptive term Delete and it maintains the original SORDAT and SORIND, and the Remarks field is
+given the descriptive term Delete and it maintains the original SORDAT and SORIND, and the Remarks field is
 populated regarding the disproval of the pile. Because it is a charted feature a Recommendation is also required
 Geographic Primitive Altered (i.e. from point to area, or area to point)
 descrp= 1 for feature with new geographic primitive, descrp= 3 for feature with old geometry
@@ -3192,8 +3072,7 @@ Recommendation must also accompany any currently charted features attributed wit
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Example 1: The composite source includes two features for deconfliction, one from the raster chart and one from
+Example 1: The composite source includes two features for deconfliction, one from the raster chart and one from
 GC, positioned in close proximity to each other and to a prior survey feature included in a reference file. The prior
 survey rock is found to be the best representation of the position of the rock. The prior survey rock is imported
 into the Final Feature File and given the descriptive term Retain along with a Remark. The prior survey feature
@@ -3224,6 +3103,7 @@ subsequently been disproved using VBES, SWMB, etc. The charted feature is attrib
 its original SORDAT and SORIND, and the method of Disproval is indicated in Remarks. A Recommendation is
 also required for all Disprovals
 
+
 ###### 4.4.3.2.4.4 Feature Correlation
 
 In a NOAA hydrographic survey new features can be automatically cor- related (i.e. associated or connected) with
@@ -3231,19 +3111,18 @@ existing data using Pydro software. or manually correlated with CARIS Notebook, 
 correlation in CARIS and HYPACK is achieved through NOAA ex- tended attributes. For further information,
 refer to section 8.2 of the HSSD
 The existing data are typically classified in one of the following five categories:
-•	 Items from Bathymetry – Sounding data (MBES or VBES) which has been identified as a measurement of a
+* Items from Bathymetry – Sounding data (MBES or VBES) which has been identified as a measurement of a
 least depth on a feature in CARIS HIPS or Pydro. ”Designated” soundings can also be selected to force the
 gridded surface to honor the true depth of the seafloor.
 
-•	 Items from Imagery – A potentially significant feature which has been identified in SSS data, chosen as a
+* Items from Imagery – A potentially significant feature which has been identified in SSS data, chosen as a
 contact in CARIS SIPS during post-processing, and to be evaluated for further investigation and/or development.
 
 *Page 169*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-•	 Detached Positions (DP) – Detached positions are used to position point features such as shoreline items,
+* Detached Positions (DP) – Detached positions are used to position point features such as shoreline items,
 bottom sample locations, DLDG depth determinations, and lead line or pole soundings. DPs are subdivided
 into echosounder and non-echosounder types. Echosounder DPs are used for data with a corresponding depth
 determined by VBES, MBES, or another system which is referenced to a point other than the water’s surface
@@ -3251,15 +3130,15 @@ and require the application of vessel offsets. Non-echosounder DPs are used to p
 either with no associated depth information or referenced to the water’s surface, such as DLDG determined
 depths and heights of shoreline features.
 
-•	 AWOIS Items – AWOIS items represent features which have been previously reported or surveyed and are
+* AWOIS Items – AWOIS items represent features which have been previously reported or surveyed and are
 generally included on the current chart. Specific AWOIS items within, or partially within, each survey area will
 be assigned for investigation.
 
-•	 Geographic Positions (GP) – Geographic positions refer to point data used for various purposes and not
+* Geographic Positions (GP) – Geographic positions refer to point data used for various purposes and not
 otherwise classified. These points are typically uploaded from a portable GPS system, manually digitized in
 CARIS, HYPACK, or Pydro, or created by inserting “generic” data into Pydro.
 
-•	 Two sub-types of GPs exist in Pydro: “Chart GPs” and “Checkpoints”. The principal use of Chart GPs in Pydro
+* Two sub-types of GPs exist in Pydro: “Chart GPs” and “Checkpoints”. The principal use of Chart GPs in Pydro
 is to indicate those survey items which represent new observations on existing charted features, or otherwise
 disprovals thereof. Checkpoints provide for a way to steer some comparison of survey data at discrete locations.
 As each feature is evaluated, standard classification flags should be set. (A Pydro data flagging decision tree is
@@ -3272,14 +3151,11 @@ bathymetry (current survey, prior survey, charted soundings, etc).
 Note: An item from bathymetry representing the least depth of a navigationally significant real-world feature
 should always be marked Primary.
 
-
-
 *Page 170*
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Figure 4.22: Pydro data flagging decision tree.
+Figure 4.22: Pydro data flagging decision tree.
 
 For all the correlating items that represent the same feature as the Primary item, set the status flag to Secondary.
 If an item has been automatically correlated to a Primary item, but does not appear to be the same feature, assign
@@ -3304,8 +3180,8 @@ may be exported to MapInfo Interchange Format files (MIF/MID), HYPACK Target fil
 
 ------------------------------------------------------------------------------------------------------------------------
 
+files (.000) to facilitate additional data acquisition; the “Tgt Exported” flag is set upon item export.
 
-files (.000) to facilitate additional data acquisition; the “Tgt Exported” flag is set upon item export.
 
 ### 4.4.4 Deliverables
 
@@ -3327,9 +3203,9 @@ delivered with the final feature file in the Multimedia folder. The photographs 
 (a) Photographs – ex: new extents of piers, piles, rocks, etc.
 
 (b) Images
-	
-	
-	
+
+
+
 
 i. MBES – ex: least depth on rock or wreck from CARIS 3-D viewer
 ii. Side Scan Sonar Contact Images
@@ -3340,12 +3216,12 @@ delivered in .000 format and submitted in the S-57 Features Folder. The side sca
 delivered as the S-57 feature object cartographic symbol ($CSYMB) with the attribution described above in
 Section 8.2 of the HSSD.
 
-•	 Example 1 : The BASE Surface is used as a back drop to digitize the extents of a rocky seabed area using a
+* Example 1 : The BASE Surface is used as a back drop to digitize the extents of a rocky seabed area using a
 SBDARE line object. The SBDARE line object (which will be created as an area object during branch processing)
 is included in Final_Features and assigned the new survey SORDAT and SORIND. Remarks are added to the
 line feature and it is attributed as New.
 
-•	 Example 2: A maritime boundary MLLW water point is investigated, it is found to be at a more seaward
+* Example 2: A maritime boundary MLLW water point is investigated, it is found to be at a more seaward
 location of an already charted ledge. The new extents are digitized using a SBDARE line object. The SBDARE
 line object is included in Final_Features and assigned the new survey SORDAT and SORIND. Remarks are
 added to the line feature and it is attributed as New. The old extent of the ledge may need to be attributed as
@@ -3358,15 +3234,14 @@ descrp= 4 best position feature, descrp= 3 for features determined to be at inco
 
 ------------------------------------------------------------------------------------------------------------------------
 
-
-Where features from multiple sources are given in the composite source for deconfliction, the feature that is
+Where features from multiple sources are given in the composite source for deconfliction, the feature that is
 selected as the best representation is attributed as Retain in Final_Features, maintaining its original SORDAT and
 SORIND. A statement as to why the feature was selected to be retained and what methods were used to make this
 determination is included in the Remarks field. The remaining features are attributed with the descriptive term
 Delete. Each disproved feature keeps its original SORDAT and SORIND and is given a Remark. A Recommendation
 must also accompany any currently charted features attributed with the descriptive term Delete.
 
-•	 Example 1: The composite source includes two features for deconfliction, one from the raster chart and one
+* Example 1: The composite source includes two features for deconfliction, one from the raster chart and one
 from GC, positioned in close proximity to each other and to a prior survey feature included in a reference file.
 The prior survey rock is found to be the best representation of the position of the rock. The prior survey rock
 is imported into the Final Feature layer and given the descriptive term Retain along with a Remark. The prior
@@ -3374,7 +3249,7 @@ survey feature maintains its original registry number and date for SORIND and SO
 features, the GC and chart rocks, are attributed as Delete. The features retain their original SORDATs and
 SORINDs. Remarks are included for both, and a Recommendation accompanies the chart rock.
 
-•	 Example 2: Where a LIDAR item is found by the field to be a charted feature, choose the better representation
+* Example 2: Where a LIDAR item is found by the field to be a charted feature, choose the better representation
 of the item and attribute it as Retain. If the LIDAR item is selected over a charted item, the LIDAR item
 remains in the Final_Features layer and the charted feature is attributed as Delete. If the charted item is selected
 over a LIDAR item, the charted item remains in the Final_Features layer and the LIDAR feature is attributed
@@ -3385,21 +3260,19 @@ Features from Composite Source that have been disproved should be attributed wit
 and should maintain the original SORDAT and SORIND. A Remark should indicate the reason for disproval.
 Disproved chart features also require a Recommendation.
 
-•	 Example 1: A charted rock is disproved using MBES. The charted rock is given the descriptive term Delete
+* Example 1: A charted rock is disproved using MBES. The charted rock is given the descriptive term Delete
 where it maintains the original SORDAT and SORIND, the Remarks field is populated regarding the method
 of disproval, and a Recommendation to remove the feature from the chart is made.
 
-•	 Example 2: A charted pier in ruins is not seen in the SSS imagery or in the MBES data. The pier is given the
+* Example 2: A charted pier in ruins is not seen in the SSS imagery or in the MBES data. The pier is given the
 descriptive term Delete and should maintain the original SORDAT and SORIND. The remark field is populated
 with information regarding the method of disproval and a Recommendation to remove the pier from the chart
 is made.
 
-•	 Example 3: LIDAR coverage over a charted feature shows no indication of the charted feature. The feature has
+* Example 3: LIDAR coverage over a charted feature shows no indication of the charted feature. The feature has
 subsequently been disproved using VBES, SWMB, etc. The charted feature is attributed as Delete and maintains
 its original SORDAT and SORIND, and the method of Disproval is indicated in Remarks. A Recommendation
 is also required for all Disprovals.
-
-
 
 4.5 Chart Comparison
 ---------------------
@@ -3411,11 +3284,9 @@ done using Pydro, CARIS, or MapInfo software. When performing a chart comparison
 the most current official charts available. If necessary or required by the Project Instructions, additional evaluation
 methods such as junction survey comparisons or prior survey comparisons may also be used.
 
-
 *Page 173*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
 
 ### 4.5.1 Obtaining and Identifying Current Charts
@@ -3428,6 +3299,7 @@ have not yet been applied should also be considered. For additional chart correc
 NTM corrections can be queried online at: http://msi.nga.mil/NGAPortal/MSI.portal LNM corrections can be
 reviewed online at: http://www.navcen.uscg.gov/
 
+
 #### 4.5.1.1 Raster Navigational Charts (RNC)
 
 Prior to chart comparisons, the most current RNC can be downloaded from MCD at http://www.charts.noaa.
@@ -3436,7 +3308,6 @@ gov/. For raster charts, the edition, corrections applied, and date of notices t
 WordPad. The term “cleared” means that all notices up to, and including, the one issued on the cleared date have
 been reviewed and any corrections have been applied to that raster chart. Edition and correction information has
 been identified in the example header file section in section 4.2.4 .
-
 
 Figure 4.23: Section of a *.KAP file (opened in WordPad) identifying chart edition and corrections that have been
 applied to the digital file. Note: CHS does not issue corrections for this chart area, so no cleared date is listed.
@@ -3464,7 +3335,6 @@ an edition must exist before it can be corrected, the later of these two dates w
 ------------------------------------------------------------------------------------------------------------------------
 
 
-
 ### 4.5.2 Junction Survey Comparisons
 
 If the designated limits for a survey junction with modern data from another survey, the area of overlap should be
@@ -3484,10 +3354,7 @@ comparison. If a prior survey comparison is performed, the reason it was deemed 
 in the Descriptive Report and the applicable prior survey(s) should be identified by registry number, date of
 survey, and scale.
 
-
-
 *Page 175*
 
 ------------------------------------------------------------------------------------------------------------------------
-
 
