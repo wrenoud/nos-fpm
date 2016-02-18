@@ -3,7 +3,7 @@ NOS Field Procedures Manual
 
 This is a markdown version of the [NOS Field Procedures Manual](http://www.nauticalcharts.noaa.gov/hsd/specs/specs.htm).
 
-**Warning:** This is a work in progress and may be inaccurate or incomplete.
+**Warning:** This is _not the authoritative version_ and is a work in progress and thus may be inaccurate or incomplete.
 
 * [Chapter 1 - Systems Preparation & Maintenance](markdown/chapter_1.md)
 * [Chapter 2 - Pre-Survey Planning](markdown/chapter_2.md)
